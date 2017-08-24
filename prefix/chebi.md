@@ -1,30 +1,27 @@
 ---
-id: MIR:00000002
+identifier: MIR:00000002
 name: ChEBI
-pattern: ^CHEBI:\d+$
-definition: Chemical Entities of Biological Interest (ChEBI) is a freely available dictionary of molecular entities focused on 'small' chemical compounds.
+description: Chemical Entities of Biological Interest (ChEBI) is a freely available dictionary of molecular entities focused on 'small' chemical compounds.
 prefix: chebi
-url: http://identifiers.org/chebi
-resources: 
- - id: MIR:00100009
-   accessURL: http://www.ebi.ac.uk/chebi/searchId.do?chebiId=$id
-   info: ChEBI (Chemical Entities of Biological Interest)
-   institution: European Bioinformatics Institute, Hinxton, Cambridge
+pattern: ^CHEBI:\d+$
+prefixed: 1
+resources:
+ - identifier: MIR:00100009
+   accessurl: http://www.ebi.ac.uk/chebi/searchId.do?chebiId=
+   description: ChEBI (Chemical Entities of Biological Interest)
    location: UK
    official: true
-   resourcePrefix: be
- - id: MIR:00100158
-   accessURL: http://www.ebi.ac.uk/ols/ontologies/chebi/terms?obo_id=$id
-   info: ChEBI through OLS
-   institution: European Bioinformatics Institute, Hinxton, Cambridge
+   provider_code: ebi
+ - identifier: MIR:00100158
+   accessurl: http://www.ebi.ac.uk/ols/ontologies/chebi/terms?obo_id=
+   description: ChEBI through OLS
    location: UK
    official: false
-   resourcePrefix: ols
- - id: MIR:00100565
-   accessURL: http://purl.bioontology.org/ontology/CHEBI/$id
-   info: ChEBI through BioPortal
-   institution: National Center for Biomedical Ontology, Stanford
+   provider_code: ols
+ - identifier: MIR:00100565
+   accessurl: http://purl.bioontology.org/ontology/CHEBI/
+   description: ChEBI through BioPortal
    location: USA
    official: false
-   resourcePrefix: bptl
+   provider_code: bptl
 ---
