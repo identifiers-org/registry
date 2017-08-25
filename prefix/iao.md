@@ -7,8 +7,11 @@ pattern: ^\d{7}$
 prefixed: 0
 resources:
  - identifier: MIR:00100804
-   accessurl: http://purl.obolibrary.org/obo/IAO_
+   accessurl: http://purl.obolibrary.org/obo/IAO_${id}
+   test_id: 0000030
    description: IAO through Ontobee
+   homepage: http://www.ontobee.org/ontology/IAO
+   institution: University of Pennsylvania
    location: USA
    official: false
 ---

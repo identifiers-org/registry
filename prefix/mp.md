@@ -7,19 +7,28 @@ pattern: ^MP:\d{7}$
 prefixed: 1
 resources:
  - identifier: MIR:00100774
-   accessurl: http://www.informatics.jax.org/searches/Phat.cgi?id=
+   accessurl: http://www.informatics.jax.org/searches/Phat.cgi?id=${id}
+   test_id: MP:0005452
    description: Mammalian Phenotype Ontology at The Jackson Lab
+   homepage: http://www.informatics.jax.org/
+   institution: The Jackson Laboratory, Bar Harbor, Maine
    location: USA
    official: false
  - identifier: MIR:00100775
-   accessurl: http://www.ebi.ac.uk/ols/ontologies/mp/terms?obo_id=
+   accessurl: http://www.ebi.ac.uk/ols/ontologies/mp/terms?obo_id=${id}
+   test_id: MP:0005452
    description: Mammalian Phenotype Ontology through OLS
+   homepage: http://www.ebi.ac.uk/ols/ontologies/mp/
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ols
  - identifier: MIR:00100776
-   accessurl: https://bioportal.bioontology.org/ontologies/MP/
+   accessurl: https://bioportal.bioontology.org/ontologies/MP/${id}
+   test_id: MP:0005452
    description: Mammalian Phenotype Ontology through BioPortal
+   homepage: https://bioportal.bioontology.org/ontologies/MP
+   institution: National Center for Biomedical Ontology, Stanford
    location: USA
    official: false
    provider_code: bptl

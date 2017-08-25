@@ -7,14 +7,20 @@ pattern: ^FMA:\d+$
 prefixed: 1
 resources:
  - identifier: MIR:00100097
-   accessurl: http://www.ebi.ac.uk/ols/ontologies/fma/terms?obo_id=
+   accessurl: http://www.ebi.ac.uk/ols/ontologies/fma/terms?obo_id=${id}
+   test_id: FMA:67112
    description: Foundational Model of Anatomy via Ontology Lookup Service (OLS)
+   homepage: http://www.ebi.ac.uk/ols/ontologies/fma/
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ols
  - identifier: MIR:00100236
-   accessurl: http://purl.bioontology.org/ontology/FMA_subset/
+   accessurl: http://purl.bioontology.org/ontology/FMA_subset/${id}
+   test_id: FMA:67112
    description: Foundational Model of Anatomy through BioPortal
+   homepage: http://bioportal.bioontology.org/ontologies/FMA
+   institution: National Center for Biomedical Ontology, Stanford
    location: USA
    official: false
    provider_code: bptl

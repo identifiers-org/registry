@@ -7,8 +7,11 @@ pattern: ^(T0\d+|\w{3,5})$
 prefixed: 0
 resources:
  - identifier: MIR:00100303
-   accessurl: http://www.kegg.jp/entry/
+   accessurl: http://www.kegg.jp/entry/${id}
+   test_id: eco
    description: KEGG Genome Database
+   homepage: http://www.genome.jp/kegg/catalog/org_list.html
+   institution: Kyoto University Bioinformatics Center, Kyoto
    location: Japan
    official: true
 ---

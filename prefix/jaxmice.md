@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100432
-   accessurl: http://jaxmice.jax.org/strain/
+   accessurl: http://jaxmice.jax.org/strain/${id}.html
+   test_id: 005012
    description: JAX Mice at Jackson Laboratory
+   homepage: http://jaxmice.jax.org/
+   institution: The Jackson Laboratory, Sacremento, California
    location: USA
    official: false
 ---

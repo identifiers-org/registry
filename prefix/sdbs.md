@@ -7,8 +7,11 @@ pattern: \d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100402
-   accessurl: http://riodb01.ibase.aist.go.jp/sdbs/cgi-bin/cre_frame_disp.cgi?sdbsno=
+   accessurl: http://riodb01.ibase.aist.go.jp/sdbs/cgi-bin/cre_frame_disp.cgi?sdbsno=${id}
+   test_id: 4544
    description: SDBS at AIST
+   homepage: http://riodb01.ibase.aist.go.jp/sdbs/cgi-bin/direct_frame_top.cgi
+   institution: National Institute of Advanced Industrial Science and Technology (AIST)
    location: Japan
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^P\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100226
-   accessurl: http://v2.pseudomonas.com/getAnnotation.do?locusID=
+   accessurl: http://v2.pseudomonas.com/getAnnotation.do?locusID=${id}
+   test_id: PSEEN0001
    description: Pseudomonas Genome Database at Simon Fraser University
+   homepage: http://www.pseudomonas.com/
+   institution: Simon Fraser University, British Columbia
    location: Canada
    official: false
 ---

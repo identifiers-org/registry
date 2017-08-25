@@ -7,8 +7,11 @@ pattern: ^T3\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100304
-   accessurl: http://www.kegg.jp/entry/
+   accessurl: http://www.kegg.jp/entry/${id}
+   test_id: T30002
    description: KEGG Metagenome Database
+   homepage: http://www.genome.jp/kegg/catalog/org_list3.html
+   institution: Kyoto University Bioinformatics Center, Kyoto
    location: Japan
    official: true
 ---

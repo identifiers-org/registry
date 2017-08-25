@@ -7,8 +7,11 @@ pattern: ^NONHSAT\d{6}$
 prefixed: 0
 resources:
  - identifier: MIR:00100617
-   accessurl: http://www.bioinfo.org/NONCODEv4/show_rna.php?id=
+   accessurl: http://www.bioinfo.org/NONCODEv4/show_rna.php?id=${id}
+   test_id: NONHSAT000001
    description: NONCODE v4 Transcript at Chinese Academy of Sciences
+   homepage: http://www.bioinfo.org/NONCODEv4/
+   institution: Bioinformatics Research Group, Chinese Academy of Sciences, Beijing
    location: China
    official: false
 ---

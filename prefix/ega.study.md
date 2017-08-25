@@ -7,8 +7,11 @@ pattern: ^EGAS\d{11}$
 prefixed: 0
 resources:
  - identifier: MIR:00100657
-   accessurl: https://www.ebi.ac.uk/ega/studies/
+   accessurl: https://www.ebi.ac.uk/ega/studies/${id}
+   test_id: EGAS00000000001
    description: EGA Study at European Bioinformatics Institute
+   homepage: https://www.ebi.ac.uk/ega/studies
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ebi

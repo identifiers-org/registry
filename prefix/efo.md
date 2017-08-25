@@ -7,20 +7,29 @@ pattern: ^\d{7}$
 prefixed: 0
 resources:
  - identifier: MIR:00100509
-   accessurl: http://www.ebi.ac.uk/ols/ontologies/efo/terms?obo_id=EFO:
+   accessurl: http://www.ebi.ac.uk/ols/ontologies/efo/terms?obo_id=EFO:${id}
+   test_id: 0004859
    description: EFO through OLS
+   homepage: http://www.ebi.ac.uk/ols/ontologies/efo
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ols
  - identifier: MIR:00100510
-   accessurl: http://purl.bioontology.org/ontology/EFO/efo:EFO_
+   accessurl: http://purl.bioontology.org/ontology/EFO/efo:EFO_${id}
+   test_id: 0004859
    description: EFO through BioPortal
+   homepage: http://bioportal.bioontology.org/ontologies/EFO
+   institution: National Center for Biomedical Ontology, Stanford
    location: USA
    official: false
    provider_code: bptl
  - identifier: MIR:00100511
-   accessurl: http://www.ebi.ac.uk/efo/EFO_
+   accessurl: http://www.ebi.ac.uk/efo/EFO_${id}
+   test_id: 0004859
    description: EFO through Functional Genomics Group (EBI)
+   homepage: http://www.ebi.ac.uk/efo/
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ebi

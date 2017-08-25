@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100647
-   accessurl: http://www.animalgenome.org/cgi-bin/QTLdb/SS/qdetails?QTL_ID=
+   accessurl: http://www.animalgenome.org/cgi-bin/QTLdb/SS/qdetails?QTL_ID=${id}
+   test_id: 14
    description: Animal QTL Pig at Iowa State University
+   homepage: http://www.animalgenome.org/cgi-bin/QTLdb/SS/index
+   institution: Department of Animal Science and Center for Integrated Animal Genomics, Iowa State University, Iowa
    location: USA
    official: false
 ---

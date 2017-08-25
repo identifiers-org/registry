@@ -7,8 +7,11 @@ pattern: ^[A-Za-z0-9]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100556
-   accessurl: http://www.phytozome.net/genePage.php?crown&method=0&search=1&detail=1&searchText=locusname:
+   accessurl: http://www.phytozome.net/genePage.php?crown&method=0&search=1&detail=1&searchText=locusname:${id}
+   test_id: Glyma0021s00410
    description: Phytozome Locus at Joint Genome Institute
+   homepage: http://www.phytozome.net/
+   institution: Joint Genome Institute, California, and the Center for Integrative Genomics, Lausanne
    location: USA and Switzerland
    official: false
 ---

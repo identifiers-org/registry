@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100205
-   accessurl: http://www.ncbi.nlm.nih.gov/probe/?term=
+   accessurl: http://www.ncbi.nlm.nih.gov/probe/?term=${id}
+   test_id: 1000000
    description: dbProbe at NCBI
+   homepage: http://www.ncbi.nlm.nih.gov/sites/entrez?db=probe
+   institution: National Center for Biotechnology Information (NCBI)
    location: USA
    official: false
    provider_code: ncbi

@@ -7,8 +7,11 @@ pattern: ^DDB_G\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100367
-   accessurl: http://dictybase.org/gene/
+   accessurl: http://dictybase.org/gene/${id}
+   test_id: DDB_G0267522
    description: Dictybase Gene at Northwestern University
+   homepage: http://dictybase.org/
+   institution: Northwestern University Biomedical Informatics Center and Center for Genetic Medicine, Chicago, Illinois
    location: USA
    official: false
 ---

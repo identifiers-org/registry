@@ -7,8 +7,11 @@ pattern: ^UPA\d{5}$
 prefixed: 0
 resources:
  - identifier: MIR:00100114
-   accessurl: http://www.grenoble.prabi.fr/obiwarehouse/unipathway/upa?upid=
+   accessurl: http://www.grenoble.prabi.fr/obiwarehouse/unipathway/upa?upid=${id}
+   test_id: UPA00206
    description: UniPathway
+   homepage: http://www.grenoble.prabi.fr/obiwarehouse/unipathway
+   institution: Swiss Institute of Bioinformatics (SIB) and French National Institute for Research in Computer Science and Control
    location: Switzerland
    official: false
 ---

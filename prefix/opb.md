@@ -7,8 +7,11 @@ pattern: ^OPB_\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100167
-   accessurl: http://purl.bioontology.org/ontology/OPB?conceptid=http%3A%2F%2Fbhi.washington.edu%2FOPB%23
+   accessurl: http://purl.bioontology.org/ontology/OPB?conceptid=http%3A%2F%2Fbhi.washington.edu%2FOPB%23${id}
+   test_id: OPB_00573
    description: Ontology of Physics for Biology through Bioportal
+   homepage: http://bioportal.bioontology.org/ontologies/OPB
+   institution: National Center for Biomedical Ontology, Stanford
    location: USA
    official: false
    provider_code: bptl

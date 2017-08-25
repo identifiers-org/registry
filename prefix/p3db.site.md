@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100643
-   accessurl: http://www.p3db.org/phosphosite.php?id=
+   accessurl: http://www.p3db.org/phosphosite.php?id=${id}&ref=0
+   test_id: 65
    description: P3DB Site at University of Missouri
+   homepage: http://www.p3db.org/
+   institution: Department of Computer Science, University of Missouri, Columbia, Missouri
    location: USA
    official: false
 ---

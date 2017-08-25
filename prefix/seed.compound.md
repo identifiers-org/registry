@@ -7,8 +7,11 @@ pattern: ^cpd\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100730
-   accessurl: http://modelseed.org/biochem/compounds/
+   accessurl: http://modelseed.org/biochem/compounds/${id}
+   test_id: cpd15380
    description: SEED Compound at Argonne National Laboratory
+   homepage: http://modelseed.org/
+   institution: Argonne National Laboratory, University of Chicago, Argonne, Illinois
    location: USA
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^[A-Za-z0-9-]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100364
-   accessurl: http://asap.ahabs.wisc.edu/asap/feature_info.php?LocationID=WIS&FeatureID=
+   accessurl: http://asap.ahabs.wisc.edu/asap/feature_info.php?LocationID=WIS&FeatureID=${id}
+   test_id: ABE-0009634
    description: ASAP at University of Wisconsin
+   homepage: http://asap.ahabs.wisc.edu/asap/home.php
+   institution: Animal Health and Biomedical Sciences, University of Wisconsin, Madison
    location: USA
    official: false
 ---

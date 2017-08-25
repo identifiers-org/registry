@@ -7,19 +7,28 @@ pattern: ^PRJ[DEN][A-Z]\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100444
-   accessurl: http://trace.ddbj.nig.ac.jp/BPSearch/bioproject?acc=
+   accessurl: http://trace.ddbj.nig.ac.jp/BPSearch/bioproject?acc=${id}
+   test_id: PRJDB3
    description: BioProject at DNA Data Bank of Japan
+   homepage: http://trace.ddbj.nig.ac.jp/bioproject/
+   institution: DNA Data Bank of Japan, Shizuoka
    location: Japan
    official: false
  - identifier: MIR:00100445
-   accessurl: http://www.ncbi.nlm.nih.gov/bioproject?term=
+   accessurl: http://www.ncbi.nlm.nih.gov/bioproject?term=${id}
+   test_id: PRJDB3
    description: BioProject at NCBI
+   homepage: http://www.ncbi.nlm.nih.gov/bioproject
+   institution: National Center for Biotechnology Information (NCBI)
    location: USA
    official: false
    provider_code: ncbi
  - identifier: MIR:00100446
-   accessurl: http://www.ebi.ac.uk/ena/data/view/
+   accessurl: http://www.ebi.ac.uk/ena/data/view/${id}
+   test_id: PRJDB3
    description: BioProject at European Nucleotide Archive (ENA)
+   homepage: http://www.ebi.ac.uk/ena/
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ebi

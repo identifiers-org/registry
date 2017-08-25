@@ -7,8 +7,11 @@ pattern: ^AT[1-5]G\d{5}$
 prefixed: 0
 resources:
  - identifier: MIR:00100078
-   accessurl: http://arabidopsis.org/servlets/TairObject?type=locus&name=
+   accessurl: http://arabidopsis.org/servlets/TairObject?type=locus&name=${id}
+   test_id: AT1G01030
    description: The Arabidopsis Information Resource (TAIR) Locus
+   homepage: http://arabidopsis.org/index.jsp
+   institution: Carnegie Institution of Washington Department of Plant Biology and National Center for Genome Resources (NCGR)
    location: USA
    official: false
 ---

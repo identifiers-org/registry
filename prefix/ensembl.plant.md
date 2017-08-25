@@ -7,8 +7,11 @@ pattern: ^\w+(\.\d+)?(\.\d+)?$
 prefixed: 0
 resources:
  - identifier: MIR:00100264
-   accessurl: http://plants.ensembl.org/id/
+   accessurl: http://plants.ensembl.org/id/${id}
+   test_id: AT1G73965
    description: Enzembl Plants at EBI
+   homepage: http://plants.ensembl.org/
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ebi

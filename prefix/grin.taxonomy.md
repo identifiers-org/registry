@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100212
-   accessurl: http://www.ars-grin.gov/cgi-bin/npgs/html/taxon.pl?
+   accessurl: http://www.ars-grin.gov/cgi-bin/npgs/html/taxon.pl?${id}
+   test_id: 19333
    description: GRIN at Maryland
+   homepage: http://www.ars-grin.gov/cgi-bin/npgs/html/index.pl?language=en
+   institution: National Germplasm Resources Laboratory, Beltsville, Maryland
    location: USA
    official: false
 ---

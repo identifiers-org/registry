@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100468
-   accessurl: http://cerevisiae.oridb.org/details.php?id=
+   accessurl: http://cerevisiae.oridb.org/details.php?id=${id}
+   test_id: 1
    description: OriDB Saccharomyces at University of Nottingham
+   homepage: http://cerevisiae.oridb.org/index.php
+   institution: Centre for Genetics and Genomics, The University of Nottingham, Queen's Medical Centre, Nottingham
    location: UK
    official: false
 ---

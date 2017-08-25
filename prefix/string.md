@@ -8,13 +8,19 @@ pattern: ^([A-N,R-Z][0-9][A-Z][A-Z, 0-9][A-Z, 0-9][0-9])|([O,P,Q][0-9][A-Z, 0-9]
 prefixed: 0
 resources:
  - identifier: MIR:00100341
-   accessurl: http://string.embl.de/interactions/
+   accessurl: http://string.embl.de/interactions/${id}
+   test_id: P53350
    description: STRING at Heidelberg
+   homepage: http://string.embl.de/
+   institution: European Molecular Biology Laboratory, Heidelberg
    location: Germany
    official: false
  - identifier: MIR:00100342
-   accessurl: http://string-db.org/interactions/
+   accessurl: http://string-db.org/interactions/${id}
+   test_id: P53350
    description: STRING Mirror at Heidelberg
+   homepage: http://string-db.org/
+   institution: European Molecular Biology Laboratory, Heidelberg
    location: Germany
    official: false
 ---

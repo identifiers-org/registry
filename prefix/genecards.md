@@ -7,8 +7,11 @@ pattern: ^\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100407
-   accessurl: http://www.genecards.org/cgi-bin/carddisp.pl?gene=
+   accessurl: http://www.genecards.org/cgi-bin/carddisp.pl?gene=${id}
+   test_id: ABL1
    description: GeneCards at Weizmann Institute
+   homepage: http://www.genecards.org/
+   institution: Department of Molecular Genetics, Weizmann Institute of Science, Rehovot
    location: Israel
    official: true
 ---

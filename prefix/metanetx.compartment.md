@@ -7,8 +7,11 @@ pattern: ^(MNX[CD]\d+|BOUNDARY)$
 prefixed: 0
 resources:
  - identifier: MIR:00100750
-   accessurl: http://www.metanetx.org/comp_info/
+   accessurl: http://www.metanetx.org/comp_info/${id}
+   test_id: MNXC15
    description: MetaNetX compartment at SIB Swiss Institute of Bioinformatics
+   homepage: http://www.metanetx.org/
+   institution: Vital-IT group, SIB Swiss Institute of Bioinformatics, Lausanne
    location: Switzerland
    official: false
 ---

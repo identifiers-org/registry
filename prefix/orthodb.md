@@ -7,8 +7,11 @@ pattern: ^\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100280
-   accessurl: http://cegg.unige.ch/orthodb/results?searchtext=
+   accessurl: http://cegg.unige.ch/orthodb/results?searchtext=${id}
+   test_id: Q9P0K8
    description: OrthoDB at Swiss Institute of Bioinformatics
+   homepage: http://cegg.unige.ch/orthodb4
+   institution: Department of Genetic Medicine and Development, Swiss Institute of Bioinformatics, Geneva
    location: Switzerland
    official: false
 ---

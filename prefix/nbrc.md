@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100225
-   accessurl: http://www.nbrc.nite.go.jp/NBRC2/NBRCCatalogueDetailServlet?ID=NBRC&CAT=
+   accessurl: http://www.nbrc.nite.go.jp/NBRC2/NBRCCatalogueDetailServlet?ID=NBRC&CAT=${id}
+   test_id: 00001234
    description: NBRC Catalogue at National Institute of Technology Evaluation
+   homepage: http://www.nbrc.nite.go.jp/e/index.html
+   institution: National Institute of Technology Evaluation, Tokyo
    location: Japan
    official: false
 ---

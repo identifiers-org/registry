@@ -7,8 +7,11 @@ pattern: ^[A-Z0-9-]+(#[A-Z0-9-]+)?$
 prefixed: 0
 resources:
  - identifier: MIR:00100671
-   accessurl: http://www.genenames.org/genefamilies/
+   accessurl: http://www.genenames.org/genefamilies/${id}
+   test_id: PADI
    description: HGNC Family at HUGO Genome Nomenclature Committee
+   homepage: http://www.genenames.org/
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
 ---

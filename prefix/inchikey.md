@@ -7,13 +7,19 @@ pattern: ^[A-Z]{14}\-[A-Z]{10}(\-[A-Z])?
 prefixed: 0
 resources:
  - identifier: MIR:00100501
-   accessurl: http://www.chemspider.com/inchikey=
+   accessurl: http://www.chemspider.com/inchikey=${id}
+   test_id: RYYVLZVUVIJVGH-UHFFFAOYSA-N
    description: InChIKey through ChemSpider
+   homepage: http://www.chemspider.com/
+   institution: Royal Society of Chemistry, Cambridge
    location: UK
    official: false
  - identifier: MIR:00100505
-   accessurl: http://cactus.nci.nih.gov/chemical/structure/
+   accessurl: http://cactus.nci.nih.gov/chemical/structure/${id}/names
+   test_id: RYYVLZVUVIJVGH-UHFFFAOYSA-N
    description: InChiKey resolver at NCI
+   homepage: http://cactus.nci.nih.gov/chemical/structure
+   institution: National Cancer Institute, Rockville, Maryland
    location: USA
    official: false
 ---

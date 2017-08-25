@@ -7,8 +7,11 @@ pattern: ^\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100271
-   accessurl: http://www.gpcrdb.org/protein/
+   accessurl: http://www.gpcrdb.org/protein/${id}/
+   test_id: RL3R1_HUMAN
    description: GPCRDB at Radboud University
+   homepage: http://www.gpcrdb.org/
+   institution: Radboud University Nijmegen Medical Centre, Nijmegen,
    location: Holland
    official: false
 ---

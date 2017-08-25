@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100159
-   accessurl: http://www.phosphosite.org/siteAction.do?id=
+   accessurl: http://www.phosphosite.org/siteAction.do?id=${id}
+   test_id: 2842
    description: PhosphoSite Residue
+   homepage: http://www.phosphosite.org/homeAction.do
+   institution: Cell Signaling Technology, Inc.
    location: USA
    official: false
 ---

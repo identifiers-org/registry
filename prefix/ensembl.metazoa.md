@@ -7,8 +7,11 @@ pattern: ^\w+(\.)?\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100263
-   accessurl: http://metazoa.ensembl.org/id/
+   accessurl: http://metazoa.ensembl.org/id/${id}
+   test_id: FBtr0084214
    description: Enzembl Metazoa at EBI
+   homepage: http://metazoa.ensembl.org/
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ebi

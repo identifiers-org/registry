@@ -7,8 +7,11 @@ pattern: ^Q\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100726
-   accessurl: https://www.wikidata.org/wiki/
+   accessurl: https://www.wikidata.org/wiki/${id}
+   test_id: Q2207226
    description: Wikidata at Wikimedia Foundation
+   homepage: https://www.wikidata.org/
+   institution: Wikimedia Foundation, San Francisco, California
    location: USA
    official: false
 ---

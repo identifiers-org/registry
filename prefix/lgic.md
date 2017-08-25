@@ -7,8 +7,11 @@ pattern: ^\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100118
-   accessurl: http://www.ebi.ac.uk/compneur-srv/LGICdb/HTML/
+   accessurl: http://www.ebi.ac.uk/compneur-srv/LGICdb/HTML/${id}.php
+   test_id: 5HT3Arano
    description: Ligand-Gated Ion Channel database at EBI
+   homepage: http://www.ebi.ac.uk/compneur-srv/LGICdb/LGICdb.php
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ebi

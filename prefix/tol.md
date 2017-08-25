@@ -9,8 +9,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100525
-   accessurl: http://tolweb.org/
+   accessurl: http://tolweb.org/${id}
+   test_id: 98034
    description: Tree of Life Web
+   homepage: http://tolweb.org/tree/
+   institution: University of Arizona
    location: USA
    official: false
 ---

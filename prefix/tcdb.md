@@ -7,8 +7,11 @@ pattern: ^\d+(\.[A-Z])?(\.\d+)?(\.\d+)?(\.\d+)?$
 prefixed: 0
 resources:
  - identifier: MIR:00100068
-   accessurl: http://www.tcdb.org/search/result.php?tc=
+   accessurl: http://www.tcdb.org/search/result.php?tc=${id}
+   test_id: 5.A.1.1.1
    description: TCDB
+   homepage: http://www.tcdb.org/
+   institution: Division of Biological Sciences, UCSD
    location: USA
    official: false
 ---

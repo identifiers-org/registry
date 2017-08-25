@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100620
-   accessurl: http://www.shigen.nig.ac.jp/rice/oryzabaseV4/strain/wildCore/detail/
+   accessurl: http://www.shigen.nig.ac.jp/rice/oryzabaseV4/strain/wildCore/detail/${id}
+   test_id: 1
    description: Oryzabase v4 Strain at National Institute of Genetics (Japan)
+   homepage: http://www.shigen.nig.ac.jp/rice/oryzabaseV4/
+   institution: Genetic Strains Research Center, National Institute of Genetics, Mishima, Shizuoka
    location: Japan
    official: false
 ---

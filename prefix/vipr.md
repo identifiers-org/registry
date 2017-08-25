@@ -7,8 +7,11 @@ pattern: ^[A-Za-z 0-9]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100527
-   accessurl: http://www.viprbrc.org/brc/viprStrainDetails.do?strainName=
+   accessurl: http://www.viprbrc.org/brc/viprStrainDetails.do?strainName=${id}&decorator=arena
+   test_id: BeAn 70563
    description: ViPR Strain at J. Craig Venter Institute
+   homepage: http://www.viprbrc.org/brc/home.do?decorator=vipr
+   institution: J. Craig Venter Institute, San Diego, California
    location: USA
    official: false
 ---

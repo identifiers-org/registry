@@ -7,8 +7,11 @@ pattern: ^CH_\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100436
-   accessurl: http://www.jcvi.org/charprotdb/index.cgi/view/
+   accessurl: http://www.jcvi.org/charprotdb/index.cgi/view/${id}
+   test_id: CH_001923
    description: CharProt at JCVI
+   homepage: http://www.jcvi.org/charprotdb
+   institution: J Craig Venter institute, Rockville, Maryland
    location: USA
    official: false
 ---

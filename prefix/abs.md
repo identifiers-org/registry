@@ -7,8 +7,11 @@ pattern: ^A\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100358
-   accessurl: http://genome.crg.es/datasets/abs2005/entries/
+   accessurl: http://genome.crg.es/datasets/abs2005/entries/${id}.html
+   test_id: A0014
    description: ABS at IMIM
+   homepage: http://genome.crg.es/datasets/abs2005/
+   institution: Institut Municipal d'Investigaci&oacute; M&egrave;dica, Barcelona
    location: Spain
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100524
-   accessurl: http://bugs.sgul.ac.uk/bugsbase/tabs/experiment.php?expt_id=
+   accessurl: http://bugs.sgul.ac.uk/bugsbase/tabs/experiment.php?expt_id=${id}&action=view
+   test_id: 288
    description: BugBase Expt at University of London
+   homepage: http://bugs.sgul.ac.uk/E-BUGS
+   institution: Bacterial Microarray Group, St George's, University of London
    location: UK
    official: false
 ---

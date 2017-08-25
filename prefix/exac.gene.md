@@ -7,8 +7,11 @@ pattern: ^ENSG\d{11}$
 prefixed: 0
 resources:
  - identifier: MIR:00100725
-   accessurl: http://exac.broadinstitute.org/gene/
+   accessurl: http://exac.broadinstitute.org/gene/${id}
+   test_id: ENSG00000169174
    description: ExAC Gene at Exome Aggregation Consortium
+   homepage: http://exac.broadinstitute.org/
+   institution: Exome Aggregation Consortium (ExAC), Cambridge, Massachusetts
    location: USA
    official: false
 ---

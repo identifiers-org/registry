@@ -7,8 +7,11 @@ pattern: ^[A-Z]C\d{1,3}$
 prefixed: 0
 resources:
  - identifier: MIR:00100451
-   accessurl: http://www.proglycprot.org/detail.aspx?ProId=
+   accessurl: http://www.proglycprot.org/detail.aspx?ProId=${id}
+   test_id: AC119
    description: ProGlycProt at IMT
+   homepage: http://www.proglycprot.org/
+   institution: Institute of Microbial Technology, Council of Scientific and Industrial Research (CSIR),  Chandigarh
    location: India
    official: false
 ---

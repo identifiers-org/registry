@@ -7,8 +7,11 @@ pattern: ^MF_\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100374
-   accessurl: http://hamap.expasy.org/unirule/
+   accessurl: http://hamap.expasy.org/unirule/${id}
+   test_id: MF_01400
    description: HAPMAP at Swiss Institute of Bioinformatics
+   homepage: http://hamap.expasy.org/
+   institution: Swiss Institute of Bioinformatics, Geneva
    location: Switzerland
    official: false
 ---

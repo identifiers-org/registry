@@ -7,8 +7,11 @@ pattern: ^\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100196
-   accessurl: http://giardiadb.org/giardiadb/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=
+   accessurl: http://giardiadb.org/giardiadb/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=${id}
+   test_id: GL50803_102438
    description: GiardiaDB at EuPathDB
+   homepage: http://giardiadb.org/giardiadb/
+   institution: Center for Tropical & Emerging Global Diseases, University of Georgia
    location: USA
    official: false
 ---

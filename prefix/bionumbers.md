@@ -8,8 +8,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100132
-   accessurl: http://www.bionumbers.hms.harvard.edu/bionumber.aspx?s=y&id=
+   accessurl: http://www.bionumbers.hms.harvard.edu/bionumber.aspx?s=y&id=${id}&ver=1
+   test_id: 104674
    description: BioNumbers database
+   homepage: http://www.bionumbers.hms.harvard.edu/search.aspx
+   institution: Weizmann Institute
    location: Israel
    official: false
 ---

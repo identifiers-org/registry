@@ -7,8 +7,11 @@ pattern: ^PWY\w{2}\-\d{3}$
 prefixed: 0
 resources:
  - identifier: MIR:00100085
-   accessurl: http://pathway.yeastgenome.org/YEAST/new-image?type=PATHWAY&object=
+   accessurl: http://pathway.yeastgenome.org/YEAST/new-image?type=PATHWAY&object=${id}
+   test_id: PWY3O-214
    description: Saccharomyces cerevisiae pathways at SGD.
+   homepage: http://pathway.yeastgenome.org/
+   institution: SGD, Stanford University
    location: USA
    official: false
 ---

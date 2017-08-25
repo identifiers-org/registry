@@ -7,8 +7,11 @@ pattern: ZDB\-GENE\-\d+\-\d+
 prefixed: 0
 resources:
  - identifier: MIR:00100110
-   accessurl: http://zfin.org/
+   accessurl: http://zfin.org/${id}
+   test_id: ZDB-GENE-041118-11
    description: ZFIN Expression at University of Oregon
+   homepage: http://zfin.org
+   institution: Zebrafish Information Network, University of Oregon
    location: USA
    official: false
 ---

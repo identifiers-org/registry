@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100125
-   accessurl: http://senselab.med.yale.edu/NeuronDB/NeuronProp.aspx?id=
+   accessurl: http://senselab.med.yale.edu/NeuronDB/NeuronProp.aspx?id=${id}
+   test_id: 265
    description: NeuronDB at SenseLab
+   homepage: http://senselab.med.yale.edu/NeuronDB/
+   institution: Yale University School of Medicine
    location: USA
    official: false
 ---

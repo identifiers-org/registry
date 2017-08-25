@@ -7,8 +7,11 @@ pattern: ^UCR\d{5}$
 prefixed: 0
 resources:
  - identifier: MIR:00100752
-   accessurl: http://www.grenoble.prabi.fr/obiwarehouse/unipathway/ucr?upid=
+   accessurl: http://www.grenoble.prabi.fr/obiwarehouse/unipathway/ucr?upid=${id}
+   test_id: UCR00226
    description: UniPathway Reaction at Swiss Institute of Bioinformatics (SIB)
+   homepage: http://www.grenoble.prabi.fr/obiwarehouse/unipathway
+   institution: Swiss Institute of Bioinformatics (SIB) and French National Institute for Research in Computer Science and Control
    location: Switzerland
    official: false
 ---

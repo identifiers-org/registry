@@ -7,8 +7,11 @@ pattern: ^C\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100450
-   accessurl: http://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=
+   accessurl: http://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=${id}
+   test_id: C0026339
    description: NCIm at National Cancer Institue
+   homepage: http://ncim.nci.nih.gov/
+   institution: National Cancer Institute, Center for Bioinformatics, Maryland
    location: USA
    official: false
 ---

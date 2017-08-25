@@ -7,8 +7,11 @@ pattern: ^UDB\d{6}$
 prefixed: 0
 resources:
  - identifier: MIR:00100449
-   accessurl: http://unite.ut.ee/bl_forw.php?nimi=
+   accessurl: http://unite.ut.ee/bl_forw.php?nimi=${id}
+   test_id: UDB000691
    description: Unite at University of Tartu
+   homepage: http://unite.ut.ee/
+   institution: Institute of Botany, University of Tartu, Tartu
    location: Estonia
    official: false
 ---

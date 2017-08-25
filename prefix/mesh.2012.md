@@ -7,8 +7,11 @@ pattern: ^[A-Za-z0-9]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100349
-   accessurl: http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?mode=&index=
+   accessurl: http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?mode=&index=${id}&view=expanded
+   test_id: 17186
    description: MeSH at National Library of Medicine
+   homepage: http://www.nlm.nih.gov/mesh/
+   institution: U.S. National Library of Medicine, National Institute of Health, Maryland
    location: USA
    official: false
 ---

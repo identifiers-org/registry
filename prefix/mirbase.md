@@ -7,8 +7,11 @@ pattern: MI\d{7}
 prefixed: 0
 resources:
  - identifier: MIR:00100135
-   accessurl: http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=
+   accessurl: http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=${id}
+   test_id: MI0000001
    description: miRBase Sequence Database
+   homepage: http://www.mirbase.org/
+   institution: Faculty of Life Sciences, University of Manchester 
    location: UK
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^[A-Z0-9]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100595
-   accessurl: http://metarray.ucsc.edu/cgi-bin/intron/yirIntrondb?orfName=
+   accessurl: http://metarray.ucsc.edu/cgi-bin/intron/yirIntrondb?orfName=${id}
+   test_id: SNR17A
    description: Yeast Intron Database version 3 at Baskin School of Engineering
+   homepage: http://compbio.soe.ucsc.edu/yeast_introns.html
+   institution: Baskin School of Engineering, Center for Molecular Biology of RNA, University of California, Santa Cruz, California
    location: USA
    official: false
 ---

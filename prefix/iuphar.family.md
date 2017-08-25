@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100708
-   accessurl: http://www.guidetopharmacology.org/GRAC/FamilyDisplayForward?familyId=
+   accessurl: http://www.guidetopharmacology.org/GRAC/FamilyDisplayForward?familyId=${id}
+   test_id: 78
    description: The IUPHAR/BPS Guide to PHARMACOLOGY
+   homepage: http://www.guidetopharmacology.org/
+   institution: International Union of Pharmacology, Edinburgh
    location: UK
    official: false
 ---

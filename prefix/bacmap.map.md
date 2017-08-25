@@ -7,8 +7,11 @@ pattern: ^\w+(\_)?\d+(\.\d+)?$
 prefixed: 0
 resources:
  - identifier: MIR:00100539
-   accessurl: http://bacmap.wishartlab.com/maps/
+   accessurl: http://bacmap.wishartlab.com/maps/${id}/index.html
+   test_id: AP011135
    description: BacMap Genome Map at University of Alberta
+   homepage: http://bacmap.wishartlab.com/
+   institution: Department of Computing Science, Food and Nutritional Science, University of Alberta, Edmonton
    location: Canada
    official: false
 ---

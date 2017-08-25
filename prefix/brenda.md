@@ -7,8 +7,11 @@ pattern: ^((\d+\.-\.-\.-)|(\d+\.\d+\.-\.-)|(\d+\.\d+\.\d+\.-)|(\d+\.\d+\.\d+\.\d
 prefixed: 0
 resources:
  - identifier: MIR:00100101
-   accessurl: http://www.brenda-enzymes.org/php/result_flat.php4?ecno=
+   accessurl: http://www.brenda-enzymes.org/php/result_flat.php4?ecno=${id}
+   test_id: 1.1.1.1
    description: Brenda enzyme database
+   homepage: http://www.brenda-enzymes.org/
+   institution: Technical University Braunschweig, Institute for Bioinformatics and Biochemistry
    location: Germany
    official: false
 ---

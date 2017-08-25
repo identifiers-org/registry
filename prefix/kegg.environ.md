@@ -7,8 +7,11 @@ pattern: ^(ev\:)?E\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100506
-   accessurl: http://www.kegg.jp/entry/
+   accessurl: http://www.kegg.jp/entry/${id}
+   test_id: ev:E00032
    description: KEGG ENVIRON Database
+   homepage: http://www.genome.jp/kegg/drug/environ.html
+   institution: Kyoto University Bioinformatics Center
    location: Japan
    official: true
 ---

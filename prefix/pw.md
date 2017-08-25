@@ -7,19 +7,28 @@ pattern: ^PW:\d{7}$
 prefixed: 1
 resources:
  - identifier: MIR:00100309
-   accessurl: http://rgd.mcw.edu/rgdweb/ontology/annot.html?acc_id=
+   accessurl: http://rgd.mcw.edu/rgdweb/ontology/annot.html?acc_id=${id}
+   test_id: PW:0000208
    description: Pathway Ontology at Rat Genome Database
+   homepage: http://rgd.mcw.edu/rgdweb/ontology/search.html
+   institution: Medical College of Wisconsin, Wisconsin
    location: USA
    official: false
  - identifier: MIR:00100310
-   accessurl: http://www.ebi.ac.uk/ols/ontologies/pw/terms?obo_id=
+   accessurl: http://www.ebi.ac.uk/ols/ontologies/pw/terms?obo_id=${id}
+   test_id: PW:0000208
    description: Pathway Ontology through OLS
+   homepage: http://www.ebi.ac.uk/ols/ontologies/pw
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ols
  - identifier: MIR:00100311
-   accessurl: http://purl.bioontology.org/ontology/PW/
+   accessurl: http://purl.bioontology.org/ontology/PW/${id}
+   test_id: PW:0000208
    description: Pathway Ontology through BioPortal
+   homepage: http://bioportal.bioontology.org/ontologies/PW
+   institution: National Center for Biomedical Ontology, Stanford, California
    location: USA
    official: false
    provider_code: bptl

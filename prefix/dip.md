@@ -7,8 +7,11 @@ pattern: ^DIP(\:)?\-\d{1,}[ENXS]$
 prefixed: 0
 resources:
  - identifier: MIR:00100072
-   accessurl: http://dip.doe-mbi.ucla.edu/dip/DIPview.cgi?ID=
+   accessurl: http://dip.doe-mbi.ucla.edu/dip/DIPview.cgi?ID=${id}
+   test_id: DIP-743N
    description: Database of interacting proteins
+   homepage: http://dip.doe-mbi.ucla.edu/
+   institution: UCLA
    location: USA
    official: false
 ---

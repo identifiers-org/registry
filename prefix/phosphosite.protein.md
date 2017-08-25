@@ -7,8 +7,11 @@ pattern: ^\d{5}$
 prefixed: 0
 resources:
  - identifier: MIR:00100138
-   accessurl: http://www.phosphosite.org/proteinAction.do?id=
+   accessurl: http://www.phosphosite.org/proteinAction.do?id=${id}
+   test_id: 12300
    description: PhosphoSite
+   homepage: http://www.phosphosite.org/homeAction.do
+   institution: Cell Signaling Technology, Inc.
    location: USA
    official: false
 ---

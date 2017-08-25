@@ -7,8 +7,11 @@ pattern: ^[A-Z]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100438
-   accessurl: http://omabrowser.org/cgi-bin/gateway.pl?f=DisplayGroup&p1=
+   accessurl: http://omabrowser.org/cgi-bin/gateway.pl?f=DisplayGroup&p1=${id}
+   test_id: LCSCCPN
    description: OMA Group through OMA browser at ETH Zurich
+   homepage: http://omabrowser.org/cgi-bin/gateway.pl
+   institution: ETH Zurich, Computer Science, Zurich
    location: Switzerland
    official: false
 ---

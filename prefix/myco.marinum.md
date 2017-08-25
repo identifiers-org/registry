@@ -7,8 +7,11 @@ pattern: ^MMAR\_\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100277
-   accessurl: http://mycobrowser.epfl.ch/marinosearch.php?gene+name=
+   accessurl: http://mycobrowser.epfl.ch/marinosearch.php?gene+name=${id}
+   test_id: MMAR_2462
    description: MycoBrowser marinum at Global Health Institute
+   homepage: http://mycobrowser.epfl.ch/marinolist.html
+   institution: Global Health Institute,  Lausanne
    location: Switzerland
    official: false
 ---

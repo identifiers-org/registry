@@ -7,8 +7,11 @@ pattern: ^\w+(\_)?\d+(\.\d+)?$
 prefixed: 0
 resources:
  - identifier: MIR:00100218
-   accessurl: http://www.fludb.org/brc/fluSegmentDetails.do?ncbiGenomicAccession=
+   accessurl: http://www.fludb.org/brc/fluSegmentDetails.do?ncbiGenomicAccession=${id}
+   test_id: CY077097
    description: IRD at BioHealthBase
+   homepage: http://www.fludb.org/
+   institution: Southwestern Medical Center, University of Texas, Dallas
    location: USA
    official: false
 ---

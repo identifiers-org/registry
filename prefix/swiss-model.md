@@ -7,8 +7,11 @@ pattern: ^\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100290
-   accessurl: http://swissmodel.expasy.org/repository/smr.php?sptr_ac=
+   accessurl: http://swissmodel.expasy.org/repository/smr.php?sptr_ac=${id}
+   test_id: P23298
    description: SWISS-MODEL at SIB Swiss Institute of Bioinformatics
+   homepage: http://swissmodel.expasy.org/
+   institution: Biozentrum, University of Basel and SIB Swiss Institute of Bioinformatics, Basel
    location: Switzerland
    official: false
 ---

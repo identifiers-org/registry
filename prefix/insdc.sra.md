@@ -7,20 +7,29 @@ pattern: ^[SED]R[APRSXZ]\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100312
-   accessurl: http://www.ncbi.nlm.nih.gov/sra/
+   accessurl: http://www.ncbi.nlm.nih.gov/sra/${id}?&report=full
+   test_id: SRX000007
    description: Sequence Read Archive at NCBI
+   homepage: http://www.ncbi.nlm.nih.gov/sra
+   institution: National Center for Biotechnology Information (NCBI)
    location: USA
    official: false
    provider_code: ncbi
  - identifier: MIR:00100313
-   accessurl: http://www.ebi.ac.uk/ena/data/view/
+   accessurl: http://www.ebi.ac.uk/ena/data/view/${id}
+   test_id: SRX000007
    description: European Nucleotide Archive (ENA)
+   homepage: http://www.ebi.ac.uk/ena
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ebi
  - identifier: MIR:00100314
-   accessurl: http://trace.ddbj.nig.ac.jp/DRASearch/experiment?acc=
+   accessurl: http://trace.ddbj.nig.ac.jp/DRASearch/experiment?acc=${id}
+   test_id: SRX000007
    description: DDBJ Sequence Read Archive (DRA)
+   homepage: http://trace.ddbj.nig.ac.jp/dra/
+   institution: DNA Data Bank of Japan, Mishima, Shizuoka
    location: Japan
    official: false
 ---

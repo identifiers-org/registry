@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100365
-   accessurl: http://www.lgcstandards-atcc.org/Products/All/
+   accessurl: http://www.lgcstandards-atcc.org/Products/All/${id}.aspx
+   test_id: 11303
    description: ATCC in Virginia
+   homepage: http://www.atcc.org/
+   institution: American Type Culture Collection, Manassas, Virginia
    location: USA
    official: false
 ---

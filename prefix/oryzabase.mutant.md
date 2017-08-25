@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100619
-   accessurl: http://www.shigen.nig.ac.jp/rice/oryzabaseV4/strain/inducedMutationLine/detail/
+   accessurl: http://www.shigen.nig.ac.jp/rice/oryzabaseV4/strain/inducedMutationLine/detail/${id}
+   test_id: 21393
    description: Oryzabase v4 Mutant at National Institute of Genetics (Japan)
+   homepage: http://www.shigen.nig.ac.jp/rice/oryzabaseV4/
+   institution: Genetic Strains Research Center, National Institute of Genetics, Mishima, Shizuoka
    location: Japan
    official: false
 ---

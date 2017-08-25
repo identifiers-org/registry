@@ -7,8 +7,11 @@ pattern: ^GR\:\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100228
-   accessurl: http://www.gramene.org/db/genes/search_gene?acc=
+   accessurl: http://www.gramene.org/db/genes/search_gene?acc=${id}
+   test_id: GR:0080039
    description: Gramene Genes at Cold Spring Harbor
+   homepage: http://www.gramene.org/
+   institution: Cold Spring Harbor Laboratory, New York
    location: USA
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^MSMEG\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100278
-   accessurl: http://mycobrowser.epfl.ch/smegmasearch.php?gene+name=
+   accessurl: http://mycobrowser.epfl.ch/smegmasearch.php?gene+name=${id}
+   test_id: MSMEG_3769
    description: MycoBrowser smegmatis at Global Health Institute
+   homepage: http://mycobrowser.epfl.ch/smegmalist.html
+   institution: Global Health Institute,  Lausanne
    location: Switzerland
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^\d{3}$
 prefixed: 0
 resources:
  - identifier: MIR:00100391
-   accessurl: http://mods.rna.albany.edu/mods/modifications/view/
+   accessurl: http://mods.rna.albany.edu/mods/modifications/view/${id}
+   test_id: 101
    description: RNA Modification Database at University of Utah
+   homepage: http://rna-mdb.cas.albany.edu/RNAmods/rnaover.htm
+   institution: Department of Medicinal Chemistry and Department of Biochemistry, University of Utah, Salt Lake City, Utah
    location: USA
    official: false
 ---

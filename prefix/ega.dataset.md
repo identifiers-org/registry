@@ -7,8 +7,11 @@ pattern: ^EGAD\d{11}$
 prefixed: 0
 resources:
  - identifier: MIR:00100658
-   accessurl: https://www.ebi.ac.uk/ega/datasets/
+   accessurl: https://www.ebi.ac.uk/ega/datasets/${id}
+   test_id: EGAD00000000001
    description: EGA Dataset at European Bioinformatics Institute
+   homepage: https://www.ebi.ac.uk/ega/dataset
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ebi

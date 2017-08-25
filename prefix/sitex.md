@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100323
-   accessurl: http://www-bionet.sscc.ru/sitex/index.php?siteid=
+   accessurl: http://www-bionet.sscc.ru/sitex/index.php?siteid=${id}
+   test_id: 1000
    description: SitEx at Novosibirsk State University
+   homepage: http://www-bionet.sscc.ru/sitex/
+   institution: Novosibirsk State University, Novosibirsk
    location: Russia
    official: false
 ---

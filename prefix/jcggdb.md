@@ -7,8 +7,11 @@ pattern: ^JCGG-STR\d{6}$
 prefixed: 0
 resources:
  - identifier: MIR:00100614
-   accessurl: http://jcggdb.jp/idb/jcggdb/
+   accessurl: http://jcggdb.jp/idb/jcggdb/${id}
+   test_id: JCGG-STR008690
    description: JCGGDB at Advanced Science Institute (Japan)
+   homepage: http://jcggdb.jp/index_en.html
+   institution: Advanced Science Institute(ASI), Chemical Biology Department Systems Glycobiology research Group, Saitama
    location: Japan
    official: false
 ---

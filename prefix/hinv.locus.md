@@ -7,8 +7,11 @@ pattern: ^HIX\d{7}(\.\d+)?$
 prefixed: 0
 resources:
  - identifier: MIR:00100213
-   accessurl: http://h-invitational.jp/hinv/spsoup/locus_view?hix_id=
+   accessurl: http://h-invitational.jp/hinv/spsoup/locus_view?hix_id=${id}
+   test_id: HIX0004394
    description: H-Invitational Locus View at BIRC
+   homepage: http://h-invitational.jp/hinv/ahg-db/index.jsp
+   institution: BIRC, Tokyo
    location: Japan
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^[0-9][A-Za-z0-9]{3}$
 prefixed: 0
 resources:
  - identifier: MIR:00100427
-   accessurl: http://opm.phar.umich.edu/protein.php?pdbid=
+   accessurl: http://opm.phar.umich.edu/protein.php?pdbid=${id}
+   test_id: 1h68
    description: OPM at University of Michigan
+   homepage: http://opm.phar.umich.edu/
+   institution: Department of Medicinal Chemistry, College of Pharmacy, University of Michigan
    location: USA
    official: false
 ---

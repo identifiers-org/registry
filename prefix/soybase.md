@@ -7,8 +7,11 @@ pattern: ^\w+(\-)?\w+(\-)?\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100373
-   accessurl: http://www.soybase.org/sbt/search/search_results.php?category=SNP&search_term=
+   accessurl: http://www.soybase.org/sbt/search/search_results.php?category=SNP&search_term=${id}
+   test_id: BARC-013845-01256
    description: SoyBase at Iowa State University
+   homepage: http://soybase.org/
+   institution: USDA-ARS-CICGRU, Iowa State University, Iowa
    location: USA
    official: false
 ---

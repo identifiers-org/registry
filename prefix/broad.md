@@ -7,8 +7,11 @@ pattern: ^S\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100569
-   accessurl: http://www.broadinstitute.org/annotation/genome/magnaporthe_grisea/GeneDetails.html?sp=
+   accessurl: http://www.broadinstitute.org/annotation/genome/magnaporthe_grisea/GeneDetails.html?sp=${id}
+   test_id: S7000002168151102
    description: Broad Fungal Genome Initiative at Broad Institute
+   homepage: http://www.broadinstitute.org/annotation/genome/magnaporthe_grisea/
+   institution: Broad Institute of MIT and Harvard, Cambridge, Massachuchetts
    location: USA
    official: false
 ---

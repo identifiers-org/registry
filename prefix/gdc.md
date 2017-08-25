@@ -7,8 +7,12 @@ pattern: ^[a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12}$
 prefixed: 0
 resources:
  - identifier: MIR:00100805
-   accessurl: https://portal.gdc.cancer.gov/cases/
+   accessurl: https://portal.gdc.cancer.gov/cases/${id}
+   test_id: ae8c77fe-e6c8-44d5-8265-4a38c637bbef
    description: Genomic Data Commons
+   homepage: https://gdc.cancer.gov
+   institution: National Cancer Institute Genomic Data Commons, NIH
+
    location: USA
    official: false
 ---

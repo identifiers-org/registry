@@ -7,14 +7,20 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100099
-   accessurl: http://www.ncbi.nlm.nih.gov/gene/
+   accessurl: http://www.ncbi.nlm.nih.gov/gene/${id}
+   test_id: 100010
    description: Entrez Gene (NCBI)
+   homepage: http://www.ncbi.nlm.nih.gov/gene
+   institution: National Center for Biotechnology Information (NCBI)
    location: USA
    official: true
    provider_code: ncbi
  - identifier: MIR:00100693
-   accessurl: http://ncbigene.bio2rdf.org/describe/?url=http://bio2rdf.org/ncbigene:
+   accessurl: http://ncbigene.bio2rdf.org/describe/?url=http://bio2rdf.org/ncbigene:${id}
+   test_id: 100010
    description: Bio2RDF
+   homepage: http://ncbigene.bio2rdf.org/fct
+   institution: Bio2RDF.org
    location: 
    official: false
 ---

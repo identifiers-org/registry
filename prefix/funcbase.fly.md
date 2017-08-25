@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100596
-   accessurl: http://func.mshri.on.ca/fly/genes/list_functional_scores/
+   accessurl: http://func.mshri.on.ca/fly/genes/list_functional_scores/${id}
+   test_id: 10194
    description: FuncBase Fly at Harvard Medical School
+   homepage: http://func.mshri.on.ca/fly
+   institution: Harvard Medical School, Boston, Massachusetts
    location: USA
    official: false
 ---

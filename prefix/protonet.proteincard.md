@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100287
-   accessurl: http://www.protonet.cs.huji.ac.il/requested/protein_card.php?protein_id=
+   accessurl: http://www.protonet.cs.huji.ac.il/requested/protein_card.php?protein_id=${id}
+   test_id: 16941567
    description: ProtoNet at Hebrew University
+   homepage: http://www.protonet.cs.huji.ac.il/
+   institution: Hebrew University, Jerusalem
    location: Israel
    official: false
 ---

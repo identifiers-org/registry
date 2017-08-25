@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100441
-   accessurl: http://www.ncbi.nlm.nih.gov/UniGene/clust.cgi?UGID=
+   accessurl: http://www.ncbi.nlm.nih.gov/UniGene/clust.cgi?UGID=${id}
+   test_id: 4900
    description: UniGene at NCBI
+   homepage: http://www.ncbi.nlm.nih.gov/unigene
+   institution: National Center for Biotechnology , Maryland
    location: USA
    official: false
 ---

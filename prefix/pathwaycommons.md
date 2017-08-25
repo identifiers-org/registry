@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100103
-   accessurl: http://www.pathwaycommons.org/pc/record2.do?id=
+   accessurl: http://www.pathwaycommons.org/pc/record2.do?id=${id}
+   test_id: 485991
    description: Pathway Commons
+   homepage: http://www.pathwaycommons.org/pc/
+   institution: Memorial Sloan-Kettering Cancer Center
    location: USA
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^(GT|GH|PL|CE|CBM)\d+(\_\d+)?$
 prefixed: 0
 resources:
  - identifier: MIR:00100252
-   accessurl: http://www.cazy.org/
+   accessurl: http://www.cazy.org/${id}.html
+   test_id: GT10
    description: CAZy at CNRS
+   homepage: http://www.cazy.org/
+   institution: Architecture et Fonction des Macromolécules Biologiques, CNRS, Marseille
    location: France
    official: false
 ---

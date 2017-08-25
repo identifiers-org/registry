@@ -7,8 +7,11 @@ pattern: ^PAR:\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100709
-   accessurl: http://www.ebi.ac.uk/ontology-lookup/?termId=
+   accessurl: http://www.ebi.ac.uk/ontology-lookup/?termId=${id}
+   test_id: PAR:0116
    description: Protein Affinity Reagents through OLS
+   homepage: http://www.ebi.ac.uk/ontology-lookup/browse.do?ontName=PAR
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ols

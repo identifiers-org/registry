@@ -7,8 +7,11 @@ pattern: ^((EB\w+)|([A-Z0-9]+\_[A-Z0-9]+))$
 prefixed: 0
 resources:
  - identifier: MIR:00100261
-   accessurl: http://bacteria.ensembl.org/id/
+   accessurl: http://bacteria.ensembl.org/id/${id}
+   test_id: MU9_3181
    description: Ensembl Bacteria at EBI
+   homepage: http://bacteria.ensembl.org/
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ebi

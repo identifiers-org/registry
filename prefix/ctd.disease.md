@@ -7,8 +7,11 @@ pattern: ^D\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100130
-   accessurl: http://ctdbase.org/detail.go?type=disease&db=MESH&acc=
+   accessurl: http://ctdbase.org/detail.go?type=disease&db=MESH&acc=${id}
+   test_id: D053716
    description: Comparative Toxicogenomics Database (Disease)
+   homepage: http://ctdbase.org/
+   institution: The Mount Desert Island Biological Laboratory
    location: USA
    official: false
 ---

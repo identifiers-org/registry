@@ -7,8 +7,11 @@ pattern: ^[A-Z0-9*:]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100425
-   accessurl: http://www.ebi.ac.uk/cgi-bin/imgt/hla/get_allele.cgi?
+   accessurl: http://www.ebi.ac.uk/cgi-bin/imgt/hla/get_allele.cgi?${id}
+   test_id: A*01:01:01:01
    description: IMGT HLA at EBI
+   homepage: http://www.ebi.ac.uk/imgt/hla/allele.html
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ebi

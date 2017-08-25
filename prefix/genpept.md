@@ -7,8 +7,11 @@ pattern: ^\w{3}\d{5}(\.\d+)?$
 prefixed: 0
 resources:
  - identifier: MIR:00100440
-   accessurl: http://www.ncbi.nlm.nih.gov/protein/
+   accessurl: http://www.ncbi.nlm.nih.gov/protein/${id}?report=genpept
+   test_id: CAA71118.1
    description: GenPept at NCBI
+   homepage: http://www.ncbi.nlm.nih.gov/protein
+   institution: National Center for Biotechnology Information (NCBI)
    location: USA
    official: false
    provider_code: ncbi

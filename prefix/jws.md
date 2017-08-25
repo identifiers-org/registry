@@ -7,18 +7,27 @@ pattern: ^\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100168
-   accessurl: http://jjj.biochem.sun.ac.za/models/
+   accessurl: http://jjj.biochem.sun.ac.za/models/${id}/
+   test_id: curien
    description: JWS Online Model Repository at Stellenbosch
+   homepage: http://jjj.biochem.sun.ac.za/models/
+   institution: Department of Biochemistry, Stellenbosch University
    location: South Africa
    official: false
  - identifier: MIR:00100169
-   accessurl: http://jjj.bio.vu.nl/models/
+   accessurl: http://jjj.bio.vu.nl/models/${id}/
+   test_id: curien
    description: JWS Online Model Repository at Amsterdam
+   homepage: http://jjj.bio.vu.nl/models/
+   institution: University of Amsterdam
    location: Netherlands
    official: false
  - identifier: MIR:00100170
-   accessurl: http://jjj.mib.ac.uk/models/
+   accessurl: http://jjj.mib.ac.uk/models/${id}
+   test_id: curien
    description: JWS Online Model Repository at Manchester
+   homepage: http://jjj.mib.ac.uk/index.html
+   institution: Manchester Interdisciplinary Biocentre, University of Manchester
    location: UK
    official: false
 ---

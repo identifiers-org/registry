@@ -7,20 +7,29 @@ pattern: ^SAM[NED](\w)?\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100447
-   accessurl: http://www.ebi.ac.uk/biosamples/sample/
+   accessurl: http://www.ebi.ac.uk/biosamples/sample/${id}
+   test_id: SAMEA2397676
    description: BioSample Database at EBI
+   homepage: http://www.ebi.ac.uk/biosamples/
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: true
    provider_code: ebi
  - identifier: MIR:00100706
-   accessurl: http://www.ncbi.nlm.nih.gov/biosample?term=
+   accessurl: http://www.ncbi.nlm.nih.gov/biosample?term=${id}
+   test_id: SAMN00000002
    description: BioSample at NCBI
+   homepage: http://www.ncbi.nlm.nih.gov/biosample
+   institution: National Center for Biotechnology Information (NCBI)
    location: USA
    official: false
    provider_code: ncbi
  - identifier: MIR:00100707
-   accessurl: http://trace.ddbj.nig.ac.jp/BSSearch/biosample?acc=
+   accessurl: http://trace.ddbj.nig.ac.jp/BSSearch/biosample?acc=${id}
+   test_id: SAMD00005257
    description: BioSample at DNA Data Bank of Japan
+   homepage: http://trace.ddbj.nig.ac.jp/biosample/
+   institution: Institution DNA Data Bank of Japan, Shizuoka
    location: Japan
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100195
-   accessurl: http://plasmodb.org/plasmo/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=
+   accessurl: http://plasmodb.org/plasmo/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=${id}
+   test_id: PF11_0344
    description: PlasmoDB at EuPathDB
+   homepage: http://plasmodb.org/plasmo/
+   institution: Center for Tropical & Emerging Global Diseases, University of Georgia
    location: USA
    official: false
 ---

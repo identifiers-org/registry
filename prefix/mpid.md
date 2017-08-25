@@ -7,13 +7,19 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100157
-   accessurl: http://www.jcvi.org/mpidb/experiment.php?interaction_id=
+   accessurl: http://www.jcvi.org/mpidb/experiment.php?interaction_id=${id}
+   test_id: 172
    description: Microbial Protein Interaction Database
+   homepage: http://www.jcvi.org/mpidb/about.php
+   institution: J. Craig Venter Institute, Maryland
    location: USA
    official: false
  - identifier: MIR:00100655
-   accessurl: http://www.ebi.ac.uk/intact/query/interaction_id:MPIDB-INT-
+   accessurl: http://www.ebi.ac.uk/intact/query/interaction_id:MPIDB-INT-${id}
+   test_id: 1776
    description: Microbial Protein Interaction Database subset through IntAct
+   homepage: http://www.ebi.ac.uk/intact/
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ebi

@@ -7,8 +7,11 @@ pattern: ^Rv\d{4}(A|B|c)?$
 prefixed: 0
 resources:
  - identifier: MIR:00100275
-   accessurl: http://tuberculist.epfl.ch/quicksearch.php?gene+name=
+   accessurl: http://tuberculist.epfl.ch/quicksearch.php?gene+name=${id}
+   test_id: Rv1908c
    description: MycoBrowser tuberculosis at Global Health Institute
+   homepage: http://tuberculist.epfl.ch/
+   institution: Global Health Institute,  Lausanne
    location: Switzerland
    official: false
 ---

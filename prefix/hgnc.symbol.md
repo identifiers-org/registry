@@ -7,8 +7,11 @@ pattern: ^[A-Za-z-0-9_]+(\@)?$
 prefixed: 0
 resources:
  - identifier: MIR:00100460
-   accessurl: http://www.genenames.org/cgi-bin/gene_symbol_report?match=
+   accessurl: http://www.genenames.org/cgi-bin/gene_symbol_report?match=${id}
+   test_id: DAPK1
    description: HGNC Symbol at HUGO Genome Nomenclature Committee
+   homepage: http://www.genenames.org/
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ebi

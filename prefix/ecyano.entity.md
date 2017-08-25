@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100782
-   accessurl: http://e-cyanobacterium.org/bcs/entity/
+   accessurl: http://e-cyanobacterium.org/bcs/entity/${id}/
+   test_id: 23
    description: e-cyanobacterium entity at Masaryk University Brno
+   homepage: http://www.e-cyanobacterium.org/bcs/entity/
+   institution: Systems Biology Laboratory, Faculty of Informatics, Masaryk University Brno
    location: Czech Republic
    official: false
 ---

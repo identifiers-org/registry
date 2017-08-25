@@ -7,8 +7,11 @@ pattern: ^DRSC\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100466
-   accessurl: http://www.flyrnai.org/cgi-bin/RNAi_gene_lookup_public.pl?gname=
+   accessurl: http://www.flyrnai.org/cgi-bin/RNAi_gene_lookup_public.pl?gname=${id}
+   test_id: DRSC05221
    description: DRSC at Harvard Medical School
+   homepage: http://flyrnai.org/
+   institution: Department of Genetics, Harvard Medical School, Boston, Massachusetts
    location: USA
    official: false
 ---

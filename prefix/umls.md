@@ -7,8 +7,11 @@ pattern: ^C\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100736
-   accessurl: http://linkedlifedata.com/resource/umls/id/
+   accessurl: http://linkedlifedata.com/resource/umls/id/${id}
+   test_id: C0021390
    description: Unified Medical Language System at LinkedLifeData
+   homepage: http://linkedlifedata.com/
+   institution: Linkedlifedata, Ontotext, Sofia
    location: Bulgaria
    official: true
 ---

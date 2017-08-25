@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100322
-   accessurl: http://immunet.cn/bdb/index.php/mimoset/
+   accessurl: http://immunet.cn/bdb/index.php/mimoset/${id}
+   test_id: 1
    description: BDB at University of Electronic Science and Technology of China
+   homepage: http://immunet.cn/bdb/
+   institution: Key Laboratory for Neuroinformation of Ministry of Education, University of Electronic Science and Technology of China, Sichuan
    location: China
    official: false
 ---

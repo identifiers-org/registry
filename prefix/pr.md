@@ -7,19 +7,28 @@ pattern: ^PR\:\d+$
 prefixed: 1
 resources:
  - identifier: MIR:00100184
-   accessurl: http://pir.georgetown.edu/cgi-bin/pro/entry_pro?id=
+   accessurl: http://pir.georgetown.edu/cgi-bin/pro/entry_pro?id=${id}
+   test_id: PR:000000024
    description: Protein Ontology at Georgetown
+   homepage: http://pir.georgetown.edu/pro/pro.shtml
+   institution: Georgetown University Medical Center, Washington
    location: USA
    official: false
  - identifier: MIR:00100240
-   accessurl: http://purl.bioontology.org/ontology/PR/
+   accessurl: http://purl.bioontology.org/ontology/PR/${id}
+   test_id: PR:000000024
    description: Protein Ontology through BioPortal
+   homepage: http://bioportal.bioontology.org/ontologies/PR
+   institution: National Center for Biomedical Ontology, Stanford
    location: USA
    official: false
    provider_code: bptl
  - identifier: MIR:00100755
-   accessurl: http://www.ebi.ac.uk/ols/ontologies/pr/terms?obo_id=
+   accessurl: http://www.ebi.ac.uk/ols/ontologies/pr/terms?obo_id=${id}
+   test_id: PR:000000024
    description: Protein Ontology through OLS
+   homepage: http://www.ebi.ac.uk/ols/ontologies/pr
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ols

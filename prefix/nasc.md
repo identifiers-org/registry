@@ -7,8 +7,11 @@ pattern: ^(\w+)?\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100386
-   accessurl: http://arabidopsis.info/StockInfo?NASC_id=
+   accessurl: http://arabidopsis.info/StockInfo?NASC_id=${id}
+   test_id: N1899
    description: NASC at University of Nottingham
+   homepage: http://arabidopsis.info/
+   institution: The Nottingham Arabidopsis Stock Centre, University of Nottingham
    location: UK
    official: false
 ---

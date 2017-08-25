@@ -7,8 +7,11 @@ pattern: ^[0-9][A-Za-z0-9]{3}$
 prefixed: 0
 resources:
  - identifier: MIR:00100519
-   accessurl: http://psb.kobic.re.kr/STAP/refinement1/result.php?search=
+   accessurl: http://psb.kobic.re.kr/STAP/refinement1/result.php?search=${id}
+   test_id: 1a24
    description: STAP at Korean Bioinformation Center
+   homepage: http://psb.kobic.re.kr/STAP/refinement/
+   institution: Korean Bioinformation Center, Korea Research Institute of Bioscience and Biotechnology, Daejeon
    location: South Korea
    official: false
 ---

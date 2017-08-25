@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100361
-   accessurl: http://www.dpvweb.net/dpv/showdpv.php?dpvno=
+   accessurl: http://www.dpvweb.net/dpv/showdpv.php?dpvno=${id}
+   test_id: 100
    description: DPV at Rothamsted
+   homepage: http://www.dpvweb.net/
+   institution: Plant-Pathogen Interactions Division, Wheat Pathogenesis Programme, Rothamsted Research Harpenden, Hertfordshire
    location: UK
    official: false
 ---

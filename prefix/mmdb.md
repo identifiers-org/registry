@@ -7,8 +7,11 @@ pattern: ^\d{1,5}$
 prefixed: 0
 resources:
  - identifier: MIR:00100154
-   accessurl: http://www.ncbi.nlm.nih.gov/Structure/mmdb/mmdbsrv.cgi?uid=
+   accessurl: http://www.ncbi.nlm.nih.gov/Structure/mmdb/mmdbsrv.cgi?uid=${id}
+   test_id: 50885
    description: MMDB at NCBI
+   homepage: http://www.ncbi.nlm.nih.gov/sites/entrez?db=structure
+   institution: National Library of Medicine, National Institutes of Health, Maryland
    location: USA
    official: false
 ---

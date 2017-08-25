@@ -7,8 +7,11 @@ pattern: ^STOREDB:(STUDY|FILE|DATASET)\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100771
-   accessurl: https://www.storedb.org/?
+   accessurl: https://www.storedb.org/?${id}
+   test_id: STOREDB:STUDY1040
    description: STOREDB at University of Cambridge
+   homepage: https://www.storedb.org/
+   institution: University of Cambridge, Department of Physiology, Downing Street, Cambridge
    location: UK
    official: false
 ---

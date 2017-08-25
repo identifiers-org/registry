@@ -7,8 +7,11 @@ pattern: ^[a-z0-9-]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100363
-   accessurl: http://www.ncbi.nlm.nih.gov/IEB/Research/Acembly/av.cgi?db=worm&c=Gene&l=
+   accessurl: http://www.ncbi.nlm.nih.gov/IEB/Research/Acembly/av.cgi?db=worm&c=Gene&l=${id}
+   test_id: aap-1
    description: AceView Worm at NCBI
+   homepage: http://www.ncbi.nlm.nih.gov/IEB/Research/Acembly/index.html?worm
+   institution: National Center for Biotechnology Information (NCBI)
    location: USA
    official: false
    provider_code: ncbi

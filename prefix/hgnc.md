@@ -7,14 +7,20 @@ pattern: ^((HGNC|hgnc):)?\d{1,5}$
 prefixed: 0
 resources:
  - identifier: MIR:00100111
-   accessurl: http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=
+   accessurl: http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=${id}
+   test_id: 2674
    description: HUGO Genome Nomenclature Committee
+   homepage: http://www.genenames.org
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: true
    provider_code: ebi
  - identifier: MIR:00100698
-   accessurl: http://hgnc.bio2rdf.org/describe/?url=http://bio2rdf.org/
+   accessurl: http://hgnc.bio2rdf.org/describe/?url=http://bio2rdf.org/${id}
+   test_id: hgnc:2674
    description: Bio2RDF
+   homepage: http://hgnc.bio2rdf.org/fct
+   institution: Bio2RDF.org
    location: 
    official: false
 ---

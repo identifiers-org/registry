@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100683
-   accessurl: http://www.humanproteomemap.org/spectrum.php?pep_id=
+   accessurl: http://www.humanproteomemap.org/spectrum.php?pep_id=${id}
+   test_id: 9606117
    description: Human Proteome Map Peptide at Institute of Bioinformatics (Bangalore)
+   homepage: http://www.humanproteomemap.org/index.php
+   institution: Institute of Bioinformatics, International Tech Park, Bangalore
    location: India
    official: false
 ---

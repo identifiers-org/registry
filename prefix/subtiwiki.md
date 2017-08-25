@@ -8,8 +8,11 @@ pattern: ^BSU\d{5}$
 prefixed: 0
 resources:
  - identifier: MIR:00100172
-   accessurl: http://www.subtiwiki.uni-goettingen.de/wiki/index.php/
+   accessurl: http://www.subtiwiki.uni-goettingen.de/wiki/index.php/${id}
+   test_id: BSU29180
    description: SubtiWiki website
+   homepage: http://www.subtiwiki.uni-goettingen.de/wiki/index.php/Main_Page
+   institution: University of Göttingen, Department for General Microbiology
    location: Germany
    official: false
 ---

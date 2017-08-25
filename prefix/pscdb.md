@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100469
-   accessurl: http://idp1.force.cs.is.nagoya-u.ac.jp/pscdb/
+   accessurl: http://idp1.force.cs.is.nagoya-u.ac.jp/pscdb/${id}.html
+   test_id: 051
    description: PSCDB at Nagoya University
+   homepage: http://idp1.force.cs.is.nagoya-u.ac.jp/pscdb/index.html
+   institution: Graduate School of Information Science, Nagoya University, Furo-cho, Chikusa-ku
    location: Japan
    official: false
 ---

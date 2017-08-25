@@ -7,8 +7,11 @@ pattern: ^\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100399
-   accessurl: http://www.bioguo.org/AnimalTFDB/family.php?fam=
+   accessurl: http://www.bioguo.org/AnimalTFDB/family.php?fam=${id}
+   test_id: CUT
    description: Animal TFDB at Hubei Bioinformatics & Molecular Imaging Key Laboratory
+   homepage: http://www.bioguo.org/AnimalTFDB/family_index.php
+   institution: Hubei Bioinformatics and Molecular Imaging Key Laboratory, Wuhan
    location: China
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^LD[SG]-\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100785
-   accessurl: http://lincsportal.ccs.miami.edu/datasets/#/view/
+   accessurl: http://lincsportal.ccs.miami.edu/datasets/#/view/${id}
+   test_id: LDS-1110
    description: LINCS Data at University of Miami
+   homepage: http://lincsportal.ccs.miami.edu/datasets/
+   institution: University of Miami, BD2K-LINCS DCIC
    location: USA
    official: false
 ---

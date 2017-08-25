@@ -7,8 +7,11 @@ pattern: ^[a-z_A-Z]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100732
-   accessurl: http://bigg.ucsd.edu/compartments/
+   accessurl: http://bigg.ucsd.edu/compartments/${id}
+   test_id: c
    description: BiGG Compartment at University of California
+   homepage: http://bigg.ucsd.edu/compartments/
+   institution: Systems Biology Research Group at the University of California, San Diego
    location: USA
    official: false
 ---

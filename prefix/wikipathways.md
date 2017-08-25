@@ -8,8 +8,11 @@ pattern: WP\d{1,5}(\_r\d+)?$
 prefixed: 0
 resources:
  - identifier: MIR:00100106
-   accessurl: http://www.wikipathways.org/instance/
+   accessurl: http://www.wikipathways.org/instance/${id}
+   test_id: WP100
    description: Wikipathways
+   homepage: http://www.wikipathways.org/
+   institution: BiGCaT Bioinformatics (University of Maastricht) and Conklin Lab (UCSF).
    location: Holland and USA
    official: false
 ---

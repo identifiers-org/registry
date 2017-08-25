@@ -7,8 +7,11 @@ pattern: ^\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100230
-   accessurl: http://www.gramene.org/db/qtl/qtl_display?qtl_accession_id=
+   accessurl: http://www.gramene.org/db/qtl/qtl_display?qtl_accession_id=${id}
+   test_id: CQG5
    description: Gramene Quantitative Trait Loci at Cold Spring Harbor
+   homepage: http://www.gramene.org/
+   institution: Cold Spring Harbor Laboratory, New York
    location: USA
    official: false
 ---

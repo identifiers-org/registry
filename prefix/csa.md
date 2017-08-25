@@ -7,8 +7,11 @@ pattern: ^[0-9][A-Za-z0-9]{3}$
 prefixed: 0
 resources:
  - identifier: MIR:00100188
-   accessurl: http://www.ebi.ac.uk/thornton-srv/databases/CSA/SearchResults.php?PDBID=
+   accessurl: http://www.ebi.ac.uk/thornton-srv/databases/CSA/SearchResults.php?PDBID=${id}
+   test_id: 1a05
    description: CSA at EBI
+   homepage: http://www.ebi.ac.uk/thornton-srv/databases/CSA/
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ebi

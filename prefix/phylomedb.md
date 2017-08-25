@@ -7,8 +7,11 @@ pattern: ^\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100282
-   accessurl: http://phylomedb.org/?seqid=
+   accessurl: http://phylomedb.org/?seqid=${id}
+   test_id: Phy000CLXM_RAT
    description: PhylomeDB at Centro de Investigación Príncipe Felipe
+   homepage: http://phylomedb.org/
+   institution: Bioinformatics Department,Centro de Investigación Príncipe Felipe, Valencia
    location: Spain
    official: false
 ---

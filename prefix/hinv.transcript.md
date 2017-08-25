@@ -7,8 +7,11 @@ pattern: ^HIT\d{9}(\.\d+)?$
 prefixed: 0
 resources:
  - identifier: MIR:00100214
-   accessurl: http://h-invitational.jp/hinv/spsoup/transcript_view?hit_id=
+   accessurl: http://h-invitational.jp/hinv/spsoup/transcript_view?hit_id=${id}
+   test_id: HIT000195363
    description: H-Invitational Transcript View at BIRC
+   homepage: http://h-invitational.jp/hinv/ahg-db/index.jsp
+   institution: BIRC, Tokyo
    location: Japan
    official: false
 ---

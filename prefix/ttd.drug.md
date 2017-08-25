@@ -7,8 +7,11 @@ pattern: ^DAP\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100123
-   accessurl: http://bidd.nus.edu.sg/group/TTD/ZFTTDDRUG.asp?ID=
+   accessurl: http://bidd.nus.edu.sg/group/TTD/ZFTTDDRUG.asp?ID=${id}
+   test_id: DAP000773
    description: Therapeutic Target Database Drug
+   homepage: http://bidd.nus.edu.sg/group/ttd/ttd.asp
+   institution: Computational Science Department, National University of Singapore
    location: Singapore
    official: false
 ---

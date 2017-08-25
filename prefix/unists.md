@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100207
-   accessurl: http://www.ncbi.nlm.nih.gov/genome/sts/sts.cgi?uid=
+   accessurl: http://www.ncbi.nlm.nih.gov/genome/sts/sts.cgi?uid=${id}
+   test_id: 456789
    description: UniSTS at NCBI
+   homepage: http://www.ncbi.nlm.nih.gov/sites/entrez?db=unists
+   institution: National Center for Biotechnology Information (NCBI)
    location: USA
    official: false
    provider_code: ncbi

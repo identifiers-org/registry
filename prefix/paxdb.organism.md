@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100624
-   accessurl: http://pax-db.org/#!species/
+   accessurl: http://pax-db.org/#!species/${id}
+   test_id: 9606
    description: PaxDb v3 at University of Zurich
+   homepage: http://pax-db.org/
+   institution: Institute of Molecular Life Sciences, University of Zurich, Zurich
    location: Switzerland
    official: false
 ---

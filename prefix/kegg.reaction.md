@@ -7,8 +7,11 @@ pattern: ^R\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100022
-   accessurl: http://www.kegg.jp/entry/
+   accessurl: http://www.kegg.jp/entry/${id}
+   test_id: R00100
    description: KEGG Reaction Database
+   homepage: http://www.genome.jp/kegg/reaction/
+   institution: Kyoto University Bioinformatics Center
    location: Japan
    official: true
 ---

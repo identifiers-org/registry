@@ -7,8 +7,11 @@ pattern: ^\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100126
-   accessurl: http://neuromorpho.org/neuron_info.jsp?neuron_name=
+   accessurl: http://neuromorpho.org/neuron_info.jsp?neuron_name=${id}
+   test_id: Rosa2
    description: NeuroMorpho
+   homepage: http://neuromorpho.org/index.jsp
+   institution: Krasnow Institute, Virginia
    location: USA
    official: false
 ---

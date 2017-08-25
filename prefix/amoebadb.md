@@ -7,8 +7,11 @@ pattern: ^EDI_\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100193
-   accessurl: http://amoebadb.org/amoeba/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=
+   accessurl: http://amoebadb.org/amoeba/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=${id}
+   test_id: EDI_244000
    description: AmoebaDB at EuPathDB
+   homepage: http://amoebadb.org/amoeba/
+   institution: Center for Tropical & Emerging Global Diseases, University of Georgia
    location: USA
    official: false
 ---

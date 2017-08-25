@@ -7,8 +7,11 @@ pattern: ^\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100482
-   accessurl: http://www.ebi.ac.uk/gxa/genes/
+   accessurl: http://www.ebi.ac.uk/gxa/genes/${id}
+   test_id: AT4G01080
    description: GXA Gene at EBI
+   homepage: http://www.ebi.ac.uk/gxa/
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ebi

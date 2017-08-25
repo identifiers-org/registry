@@ -7,8 +7,11 @@ pattern: ^SMP\d{5}$
 prefixed: 0
 resources:
  - identifier: MIR:00100137
-   accessurl: http://smpdb.ca/view/
+   accessurl: http://smpdb.ca/view/${id}
+   test_id: SMP00001
    description: Small Molecule Pathway Database
+   homepage: http://www.smpdb.ca/pathways
+   institution: University of Alberta, Edmonton, AB
    location: Canada
    official: false
 ---

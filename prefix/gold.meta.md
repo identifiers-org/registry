@@ -7,8 +7,11 @@ pattern: ^Gm\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100522
-   accessurl: http://genomesonline.org/cgi-bin/GOLD/bin/GOLDCards.cgi?goldstamp=
+   accessurl: http://genomesonline.org/cgi-bin/GOLD/bin/GOLDCards.cgi?goldstamp=${id}
+   test_id: Gm00047
    description: GOLD metadata at Department of Energy Joint Genome Institute
+   homepage: http://www.genomesonline.org/cgi-bin/GOLD/index.cgi
+   institution: Department of Energy Joint Genome Institute, Microbial Genomics and Metagenomics Program, California
    location: USA
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^[a-z_A-Z0-9]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100731
-   accessurl: http://bigg.ucsd.edu/models/
+   accessurl: http://bigg.ucsd.edu/models/${id}
+   test_id: iECABU_c1320
    description: BiGG Model at University of California
+   homepage: http://bigg.ucsd.edu/models
+   institution: Systems Biology Research Group at the University of California, San Diego
    location: USA
    official: false
 ---

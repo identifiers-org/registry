@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100362
-   accessurl: http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=
+   accessurl: http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=${id}
+   test_id: 101
    description: IUPHAR Receptor at University of Edinburgh
+   homepage: http://www.guidetopharmacology.org/targets.jsp
+   institution: Centre for Cardiovascular Science, University of Edinburgh, Edinburgh
    location: UK
    official: true
 ---

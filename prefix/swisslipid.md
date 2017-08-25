@@ -7,8 +7,11 @@ pattern: ^SLM:\d+$
 prefixed: 1
 resources:
  - identifier: MIR:00100727
-   accessurl: http://www.swisslipids.org/#/entity/
+   accessurl: http://www.swisslipids.org/#/entity/${id}/
+   test_id: SLM:000048885
    description: SwissLipids at Swiss Institute of Bioinformatics
+   homepage: http://www.swisslipids.org/#/
+   institution: Swiss Institute of Bioinformatics, Basel
    location: Switzerland
    official: false
 ---

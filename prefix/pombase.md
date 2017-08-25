@@ -7,8 +7,11 @@ pattern: ^S\w+(\.)?\w+(\.)?$
 prefixed: 0
 resources:
  - identifier: MIR:00100430
-   accessurl: http://www.pombase.org/spombe/result/
+   accessurl: http://www.pombase.org/spombe/result/${id}
+   test_id: SPCC13B11.01
    description: PomBase at University of Cambridge
+   homepage: http://www.pombase.org/
+   institution: Cambridge Systems Biology Centre, Department of Biochemistry, University of Cambridge
    location: UK
    official: false
 ---

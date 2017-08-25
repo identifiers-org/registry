@@ -7,8 +7,11 @@ pattern: ^A[A-Z]+\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100622
-   accessurl: http://oryzatagline.cirad.fr/cgi-bin/general_mutant.pl?line=
+   accessurl: http://oryzatagline.cirad.fr/cgi-bin/general_mutant.pl?line=${id}
+   test_id: AADB12
    description: Oryza Tag Line at CIRAD-INRA-SUPAGRO-UMI
+   homepage: http://oryzatagline.cirad.fr/
+   institution: CIRAD-INRA-SUPAGRO-UMII, Biological Systems Department, Montpellier
    location: France
    official: false
 ---

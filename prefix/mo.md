@@ -7,14 +7,20 @@ pattern: ^\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100385
-   accessurl: http://purl.bioontology.org/ontology/MO/
+   accessurl: http://purl.bioontology.org/ontology/MO/${id}
+   test_id: ArrayGroup
    description: MGED Ontology at BioPortal
+   homepage: http://bioportal.bioontology.org/
+   institution: National Center for Biomedical Ontology, Stanford University
    location: USA
    official: false
    provider_code: bptl
  - identifier: MIR:00100568
-   accessurl: http://mged.sourceforge.net/ontologies/MGEDontology.php#
+   accessurl: http://mged.sourceforge.net/ontologies/MGEDontology.php#${id}
+   test_id: ArrayGroup
    description: MGED Ontology at SourceForge
+   homepage: http://mged.sourceforge.net/ontologies/MGEDontology.php
+   institution: (Ontology Working Group), European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ebi

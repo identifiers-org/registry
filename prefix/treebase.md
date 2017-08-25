@@ -7,8 +7,11 @@ pattern: ^TB[1,2]?:[A-Z][a-z]?\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100395
-   accessurl: http://purl.org/phylo/treebase/phylows/study/
+   accessurl: http://purl.org/phylo/treebase/phylows/study/${id}?format=html
+   test_id: TB2:S1000
    description: TreeBASE (hosted at National Evolutionary Synthesis Center)
+   homepage: http://treebase.org/
+   institution: Phyloinformatics Research Foundation, Durham, North Carolina
    location: USA
    official: false
 ---

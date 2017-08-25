@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100351
-   accessurl: http://webprod3.hc-sc.gc.ca/dpd-bdpp/info.do?lang=eng&code=
+   accessurl: http://webprod3.hc-sc.gc.ca/dpd-bdpp/info.do?lang=eng&code=${id}
+   test_id: 63250
    description: Canadian Drug Identification Number at Health Canada
+   homepage: http://webprod3.hc-sc.gc.ca/dpd-bdpp/index-eng.jsp
+   institution: Health Canada, Ottawa, Ontario
    location: Canada
    official: false
 ---

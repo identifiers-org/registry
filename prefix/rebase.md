@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100289
-   accessurl: http://rebase.neb.com/rebase/enz/
+   accessurl: http://rebase.neb.com/rebase/enz/${id}.html
+   test_id: 101
    description: REBASE at New England Biolabs
+   homepage: http://rebase.neb.com/rebase/
+   institution: New England Biolabs, Ipswich, Massachusetts
    location: USA
    official: false
 ---

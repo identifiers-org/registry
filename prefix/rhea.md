@@ -7,8 +7,11 @@ pattern: ^\d{5}$
 prefixed: 0
 resources:
  - identifier: MIR:00100113
-   accessurl: http://www.rhea-db.org/reaction?id=
+   accessurl: http://www.rhea-db.org/reaction?id=${id}
+   test_id: 12345
    description: Rhea
+   homepage: http://www.rhea-db.org/
+   institution: European Bioinformatics Institute and Swiss Institute of Bioinformatics
    location: UK
    official: true
 ---

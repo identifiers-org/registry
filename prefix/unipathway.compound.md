@@ -7,8 +7,11 @@ pattern: ^UPC\d{5}$
 prefixed: 0
 resources:
  - identifier: MIR:00100728
-   accessurl: http://www.grenoble.prabi.fr/obiwarehouse/unipathway/upc?upid=
+   accessurl: http://www.grenoble.prabi.fr/obiwarehouse/unipathway/upc?upid=${id}
+   test_id: UPC04349
    description: UniPathway Compound at Swiss Institute of Bioinformatics (SIB)
+   homepage: http://www.grenoble.prabi.fr/obiwarehouse/unipathway
+   institution: Swiss Institute of Bioinformatics (SIB) and French National Institute for Research in Computer Science and Control
    location: Switzerland
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^FDB\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100689
-   accessurl: http://foodb.ca/compounds/
+   accessurl: http://foodb.ca/compounds/${id}
+   test_id: FDB002100
    description: FooDB database of food additives at University of Alberta
+   homepage: http://foodb.ca/foods
+   institution: University of Alberta, Edmonton, AB
    location: Canada
    official: false
 ---

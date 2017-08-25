@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100377
-   accessurl: http://cgsc.biology.yale.edu/Strain.php?ID=
+   accessurl: http://cgsc.biology.yale.edu/Strain.php?ID=${id}
+   test_id: 11042
    description: CGSC at Yale university
+   homepage: http://cgsc.biology.yale.edu/index.php
+   institution: Dept. of Molecular, Cellular, and Developmental Biology, Yale University, Conneticut
    location: USA
    official: false
 ---

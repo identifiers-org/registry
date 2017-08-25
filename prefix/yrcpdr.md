@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100594
-   accessurl: http://yeastrc.org/pdr/viewProtein.do?id=
+   accessurl: http://yeastrc.org/pdr/viewProtein.do?id=${id}
+   test_id: 2673500
    description: YRC PDR at University of Washington
+   homepage: http://www.yeastrc.org/pdr/
+   institution: Department of Biochemistry, University of Washington, Seattle
    location: USA
    official: false
 ---

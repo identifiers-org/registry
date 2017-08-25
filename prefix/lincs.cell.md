@@ -7,8 +7,11 @@ pattern: (^LCL-\d+{4}$)|(^LDC-\d+{4}$)|(^ES-\d+{4}$)|(^LSC-\d+{4}$)|(^LPC-\d+{4}
 prefixed: 0
 resources:
  - identifier: MIR:00100721
-   accessurl: http://lincsportal.ccs.miami.edu/cells/#/view/
+   accessurl: http://lincsportal.ccs.miami.edu/cells/#/view/${id}
+   test_id: LCL-2085
    description: LINCS Portal
+   homepage: http://lincsportal.ccs.miami.edu/cells/
+   institution: University of Miami, BD2K-LINCS DCIC
    location: USA
    official: false
 ---

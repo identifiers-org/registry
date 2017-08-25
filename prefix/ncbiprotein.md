@@ -7,8 +7,11 @@ pattern: ^(\w+\d+(\.\d+)?)|(NP_\d+)$
 prefixed: 0
 resources:
  - identifier: MIR:00100439
-   accessurl: http://www.ncbi.nlm.nih.gov/protein/
+   accessurl: http://www.ncbi.nlm.nih.gov/protein/${id}
+   test_id: CAA71118.1
    description: NCBI Protein at NCBI
+   homepage: http://www.ncbi.nlm.nih.gov/protein
+   institution: National Center for Biotechnology Information (NCBI)
    location: USA
    official: false
    provider_code: ncbi

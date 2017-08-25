@@ -7,8 +7,11 @@ pattern: ^[A-Za-z_0-9]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100534
-   accessurl: http://www.aspergillusgenome.org/cgi-bin/locus.pl?dbid=
+   accessurl: http://www.aspergillusgenome.org/cgi-bin/locus.pl?dbid=${id}
+   test_id: ASPL0000349247
    description: AspGD at Stanford Medical School
+   homepage: http://www.aspgd.org/
+   institution: Department of Genetics, Stanford University Medical School, Stanford, California
    location: USA
    official: false
 ---

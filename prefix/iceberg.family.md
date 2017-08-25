@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100605
-   accessurl: http://db-mml.sjtu.edu.cn/ICEberg/browse_result.php?type=fam&fam_id=
+   accessurl: http://db-mml.sjtu.edu.cn/ICEberg/browse_result.php?type=fam&fam_id=${id}
+   test_id: 1
    description: ICEberg family at Shanghai Jiaotong University
+   homepage: http://db-mml.sjtu.edu.cn/ICEberg/
+   institution: State Key Laboratory of Microbial Metabolism and School of Life Sciences &amp;amp; Biotechnology, Shanghai Jiaotong University, Shanghai
    location: China
    official: false
 ---

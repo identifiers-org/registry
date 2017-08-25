@@ -7,8 +7,11 @@ pattern: ^[A-Z_]{3}[0-9]{4,}$
 prefixed: 0
 resources:
  - identifier: MIR:00100678
-   accessurl: http://ardb.cbcb.umd.edu/cgi/search.cgi?db=L&amp;field=ni&amp;term=
+   accessurl: http://ardb.cbcb.umd.edu/cgi/search.cgi?db=L&amp;field=ni&amp;term=${id}
+   test_id: CAE46076
    description: ARDB at University of Maryland
+   homepage: http://ardb.cbcb.umd.edu/
+   institution: Center for Bioinformatics and Computational Biology, University of Maryland, Maryland
    location: USA
    official: false
 ---

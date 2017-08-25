@@ -7,8 +7,11 @@ pattern: ^((AC|AP|NC|NG|NM|NP|NR|NT|NW|XM|XP|XR|YP|ZP)_\d+|(NZ\_[A-Z]{4}\d+))(\.
 prefixed: 0
 resources:
  - identifier: MIR:00100067
-   accessurl: http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?val=
+   accessurl: http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?val=${id}
+   test_id: NP_012345
    description: The NCBI Reference Sequence database
+   homepage: http://www.ncbi.nlm.nih.gov/projects/RefSeq/
+   institution: NCBI, NIH, Bethesda, Maryland
    location: USA
    official: false
    provider_code: ncbi

@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100611
-   accessurl: http://www.nlm.nih.gov/medlineplus/ency/article/
+   accessurl: http://www.nlm.nih.gov/medlineplus/ency/article/${id}.htm
+   test_id: 002804
    description: MedlinePlus at NCBI
+   homepage: http://www.nlm.nih.gov/medlineplus/
+   institution: NCBI, NIH, Bethesda, Maryland
    location: USA
    official: false
 ---

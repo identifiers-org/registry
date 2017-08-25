@@ -7,8 +7,11 @@ pattern: ^\d{4}$
 prefixed: 0
 resources:
  - identifier: MIR:00100406
-   accessurl: http://metlin.scripps.edu/metabo_info.php?molid=
+   accessurl: http://metlin.scripps.edu/metabo_info.php?molid=${id}
+   test_id: 1455
    description: METLIN at Scripps Center, Molecular Biology and Center for Mass Spectrometry, La Jolla
+   homepage: http://masspec.scripps.edu/
+   institution: Scripps Research Institute, San Diego
    location: USA
    official: false
 ---

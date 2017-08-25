@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100185
-   accessurl: http://omia.angis.org.au/
+   accessurl: http://omia.angis.org.au/${id}/
+   test_id: 1000
    description: OMIA at University of Sydney
+   homepage: http://omia.angis.org.au/
+   institution: Reprogen, Faculty of Veterinary Science, University of Sydney
    location: Australia
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^TTDS\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100124
-   accessurl: http://bidd.nus.edu.sg/group/TTD/ZFTTDDetail.asp?ID=
+   accessurl: http://bidd.nus.edu.sg/group/TTD/ZFTTDDetail.asp?ID=${id}
+   test_id: TTDS00056
    description: Therapeutic Target Database Target
+   homepage: http://bidd.nus.edu.sg/group/ttd/ttd.asp
+   institution: Computational Science Department, National University of Singapore
    location: Singapore
    official: false
 ---

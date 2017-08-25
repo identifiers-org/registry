@@ -7,8 +7,11 @@ pattern: ^\w+(\-|\.|\w)*$
 prefixed: 0
 resources:
  - identifier: MIR:00100329
-   accessurl: http://co.mbine.org/specifications/
+   accessurl: http://co.mbine.org/specifications/${id}
+   test_id: sbgn.er.level-1.version-1.2
    description: COMBINE at EBI
+   homepage: http://co.mbine.org/standards/
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ebi

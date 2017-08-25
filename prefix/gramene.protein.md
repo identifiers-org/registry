@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100227
-   accessurl: http://www.gramene.org/db/protein/protein_search?protein_id=
+   accessurl: http://www.gramene.org/db/protein/protein_search?protein_id=${id}
+   test_id: 78073
    description: Gramene Protein at Cold Spring Harbor
+   homepage: http://www.gramene.org/
+   institution: Cold Spring Harbor Laboratory, New York
    location: USA
    official: false
 ---

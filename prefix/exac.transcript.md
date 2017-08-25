@@ -7,8 +7,11 @@ pattern: ^ENST\d{11}$
 prefixed: 0
 resources:
  - identifier: MIR:00100724
-   accessurl: http://exac.broadinstitute.org/transcript/
+   accessurl: http://exac.broadinstitute.org/transcript/${id}
+   test_id: ENST00000407236
    description: ExAC Transcript at Exome Aggregation Consortium
+   homepage: http://exac.broadinstitute.org/
+   institution: Exome Aggregation Consortium (ExAC), Cambridge, Massachusetts
    location: USA
    official: false
 ---

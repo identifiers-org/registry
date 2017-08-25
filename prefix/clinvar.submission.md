@@ -7,8 +7,11 @@ pattern: ^SCV\d+(\.\d+)?$
 prefixed: 0
 resources:
  - identifier: MIR:00100795
-   accessurl: http://www.ncbi.nlm.nih.gov/clinvar?term=
+   accessurl: http://www.ncbi.nlm.nih.gov/clinvar?term=${id}
+   test_id: SCV000151292
    description: ClinVar Submission at NCBI
+   homepage: http://www.ncbi.nlm.nih.gov/clinvar/
+   institution: National Center for Biotechnology Information (NCBI), NIH, Maryland
    location: USA
    official: false
    provider_code: ncbi

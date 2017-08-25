@@ -7,8 +7,11 @@ pattern: ^\w+:[\w\d\.-]*$
 prefixed: 0
 resources:
  - identifier: MIR:00100100
-   accessurl: http://www.kegg.jp/entry/
+   accessurl: http://www.kegg.jp/entry/${id}
+   test_id: syn:ssr3451
    description: KEGG GENES Database
+   homepage: http://www.genome.jp/kegg/genes.html
+   institution: Kyoto University Bioinformatics Center
    location: Japan
    official: true
 ---

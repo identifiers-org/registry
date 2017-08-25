@@ -7,8 +7,11 @@ pattern: ^MCDS_C_[a-zA-Z0-9]{1,10}$
 prefixed: 0
 resources:
  - identifier: MIR:00100779
-   accessurl: http://multicellds.org/MultiCellDB/
+   accessurl: http://multicellds.org/MultiCellDB/${id}
+   test_id: MCDS_C_0000000001
    description: MultiCellDScollection at Keck School of Medicine
+   homepage: http://multicellds.org/MultiCellDB.php
+   institution: Center for Applied Molecular Medicine, Keck School of Medicine, University of Southern California, California
    location: USA
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^[A-Za-z_0-9]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100321
-   accessurl: http://elm.eu.org/elms/elmPages/
+   accessurl: http://elm.eu.org/elms/elmPages/${id}.html
+   test_id: CLV_MEL_PAP_1
    description: ELM at EMBL (Germany)
+   homepage: http://elm.eu.org/
+   institution: Structural and Computational Biology, European Molecular Biology Laboratory, Heidelberg
    location: Germany
    official: false
 ---

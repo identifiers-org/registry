@@ -7,8 +7,11 @@ pattern: ^\D{4}\d{6}(\-\D{2})?$
 prefixed: 0
 resources:
  - identifier: MIR:00100291
-   accessurl: https://www.vectorbase.org/search/site/
+   accessurl: https://www.vectorbase.org/search/site/${id}?&site="Genome"
+   test_id: ISCW007415
    description: Vectorbase at EMBL-EBI
+   homepage: http://www.vectorbase.org/
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: true
    provider_code: ebi

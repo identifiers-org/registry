@@ -7,8 +7,11 @@ pattern: ^EG\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100208
-   accessurl: http://www.ecogene.org/gene/
+   accessurl: http://www.ecogene.org/gene/${id}
+   test_id: EG10173
    description: EcoGene at University of Miami
+   homepage: http://ecogene.org/
+   institution: Miller School of Medicine, University of Miami
    location: USA
    official: true
 ---

@@ -7,8 +7,11 @@ pattern: ^\d+(\w+)?$
 prefixed: 0
 resources:
  - identifier: MIR:00100423
-   accessurl: http://comgen.pl/mirex1/?page=results/record&name=
+   accessurl: http://comgen.pl/mirex1/?page=results/record&name=${id}&exref=pp2a&limit=yes
+   test_id: 165a
    description: mirEX at Adam Mickiewicz University
+   homepage: http://comgen.pl/mirex/?page=home
+   institution: Institute of Molecular Biology, Adam Mickiewicz University, Poznan
    location: Poland
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^[a-z_A-Z0-9]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100734
-   accessurl: http://bigg.ucsd.edu/models/universal/reactions/
+   accessurl: http://bigg.ucsd.edu/models/universal/reactions/${id}
+   test_id: 13GS
    description: BiGG Reaction at University of California
+   homepage: http://bigg.ucsd.edu/universal/reactions
+   institution: Systems Biology Research Group at the University of California, San Diego
    location: USA
    official: false
 ---

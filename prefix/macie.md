@@ -7,8 +7,11 @@ pattern: ^M\d{4}$
 prefixed: 0
 resources:
  - identifier: MIR:00100108
-   accessurl: http://www.ebi.ac.uk/thornton-srv/databases/cgi-bin/MACiE/entry/getPage.pl?id=
+   accessurl: http://www.ebi.ac.uk/thornton-srv/databases/cgi-bin/MACiE/entry/getPage.pl?id=${id}
+   test_id: M0001
    description: MACiE database of mechanisms, annotation and classification in enzymes
+   homepage: http://www.ebi.ac.uk/thornton-srv/databases/MACiE/index.html
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: true
    provider_code: ebi

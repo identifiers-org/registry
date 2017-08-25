@@ -7,8 +7,11 @@ pattern: ^HIP\d{9}(\.\d+)?$
 prefixed: 0
 resources:
  - identifier: MIR:00100215
-   accessurl: http://h-invitational.jp/hinv/protein/protein_view.cgi?hip_id=
+   accessurl: http://h-invitational.jp/hinv/protein/protein_view.cgi?hip_id=${id}
+   test_id: HIP000030660
    description: H-Invitational Protein View at BIRC
+   homepage: http://h-invitational.jp/hinv/ahg-db/index.jsp
+   institution: BIRC, Tokyo
    location: Japan
    official: false
 ---

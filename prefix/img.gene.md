@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100222
-   accessurl: http://img.jgi.doe.gov/cgi-bin/w/main.cgi?section=GeneDetail&gene_oid=
+   accessurl: http://img.jgi.doe.gov/cgi-bin/w/main.cgi?section=GeneDetail&gene_oid=${id}
+   test_id: 638309541
    description: Integrated Microbial Genomes Taxon at Lawrence Berkeley National Laboratory
+   homepage: http://img.jgi.doe.gov/
+   institution: Lawrence Berkeley National Laboratory, Berkeley
    location: USA
    official: false
 ---

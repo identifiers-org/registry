@@ -7,8 +7,11 @@ pattern: ^casent\d+(\-D\d+)?$
 prefixed: 0
 resources:
  - identifier: MIR:00100190
-   accessurl: http://www.antweb.org/specimen.do?name=
+   accessurl: http://www.antweb.org/specimen.do?name=${id}
+   test_id: casent0106247
    description: AntWeb at California Academy of Sciences
+   homepage: http://www.antweb.org/
+   institution: California Academy of Sciences, Goldengate Park, San Francisco
    location: USA
    official: false
 ---

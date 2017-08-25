@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100244
-   accessurl: http://bioportal.bioontology.org/ontologies/
+   accessurl: http://bioportal.bioontology.org/ontologies/${id}
+   test_id: 1046
    description: BioPortal at National Center for Biomedical Ontology
+   homepage: http://bioportal.bioontology.org/
+   institution: National Center for Biomedical Ontology, Stanford University
    location: USA
    official: false
    provider_code: bptl

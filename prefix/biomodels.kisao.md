@@ -7,14 +7,20 @@ pattern: ^KISAO_\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100141
-   accessurl: http://purl.bioontology.org/ontology/KISAO/kisao:
+   accessurl: http://purl.bioontology.org/ontology/KISAO/kisao:${id}
+   test_id: KISAO_0000057
    description: KiSAO via NCBO's Bioportal
+   homepage: http://bioportal.bioontology.org/ontologies/KISAO
+   institution: National Center for Biomedical Ontology, Stanford
    location: USA
    official: false
    provider_code: bptl
  - identifier: MIR:00100757
-   accessurl: http://www.ebi.ac.uk/ols/ontologies/kisao/terms?short_form=
+   accessurl: http://www.ebi.ac.uk/ols/ontologies/kisao/terms?short_form=${id}
+   test_id: KISAO_0000057
    description: KiSAO through OLS
+   homepage: http://www.ebi.ac.uk/ols/ontologies/kisao
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ols

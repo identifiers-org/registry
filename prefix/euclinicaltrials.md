@@ -8,8 +8,11 @@ pattern: ^\d{4}\-\d{6}\-\d{2}$
 prefixed: 0
 resources:
  - identifier: MIR:00100712
-   accessurl: https://www.clinicaltrialsregister.eu/ctr-search/search?query=
+   accessurl: https://www.clinicaltrialsregister.eu/ctr-search/search?query=${id}
+   test_id: 2008-005144-16
    description: EU Clinical Trials at  European Medicines Agency
+   homepage: https://www.clinicaltrialsregister.eu/
+   institution: European Medicines Agency, London
    location: UK
    official: false
 ---

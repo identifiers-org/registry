@@ -7,8 +7,11 @@ pattern: ^[SCTAGMNU]\d{2}\.([AB]\d{2}|\d{3})$
 prefixed: 0
 resources:
  - identifier: MIR:00100087
-   accessurl: http://merops.sanger.ac.uk/cgi-bin/pepsum?mid=
+   accessurl: http://merops.sanger.ac.uk/cgi-bin/pepsum?mid=${id}
+   test_id: S01.001
    description: MEROPS database at Sanger Institute
+   homepage: http://merops.sanger.ac.uk/index.htm
+   institution: Wellcome Trust Sanger Institute
    location: United Kingdom
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100203
-   accessurl: http://www.boldsystems.org/index.php/Taxbrowser_Taxonpage?taxid=
+   accessurl: http://www.boldsystems.org/index.php/Taxbrowser_Taxonpage?taxid=${id}
+   test_id: 27267
    description: BOLD taxonomy browser
+   homepage: http://www.boldsystems.org/
+   institution: Canadian Centre for DNA Barcoding, Biodiversity Institute of Ontario
    location: Canada
    official: false
 ---

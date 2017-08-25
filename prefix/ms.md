@@ -7,14 +7,20 @@ pattern: ^MS:\d{7}$
 prefixed: 1
 resources:
  - identifier: MIR:00100786
-   accessurl: http://www.ebi.ac.uk/ols/ontologies/ms/terms?obo_id=
+   accessurl: http://www.ebi.ac.uk/ols/ontologies/ms/terms?obo_id=${id}
+   test_id: MS:1000001
    description: Mass Spectrometry Controlled Vocabulary through OLS
+   homepage: http://www.ebi.ac.uk/ols/ontologies/ms
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ols
  - identifier: MIR:00100787
-   accessurl: http://purl.bioontology.org/ontology/MS/
+   accessurl: http://purl.bioontology.org/ontology/MS/${id}
+   test_id: MS:1000001
    description: Mass Spectrometry Controlled Vocabulary through BioPortal
+   homepage: https://bioportal.bioontology.org/ontologies/MS
+   institution: National Center for Biomedical Ontology, Stanford
    location: USA
    official: false
    provider_code: bptl

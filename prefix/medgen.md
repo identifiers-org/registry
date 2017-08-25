@@ -7,8 +7,11 @@ pattern: ^[CN]*\d{4,7}$
 prefixed: 0
 resources:
  - identifier: MIR:00100794
-   accessurl: https://www.ncbi.nlm.nih.gov/medgen/
+   accessurl: https://www.ncbi.nlm.nih.gov/medgen/${id}
+   test_id: 760050
    description: MedGen at NCBI
+   homepage: https://www.ncbi.nlm.nih.gov/medgen/
+   institution: National Center for Biotechnology Information (NCBI), NIH, Maryland
    location: USA
    official: false
    provider_code: ncbi

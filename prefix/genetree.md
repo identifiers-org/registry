@@ -7,8 +7,11 @@ pattern: ^ENSGT\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100273
-   accessurl: http://www.ensembl.org/Multi/GeneTree/Image?db=core;gt=
+   accessurl: http://www.ensembl.org/Multi/GeneTree/Image?db=core;gt=${id}
+   test_id: ENSGT00550000074763
    description: GeneTree at Ensembl
+   homepage: http://www.ensembl.org/
+   institution: Sanger Institute and European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
 ---

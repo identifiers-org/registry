@@ -7,8 +7,11 @@ pattern: ^\d{1,2}\-\d+\-[GATC]\-[GATC]$
 prefixed: 0
 resources:
  - identifier: MIR:00100718
-   accessurl: http://exac.broadinstitute.org/variant/
+   accessurl: http://exac.broadinstitute.org/variant/${id}
+   test_id: 22-46615880-T-C
    description: ExAC Variant at Exome Aggregation Consortium
+   homepage: http://exac.broadinstitute.org/
+   institution: Exome Aggregation Consortium (ExAC), Cambridge, Massachusetts
    location: USA
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100607
-   accessurl: http://www.mgc.ac.cn/cgi-bin/VFs/gene.cgi?GeneID=
+   accessurl: http://www.mgc.ac.cn/cgi-bin/VFs/gene.cgi?GeneID=${id}
+   test_id: VFG2154
    description: VFDB Gene at Institute of Pathogen Biology
+   homepage: http://www.mgc.ac.cn/VFs/
+   institution: State Key Laboratory for Molecular Virology and Genetic Engineering, Institute of Pathogen Biology, Chinese Academy Medical Sciences and Peking Union Medical College, Beijing
    location: China
    official: false
 ---

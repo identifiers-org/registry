@@ -7,8 +7,11 @@ pattern: ^(([A-N,R-Z][0-9][A-Z][A-Z, 0-9][A-Z, 0-9][0-9])|([O,P,Q][0-9][A-Z, 0-9
 prefixed: 0
 resources:
  - identifier: MIR:00100253
-   accessurl: http://www.ebi.ac.uk/QuickGO/GProtein?ac=
+   accessurl: http://www.ebi.ac.uk/QuickGO/GProtein?ac=${id}
+   test_id: P12345
    description: GOA through QuickGO
+   homepage: http://www.ebi.ac.uk/GOA/
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: quickgo

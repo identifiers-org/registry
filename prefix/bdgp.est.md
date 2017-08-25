@@ -7,8 +7,11 @@ pattern: ^\w+(\.)?(\d+)?$
 prefixed: 0
 resources:
  - identifier: MIR:00100366
-   accessurl: http://www.ncbi.nlm.nih.gov/nucest/
+   accessurl: http://www.ncbi.nlm.nih.gov/nucest/${id}
+   test_id: EY223054.1
    description: BDGP EST at NCBI
+   homepage: http://www.ncbi.nlm.nih.gov/dbEST/index.html
+   institution: National Center for Biotechnology Information (NCBI)
    location: USA
    official: false
    provider_code: ncbi

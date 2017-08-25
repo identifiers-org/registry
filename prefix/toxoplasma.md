@@ -7,8 +7,11 @@ pattern: ^\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100198
-   accessurl: http://toxodb.org/toxo/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=
+   accessurl: http://toxodb.org/toxo/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=${id}
+   test_id: TGME49_053730
    description: ToxoDB at EuPathDB
+   homepage: http://toxodb.org/toxo/
+   institution: Center for Tropical & Emerging Global Diseases, University of Georgia
    location: USA
    official: false
 ---

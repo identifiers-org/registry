@@ -7,8 +7,11 @@ pattern: ^([A-N,R-Z][0-9][A-Z][A-Z, 0-9][A-Z, 0-9][0-9])|([O,P,Q][0-9][A-Z, 0-9]
 prefixed: 0
 resources:
  - identifier: MIR:00100456
-   accessurl: http://cbg.garvan.unsw.edu.au/pina/interactome.oneP.do?ac=
+   accessurl: http://cbg.garvan.unsw.edu.au/pina/interactome.oneP.do?ac=${id}&showExtend=null
+   test_id: Q13485
    description: Protein Interaction Network Analysis (PINA) at Garvan Institute
+   homepage: http://cbg.garvan.unsw.edu.au/pina/
+   institution: Garvan Institute of Medical Research, Sydney
    location: Australia
    official: false
 ---

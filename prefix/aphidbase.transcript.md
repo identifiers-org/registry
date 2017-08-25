@@ -7,8 +7,11 @@ pattern: ^ACYPI\d{6}(-RA)?$
 prefixed: 0
 resources:
  - identifier: MIR:00100513
-   accessurl: http://bipaa.genouest.org/apps/grs-2.3/grs?reportID=aphidbase_transcript_report&objectID=
+   accessurl: http://bipaa.genouest.org/apps/grs-2.3/grs?reportID=aphidbase_transcript_report&objectID=${id}
+   test_id: ACYPI000159
    description: AphidBase at INRA
+   homepage: http://www.aphidbase.com/aphidbase
+   institution: INRA UMR, Le Rheu
    location: France
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^GO_REF:\d{7}$
 prefixed: 0
 resources:
  - identifier: MIR:00100584
-   accessurl: http://www.geneontology.org/cgi-bin/references.cgi#
+   accessurl: http://www.geneontology.org/cgi-bin/references.cgi#${id}
+   test_id: GO_REF:0000041
    description: Gene Ontology Reference at The Gene Ontology Consortium
+   homepage: http://www.geneontology.org/cgi-bin/references.cgi
+   institution: The Gene Ontology Consortium
    location: USA
    official: false
 ---

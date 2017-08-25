@@ -7,20 +7,29 @@ pattern: PMC\d+
 prefixed: 0
 resources:
  - identifier: MIR:00100191
-   accessurl: http://www.ncbi.nlm.nih.gov/pmc/articles/
+   accessurl: http://www.ncbi.nlm.nih.gov/pmc/articles/${id}/?tool=pubmed
+   test_id: PMC3084216
    description: PubMed Central
+   homepage: http://www.ncbi.nlm.nih.gov/pmc/
+   institution: NCBI
    location: USA
    official: false
    provider_code: ncbi
  - identifier: MIR:00100498
-   accessurl: http://europepmc.org/articles/
+   accessurl: http://europepmc.org/articles/${id}
+   test_id: PMC3084216
    description: Europe PMC
+   homepage: http://europepmc.org/
+   institution: Europe PubMed Central partners
    location: UK
    official: true
    provider_code: epmc
  - identifier: MIR:00100747
-   accessurl: http://pubmedcentralcanada.ca/pmcc/articles/
+   accessurl: http://pubmedcentralcanada.ca/pmcc/articles/${id}
+   test_id: PMC3084216
    description: PubMedCentral Canada
+   homepage: http://pubmedcentralcanada.ca/pmcc
+   institution: Canadian Institute of Health, Ottawa
    location: Canada
    official: false
    provider_code: cpmc

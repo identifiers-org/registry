@@ -7,8 +7,11 @@ pattern: ^KIAA\d{4}$
 prefixed: 0
 resources:
  - identifier: MIR:00100339
-   accessurl: http://www.kazusa.or.jp/huge/gfpage/
+   accessurl: http://www.kazusa.or.jp/huge/gfpage/${id}/
+   test_id: KIAA0001
    description: HUGE at Kazusa DNA Research Institute
+   homepage: http://www.kazusa.or.jp/huge/
+   institution: Kazusa DNA Research Institute,  Chiba
    location: Japan
    official: false
 ---

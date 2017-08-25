@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100340
-   accessurl: http://www.bindingdb.org/bind/chemsearch/marvin/MolStructure.jsp?monomerid=
+   accessurl: http://www.bindingdb.org/bind/chemsearch/marvin/MolStructure.jsp?monomerid=${id}
+   test_id: 22360
    description: BindingDB At Skaggs School of Pharmacy & Pharmaceutical Sciences
+   homepage: http://www.bindingdb.org/bind/index.jsp
+   institution: Skaggs School of Pharmacy & Pharmaceutical Sciences, La Jolla, California
    location: USA
    official: false
 ---

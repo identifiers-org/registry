@@ -7,8 +7,11 @@ pattern: ^HMDB\d{5}$
 prefixed: 0
 resources:
  - identifier: MIR:00100079
-   accessurl: http://www.hmdb.ca/metabolites/
+   accessurl: http://www.hmdb.ca/metabolites/${id}
+   test_id: HMDB00001
    description: The Human Metabolome Database
+   homepage: http://www.hmdb.ca/
+   institution: University of Alberta, Edmonton, AB
    location: Canada 
    official: false
 ---

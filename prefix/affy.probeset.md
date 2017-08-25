@@ -7,13 +7,19 @@ pattern: \d{4,}((_[asx])?_at)?
 prefixed: 0
 resources:
  - identifier: MIR:00100514
-   accessurl: https://www.affymetrix.com/LinkServlet?probeset=
+   accessurl: https://www.affymetrix.com/LinkServlet?probeset=${id}
+   test_id: 243002_at
    description: Affymetrix ProbeSet in Santa Clara
+   homepage: http://www.affymetrix.com/
+   institution: Affymetrix, Santa Clara, California
    location: USA
    official: true
  - identifier: MIR:00100672
-   accessurl: http://cu.affymetrix.bio2rdf.org/describe/?url=http://bio2rdf.org/affymetrix:
+   accessurl: http://cu.affymetrix.bio2rdf.org/describe/?url=http://bio2rdf.org/affymetrix:${id}
+   test_id: 243002_at
    description: Bio2RDF
+   homepage: http://cu.affymetrix.bio2rdf.org/fct/
+   institution: Bio2RDF.org
    location: 
    official: false
 ---

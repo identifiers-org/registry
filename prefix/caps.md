@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100516
-   accessurl: http://www.bioinsilico.org/cgi-bin/CAPSDB/getCAPScluster?nidcl=
+   accessurl: http://www.bioinsilico.org/cgi-bin/CAPSDB/getCAPScluster?nidcl=${id}
+   test_id: 434
    description: CAPS-DB at Leeds Institute of Molecular Medicine
+   homepage: http://www.bioinsilico.org/cgi-bin/CAPSDB/staticHTML/home
+   institution: Leeds Institute of Molecular Medicine, Section of Experimental Therapeutics, University of Leeds, Leeds
    location: UK
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100740
-   accessurl: http://purl.bioontology.org/ontology/MEDDRA/
+   accessurl: http://purl.bioontology.org/ontology/MEDDRA/${id}
+   test_id: 10015919
    description: MedDRA through BioPortal
+   homepage: http://bioportal.bioontology.org/ontologies/MEDDRA
+   institution: National Center for Biomedical Ontology, Stanford
    location: USA
    official: false
 ---

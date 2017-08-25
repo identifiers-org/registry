@@ -7,8 +7,11 @@ pattern: ^\d+(\.\d+(\.\d+(\.\d+)?)?)?$
 prefixed: 0
 resources:
  - identifier: MIR:00100268
-   accessurl: http://www.cathdb.info/cathnode/
+   accessurl: http://www.cathdb.info/cathnode/${id}
+   test_id: 1.10.10.200
    description: CATH superfamily at UCL
+   homepage: http://www.cathdb.info/
+   institution: Institute of Structural and Molecular Biology, University College London
    location: United Kingdom
    official: false
 ---

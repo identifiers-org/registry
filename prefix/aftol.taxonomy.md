@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100533
-   accessurl: http://wasabi.lutzonilab.net/pub/displayTaxonInfo?aftol_id=
+   accessurl: http://wasabi.lutzonilab.net/pub/displayTaxonInfo?aftol_id=${id}
+   test_id: 959
    description: AFTOL at University of Minnesota
+   homepage: http://aftol.org/data.php
+   institution: Department of Plant Biology, University of Minnesota, Minnesota
    location: USA
    official: false
 ---

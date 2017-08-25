@@ -7,8 +7,11 @@ pattern: ^[A-Za-z_0-9]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100464
-   accessurl: http://fungidb.org/gene/
+   accessurl: http://fungidb.org/gene/${id}
+   test_id: CNBG_0001
    description: FungiDB at University of California
+   homepage: http://FungiDB.org
+   institution: Department of Plant Pathology & Microbiology, University of California, Riverside, California
    location: USA
    official: false
 ---

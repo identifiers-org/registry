@@ -7,8 +7,11 @@ pattern: ^BE\d{7}$
 prefixed: 0
 resources:
  - identifier: MIR:00100687
-   accessurl: http://www.drugbank.ca/biodb/bio_entities/
+   accessurl: http://www.drugbank.ca/biodb/bio_entities/${id}
+   test_id: BE0000048
    description: DrugBank Target information version 4
+   homepage: http://www.drugbank.ca/targets
+   institution: Departments of Computing Science, Biological Sciences, University of Alberta
    location: Canada
    official: false
 ---

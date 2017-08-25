@@ -7,8 +7,11 @@ pattern: ^[A-Za-z0-9-]+
 prefixed: 0
 resources:
  - identifier: MIR:00100558
-   accessurl: http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=
+   accessurl: http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=${id}
+   test_id: 8889bcd7-d0e9-434b-b09d-30132bd033b0
    description: DailyMed at NLM
+   homepage: http://dailymed.nlm.nih.gov/dailymed/
+   institution: U.S. National Library of Medicine, Bethesda, Maryland
    location: USA
    official: false
 ---

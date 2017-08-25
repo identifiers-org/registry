@@ -7,8 +7,11 @@ pattern: ^([CHDEGTMKR]\d+)|(\w+:[\w\d\.-]*)|([a-z]{3,5})|(\w{2,4}\d{5})$
 prefixed: 0
 resources:
  - identifier: MIR:00100773
-   accessurl: http://www.kegg.jp/entry/
+   accessurl: http://www.kegg.jp/entry/${id}
+   test_id: hsa00190
    description: KEGG at Kyoto University Bioinformatics Center
+   homepage: http://www.kegg.jp/
+   institution: Kyoto University Bioinformatics Center
    location: Japan
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^(FBvd|XtroDO|HsapDO|MmusDO)\:\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100542
-   accessurl: http://bgee.unil.ch/bgee/bgee?page=anatomy&action=organs&stage_id=
+   accessurl: http://bgee.unil.ch/bgee/bgee?page=anatomy&action=organs&stage_id=${id}&stage_children=on
+   test_id: HsapDO:0000004
    description: Bgee at Lausanne
+   homepage: http://bgee.unil.ch/bgee/bgee
+   institution: Swiss Institute of Bioinformatics, Lausanne
    location: Switzerland
    official: false
 ---

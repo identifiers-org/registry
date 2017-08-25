@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100459
-   accessurl: http://bacmap.wishartlab.com/organisms/
+   accessurl: http://bacmap.wishartlab.com/organisms/${id}
+   test_id: 1050
    description: BacMap Biography at University of Alberta
+   homepage: http://bacmap.wishartlab.com/
+   institution: Department of Computing Science, Food and Nutritional Science, University of Alberta, Edmonton
    location: Canada
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100414
-   accessurl: http://www.mmrrc.org/catalog/getSDS.php?mmrrc_id=
+   accessurl: http://www.mmrrc.org/catalog/getSDS.php?mmrrc_id=${id}
+   test_id: 70
    description: MMRRC  at University of North Carolina
+   homepage: http://www.mmrrc.org/
+   institution: University of North Carolina
    location: USA
    official: false
 ---

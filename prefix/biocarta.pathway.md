@@ -7,8 +7,11 @@ pattern: ^([hm]\_)?\w+Pathway$
 prefixed: 0
 resources:
  - identifier: MIR:00100544
-   accessurl: http://cgap.nci.nih.gov/Pathways/BioCarta/
+   accessurl: http://cgap.nci.nih.gov/Pathways/BioCarta/${id}
+   test_id: h_aktPathway
    description: BioCarta Pathway at NCI
+   homepage: http://www.biocarta.com/
+   institution: National Cancer Institute, Center for Bioinformatics, Maryland
    location: USA
    official: true
 ---

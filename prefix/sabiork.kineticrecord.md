@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100117
-   accessurl: http://sabiork.h-its.org/kineticLawEntry.jsp?viewData=true&kinlawid=
+   accessurl: http://sabiork.h-its.org/kineticLawEntry.jsp?viewData=true&kinlawid=${id}
+   test_id: 5046
    description: SABIO-RK Reaction Kinetics Database - Kinetic Dataset
+   homepage: http://sabiork.h-its.org/
+   institution: Heidelberg Institute for Theoretical Studies  (HITS gGmbH)
    location: Germany
    official: false
 ---

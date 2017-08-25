@@ -7,14 +7,20 @@ pattern: ^\d{7}$
 prefixed: 0
 resources:
  - identifier: MIR:00100797
-   accessurl: http://bioportal.bioontology.org/ontologies/BAO/bao:BAO_
+   accessurl: http://bioportal.bioontology.org/ontologies/BAO/bao:BAO_${id}
+   test_id: 0002989
    description: BioAssay Ontology through BioPortal
+   homepage: http://bioportal.bioontology.org/ontologies/BAO/
+   institution: National Center for Biomedical Ontology, Stanford
    location: USA
    official: false
    provider_code: bptl
  - identifier: MIR:00100798
-   accessurl: http://www.ebi.ac.uk/ols/ontologies/bao/terms?obo_id=BAO:
+   accessurl: http://www.ebi.ac.uk/ols/ontologies/bao/terms?obo_id=BAO:${id}
+   test_id: 0002989
    description: BioAssay Ontology through OLS
+   homepage: http://bioportal.bioontology.org/ontologies/BAO/
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ols

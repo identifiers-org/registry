@@ -7,8 +7,11 @@ pattern: ^MNXR\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100749
-   accessurl: http://www.metanetx.org/equa_info/
+   accessurl: http://www.metanetx.org/equa_info/${id}
+   test_id: MNXR101574
    description: MetaNetX reaction at SIB Swiss Institute of Bioinformatics
+   homepage: http://www.metanetx.org/
+   institution: Vital-IT group, SIB Swiss Institute of Bioinformatics, Lausanne
    location: Switzerland
    official: false
 ---

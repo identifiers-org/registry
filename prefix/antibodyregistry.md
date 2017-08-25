@@ -7,8 +7,11 @@ pattern: ^\d+{6}$
 prefixed: 0
 resources:
  - identifier: MIR:00100664
-   accessurl: http://antibodyregistry.org/AB_
+   accessurl: http://antibodyregistry.org/AB_${id}
+   test_id: 493771
    description: Antibody Registry at University of California
+   homepage: http://antibodyregistry.org/
+   institution: Neuroscience Information Framework, University of California, San Diego,  California
    location: USA
    official: false
 ---

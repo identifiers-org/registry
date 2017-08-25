@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100642
-   accessurl: http://www.p3db.org/protein.php?id=
+   accessurl: http://www.p3db.org/protein.php?id=${id}&amp;ref=0
+   test_id: 70
    description: P3DB Protein at University of Missouri
+   homepage: http://www.p3db.org/
+   institution: Department of Computer Science, University of Missouri, Columbia, Missouri
    location: USA
    official: false
 ---

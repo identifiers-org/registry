@@ -7,8 +7,11 @@ pattern: ^\w\d{4}\w\d{2}(\-[35])?$
 prefixed: 0
 resources:
  - identifier: MIR:00100387
-   accessurl: http://lgsun.grc.nia.nih.gov/cgi-bin/pro3?sname1=
+   accessurl: http://lgsun.grc.nia.nih.gov/cgi-bin/pro3?sname1=${id}
+   test_id: J0705A10
    description: NIAEST at National Institute on Aging
+   homepage: http://lgsun.grc.nia.nih.gov/cDNA/
+   institution: National Institute on Aging, NIH
    location: USA
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100063
-   accessurl: http://sabiork.h-its.org/newSearch?q=sabioreactionid:
+   accessurl: http://sabiork.h-its.org/newSearch?q=sabioreactionid:${id}
+   test_id: 75
    description: SABIO-RK reaction
+   homepage: http://sabiork.h-its.org/
+   institution: Heidelberg Institute for Theoretical Studies  (HITS gGmbH)
    location: Germany
    official: false
 ---

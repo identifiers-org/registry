@@ -7,8 +7,11 @@ pattern: ^HGVM\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100719
-   accessurl: http://www.gwascentral.org/marker/
+   accessurl: http://www.gwascentral.org/marker/${id}
+   test_id: HGVM15354
    description: GWAS Central Marker at University of Leicester
+   homepage: http://www.gwascentral.org/markers/
+   institution: Department of Genetics, University of Leicester, Leicester
    location: UK
    official: false
 ---

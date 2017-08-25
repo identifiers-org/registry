@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100623
-   accessurl: http://plugins.biogps.org/cgi-bin/wp.cgi?id=
+   accessurl: http://plugins.biogps.org/cgi-bin/wp.cgi?id=${id}
+   test_id: 1017
    description: Gene Wiki through BioGPS
+   homepage: http://en.wikipedia.org/wiki/Gene_Wiki
+   institution: Wikimedia Foundation, San Francisco, California
    location: USA
    official: false
 ---

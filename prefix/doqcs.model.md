@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100174
-   accessurl: http://doqcs.ncbs.res.in/template.php?&y=accessiondetails&an=
+   accessurl: http://doqcs.ncbs.res.in/template.php?&y=accessiondetails&an=${id}
+   test_id: 57
    description: Database of Quantitative Cellular Signaling (DOQCS) - Model Access
+   homepage: http://doqcs.ncbs.res.in/
+   institution: National Centre for Biological Sciences, Bangalore
    location: India
    official: false
 ---

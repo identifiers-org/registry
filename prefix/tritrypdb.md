@@ -7,8 +7,11 @@ pattern: ^\w+(\.)?\w+(\.)?\w+
 prefixed: 0
 resources:
  - identifier: MIR:00100200
-   accessurl: http://tritrypdb.org/tritrypdb/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=
+   accessurl: http://tritrypdb.org/tritrypdb/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=${id}
+   test_id: Tb927.8.620
    description: TriTrypDB at EuPathDB
+   homepage: http://tritrypdb.org/tritrypdb/
+   institution: Wellcome Trust Sanger Institute, Hinxton
    location: UK
    official: false
 ---

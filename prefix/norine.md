@@ -7,8 +7,11 @@ pattern: ^NOR\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100639
-   accessurl: http://bioinfo.lifl.fr/norine/result.jsp?ID=
+   accessurl: http://bioinfo.lifl.fr/norine/result.jsp?ID=${id}
+   test_id: NOR00681
    description: NORINE at Computer Science Laboratory of Lille
+   homepage: http://bioinfo.lifl.fr/norine/
+   institution: Computer Science Laboratory of Lille, INRIA and ProBioGEM, University of Sciences and Technologies of Lille, Lille
    location: France
    official: false
 ---

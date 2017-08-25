@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100592
-   accessurl: http://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=
+   accessurl: http://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=${id}
+   test_id: 1755
    description: IUPHAR ligand at University of Edinburgh
+   homepage: http://www.guidetopharmacology.org/GRAC/LigandListForward?database=all
+   institution: Centre for Cardiovascular Science, University of Edinburgh, Edinburgh
    location: UK
    official: true
 ---

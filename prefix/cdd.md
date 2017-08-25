@@ -7,8 +7,11 @@ pattern: ^(cd)?\d{5}$
 prefixed: 0
 resources:
  - identifier: MIR:00100152
-   accessurl: http://www.ncbi.nlm.nih.gov/Structure/cdd/cddsrv.cgi?uid=
+   accessurl: http://www.ncbi.nlm.nih.gov/Structure/cdd/cddsrv.cgi?uid=${id}
+   test_id: cd00400
    description: Conserved Domain Database at NCBI
+   homepage: http://www.ncbi.nlm.nih.gov/sites/entrez?db=cdd
+   institution: National Library of Medicine, National Institutes of Health, Maryland
    location: USA
    official: false
    provider_code: ncbi

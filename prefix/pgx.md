@@ -7,8 +7,11 @@ pattern: ^[\w\-:,]{3,64}$
 prefixed: 0
 resources:
  - identifier: MIR:00100801
-   accessurl: http://progenetix.org/pgx:
+   accessurl: http://progenetix.org/pgx:${id}
+   test_id: icdom:8500_3
    description: Progenetix
+   homepage: http://progenetix.org/
+   institution: University of Zurich
    location: Switzerland
    official: false
 ---

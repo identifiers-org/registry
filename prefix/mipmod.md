@@ -7,8 +7,11 @@ pattern: ^\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100327
-   accessurl: http://bioinfo.iitk.ac.in/MIPModDB/result.php?code=
+   accessurl: http://bioinfo.iitk.ac.in/MIPModDB/result.php?code=${id}
+   test_id: HOSAPI0399
    description: MIPModDB at Indian Institute of Technology Kanpur
+   homepage: http://bioinfo.iitk.ac.in/MIPModDB
+   institution: Department of Biological Sciences and Bioengineering, Indian Institute of Technology Kanpur, Kanpur
    location: India
    official: false
 ---

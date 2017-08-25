@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100360
-   accessurl: http://cdb.ics.uci.edu/cgibin/ChemicalDetailWeb.py?chemical_id=
+   accessurl: http://cdb.ics.uci.edu/cgibin/ChemicalDetailWeb.py?chemical_id=${id}
+   test_id: 3966782
    description: ChemDB at UC Irvine
+   homepage: http://cdb.ics.uci.edu/
+   institution: University of California, Irvine
    location: USA
    official: false
 ---

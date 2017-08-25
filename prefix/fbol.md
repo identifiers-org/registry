@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100532
-   accessurl: http://www.fungalbarcoding.org/BioloMICS.aspx?Table=Fungal barcodes&Rec=
+   accessurl: http://www.fungalbarcoding.org/BioloMICS.aspx?Table=Fungal barcodes&Rec=${id}&Fields=All&ExactMatch=T
+   test_id: 2224
    description: Fungal Barcode at Fungal Biodiversity Centre
+   homepage: http://www.fungalbarcoding.org/
+   institution: Fungal Biodiversity Centre, Utrecht
    location: Netherlands
    official: false
 ---

@@ -7,13 +7,19 @@ pattern: ^[A-Za-z-0-9_]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100495
-   accessurl: http://en.wikipedia.org/wiki/
+   accessurl: http://en.wikipedia.org/wiki/${id}
+   test_id: SM_UB-81
    description: Wikipedia (English)
+   homepage: http://en.wikipedia.org/wiki/Main_Page
+   institution: Wikimedia Foundation, San Francisco, California
    location: USA
    official: false
  - identifier: MIR:00100496
-   accessurl: http://dbpedia.org/page/
+   accessurl: http://dbpedia.org/page/${id}
+   test_id: SM_UB-81
    description: Wikipedia structured content through DBpedia
+   homepage: http://wiki.dbpedia.org/
+   institution: OpenLink Software, Burlington, Massachusetts
    location: USA
    official: false
 ---

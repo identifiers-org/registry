@@ -7,8 +7,11 @@ pattern: ^PTN\d{9}$
 prefixed: 0
 resources:
  - identifier: MIR:00100475
-   accessurl: http://www.pantree.org/node/annotationNode.jsp?id=
+   accessurl: http://www.pantree.org/node/annotationNode.jsp?id=${id}
+   test_id: PTN000000026
    description: PANTHER Node at USC (Los Angeles)
+   homepage: http://pantree.org/
+   institution: Keck School of Medicine, University of Southern California
    location: USA
    official: false
 ---

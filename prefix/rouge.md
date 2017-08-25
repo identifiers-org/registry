@@ -7,8 +7,11 @@ pattern: ^m\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100375
-   accessurl: http://www.kazusa.or.jp/rouge/gfpage/
+   accessurl: http://www.kazusa.or.jp/rouge/gfpage/${id}/
+   test_id: mKIAA4200
    description: Rouge at Kazusa DNA Research Institute
+   homepage: http://www.kazusa.or.jp/rouge/
+   institution: Kazusa DNA Research Institute, Chiba
    location: Japan
    official: false
 ---

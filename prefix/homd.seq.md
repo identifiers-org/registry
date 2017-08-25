@@ -7,8 +7,11 @@ pattern: ^SEQF\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100216
-   accessurl: http://www.homd.org/modules.php?op=modload&name=GenomeList&file=index&link=detailinfo&seqid=
+   accessurl: http://www.homd.org/modules.php?op=modload&name=GenomeList&file=index&link=detailinfo&seqid=${id}
+   test_id: SEQF1003
    description: HOMD sequence metainformation at The Forsyth Institute
+   homepage: http://www.homd.org/index.php
+   institution: The Forsyth Institute, Boston
    location: USA
    official: false
 ---

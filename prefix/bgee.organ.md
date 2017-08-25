@@ -7,8 +7,11 @@ pattern: ^(XAO|ZFA|EHDAA|EMAPA|EV|MA)\:\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100543
-   accessurl: http://bgee.unil.ch/bgee/bgee?page=anatomy&action=organ_details&organ_id=
+   accessurl: http://bgee.unil.ch/bgee/bgee?page=anatomy&action=organ_details&organ_id=${id}&organ_children=on
+   test_id: EHDAA:2185
    description: Bgee at Lausanne
+   homepage: http://bgee.unil.ch/bgee/bgee
+   institution: Swiss Institute of Bioinformatics, Lausanne
    location: Switzerland
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^P\d{5}$
 prefixed: 0
 resources:
  - identifier: MIR:00100461
-   accessurl: http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=
+   accessurl: http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=${id}
+   test_id: P00024
    description: PANTHER Pathway at USC (Los Angeles)
+   homepage: http://www.pantherdb.org/
+   institution: Keck School of Medicine, University of Southern California
    location: USA
    official: false
 ---

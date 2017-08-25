@@ -7,8 +7,11 @@ pattern: ^[A-Z0-9]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100673
-   accessurl: http://intron.ucsc.edu/cgi-bin/yeast4.3/intronreports.pl?outputformat=full&amp;orfName=
+   accessurl: http://intron.ucsc.edu/cgi-bin/yeast4.3/intronreports.pl?outputformat=full&amp;orfName=${id}
+   test_id: SNR17A
    description: Yeast Intron Database version 4.3 at Baskin School of Engineering
+   homepage: http://intron.ucsc.edu/yeast4.3/
+   institution: Baskin School of Engineering, Center for Molecular Biology of RNA, University of California, Santa Cruz, California
    location: USA
    official: false
 ---

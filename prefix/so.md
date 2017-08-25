@@ -7,19 +7,28 @@ pattern: ^SO:\d{7}$
 prefixed: 1
 resources:
  - identifier: MIR:00100112
-   accessurl: http://www.sequenceontology.org/miso/current_release/term/
+   accessurl: http://www.sequenceontology.org/miso/current_release/term/${id}
+   test_id: SO:0000704
    description: Sequence Ontology
+   homepage: http://www.sequenceontology.org/
+   institution: Department of Molecular and Cellular Biology, University of California, Berkeley
    location: USA
    official: false
  - identifier: MIR:00100241
-   accessurl: http://purl.bioontology.org/ontology/SO/
+   accessurl: http://purl.bioontology.org/ontology/SO/${id}
+   test_id: SO:0000704
    description: Sequence Ontology through BioPortal
+   homepage: http://bioportal.bioontology.org/ontologies/SO
+   institution: National Center for Biomedical Ontology, Stanford
    location: USA
    official: false
    provider_code: bptl
  - identifier: MIR:00100628
-   accessurl: http://www.ebi.ac.uk/ols/ontologies/so/terms?obo_id=
+   accessurl: http://www.ebi.ac.uk/ols/ontologies/so/terms?obo_id=${id}
+   test_id: SO:0000704
    description: Sequence Ontology through Ontology Lookup Service (OLS)
+   homepage: http://www.ebi.ac.uk/ols/ontologies/so
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ols

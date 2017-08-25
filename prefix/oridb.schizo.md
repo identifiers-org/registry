@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100467
-   accessurl: http://pombe.oridb.org/details.php?id=
+   accessurl: http://pombe.oridb.org/details.php?id=${id}
+   test_id: 1
    description: OriDB Schizosaccharomyces at University of Nottingham
+   homepage: http://pombe.oridb.org/index.php
+   institution: Centre for Genetics and Genomics, The University of Nottingham, Queen's Medical Centre, Nottingham
    location: UK
    official: false
 ---

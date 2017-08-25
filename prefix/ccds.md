@@ -7,8 +7,11 @@ pattern: ^CCDS\d+\.\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100477
-   accessurl: http://www.ncbi.nlm.nih.gov/CCDS/CcdsBrowse.cgi?REQUEST=CCDS&DATA=
+   accessurl: http://www.ncbi.nlm.nih.gov/CCDS/CcdsBrowse.cgi?REQUEST=CCDS&DATA=${id}
+   test_id: CCDS13573.1
    description: Consensus CDS at NCBI
+   homepage: http://www.ncbi.nlm.nih.gov/CCDS/
+   institution: National Center for Biotechnology Information (NCBI)
    location: USA
    official: true
    provider_code: ncbi

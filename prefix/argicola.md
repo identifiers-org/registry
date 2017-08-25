@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100789
-   accessurl: http://ddr.nal.usda.gov/dspace/handle/10113/
+   accessurl: http://ddr.nal.usda.gov/dspace/handle/10113/${id}
+   test_id: 50018
    description: AGRICOLA at National Agricultural Library
+   homepage: http://agricola.nal.usda.gov/
+   institution: National Agricultural Library, United States Department of Agriculture
    location: USA
    official: false
 ---

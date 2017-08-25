@@ -7,8 +7,11 @@ pattern: MIMAT\d{7}
 prefixed: 0
 resources:
  - identifier: MIR:00100296
-   accessurl: http://www.mirbase.org/cgi-bin/mature.pl?mature_acc=
+   accessurl: http://www.mirbase.org/cgi-bin/mature.pl?mature_acc=${id}
+   test_id: MIMAT0000001
    description: miRBase
+   homepage: http://www.mirbase.org/
+   institution: Faculty of Life Sciences, University of Manchester
    location: UK
    official: false
 ---

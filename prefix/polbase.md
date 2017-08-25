@@ -7,8 +7,11 @@ pattern: ^[A-Za-z-0-9]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100452
-   accessurl: https://polbase.neb.com/polymerases/
+   accessurl: https://polbase.neb.com/polymerases/${id}#sequences
+   test_id: 19-T4
    description: PolBase at New England BioLabs
+   homepage: http://polbase.neb.com/
+   institution: New England Biolabs, Ipswich, Massachusetts
    location: USA
    official: false
 ---

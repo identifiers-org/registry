@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100604
-   accessurl: http://db-mml.sjtu.edu.cn/ICEberg/feature_page.php?ice_id=
+   accessurl: http://db-mml.sjtu.edu.cn/ICEberg/feature_page.php?ice_id=${id}
+   test_id: 100
    description: ICEberg element at Shanghai Jiaotong University
+   homepage: http://db-mml.sjtu.edu.cn/ICEberg/
+   institution: State Key Laboratory of Microbial Metabolism and School of Life Sciences &amp;amp;amp;amp; Biotechnology, Shanghai Jiaotong University, Shanghai
    location: China
    official: false
 ---

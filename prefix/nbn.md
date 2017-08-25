@@ -7,8 +7,11 @@ pattern: ^urn\:nbn\:[A-Za-z_0-9]+\:([A-Za-z_0-9]+)-[A-Za-z_0-9]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100488
-   accessurl: http://nbn-resolving.org/resolver?identifier=
+   accessurl: http://nbn-resolving.org/resolver?identifier=${id}&verb=redirect
+   test_id: urn:nbn:fi:tkk-004781
    description: NBN through URN Resolver at German National Library
+   homepage: http://nbn-resolving.org/resolve_urn.htm
+   institution: Deutsche Nationalbibliothek, Frankfurt
    location: Germany
    official: false
 ---

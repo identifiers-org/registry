@@ -7,8 +7,11 @@ pattern: ^NONHSAG\d{5}$
 prefixed: 0
 resources:
  - identifier: MIR:00100616
-   accessurl: http://www.bioinfo.org/NONCODEv4/show_gene.php?id=
+   accessurl: http://www.bioinfo.org/NONCODEv4/show_gene.php?id=${id}
+   test_id: NONHSAG00001
    description: NONCODE v4 Gene at Chinese Academy of Sciences
+   homepage: http://www.bioinfo.org/NONCODEv4/
+   institution: Bioinformatics Research Group, Chinese Academy of Sciences, Beijing
    location: China
    official: false
 ---

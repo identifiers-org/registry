@@ -7,8 +7,11 @@ pattern: ^HGVST\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100717
-   accessurl: http://www.gwascentral.org/study/
+   accessurl: http://www.gwascentral.org/study/${id}
+   test_id: HGVST1828
    description: GWAS Central Study at University of Leicester
+   homepage: http://www.gwascentral.org/studies
+   institution: Department of Genetics, University of Leicester, Leicester
    location: UK
    official: false
 ---

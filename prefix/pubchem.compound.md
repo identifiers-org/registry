@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100059
-   accessurl: http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=
+   accessurl: http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=${id}
+   test_id: 100101
    description: NCBI PubChem Compound
+   homepage: http://pubchem.ncbi.nlm.nih.gov/
+   institution: National Center for Biotechnology Information (NCBI)
    location: USA
    official: false
    provider_code: ncbi

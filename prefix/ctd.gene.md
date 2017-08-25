@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100131
-   accessurl: http://ctdbase.org/detail.go?type=gene&acc=
+   accessurl: http://ctdbase.org/detail.go?type=gene&acc=${id}
+   test_id: 101
    description: Comparative Toxicogenomics Database (Gene)
+   homepage: http://ctdbase.org/
+   institution: The Mount Desert Island Biological Laboratory
    location: USA
    official: false
 ---

@@ -7,14 +7,20 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100355
-   accessurl: http://www.ncbi.nlm.nih.gov/homologene/
+   accessurl: http://www.ncbi.nlm.nih.gov/homologene/${id}
+   test_id: 1000
    description: Homologene at NCBI
+   homepage: http://www.ncbi.nlm.nih.gov/homologene/
+   institution: National Center for Biotechnology Information (NCBI)
    location: USA
    official: true
    provider_code: ncbi
  - identifier: MIR:00100699
-   accessurl: http://homologene.bio2rdf.org/describe/?url=http://bio2rdf.org/homologene:
+   accessurl: http://homologene.bio2rdf.org/describe/?url=http://bio2rdf.org/homologene:${id}
+   test_id: 1000
    description: Bio2RDF
+   homepage: http://homologene.bio2rdf.org/fct
+   institution: Bio2RDF.org
    location: 
    official: false
 ---

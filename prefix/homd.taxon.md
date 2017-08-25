@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100217
-   accessurl: http://www.homd.org/modules.php?op=modload&name=HOMD&file=index&oraltaxonid=
+   accessurl: http://www.homd.org/modules.php?op=modload&name=HOMD&file=index&oraltaxonid=${id}&view=dynamic
+   test_id: 811
    description: HOMD taxon information at The Forsyth Institute
+   homepage: http://www.homd.org/index.php
+   institution: The Forsyth Institute, Boston
    location: USA
    official: false
 ---

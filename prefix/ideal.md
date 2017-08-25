@@ -7,8 +7,11 @@ pattern: ^IID\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100518
-   accessurl: http://idp1.force.cs.is.nagoya-u.ac.jp/IDEAL/idealItem.php?id=
+   accessurl: http://idp1.force.cs.is.nagoya-u.ac.jp/IDEAL/idealItem.php?id=${id}
+   test_id: IID00001
    description: IDEAL at Maebashi Institute of Technology
+   homepage: http://www.ideal.force.cs.is.nagoya-u.ac.jp/IDEAL/
+   institution: Faculty of Engineering, Maebashi Institute of Technology, Maebashi
    location: Japan
    official: false
 ---

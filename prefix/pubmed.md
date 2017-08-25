@@ -7,31 +7,46 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100023
-   accessurl: http://www.ncbi.nlm.nih.gov/pubmed/
+   accessurl: http://www.ncbi.nlm.nih.gov/pubmed/${id}
+   test_id: 16333295
    description: NCBI PubMed
+   homepage: http://www.ncbi.nlm.nih.gov/PubMed/
+   institution: National Center for Biotechnology Information (NCBI)
    location: USA
    official: true
    provider_code: ncbi
  - identifier: MIR:00100064
-   accessurl: http://www.hubmed.org/display.cgi?uids=
+   accessurl: http://www.hubmed.org/display.cgi?uids=${id}
+   test_id: 16333295
    description: HubMed
+   homepage: http://www.hubmed.org/
+   institution: Alfred D. Eaton
    location: United Kingdom
    official: false
    provider_code: hubmed
  - identifier: MIR:00100497
-   accessurl: http://europepmc.org/abstract/MED/
+   accessurl: http://europepmc.org/abstract/MED/${id}
+   test_id: 16333295
    description: Europe PMC
+   homepage: http://europepmc.org/
+   institution: Europe PubMed Central partners
    location: UK
    official: false
    provider_code: epmc
  - identifier: MIR:00100702
-   accessurl: http://pubmed.bio2rdf.org/describe/?url=http://bio2rdf.org/pubmed:
+   accessurl: http://pubmed.bio2rdf.org/describe/?url=http://bio2rdf.org/pubmed:${id}
+   test_id: 23735196
    description: Bio2RDF
+   homepage: http://pubmed.bio2rdf.org/fct
+   institution: Bio2RDF.org
    location: 
    official: false
  - identifier: MIR:00100745
-   accessurl: http://linkedlifedata.com/resource/pubmed/id/
+   accessurl: http://linkedlifedata.com/resource/pubmed/id/${id}
+   test_id: 23735196
    description: PubMed through Linkedlife data
+   homepage: http://linkedlifedata.com/
+   institution: Linkedlifedata, Ontotext, Sofia
    location: Bulgaria
    official: false
 ---

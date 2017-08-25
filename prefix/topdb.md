@@ -7,8 +7,11 @@ pattern: ^[A-Z0-9]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100644
-   accessurl: http://topdb.enzim.hu/?m=show&id=
+   accessurl: http://topdb.enzim.hu/?m=show&id=${id}
+   test_id: AP00378
    description: TOPDB at Hungarian Academy of Sciences
+   homepage: http://topdb.enzim.hu/
+   institution: Institute of Enzymology, Hungarian Academy of Sciences, Budapest
    location: Hungary
    official: false
 ---

@@ -7,13 +7,19 @@ pattern: ^([Bb]irnlex_|Sao|nlx_|GO_|CogPO|HDO|nifext_)\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100160
-   accessurl: http://www.neurolex.org/wiki/
+   accessurl: http://www.neurolex.org/wiki/${id}
+   test_id: Birnlex_721
    description: NeuroLex Neuroscience Lexicon
+   homepage: http://www.neurolex.org/wiki/Main_Page
+   institution: Department of Neuroscience, University of California, San Diego
    location: USA
    official: true
  - identifier: MIR:00100183
-   accessurl: http://purl.bioontology.org/ontology/BIRNLEX/
+   accessurl: http://purl.bioontology.org/ontology/BIRNLEX/${id}
+   test_id: birnlex_1672
    description: NeuroLex through NCBO's BioPortal
+   homepage: http://bioportal.bioontology.org/ontologies/BIRNLEX
+   institution: National Center for Biomedical Ontology, Stanford
    location: USA
    official: false
    provider_code: bptl

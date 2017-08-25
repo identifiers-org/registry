@@ -7,8 +7,11 @@ pattern: ^[A-Z]{2}\d+([A-Z])?$
 prefixed: 0
 resources:
  - identifier: MIR:00100714
-   accessurl: https://www.google.com/patents/
+   accessurl: https://www.google.com/patents/${id}
+   test_id: US4145692
    description: Google Patents at Google
+   homepage: https://www.google.com/patents/
+   institution: Google Incorporated
    location: 
    official: false
 ---

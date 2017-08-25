@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100581
-   accessurl: http://www.unimod.org/modifications_view.php?editid1=
+   accessurl: http://www.unimod.org/modifications_view.php?editid1=${id}
+   test_id: 1200
    description: Unimod at Matrix Sciences Ltd.
+   homepage: http://www.unimod.org/
+   institution: Matrix Science Ltd., London
    location: UK
    official: false
 ---

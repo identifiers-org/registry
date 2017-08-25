@@ -7,8 +7,11 @@ pattern: ^PTHR\d{5}(\:SF\d{1,3})?$
 prefixed: 0
 resources:
  - identifier: MIR:00100088
-   accessurl: http://www.pantherdb.org/panther/family.do?clsAccession=
+   accessurl: http://www.pantherdb.org/panther/family.do?clsAccession=${id}
+   test_id: PTHR12345
    description: PANTHER Family at USC (Los Angeles)
+   homepage: http://www.pantherdb.org/
+   institution: Keck School of Medicine, University of Southern California
    location: USA
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100182
-   accessurl: https://www.biocatalogue.org/services/
+   accessurl: https://www.biocatalogue.org/services/${id}
+   test_id: 614
    description: BioCatalogue at EMBL-EBI
+   homepage: http://www.biocatalogue.org/
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ebi

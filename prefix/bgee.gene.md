@@ -7,8 +7,11 @@ pattern: ^(ENS|FBgn)\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100541
-   accessurl: http://bgee.unil.ch/bgee/bgee?page=gene&action=summary&gene_id=
+   accessurl: http://bgee.unil.ch/bgee/bgee?page=gene&action=summary&gene_id=${id}
+   test_id: ENSDARG00000013057
    description: Bgee at Lausanne
+   homepage: http://bgee.unil.ch/bgee/bgee
+   institution: Swiss Institute of Bioinformatics, Lausanne
    location: Switzerland
    official: false
 ---

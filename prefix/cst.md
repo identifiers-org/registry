@@ -7,8 +7,11 @@ pattern: ^[A-Za-z0-9_-]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100552
-   accessurl: http://www.cellsignal.com/reference/pathway/
+   accessurl: http://www.cellsignal.com/reference/pathway/${id}.html
+   test_id: Akt_PKB
    description: CST Pathways at Cell Signaling Technology
+   homepage: http://www.cellsignal.com/pathways/index.html
+   institution: Cell Signaling Technology, Inc., Danvers, Massachusetts
    location: USA
    official: false
 ---

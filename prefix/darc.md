@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100465
-   accessurl: http://darcsite.genzentrum.lmu.de/darc/view.php?id=
+   accessurl: http://darcsite.genzentrum.lmu.de/darc/view.php?id=${id}
+   test_id: 1250
    description: DARC at University of Munich
+   homepage: http://darcsite.genzentrum.lmu.de/darc/index.php
+   institution: Gene Center and Department for Biochemistry and Center for integrated Protein Science Munich, University of Munich, Munich
    location: Germany
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100638
-   accessurl: http://research.nhgri.nih.gov/apps/homeodomain/web/index.cgi?mode=view&amp;view=proteins&amp;id=
+   accessurl: http://research.nhgri.nih.gov/apps/homeodomain/web/index.cgi?mode=view&amp;view=proteins&amp;id=${id}
+   test_id: 63
    description: Homeodomain Research at National Human Genome Research Institute (NIH)
+   homepage: http://research.nhgri.nih.gov/apps/homeodomain/web/
+   institution: Genome Technology Branch, National Human Genome Research Institute, National Institutes of Health, Bethesda, Maryland
    location: USA
    official: false
 ---

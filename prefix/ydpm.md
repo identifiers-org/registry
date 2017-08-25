@@ -7,8 +7,11 @@ pattern: ^Y[A-Z]{2}\d+[CW]$
 prefixed: 0
 resources:
  - identifier: MIR:00100600
-   accessurl: http://www-deletion.stanford.edu/cgi-bin/YDPM/YDPM_search.cgi?thelist=
+   accessurl: http://www-deletion.stanford.edu/cgi-bin/YDPM/YDPM_search.cgi?thelist=${id}
+   test_id: YAL001C
    description: YDPM at Stanford University School of Medicine
+   homepage: http://www-deletion.stanford.edu/YDPM/
+   institution: Stanford University School of Medicine, Stanford, California
    location: USA
    official: false
 ---

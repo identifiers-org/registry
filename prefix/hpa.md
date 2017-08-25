@@ -7,8 +7,11 @@ pattern: ^ENSG\d{11}$
 prefixed: 0
 resources:
  - identifier: MIR:00100431
-   accessurl: http://www.proteinatlas.org/
+   accessurl: http://www.proteinatlas.org/${id}
+   test_id: ENSG00000026508
    description: Human Protein Atlas at AlbaNova University
+   homepage: http://www.proteinatlas.org/
+   institution: Department of Proteomics, School of Biotechnology, AlbaNova University Center, Stockholm
    location: Sweden
    official: false
 ---

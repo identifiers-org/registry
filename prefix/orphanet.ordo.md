@@ -8,8 +8,11 @@ pattern: ^Orphanet(_|:)C?\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100705
-   accessurl: http://www.ebi.ac.uk/ols/ontologies/ordo/terms?short_form=
+   accessurl: http://www.ebi.ac.uk/ols/ontologies/ordo/terms?short_form=${id}
+   test_id: Orphanet_C023
    description: ORDO via OLS
+   homepage: http://www.ebi.ac.uk/ols/ontologies/ordo
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: true
    provider_code: ols

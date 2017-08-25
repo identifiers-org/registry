@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100778
-   accessurl: http://www.marinespecies.org/aphia.php?p=taxdetails&id=
+   accessurl: http://www.marinespecies.org/aphia.php?p=taxdetails&id=${id}
+   test_id: 146421
    description: World Register of Marine Species
+   homepage: http://www.marinespecies.org/
+   institution: Flanders Marine Institute, Ostend
    location: Belgium
    official: false
 ---

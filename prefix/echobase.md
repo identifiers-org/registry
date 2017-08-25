@@ -7,8 +7,11 @@ pattern: ^EB\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100259
-   accessurl: http://www.york.ac.uk/res/thomas/Gene.cfm?recordID=
+   accessurl: http://www.york.ac.uk/res/thomas/Gene.cfm?recordID=${id}
+   test_id: EB0170
    description: EchoBASE at the University of York
+   homepage: http://www.york.ac.uk/
+   institution: Department of Biology (Area 10), University of York, York
    location: UK
    official: false
 ---

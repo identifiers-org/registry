@@ -7,8 +7,11 @@ pattern: ^\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100729
-   accessurl: http://seed-viewer.theseed.org/seedviewer.cgi?page=Subsystems&subsystem=
+   accessurl: http://seed-viewer.theseed.org/seedviewer.cgi?page=Subsystems&subsystem=${id}
+   test_id: Biotin_biosynthesis
    description: SEED Subsystem at Argonne National Laboratory
+   homepage: http://seed-viewer.theseed.org/seedviewer.cgi
+   institution: Argonne National Laboratory, University of Chicago, Argonne, Illinois
    location: USA
    official: false
 ---

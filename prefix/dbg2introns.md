@@ -7,8 +7,11 @@ pattern: ^\w{1,2}\.(\w{1,2}\.)?[A-Za-z0-9]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100401
-   accessurl: http://webapps2.ucalgary.ca/~groupii/cgi-bin/intron.cgi?name=
+   accessurl: http://webapps2.ucalgary.ca/~groupii/cgi-bin/intron.cgi?name=${id}
+   test_id: Cu.me.I1
    description: Bacterial Group II Introns at University of Calgary
+   homepage: http://webapps2.ucalgary.ca/~groupii/
+   institution: Department of Biological Sciences, University of Calgary, Calgary, Alberta
    location: Canada
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^MIRT\d{6}$
 prefixed: 0
 resources:
  - identifier: MIR:00100739
-   accessurl: http://mirtarbase.mbc.nctu.edu.tw/php/detail.php?mirtid=
+   accessurl: http://mirtarbase.mbc.nctu.edu.tw/php/detail.php?mirtid=${id}
+   test_id: MIRT000002
    description: miRTarBase at National Chiao Tung University
+   homepage: http://mirtarbase.mbc.nctu.edu.tw/
+   institution: Institute of Bioinformatics and Systems Biology, National Chiao Tung University, Hsinchu
    location: Taiwan
    official: false
 ---

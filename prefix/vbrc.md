@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100582
-   accessurl: http://vbrc.org/gene_detail.asp?gene_id=
+   accessurl: http://vbrc.org/gene_detail.asp?gene_id=${id}
+   test_id: 35742
    description: VBRC at University of Alabama
+   homepage: http://vbrc.org/
+   institution: University of Alabama, Birmingham and the University of Victoria, British Columbia
    location: USA and Canada
    official: false
 ---

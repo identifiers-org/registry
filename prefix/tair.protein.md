@@ -7,8 +7,11 @@ pattern: ^AASequence:\d{10}$
 prefixed: 0
 resources:
  - identifier: MIR:00100076
-   accessurl: http://arabidopsis.org/servlets/TairObject?accession=
+   accessurl: http://arabidopsis.org/servlets/TairObject?accession=${id}
+   test_id: AASequence:1009107926
    description: The Arabidopsis Information Resource (TAIR) Protein
+   homepage: http://arabidopsis.org/index.jsp
+   institution: Carnegie Institution of Washington Department of Plant Biology and National Center for Genome Resources (NCGR)
    location: USA
    official: false
 ---

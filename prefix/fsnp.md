@@ -7,8 +7,11 @@ pattern: ^rs\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100637
-   accessurl: http://compbio.cs.queensu.ca/cgi-bin/compbio/search/main.cgi?search_mode=id&amp;id_type=snp_id&amp;id_val=
+   accessurl: http://compbio.cs.queensu.ca/cgi-bin/compbio/search/main.cgi?search_mode=id&amp;id_type=snp_id&amp;id_val=${id}
+   test_id: rs17852708
    description: F-SNP at Queen's University (Canada)
+   homepage: http://compbio.cs.queensu.ca/F-SNP/
+   institution: Computational Biology and Machine Learning Lab, School of Computing, Queen's University, Kingston, Ontario
    location: Canada
    official: false
 ---

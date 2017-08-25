@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100575
-   accessurl: http://www.jstor.org/stable/
+   accessurl: http://www.jstor.org/stable/${id}
+   test_id: 3075966
    description: JSTOR Online
+   homepage: http://www.jstor.org/
+   institution: Ithaka Harbors, Inc., New York
    location: USA
    official: false
 ---

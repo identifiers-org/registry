@@ -7,8 +7,11 @@ pattern: ^[A-Z]+[0-9]+(\.\d+)?$
 prefixed: 0
 resources:
  - identifier: MIR:00100473
-   accessurl: http://www.ebi.ac.uk/ena/data/view/
+   accessurl: http://www.ebi.ac.uk/ena/data/view/${id}
+   test_id: BN000065
    description: ENA at European Bioinformatics Institute
+   homepage: http://www.ebi.ac.uk/ena/
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ebi

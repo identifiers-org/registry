@@ -7,8 +7,11 @@ pattern: ^\w{14}$
 prefixed: 0
 resources:
  - identifier: MIR:00100343
-   accessurl: http://stitch.embl.de/interactions/
+   accessurl: http://stitch.embl.de/interactions/${id}
+   test_id: BQJCRHHNABKAKU
    description: STITCH
+   homepage: http://stitch.embl.de/
+   institution: European Molecular Biology Laboratory, Heidelberg
    location: Germany
    official: false
 ---

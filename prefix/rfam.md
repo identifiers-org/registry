@@ -7,8 +7,11 @@ pattern: ^RF\d{5}$
 prefixed: 0
 resources:
  - identifier: MIR:00100686
-   accessurl: http://rfam.xfam.org/family/
+   accessurl: http://rfam.xfam.org/family/${id}
+   test_id: RF00230
    description: Rfam at EMBL-EBI
+   homepage: http://rfam.xfam.org/
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: true
    provider_code: ebi

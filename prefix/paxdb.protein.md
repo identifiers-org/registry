@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100625
-   accessurl: http://pax-db.org/#!protein/
+   accessurl: http://pax-db.org/#!protein/${id}
+   test_id: 977869
    description: PaxDb v3 at University of Zurich
+   homepage: http://pax-db.org/
+   institution: Institute of Molecular Life Sciences, University of Zurich, Zurich
    location: Switzerland
    official: false
 ---

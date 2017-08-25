@@ -7,8 +7,11 @@ pattern: ^\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100262
-   accessurl: http://protists.ensembl.org/id/
+   accessurl: http://protists.ensembl.org/id/${id}
+   test_id: PFC0120w
    description: Ensembl Protists at EBI
+   homepage: http://protists.ensembl.org
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ebi

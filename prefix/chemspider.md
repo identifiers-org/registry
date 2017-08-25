@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100180
-   accessurl: http://www.chemspider.com/Chemical-Structure.
+   accessurl: http://www.chemspider.com/Chemical-Structure.${id}.html
+   test_id: 56586
    description: ChemSpider at RSC
+   homepage: http://www.chemspider.com/
+   institution: Royal Society of Chemistry, Cambridge
    location: UK
    official: false
 ---

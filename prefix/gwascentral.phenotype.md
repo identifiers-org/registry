@@ -7,8 +7,11 @@ pattern: ^HGVP\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100720
-   accessurl: http://www.gwascentral.org/phenotype/
+   accessurl: http://www.gwascentral.org/phenotype/${id}
+   test_id: HGVPM623
    description: GWAS Central Phenotype at University of Leicester
+   homepage: http://www.gwascentral.org/phenotypes
+   institution: Department of Genetics, University of Leicester, Leicester
    location: UK
    official: false
 ---

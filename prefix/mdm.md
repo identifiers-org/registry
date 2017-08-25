@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100766
-   accessurl: https://medical-data-models.org/forms/
+   accessurl: https://medical-data-models.org/forms/${id}
+   test_id: 4776
    description: MDM at University of Muenster
+   homepage: https://medical-data-models.org/
+   institution: Institute of Medical Informatics, University of Muenster
    location: Germany
    official: false
 ---

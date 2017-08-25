@@ -8,8 +8,11 @@ pattern: ^PA\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100120
-   accessurl: http://www.pharmgkb.org/pathway/
+   accessurl: http://www.pharmgkb.org/pathway/${id}
+   test_id: PA146123006
    description: PharmGKB at Stanford
+   homepage: http://www.pharmgkb.org/
+   institution: Department of Genetics, School of Medicine, Stanford University, Stanford, California
    location: USA
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100171
-   accessurl: http://senselab.med.yale.edu/ModelDB/ShowModel.asp?model=
+   accessurl: http://senselab.med.yale.edu/ModelDB/ShowModel.asp?model=${id}
+   test_id: 45539
    description: ModelDB at SenseLab
+   homepage: http://senselab.med.yale.edu/ModelDB/
+   institution: Yale University School of Medicine
    location: USA
    official: false
 ---

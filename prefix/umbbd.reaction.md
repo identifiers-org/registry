@@ -7,8 +7,11 @@ pattern: ^r\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100416
-   accessurl: http://umbbd.ethz.ch/servlets/pageservlet?ptype=r&reacID=
+   accessurl: http://umbbd.ethz.ch/servlets/pageservlet?ptype=r&reacID=${id}
+   test_id: r0001
    description: Biocatalysis/Biodegradation Database Mirror (Reaction) at ETH Zurich
+   homepage: http://umbbd.ethz.ch/
+   institution: ETH, Zurich
    location: Switzerland
    official: false
 ---

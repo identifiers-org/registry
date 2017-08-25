@@ -7,8 +7,11 @@ pattern: ^[AEP]-\w{4}-\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100483
-   accessurl: http://www.ebi.ac.uk/gxa/experiments/
+   accessurl: http://www.ebi.ac.uk/gxa/experiments/${id}
+   test_id: E-MTAB-2037
    description: GXA Expt at EBI
+   homepage: http://www.ebi.ac.uk/gxa/
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: true
    provider_code: ebi

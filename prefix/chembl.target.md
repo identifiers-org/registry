@@ -7,19 +7,28 @@ pattern: ^CHEMBL\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100116
-   accessurl: https://www.ebi.ac.uk/chembl/target/inspect/
+   accessurl: https://www.ebi.ac.uk/chembl/target/inspect/${id}
+   test_id: CHEMBL3467
    description: ChEMBL targets database at EBI
+   homepage: https://www.ebi.ac.uk/chembldb/
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: true
    provider_code: ebi
  - identifier: MIR:00100485
-   accessurl: http://linkedchemistry.info/chembl/chemblid/
+   accessurl: http://linkedchemistry.info/chembl/chemblid/${id}
+   test_id: CHEMBL3467
    description: ChEMBL target RDF
+   homepage: https://github.com/egonw/chembl.rdf
+   institution: Maastricht University
    location: The Netherlands
    official: false
  - identifier: MIR:00100743
-   accessurl: http://rdf.ebi.ac.uk/resource/chembl/target/
+   accessurl: http://rdf.ebi.ac.uk/resource/chembl/target/${id}
+   test_id: CHEMBL3467
    description: ChEMBL target RDF through EBI RDF Platform
+   homepage: http://rdf.ebi.ac.uk/resource/chembl/
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
 ---

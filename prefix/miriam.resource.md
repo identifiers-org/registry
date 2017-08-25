@@ -7,8 +7,11 @@ pattern: ^MIR:001\d{5}$
 prefixed: 0
 resources:
  - identifier: MIR:00100245
-   accessurl: http://www.ebi.ac.uk/miriam/main/resources/
+   accessurl: http://www.ebi.ac.uk/miriam/main/resources/${id}
+   test_id: MIR:00100005
    description: MIRIAM Registry (resources)
+   homepage: http://www.ebi.ac.uk/miriam/
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ebi

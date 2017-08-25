@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100586
-   accessurl: http://rgd.mcw.edu/rgdweb/report/qtl/main.html?id=
+   accessurl: http://rgd.mcw.edu/rgdweb/report/qtl/main.html?id=${id}
+   test_id: 1354581
    description: Rat Genome Database qTL at Medical College of Wisconsin
+   homepage: http://rgd.mcw.edu/
+   institution: Medical College of Wisconsin, Milwaukee, Wisconsin
    location: USA
    official: false
 ---

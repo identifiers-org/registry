@@ -7,8 +7,11 @@ pattern: ^[0-9][A-Za-z0-9]{3}$
 prefixed: 0
 resources:
  - identifier: MIR:00100474
-   accessurl: http://orion.rnet.missouri.edu/~nz953/DOMMINO/index.php/result/show_network/
+   accessurl: http://orion.rnet.missouri.edu/~nz953/DOMMINO/index.php/result/show_network/${id}
+   test_id: 2GC4
    description: DOMMINO at University of Missouri
+   homepage: http://dommino.org/
+   institution: Informatics Institute and Department of Computer Science and Bond Life Science Center, University of Missouri, Columbia
    location: USA
    official: false
 ---

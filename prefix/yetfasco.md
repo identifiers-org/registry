@@ -7,8 +7,11 @@ pattern: ^\w+\_\d+(\.\d+)?$
 prefixed: 0
 resources:
  - identifier: MIR:00100434
-   accessurl: http://yetfasco.ccbr.utoronto.ca/showPFM.php?mot=
+   accessurl: http://yetfasco.ccbr.utoronto.ca/showPFM.php?mot=${id}
+   test_id: YOR172W_571.0
    description: YeTFasCo at University of Toronto
+   homepage: http://yetfasco.ccbr.utoronto.ca/
+   institution: Department of Molecular Genetics, Terrence Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto
    location: Canada
    official: false
 ---

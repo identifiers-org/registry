@@ -7,8 +7,11 @@ pattern: ^PS\d{5}$
 prefixed: 0
 resources:
  - identifier: MIR:00100056
-   accessurl: http://prosite.expasy.org/
+   accessurl: http://prosite.expasy.org/${id}
+   test_id: PS00001
    description: ExPASy PROSITE
+   homepage: http://www.expasy.org/prosite/
+   institution: Swiss Institute of Bioinformatics (SIB)
    location: Switzerland
    official: false
    provider_code: expasy

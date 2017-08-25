@@ -7,8 +7,11 @@ pattern: ^C\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100560
-   accessurl: http://sideeffects.embl.de/se/
+   accessurl: http://sideeffects.embl.de/se/${id}/
+   test_id: C0017565
    description: SIDER Side Effect v2 at EMBL (Heidelberg)
+   homepage: http://sideeffects.embl.de/
+   institution: Structural and Computational Biology Unit, European Molecular Biology Laboratory, Heidelberg
    location: Germany
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^[A-Z0-9]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100690
-   accessurl: http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=
+   accessurl: http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=${id}
+   test_id: 3G6A5W338E
    description: UNII at U.S. Food and Drug Administration
+   homepage: http://fdasis.nlm.nih.gov/srs/
+   institution: U.S. Food and Drug Administration, Maryland
    location: USA
    official: false
 ---

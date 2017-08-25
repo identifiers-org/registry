@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100553
-   accessurl: http://www.cellsignal.com/products/
+   accessurl: http://www.cellsignal.com/products/${id}.html
+   test_id: 3305
    description: CST Antibody at Cell Signaling Technology
+   homepage: http://www.cellsignal.com/catalog/index.html
+   institution: Cell Signaling Technology, Inc., Danvers, Massachusetts
    location: USA
    official: false
 ---

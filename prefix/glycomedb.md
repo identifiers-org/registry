@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100147
-   accessurl: http://www.glycome-db.org/database/showStructure.action?glycomeId=
+   accessurl: http://www.glycome-db.org/database/showStructure.action?glycomeId=${id}
+   test_id: 1
    description: GlycomeDB carbohydrate structure database
+   homepage: http://www.glycome-db.org/showMenu.action?major=database
+   institution: German Cancer Research Center, Heidelberg
    location: Germany
    official: false
 ---

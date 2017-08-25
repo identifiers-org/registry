@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100223
-   accessurl: http://www.maizegdb.org/cgi-bin/displaylocusrecord.cgi?id=
+   accessurl: http://www.maizegdb.org/cgi-bin/displaylocusrecord.cgi?id=${id}
+   test_id: 25011
    description: MaizeGDB at Missouri
+   homepage: http://www.maizegdb.org/
+   institution: Division of Plant Sciences, Missouri
    location: USA
    official: false
 ---

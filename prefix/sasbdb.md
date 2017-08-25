@@ -7,8 +7,11 @@ pattern: ^[Ss][Aa][Ss][A-Za-z0-9]{3}[0-9]$
 prefixed: 0
 resources:
  - identifier: MIR:00100763
-   accessurl: http://www.sasbdb.org/data/
+   accessurl: http://www.sasbdb.org/data/${id}
+   test_id: SASDAX8
    description: SASBDB at European Molecular Biology Laboratory
+   homepage: http://www.sasbdb.org/
+   institution: Biological Small Angle Scattering Group, European Molecular Biology Laboratory, Hamburg Outstation, Hamburg
    location: Germany
    official: false
 ---

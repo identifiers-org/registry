@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100127
-   accessurl: http://chem.sis.nlm.nih.gov/chemidplus/direct.jsp?regno=
+   accessurl: http://chem.sis.nlm.nih.gov/chemidplus/direct.jsp?regno=${id}
+   test_id: 000057272
    description: ChemIDplus at National Library of Medicine
+   homepage: http://chem.sis.nlm.nih.gov/chemidplus/chemidheavy.jsp
+   institution: National Library of Medicine, Maryland
    location: USA
    official: false
 ---

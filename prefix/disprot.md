@@ -7,8 +7,11 @@ pattern: ^DP\d{5}$
 prefixed: 0
 resources:
  - identifier: MIR:00100258
-   accessurl: http://www.disprot.org/
+   accessurl: http://www.disprot.org/${id}
+   test_id: DP00003
    description: DisProt at Indiana University
+   homepage: http://www.disprot.org/
+   institution: Center for Computational Biology and Bioinformatics, Indiana University School of Medicine, Indianapolis
    location: USA
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^J\d{1,3}(\.\d{3})?(\.\d{1,3})?[A-Za-z]$
 prefixed: 0
 resources:
  - identifier: MIR:00100307
-   accessurl: http://jglobal.jst.go.jp/en/redirect?Nikkaji_No=
+   accessurl: http://jglobal.jst.go.jp/en/redirect?Nikkaji_No=${id}
+   test_id: J55.713G
    description: Japan Chemical Substance Dictionary
+   homepage: http://jglobal.jst.go.jp/en/
+   institution: Japan Science and Technology Agency
    location: Japan
    official: false
 ---

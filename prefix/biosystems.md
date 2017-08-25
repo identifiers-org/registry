@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100128
-   accessurl: http://www.ncbi.nlm.nih.gov/biosystems/
+   accessurl: http://www.ncbi.nlm.nih.gov/biosystems/${id}
+   test_id: 001
    description: BioSystems database at NCBI
+   homepage: http://www.ncbi.nlm.nih.gov/biosystems/
+   institution: National Center for Biotechnology Information (NCBI)
    location: USA
    official: false
    provider_code: ncbi

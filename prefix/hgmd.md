@@ -7,8 +7,11 @@ pattern: ^[A-Z_0-9]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100512
-   accessurl: http://www.hgmd.cf.ac.uk/ac/gene.php?gene=
+   accessurl: http://www.hgmd.cf.ac.uk/ac/gene.php?gene=${id}
+   test_id: CALM1
    description: HGMD at Cardiff University
+   homepage: http://www.hgmd.cf.ac.uk/ac/index.php
+   institution: Cardiff University, Cardiff
    location: Wales
    official: false
 ---

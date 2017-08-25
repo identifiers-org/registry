@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100211
-   accessurl: http://greengenes.lbl.gov/cgi-bin/show_one_record_v2.pl?prokMSA_id=
+   accessurl: http://greengenes.lbl.gov/cgi-bin/show_one_record_v2.pl?prokMSA_id=${id}
+   test_id: 100000
    description: GreenGenes at Lawrence Berkeley
+   homepage: http://greengenes.lbl.gov/
+   institution: Center for Environmental Biotechnology, Lawrence Berkeley National Laboratory, California
    location: USA
    official: false
 ---

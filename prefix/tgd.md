@@ -7,8 +7,11 @@ pattern: ^TTHERM\_\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100396
-   accessurl: http://ciliate.org/index.php/feature/details/
+   accessurl: http://ciliate.org/index.php/feature/details/${id}
+   test_id: TTHERM_00648910
    description: TGD at Stanford University
+   homepage: http://ciliate.org/index.php/
+   institution: Department of Genetics, School of Medicine, Stanford University, Stanford, California
    location: USA
    official: false
 ---

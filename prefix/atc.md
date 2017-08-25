@@ -7,8 +7,11 @@ pattern: ^[A-Z](\d+([A-Z]{1,2}(\d+)?)?)?$
 prefixed: 0
 resources:
  - identifier: MIR:00100119
-   accessurl: http://www.whocc.no/atc_ddd_index/?code=
+   accessurl: http://www.whocc.no/atc_ddd_index/?code=${id}
+   test_id: A10BA02
    description: Anatomical Therapeutic Chemical Index at WHO
+   homepage: http://www.whocc.no/atc_ddd_index/
+   institution: World Health Organisation
    location: Switzerland
    official: false
 ---

@@ -7,14 +7,20 @@ pattern: ^UBERON\:\d+$
 prefixed: 1
 resources:
  - identifier: MIR:00100579
-   accessurl: http://purl.bioontology.org/ontology/UBERON/
+   accessurl: http://purl.bioontology.org/ontology/UBERON/${id}
+   test_id: UBERON:0008203
    description: UBERON through bioPortal
+   homepage: http://bioportal.bioontology.org/ontologies/UBERON
+   institution: National Center for Biomedical Ontology, Stanford
    location: USA
    official: false
    provider_code: bptl
  - identifier: MIR:00100580
-   accessurl: http://www.ebi.ac.uk/ols/ontologies/uberon/terms?obo_id=
+   accessurl: http://www.ebi.ac.uk/ols/ontologies/uberon/terms?obo_id=${id}
+   test_id: UBERON:0008203
    description: UBERON through OLS
+   homepage: http://www.ebi.ac.uk/ols/ontologies/uberon
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ols

@@ -7,8 +7,11 @@ pattern: ^H\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100610
-   accessurl: http://www.kegg.jp/entry/
+   accessurl: http://www.kegg.jp/entry/${id}
+   test_id: H00076
    description: KEGG Disease at Kyoto University Bioinformatics Center
+   homepage: http://www.genome.jp/kegg/disease/
+   institution: Kyoto University Bioinformatics Center, Kyoto
    location: Japan
    official: true
 ---

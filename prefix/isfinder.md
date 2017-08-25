@@ -7,8 +7,11 @@ pattern: ^IS\w+(\-\d)?$
 prefixed: 0
 resources:
  - identifier: MIR:00100219
-   accessurl: https://www-is.biotoul.fr/scripts/ficheIS.php?name=
+   accessurl: https://www-is.biotoul.fr/scripts/ficheIS.php?name=${id}
+   test_id: ISA1083-2
    description: IS Finder at CNRS
+   homepage: http://www-is.biotoul.fr/i
+   institution: Laboratoire de Microbiologie et Génétique Moléculaires, CNRS, Toulouse
    location: France
    official: false
 ---

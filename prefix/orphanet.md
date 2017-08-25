@@ -7,13 +7,19 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100279
-   accessurl: http://www.orpha.net/consor/cgi-bin/OC_Exp.php?Lng=EN&Expert=
+   accessurl: http://www.orpha.net/consor/cgi-bin/OC_Exp.php?Lng=EN&Expert=${id}
+   test_id: 85163
    description: Orphanet at Inserm
+   homepage: http://www.orpha.net/consor/
+   institution: Inserm, Hôpital Broussais, Paris
    location: France
    official: true
  - identifier: MIR:00100701
-   accessurl: http://orphanet.bio2rdf.org/describe/?url=http://bio2rdf.org/orphanet:
+   accessurl: http://orphanet.bio2rdf.org/describe/?url=http://bio2rdf.org/orphanet:${id}
+   test_id: 85163
    description: Bio2RDF
+   homepage: http://orphanet.bio2rdf.org/fct
+   institution: Bio2RDF.org
    location: 
    official: false
 ---

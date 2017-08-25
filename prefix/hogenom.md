@@ -7,8 +7,11 @@ pattern: ^\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100272
-   accessurl: http://pbil.univ-lyon1.fr/cgi-bin/view-tree.pl?db=HOGENOM5&query=
+   accessurl: http://pbil.univ-lyon1.fr/cgi-bin/view-tree.pl?db=HOGENOM5&query=${id}
+   test_id: HBG284870
    description: HOGENOM at CNRS
+   homepage: http://pbil.univ-lyon1.fr/databases/hogenom/
+   institution: Laboratoire de Biométrie et Biologie Evolutive, CNRS, Lyon
    location: France
    official: false
 ---

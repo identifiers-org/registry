@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100680
-   accessurl: https://www.proteomicsdb.org/#human/proteinDetails/
+   accessurl: https://www.proteomicsdb.org/#human/proteinDetails/${id}/summary
+   test_id: 53504
    description: Proteomics DB Protein at Center for Integrated Protein Science
+   homepage: https://www.proteomicsdb.org/#human
+   institution: Center for Integrated Protein Science, Munich,
    location: Germany
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^\d{1,7}\-\d{2}\-\d$
 prefixed: 0
 resources:
  - identifier: MIR:00100301
-   accessurl: http://commonchemistry.org/ChemicalDetail.aspx?ref=
+   accessurl: http://commonchemistry.org/ChemicalDetail.aspx?ref=${id}
+   test_id: 50-00-0
    description: CAS through Common Chemistry
+   homepage: http://commonchemistry.org
+   institution: American Chemistry Society, Washington, DC
    location: USA
    official: false
 ---

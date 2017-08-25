@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100094
-   accessurl: http://www.ebi.ac.uk/pride/archive/assays/
+   accessurl: http://www.ebi.ac.uk/pride/archive/assays/${id}
+   test_id: 1
    description: PRIDE at EBI
+   homepage: http://www.ebi.ac.uk/pride/
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: true
    provider_code: ebi

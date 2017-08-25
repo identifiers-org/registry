@@ -7,8 +7,11 @@ pattern: ^\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100315
-   accessurl: http://stormo.wustl.edu/ScerTF/details/
+   accessurl: http://stormo.wustl.edu/ScerTF/details/${id}/
+   test_id: RSC3
    description: ScerTF at Washington University
+   homepage: http://stormo.wustl.edu/ScerTF/
+   institution: Department of Genetics, Washington University Medical School, St Louis, Missouri
    location: USA
    official: false
 ---

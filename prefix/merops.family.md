@@ -7,8 +7,11 @@ pattern: ^[SCTAGMNU]\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100384
-   accessurl: http://merops.sanger.ac.uk/cgi-bin/famsum?family=
+   accessurl: http://merops.sanger.ac.uk/cgi-bin/famsum?family=${id}
+   test_id: S1
    description: Merops Family at Sanger Institute
+   homepage: http://merops.sanger.ac.uk/index.htm
+   institution: Wellcome Trust Sanger Institute, Hinxton
    location: UK
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100500
-   accessurl: http://kinase.bioinformatics.tw/showall.jsp?type=PhosphoProtein&info=Gene&name=
+   accessurl: http://kinase.bioinformatics.tw/showall.jsp?type=PhosphoProtein&info=Gene&name=${id}&drawing=0&sorting=0&kinome=0
+   test_id: AURKA
    description: PhosphoPoint Phosphoprotein at National Taiwan University
+   homepage: http://kinase.bioinformatics.tw/
+   institution: Department of Computer Science and Information Engineering, National Taiwan University
    location: Republic of China
    official: false
 ---

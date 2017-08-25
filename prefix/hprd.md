@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100479
-   accessurl: http://www.hprd.org/protein/
+   accessurl: http://www.hprd.org/protein/${id}
+   test_id: 00001
    description: Human Protein Reference Database
+   homepage: http://www.hprd.org/
+   institution: Institute of Bioinformatics, International Tech Park, Bangalore
    location: India
    official: false
 ---

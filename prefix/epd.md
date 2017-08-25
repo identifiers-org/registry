@@ -7,8 +7,11 @@ pattern: ^[A-Z-_0-9]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100528
-   accessurl: http://epd.vital-it.ch/cgi-bin/query_result.pl?out_format=NICE&Entry_0=
+   accessurl: http://epd.vital-it.ch/cgi-bin/query_result.pl?out_format=NICE&Entry_0=${id}
+   test_id: TA_H3
    description: EPD at Swiss Institute of Bioinformatics
+   homepage: http://epd.vital-it.ch/
+   institution: Swiss Institute of Bioinformatics (SIB), Geneva
    location: Switzerland
    official: false
 ---

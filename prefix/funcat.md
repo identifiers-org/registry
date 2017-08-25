@@ -7,8 +7,11 @@ pattern: ^\d{2}|\d{2}\.\d{2}|\d{2}\.\d{2}\.\d{2}|\d{2}\.\d{2}\.\d{2}\d{2}$
 prefixed: 0
 resources:
  - identifier: MIR:00100602
-   accessurl: http://mips.helmholtz-muenchen.de/funcatDB/cgi-bin/search_advanced.pl?action=2&wert=
+   accessurl: http://mips.helmholtz-muenchen.de/funcatDB/cgi-bin/search_advanced.pl?action=2&wert=${id}
+   test_id: 32.01.01
    description: FunCat at MIPS (Neuherberg)
+   homepage: http://mips.helmholtz-muenchen.de/funcatDB/
+   institution: Institute for Bioinformatics (MIPS), GSF National Research Center for Environment and Health, Neuherberg
    location: Germany
    official: false
 ---

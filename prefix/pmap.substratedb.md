@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100283
-   accessurl: http://substrate.burnham.org/protein/annotation/
+   accessurl: http://substrate.burnham.org/protein/annotation/${id}/html
+   test_id: 1915
    description: SubstrateDB at The Burnham Institute for Medical Research
+   homepage: http://substrate.burnham.org/
+   institution: The Center on Proteolytic Pathways, The Cancer Research Center and The Inflammatory and Infectious Disease Center, The Burnham Institute for Medical Research, California
    location: USA
    official: false
 ---

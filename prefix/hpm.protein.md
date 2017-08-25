@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100682
-   accessurl: http://www.humanproteomemap.org/protein.php?hpm_id=
+   accessurl: http://www.humanproteomemap.org/protein.php?hpm_id=${id}
+   test_id: 1968
    description: Human Proteome Map Protein at Institute of Bioinformatics (Bangalore)
+   homepage: http://www.humanproteomemap.org/index.php
+   institution: Institute of Bioinformatics, International Tech Park, Bangalore
    location: India
    official: false
 ---

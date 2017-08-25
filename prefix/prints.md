@@ -7,8 +7,11 @@ pattern: ^PR\d{5}$
 prefixed: 0
 resources:
  - identifier: MIR:00100089
-   accessurl: http://www.bioinf.manchester.ac.uk/cgi-bin/dbbrowser/sprint/searchprintss.cgi?prints_accn=
+   accessurl: http://www.bioinf.manchester.ac.uk/cgi-bin/dbbrowser/sprint/searchprintss.cgi?prints_accn=${id}&display_opts=Prints&category=None&queryform=false&regexpr=off
+   test_id: PR00001
    description: PRINTS through SPRINT
+   homepage: http://www.bioinf.manchester.ac.uk/dbbrowser/sprint/
+   institution: University of Manchester
    location: United Kingdom
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100231
-   accessurl: http://solgenomics.net/phenome/locus_display.pl?locus_id=
+   accessurl: http://solgenomics.net/phenome/locus_display.pl?locus_id=${id}
+   test_id: 0001
    description: Sol Genomics Network at Boyce Thompson Institute for Plant Research
+   homepage: http://solgenomics.net/
+   institution: Boyce Thompson Institute for Plant Research, New York
    location: USA
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^MIR:\d{8}$
 prefixed: 1
 resources:
  - identifier: MIR:00100800
-   accessurl: http://identifiers.org/registry?query="
+   accessurl: http://identifiers.org/registry?query="${id}"
+   test_id: MIR:00100037
    description: Identifiers.org Registry through EBI
+   homepage: http://identifiers.org/registry
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ebi

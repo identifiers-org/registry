@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100523
-   accessurl: http://bugs.sgul.ac.uk/bugsbase/tabs/protocol.php?protocol_id=
+   accessurl: http://bugs.sgul.ac.uk/bugsbase/tabs/protocol.php?protocol_id=${id}&amp;action=view
+   test_id: 67
    description: BugBase Protocol at University of London
+   homepage: http://bugs.sgul.ac.uk/E-BUGS
+   institution: Bacterial Microarray Group, St George's, University of London
    location: UK
    official: false
 ---

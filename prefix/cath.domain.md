@@ -7,8 +7,11 @@ pattern: ^\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100269
-   accessurl: http://www.cathdb.info/domain/
+   accessurl: http://www.cathdb.info/domain/${id}
+   test_id: 1cukA01
    description: CATH domain at UCL
+   homepage: http://www.cathdb.info/
+   institution: Institute of Structural and Molecular Biology, University College London
    location: UK
    official: false
 ---

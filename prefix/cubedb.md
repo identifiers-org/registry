@@ -7,8 +7,11 @@ pattern: ^[A-Za-z_0-9]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100517
-   accessurl: http://epsf.bmad.bii.a-star.edu.sg/cube/db/data/
+   accessurl: http://epsf.bmad.bii.a-star.edu.sg/cube/db/data/${id}/
+   test_id: AKR
    description: Cube db at Bioinformatics Institute (Singapore)
+   homepage: http://epsf.bmad.bii.a-star.edu.sg/cube/db/html/home.html
+   institution: Bioinformatics Institute, Singapore
    location: China
    official: false
 ---

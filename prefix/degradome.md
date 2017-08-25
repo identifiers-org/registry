@@ -7,8 +7,11 @@ pattern: ^[AMCST][0-9x][0-9]$
 prefixed: 0
 resources:
  - identifier: MIR:00100589
-   accessurl: http://degradome.uniovi.es/cgi-bin/protease/
+   accessurl: http://degradome.uniovi.es/cgi-bin/protease/${id}
+   test_id: Ax1
    description: Degradome Database at
+   homepage: http://degradome.uniovi.es/
+   institution: Departamento de Bioqu&amp;amp;iacute;mica y Biolog&amp;amp;iacute;a Molecular, Facultad de Medicina, Universidad de Oviedo
    location: Spain
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^CAL\d{7}$
 prefixed: 0
 resources:
  - identifier: MIR:00100189
-   accessurl: http://www.candidagenome.org/cgi-bin/locus.pl?dbid=
+   accessurl: http://www.candidagenome.org/cgi-bin/locus.pl?dbid=${id}
+   test_id: CAL0003079
    description: Candida Genome Database at Stanford University
+   homepage: http://www.candidagenome.org/
+   institution: Stanford University,
    location: USA
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^(hsa-(let|mir)-\w+(-\w+)?)|(piR-\d+)|(chr\w+.tRNA\d+-\w+)|(chr\w+.tRNA
 prefixed: 0
 resources:
  - identifier: MIR:00100742
-   accessurl: http://lisanwanglab.org/DASHR/entry/
+   accessurl: http://lisanwanglab.org/DASHR/entry/${id}#exprPerTissueTable
+   test_id: hsa-mir-200a
    description: DASHR expression at University of Pennsylvania
+   homepage: http://lisanwanglab.org/DASHR/show-expression-table.php?start=0
+   institution: Department of Pathology and Laboratory Medicine, University of Pennsylvania, Philadelphia
    location: USA
    official: false
 ---

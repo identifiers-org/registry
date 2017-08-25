@@ -7,8 +7,11 @@ pattern: ^([A-H,Y]|[A-H, Y]\d+{2}|[A-H, Y]\d+{2}[A-Z]|[A-H, Y]\d+{2}[A-Z]\d+{1,3
 prefixed: 0
 resources:
  - identifier: MIR:00100716
-   accessurl: http://worldwide.espacenet.com/classification?locale=en_EP#!/CPC=
+   accessurl: http://worldwide.espacenet.com/classification?locale=en_EP#!/CPC=${id}
+   test_id: A01M1/026
    description: Cooperative Patent Classification at Espace
+   homepage: http://worldwide.espacenet.com/classification
+   institution: Espace, European Patent Office
    location: 
    official: false
 ---

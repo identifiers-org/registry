@@ -7,8 +7,11 @@ pattern: ^(MNXM\d+|BIOMASS)$
 prefixed: 0
 resources:
  - identifier: MIR:00100748
-   accessurl: http://www.metanetx.org/chem_info/
+   accessurl: http://www.metanetx.org/chem_info/${id}
+   test_id: MNXM1723
    description: MetaNetX chemical at SIB Swiss Institute of Bioinformatics
+   homepage: http://www.metanetx.org/
+   institution: Vital-IT group, SIB Swiss Institute of Bioinformatics, Lausanne
    location: Switzerland
    official: false
 ---

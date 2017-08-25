@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100796
-   accessurl: https://www.ncbi.nlm.nih.gov/clinvar/variation/
+   accessurl: https://www.ncbi.nlm.nih.gov/clinvar/variation/${id}
+   test_id: 12345
    description: ClinVar Variant at NCBI
+   homepage: http://www.ncbi.nlm.nih.gov/clinvar/
+   institution: National Center for Biotechnology Information (NCBI), NIH, Maryland
    location: USA
    official: false
    provider_code: ncbi

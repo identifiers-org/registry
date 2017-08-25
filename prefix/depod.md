@@ -7,8 +7,11 @@ pattern: ^[A-Z0-9]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100551
-   accessurl: http://www.koehnlab.de/depod/showp.php?gene=
+   accessurl: http://www.koehnlab.de/depod/showp.php?gene=${id}
+   test_id: PTPN1
    description: DEPOD at EMBL
+   homepage: http://www.koehnlab.de/depod/
+   institution: European Molecular Biology Laboratory EMBL, Heidelberg
    location: Germany
    official: false
 ---

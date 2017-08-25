@@ -7,8 +7,11 @@ pattern: ^AT[1-5]G\d{5}(\.\d+)?$
 prefixed: 0
 resources:
  - identifier: MIR:00100591
-   accessurl: http://planttfdb.cbi.pku.edu.cn/tf.php?sp=Ath&did=
+   accessurl: http://planttfdb.cbi.pku.edu.cn/tf.php?sp=Ath&did=${id}
+   test_id: AT1G01030.1
    description: DATF through PlantTFDB
+   homepage: http://datf.cbi.pku.edu.cn/
+   institution: Center for Bioinformatics, Peking
    location: Peoples Republic of China.
    official: false
 ---

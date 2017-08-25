@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100105
-   accessurl: http://www.mmmp.org/MMMP/public/biomap/viewBiomap.mmmp?id=
+   accessurl: http://www.mmmp.org/MMMP/public/biomap/viewBiomap.mmmp?id=${id}
+   test_id: 37
    description: main webpage
+   homepage: http://www.mmmp.org/MMMP/public/biomap/listBiomap.mmmp
+   institution: Melanoma Molecular Map Project
    location: 
    official: false
 ---

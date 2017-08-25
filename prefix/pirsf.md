@@ -7,8 +7,11 @@ pattern: ^PIRSF\d{6}$
 prefixed: 0
 resources:
  - identifier: MIR:00100025
-   accessurl: http://pir.georgetown.edu/cgi-bin/ipcSF?id=
+   accessurl: http://pir.georgetown.edu/cgi-bin/ipcSF?id=${id}
+   test_id: PIRSF000100
    description: PIRSF
+   homepage: http://pir.georgetown.edu/
+   institution: Georgetown University Medical Center
    location: USA
    official: false
 ---

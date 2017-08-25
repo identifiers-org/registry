@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100722
-   accessurl: http://lincs.hms.harvard.edu/db/proteins/
+   accessurl: http://lincs.hms.harvard.edu/db/proteins/${id}/
+   test_id: 200282
    description: LINCS Protein at Harvard Medical School
+   homepage: http://lincs.hms.harvard.edu/db/proteins/
+   institution: Harvard Medical School, Boston, Massachusetts
    location: USA
    official: false
 ---

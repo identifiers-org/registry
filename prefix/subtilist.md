@@ -8,8 +8,11 @@ pattern: ^BG\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100557
-   accessurl: http://genolist.pasteur.fr/SubtiList/genome.cgi?external_query+
+   accessurl: http://genolist.pasteur.fr/SubtiList/genome.cgi?external_query+${id}
+   test_id: BG11523
    description: SubtiList at Pasteur Institute
+   homepage: http://genolist.pasteur.fr/SubtiList/
+   institution: Pasteur Institute, Paris
    location: France
    official: false
 ---

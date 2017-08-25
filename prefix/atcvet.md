@@ -7,8 +7,11 @@ pattern: ^Q[A-Z0-9]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100344
-   accessurl: http://www.whocc.no/atcvet/atcvet_index/?code=
+   accessurl: http://www.whocc.no/atcvet/atcvet_index/?code=${id}
+   test_id: QJ51RV02
    description: Anatomical Therapeutic Chemical Vet Index at WHO
+   homepage: http://www.whocc.no/atcvet/atcvet_index/
+   institution: World Health Organisation
    location: Switzerland
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100220
-   accessurl: http://www.jcm.riken.go.jp/cgi-bin/jcm/jcm_number?JCM=
+   accessurl: http://www.jcm.riken.go.jp/cgi-bin/jcm/jcm_number?JCM=${id}
+   test_id: 17254
    description: JCM at RIKEN BioResource Center
+   homepage: http://www.jcm.riken.go.jp/
+   institution: RIKEN BioResource Center, Ibaraki
    location: Japan
    official: false
 ---

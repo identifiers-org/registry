@@ -7,8 +7,11 @@ pattern: ^rs\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100206
-   accessurl: http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=
+   accessurl: http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=${id}
+   test_id: 121909098
    description: dbSNP at NCBI
+   homepage: http://www.ncbi.nlm.nih.gov/sites/entrez?db=snp
+   institution: National Center for Biotechnology Information (NCBI)
    location: USA
    official: false
    provider_code: ncbi

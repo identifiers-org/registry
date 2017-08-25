@@ -7,8 +7,11 @@ pattern: ^(\w+)?\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100405
-   accessurl: http://www.snomedbrowser.com/Codes/Details/
+   accessurl: http://www.snomedbrowser.com/Codes/Details/${id}
+   test_id: 284196006
    description: SNOMED-CT at The National Pathology Exchange
+   homepage: http://www.snomedbrowser.com/
+   institution: The Health Informatics Service, NHS, West Yorkshire
    location: UK
    official: false
 ---

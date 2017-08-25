@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100328
-   accessurl: http://cellimagelibrary.org/images/
+   accessurl: http://cellimagelibrary.org/images/${id}
+   test_id: 24801
    description: Cell Image Library at American Society for Cell Biology
+   homepage: http://cellimagelibrary.org/
+   institution: American Society for Cell Biology, Bethesda, Maryland and The National Center for Microscopy and Imaging Research, San Diego, California
    location: USA
    official: false
 ---

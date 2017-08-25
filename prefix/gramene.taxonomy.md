@@ -7,8 +7,11 @@ pattern: ^GR\_tax\:\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100229
-   accessurl: http://www.gramene.org/db/ontology/search?id=
+   accessurl: http://www.gramene.org/db/ontology/search?id=${id}
+   test_id: GR_tax:013681
    description: Gramene Taxonomy at Cold Spring Harbor
+   homepage: http://www.gramene.org/
+   institution: Cold Spring Harbor Laboratory, New York
    location: USA
    official: false
 ---

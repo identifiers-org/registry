@@ -7,8 +7,11 @@ pattern: ^D\d{5}
 prefixed: 0
 resources:
  - identifier: MIR:00100612
-   accessurl: http://ligandbox.protein.osaka-u.ac.jp/ligandbox/cgi-bin/liginf.cgi?id=
+   accessurl: http://ligandbox.protein.osaka-u.ac.jp/ligandbox/cgi-bin/liginf.cgi?id=${id}
+   test_id: D00001
    description: LigandBox at
+   homepage: http://ligandbox.protein.osaka-u.ac.jp/ligandbox//cgi-bin/index.cgi?LANG=en
+   institution: nstitute for Protein Research, Osaka University and Fujitsu Kyushu R&amp;D Center, Life Science Systems Dept., Fujitsu
    location: Japan
    official: false
 ---

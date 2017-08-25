@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100559
-   accessurl: http://sideeffects.embl.de/drugs/
+   accessurl: http://sideeffects.embl.de/drugs/${id}/
+   test_id: 2244
    description: SIDER Drug v2 at EMBL (Heidelberg)
+   homepage: http://sideeffects.embl.de/
+   institution: Structural and Computational Biology Unit, European Molecular Biology Laboratory, Heidelberg
    location: Germany
    official: false
 ---

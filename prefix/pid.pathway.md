@@ -7,8 +7,11 @@ pattern: ^\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100173
-   accessurl: http://pid.nci.nih.gov/search/pathway_landing.shtml?what=graphic&jpg=on&pathway_id=
+   accessurl: http://pid.nci.nih.gov/search/pathway_landing.shtml?what=graphic&jpg=on&pathway_id=${id}
+   test_id: pi3kcipathway
    description: NCI Pathway Interaction Database (Pathway)
+   homepage: http://pid.nci.nih.gov/
+   institution: National Cancer Institute, Rockville, Maryland
    location: USA
    official: false
 ---

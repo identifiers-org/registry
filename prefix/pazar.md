@@ -7,8 +7,11 @@ pattern: ^TF\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100388
-   accessurl: http://www.pazar.info/cgi-bin/tf_search.cgi?geneID=
+   accessurl: http://www.pazar.info/cgi-bin/tf_search.cgi?geneID=${id}
+   test_id: TF0001053
    description: Pazar Transcription Factor at University of British Columbia
+   homepage: http://www.pazar.info/
+   institution: Centre for Molecular Medicine and Therapeutics, University of British Columbia, Vancouver
    location: Canada
    official: false
 ---

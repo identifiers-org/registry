@@ -7,8 +7,11 @@ pattern: ^ML\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100276
-   accessurl: http://mycobrowser.epfl.ch/leprosysearch.php?gene+name=
+   accessurl: http://mycobrowser.epfl.ch/leprosysearch.php?gene+name=${id}
+   test_id: ML0224
    description: MycoBrowser leprae at Global Health Institute
+   homepage: http://mycobrowser.epfl.ch/leprosy.html
+   institution: Global Health Institute,  Lausanne
    location: Switzerland
    official: false
 ---

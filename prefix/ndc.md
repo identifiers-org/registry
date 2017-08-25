@@ -7,13 +7,19 @@ pattern: ^\d+\-\d+\-\d+
 prefixed: 0
 resources:
  - identifier: MIR:00100554
-   accessurl: http://www.hipaaspace.com/Medical_Billing/Coding/National.Drug.Codes/
+   accessurl: http://www.hipaaspace.com/Medical_Billing/Coding/National.Drug.Codes/${id}
+   test_id: 0002-1975-61
    description: National Drug Code at Food and Drug Administration
+   homepage: http://www.accessdata.fda.gov/scripts/cder/ndc/
+   institution: U.S. Food and Drug Administration, Maryland
    location: USA
    official: true
  - identifier: MIR:00100700
-   accessurl: http://ndc.bio2rdf.org/describe/?url=http://bio2rdf.org/ndc:
+   accessurl: http://ndc.bio2rdf.org/describe/?url=http://bio2rdf.org/ndc:${id}
+   test_id: 0002-1975-61
    description: Bio2RDF
+   homepage: http://ndc.bio2rdf.org/fct
+   institution: Bio2RDF.org
    location: 
    official: false
 ---

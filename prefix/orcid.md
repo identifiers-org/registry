@@ -7,8 +7,11 @@ pattern: ^\d{4}-\d{4}-\d{4}-\d{3}(\d|X)$
 prefixed: 0
 resources:
  - identifier: MIR:00100489
-   accessurl: https://orcid.org/
+   accessurl: https://orcid.org/${id}
+   test_id: 0000-0002-6309-7327
    description: ORCID at Bethesda
+   homepage: http://orcid.org
+   institution: ORCID Inc, Bethesda, Mayrland
    location: USA
    official: false
 ---

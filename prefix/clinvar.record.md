@@ -7,8 +7,11 @@ pattern: ^RCV\d+(\.\d+)?$
 prefixed: 0
 resources:
  - identifier: MIR:00100710
-   accessurl: http://www.ncbi.nlm.nih.gov/clinvar/
+   accessurl: http://www.ncbi.nlm.nih.gov/clinvar/${id}/
+   test_id: RCV000033555.3
    description: ClinVar Record at NCBI
+   homepage: http://www.ncbi.nlm.nih.gov/clinvar/
+   institution: National Center for Biotechnology Information (NCBI), NIH, Maryland
    location: USA
    official: false
    provider_code: ncbi

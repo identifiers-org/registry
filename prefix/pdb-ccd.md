@@ -7,8 +7,11 @@ pattern: ^\w{3}$
 prefixed: 0
 resources:
  - identifier: MIR:00100146
-   accessurl: http://www.ebi.ac.uk/pdbe-srv/pdbechem/chemicalCompound/show/
+   accessurl: http://www.ebi.ac.uk/pdbe-srv/pdbechem/chemicalCompound/show/${id}
+   test_id: AB0
    description: Protein Data Bank Chemical Component Dictionary at EBI
+   homepage: http://www.ebi.ac.uk/pdbe-srv/pdbechem/
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ebi

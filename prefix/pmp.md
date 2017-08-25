@@ -7,8 +7,11 @@ pattern: ^([A-N,R-Z][0-9][A-Z][A-Z, 0-9][A-Z, 0-9][0-9])|([O,P,Q][0-9][A-Z, 0-9]
 prefixed: 0
 resources:
  - identifier: MIR:00100286
-   accessurl: http://www.proteinmodelportal.org/query/uniprot/
+   accessurl: http://www.proteinmodelportal.org/query/uniprot/${id}
+   test_id: Q0VCA6
    description: PMP at University of Basel
+   homepage: http://www.proteinmodelportal.org/
+   institution: Biozentrum, University of Basel, Basel
    location: Switzerland
    official: false
 ---

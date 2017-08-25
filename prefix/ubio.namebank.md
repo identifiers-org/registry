@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100433
-   accessurl: http://www.ubio.org/browser/details.php?namebankID=
+   accessurl: http://www.ubio.org/browser/details.php?namebankID=${id}
+   test_id: 2555646
    description: uBio NameBank at The Marine Biological Laboratory
+   homepage: http://www.ubio.org
+   institution: Marine Biological Laboratory, Woods Hole, Massachusetts
    location: USA
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^LSM-\d+{4}$
 prefixed: 0
 resources:
  - identifier: MIR:00100723
-   accessurl: http://lincsportal.ccs.miami.edu/SmallMolecules/#/view/
+   accessurl: http://lincsportal.ccs.miami.edu/SmallMolecules/#/view/${id}
+   test_id: LSM-6306
    description: LINCS Portal
+   homepage: http://lincsportal.ccs.miami.edu/SmallMolecules/
+   institution: University  of Miami, BD2K-LINCS DCIC, USA
    location: USA
    official: false
 ---

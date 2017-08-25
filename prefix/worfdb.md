@@ -7,8 +7,11 @@ pattern: ^\w+(\.\d+)?
 prefixed: 0
 resources:
  - identifier: MIR:00100370
-   accessurl: http://worfdb.dfci.harvard.edu/index.php?search_type=name&page=showresultrc&race_query=
+   accessurl: http://worfdb.dfci.harvard.edu/index.php?search_type=name&page=showresultrc&race_query=${id}
+   test_id: T01B6.1
    description: Worm Orf DB at Harvard
+   homepage: http://worfdb.dfci.harvard.edu/
+   institution: Center for Cancer Systems Biology, Harvard Medical School, Massachusetts
    location: USA
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^(cl|tum)\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100508
-   accessurl: http://bioinformatics.hsanmartino.it/hypercldb/
+   accessurl: http://bioinformatics.hsanmartino.it/hypercldb/${id}.html
+   test_id: cl3603
    description: CLDB at Genova
+   homepage: http://bioinformatics.hsanmartino.it/hypercldb/indexes.html
+   institution: Bioinformatics, Cell Bank, National Cancer Research Institute, Genova
    location: Italy
    official: false
 ---

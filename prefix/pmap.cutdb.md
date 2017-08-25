@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100284
-   accessurl: http://cutdb.burnham.org/relation/show/
+   accessurl: http://cutdb.burnham.org/relation/show/${id}
+   test_id: 25782
    description: CutDB at The Burnham Institute for Medical Research
+   homepage: http://cutdb.burnham.org
+   institution: The Center on Proteolytic Pathways, The Cancer Research Center and The Inflammatory and Infectious Disease Center, The Burnham Institute for Medical Research, California
    location: USA
    official: false
 ---

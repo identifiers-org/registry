@@ -7,8 +7,11 @@ pattern: ^[A-Za-z_0-9]+
 prefixed: 0
 resources:
  - identifier: MIR:00100520
-   accessurl: http://www.pocketome.org/files/
+   accessurl: http://www.pocketome.org/files/${id}.html
+   test_id: 1433C_TOBAC_1_252
    description: Pocketome at UCSD Skaggs School
+   homepage: http://www.pocketome.org/sfSearch.cgi?act=browseall
+   institution: UCSD Skaggs School of Pharmacy and Pharmaceutical Sciences, La Jolla, California
    location: USA
    official: false
 ---

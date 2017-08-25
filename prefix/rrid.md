@@ -8,8 +8,11 @@ pattern: ^RRID:[A-Z_a-z-0-9]+$
 prefixed: 1
 resources:
  - identifier: MIR:00100735
-   accessurl: https://scicrunch.org/resolver/
+   accessurl: https://scicrunch.org/resolver/${id}
+   test_id: RRID:AB_262044
    description: RRID at SciCrunch
+   homepage: https://scicrunch.org/resolver
+   institution: University of California, San Diego
    location: USA
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100599
-   accessurl: http://func.mshri.on.ca/yeast/genes/list_functional_scores/
+   accessurl: http://func.mshri.on.ca/yeast/genes/list_functional_scores/${id}
+   test_id: 2701
    description: FuncBase Yeast at Harvard Medical School
+   homepage: http://func.mshri.on.ca/yeast
+   institution: Harvard Medical School, Boston, Massachusetts
    location: USA
    official: false
 ---

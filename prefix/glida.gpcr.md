@@ -7,8 +7,11 @@ pattern: ^[A-Z-_0-9]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100634
-   accessurl: http://pharminfo.pharm.kyoto-u.ac.jp/services/glida/gpcr_information.php?id=
+   accessurl: http://pharminfo.pharm.kyoto-u.ac.jp/services/glida/gpcr_information.php?id=${id}
+   test_id: ACM1_HUMAN
    description: GLIDA GPCR at Kyoto University
+   homepage: http://pharminfo.pharm.kyoto-u.ac.jp/services/glida/
+   institution: Department of Genomic Drug Discovery Science, Graduate School of Pharmaceutical Sciences, Kyoto University, Sakyo-ku, Kyoto
    location: Japan
    official: false
 ---

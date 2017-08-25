@@ -7,8 +7,11 @@ pattern: ^TA\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100448
-   accessurl: http://piroplasmadb.org/piro/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=
+   accessurl: http://piroplasmadb.org/piro/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=${id}
+   test_id: TA14985
    description: PiroplasmaBD at EuPathDB
+   homepage: http://piroplasmadb.org/
+   institution: Center for Tropical &amp; Emerging Global Diseases, University of Georgia, Georgia
    location: USA
    official: false
 ---

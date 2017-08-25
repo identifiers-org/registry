@@ -7,14 +7,20 @@ pattern: ECO:\d{7}$
 prefixed: 1
 resources:
  - identifier: MIR:00100083
-   accessurl: http://www.ebi.ac.uk/ols/ontologies/eco/terms?obo_id=
+   accessurl: http://www.ebi.ac.uk/ols/ontologies/eco/terms?obo_id=${id}
+   test_id: ECO:0000006
    description: Evidence Codes via the Ontology Lookup Service (OLS)
+   homepage: http://www.ebi.ac.uk/ols/ontologies/eco
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ols
  - identifier: MIR:00100235
-   accessurl: http://purl.bioontology.org/ontology/ECO/
+   accessurl: http://purl.bioontology.org/ontology/ECO/${id}
+   test_id: ECO:0000006
    description: Evidence Code Ontology through BioPortal
+   homepage: http://bioportal.bioontology.org/ontologies/ECO
+   institution: National Center for Biomedical Ontology, Stanford
    location: USA
    official: false
    provider_code: bptl

@@ -7,8 +7,11 @@ pattern: ^[A-Z0-9]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100802
-   accessurl: http://cancer.sanger.ac.uk/cosmic/gene/overview?ln=
+   accessurl: http://cancer.sanger.ac.uk/cosmic/gene/overview?ln=${id}
+   test_id: BRAF
    description: COSMIC Gene at Sanger
+   homepage: http://cancer.sanger.ac.uk/cosmic/
+   institution: Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge
    location: UK
    official: false
 ---

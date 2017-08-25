@@ -7,8 +7,11 @@ pattern: ^K\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100149
-   accessurl: http://www.kegg.jp/entry/
+   accessurl: http://www.kegg.jp/entry/${id}
+   test_id: K00001
    description: KEGG Orthology Database
+   homepage: http://www.genome.jp/kegg/ko.html
+   institution: Department of Computational Biology, University of Tokyo, Tokyo
    location: Japan
    official: true
 ---

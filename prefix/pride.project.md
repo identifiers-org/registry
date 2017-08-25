@@ -7,8 +7,11 @@ pattern: ^P(X|R)D\d+{6}$
 prefixed: 0
 resources:
  - identifier: MIR:00100662
-   accessurl: http://www.ebi.ac.uk/pride/archive/projects/
+   accessurl: http://www.ebi.ac.uk/pride/archive/projects/${id}
+   test_id: PXD000440
    description: PRIDE Project at EBI
+   homepage: http://www.ebi.ac.uk/pride/
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ebi

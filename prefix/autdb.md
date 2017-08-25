@@ -7,8 +7,11 @@ pattern: ^[A-Z]+[A-Z-0-9]{2,}$
 prefixed: 0
 resources:
  - identifier: MIR:00100538
-   accessurl: http://autism.mindspec.org/GeneDetail/
+   accessurl: http://autism.mindspec.org/GeneDetail/${id}
+   test_id: ADA
    description: AutDB at MindSpec
+   homepage: http://autism.mindspec.org/autdb/
+   institution: MindSpec Inc., Fairfax, Virginia
    location: USA
    official: false
 ---

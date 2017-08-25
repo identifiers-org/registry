@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100345
-   accessurl: http://phenol-explorer.eu/foods/
+   accessurl: http://phenol-explorer.eu/foods/${id}
+   test_id: 75
    description: Phenol-Explorer Database on Phenol content of foods
+   homepage: http://www.phenol-explorer.eu/foods/
+   institution: INRA and University of Alberta
    location: France and Canada
    official: false
 ---

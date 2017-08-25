@@ -7,8 +7,11 @@ pattern: ^AS\d{6}$
 prefixed: 0
 resources:
  - identifier: MIR:00100250
-   accessurl: http://www.arachnoserver.org/toxincard.html?id=
+   accessurl: http://www.arachnoserver.org/toxincard.html?id=${id}
+   test_id: AS000060
    description: ArachnoServer at Brisbane
+   homepage: http://www.arachnoserver.org/
+   institution: Institute for Molecular Bioscience, The University of Queensland, Brisbane
    location: Australia
    official: false
 ---

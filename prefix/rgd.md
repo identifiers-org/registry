@@ -7,8 +7,11 @@ pattern: ^\d{4,7}$
 prefixed: 0
 resources:
  - identifier: MIR:00100075
-   accessurl: http://rgd.mcw.edu/rgdweb/report/gene/main.html?id=
+   accessurl: http://rgd.mcw.edu/rgdweb/report/gene/main.html?id=${id}
+   test_id: 2018
    description: Rat Genome Database
+   homepage: http://rgd.mcw.edu/
+   institution: Medical College of Wisconsin
    location: USA
    official: false
 ---

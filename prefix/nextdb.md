@@ -7,8 +7,11 @@ pattern: ^[A-Za-z0-9]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100371
-   accessurl: http://nematode.lab.nig.ac.jp/db2/ShowCloneInfo.php?clone=
+   accessurl: http://nematode.lab.nig.ac.jp/db2/ShowCloneInfo.php?clone=${id}
+   test_id: 6b1
    description: NEXTDB at Shizuoka
+   homepage: http://nematode.lab.nig.ac.jp/
+   institution: National Institute of Genetics, Shizuoka
    location: Japan
    official: false
 ---

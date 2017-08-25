@@ -7,8 +7,11 @@ pattern: ^[\w\d\.-]*$
 prefixed: 0
 resources:
  - identifier: MIR:00100139
-   accessurl: http://www.genedb.org/gene/
+   accessurl: http://www.genedb.org/gene/${id}
+   test_id: Cj1536c
    description: GeneDB at Sanger Institute
+   homepage: http://www.genedb.org/
+   institution: Pathogen Genomics, Sanger Institute and European Bioinformatics Institute
    location: UK
    official: false
 ---

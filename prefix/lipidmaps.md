@@ -7,8 +7,11 @@ pattern: ^LM(FA|GL|GP|SP|ST|PR|SL|PK)[0-9]{4}([0-9a-zA-Z]{4,6})?$
 prefixed: 0
 resources:
  - identifier: MIR:00100080
-   accessurl: http://www.lipidmaps.org/data/LMSDRecord.php?LMID=
+   accessurl: http://www.lipidmaps.org/data/LMSDRecord.php?LMID=${id}
+   test_id: LMPR0102010012
    description: Department of Bioengineering and the San Diego Supercomputer Center
+   homepage: http://www.lipidmaps.org
+   institution: University of California, San Diego
    location: USA
    official: false
 ---

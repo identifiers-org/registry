@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100571
-   accessurl: http://mips.helmholtz-muenchen.de/genre/proj/corum/complexdetails.html?id=
+   accessurl: http://mips.helmholtz-muenchen.de/genre/proj/corum/complexdetails.html?id=${id}
+   test_id: 100
    description: CORUM at Institute for Bioinformatics and Systems Biology (Germany)
+   homepage: http://mips.helmholtz-muenchen.de/genre/proj/corum/
+   institution: Institute for Bioinformatics and Systems Biology, Helmholtz Zentrum M&amp;uuml;nchen-German Research Center for Environmental Health, Neuherberg
    location: Germany
    official: false
 ---

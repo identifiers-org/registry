@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100567
-   accessurl: http://www.wikigenes.org/e/gene/e/
+   accessurl: http://www.wikigenes.org/e/gene/e/${id}.html
+   test_id: 3771877
    description: WikiGenes at Massachusetts Institute of Technology
+   homepage: http://www.wikigenes.org/
+   institution: Computer Science and Artificial Intelligence Laboratory, Massachusetts Institute of Technology, Cambridge, Massachusetts
    location: USA
    official: false
 ---

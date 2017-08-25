@@ -7,8 +7,11 @@ pattern: ^[A-Z]+[0-9]+$
 prefixed: 0
 resources:
  - identifier: MIR:00100656
-   accessurl: http://www.ebi.ac.uk/metagenomics/samples/
+   accessurl: http://www.ebi.ac.uk/metagenomics/samples/${id}
+   test_id: SRS086444
    description: EBI Metagenomics at European Bioinformatics Institute
+   homepage: http://www.ebi.ac.uk/metagenomics
+   institution: European Bioinformatics Institute, Hinxton, Cambridge
    location: UK
    official: false
    provider_code: ebi

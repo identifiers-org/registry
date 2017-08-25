@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100621
-   accessurl: http://www.shigen.nig.ac.jp/rice/oryzabaseV4/devstageineachorgan/detail/
+   accessurl: http://www.shigen.nig.ac.jp/rice/oryzabaseV4/devstageineachorgan/detail/${id}
+   test_id: 34
    description: Oryzabase v4 Stage at National Institute of Genetics (Japan)
+   homepage: http://www.shigen.nig.ac.jp/rice/oryzabaseV4/
+   institution: Genetic Strains Research Center, National Institute of Genetics, Mishima, Shizuoka
    location: Japan
    official: false
 ---

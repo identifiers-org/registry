@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100587
-   accessurl: http://rgd.mcw.edu/rgdweb/report/strain/main.html?id=
+   accessurl: http://rgd.mcw.edu/rgdweb/report/strain/main.html?id=${id}
+   test_id: 5688061
    description: Rat Genome Database strain at Medical College of Wisconsin
+   homepage: http://rgd.mcw.edu/
+   institution: Medical College of Wisconsin, Milwaukee, Wisconsin
    location: USA
    official: false
 ---

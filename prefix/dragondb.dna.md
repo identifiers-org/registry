@@ -7,8 +7,11 @@ pattern: ^\d\w+$
 prefixed: 0
 resources:
  - identifier: MIR:00100379
-   accessurl: http://antirrhinum.net/cgi-bin/ace/generic/tree/DragonDB?name=
+   accessurl: http://antirrhinum.net/cgi-bin/ace/generic/tree/DragonDB?name=${id};class=DNA
+   test_id: 3hB06
    description: DragonDB DNA at University of British Columbia
+   homepage: http://www.antirrhinum.net/
+   institution: University of British Columbia, Vancouver
    location: Canada
    official: false
 ---

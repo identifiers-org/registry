@@ -7,8 +7,11 @@ pattern: ^\w{1,2}\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100515
-   accessurl: http://www.treefam.org/family/
+   accessurl: http://www.treefam.org/family/${id}
+   test_id: TF101014
    description: TreeFam database
+   homepage: http://www.treefam.org/
+   institution: Beijing Genomics Institute, Beijing
    location: China
    official: false
 ---

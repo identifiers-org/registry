@@ -7,8 +7,11 @@ pattern: ^\w+
 prefixed: 0
 resources:
  - identifier: MIR:00100194
-   accessurl: http://cryptodb.org/cryptodb/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=
+   accessurl: http://cryptodb.org/cryptodb/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=${id}
+   test_id: cgd7_230
    description: CryptoDB at EuPathDB
+   homepage: http://cryptodb.org/cryptodb/
+   institution: Center for Tropical & Emerging Global Diseases, University of Georgia
    location: USA
    official: false
 ---

@@ -7,8 +7,11 @@ pattern: ^\d+$
 prefixed: 0
 resources:
  - identifier: MIR:00100318
-   accessurl: http://rna.igmors.u-psud.fr/NAPP/Niveau2.php?specie=
+   accessurl: http://rna.igmors.u-psud.fr/NAPP/Niveau2.php?specie=${id}
+   test_id: 351
    description: NAPP at CNRS
+   homepage: http://napp.u-psud.fr/
+   institution: Institut de Génétique et Microbiologie, UMR 8621, CNRS, Université Paris Sud, Paris
    location: France
    official: false
 ---
