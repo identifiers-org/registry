@@ -5,10 +5,11 @@ description: The MEROPS database is an information resource for peptidases (also
 prefix: merops.family
 pattern: ^[SCTAGMNU]\d+$
 prefixed: 0
+local_id: S1
 resources:
  - identifier: MIR:00100384
-   accessurl: http://merops.sanger.ac.uk/cgi-bin/famsum?family=${id}
-   test_id: S1
+   accessurl: http://merops.sanger.ac.uk/cgi-bin/famsum?family=${lid}
+   keyword: Peptidase family S1 contains
    description: Merops Family at Sanger Institute
    homepage: http://merops.sanger.ac.uk/index.htm
    institution: Wellcome Trust Sanger Institute, Hinxton

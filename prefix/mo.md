@@ -5,10 +5,13 @@ description: The MGED Ontology (MO) provides terms for annotating all aspects of
 prefix: mo
 pattern: ^\w+$
 prefixed: 0
+local_id: ArrayGroup
+synonyms:
+ - MO
 resources:
  - identifier: MIR:00100385
-   accessurl: http://purl.bioontology.org/ontology/MO/${id}
-   test_id: ArrayGroup
+   accessurl: http://purl.bioontology.org/ontology/MO/${lid}
+   keyword: physical platform
    description: MGED Ontology at BioPortal
    homepage: http://bioportal.bioontology.org/
    institution: National Center for Biomedical Ontology, Stanford University
@@ -16,8 +19,8 @@ resources:
    official: false
    provider_code: bptl
  - identifier: MIR:00100568
-   accessurl: http://mged.sourceforge.net/ontologies/MGEDontology.php#${id}
-   test_id: ArrayGroup
+   accessurl: http://mged.sourceforge.net/ontologies/MGEDontology.php#${lid}
+   keyword: physical platform
    description: MGED Ontology at SourceForge
    homepage: http://mged.sourceforge.net/ontologies/MGEDontology.php
    institution: (Ontology Working Group), European Bioinformatics Institute, Hinxton, Cambridge

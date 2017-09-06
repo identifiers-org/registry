@@ -5,10 +5,11 @@ description: MycoBank is an online database, documenting new mycological names a
 prefix: mycobank
 pattern: ^\d+$
 prefixed: 0
+local_id: 349124
 resources:
  - identifier: MIR:00100224
-   accessurl: http://www.mycobank.org/Biolomics.aspx?Table=Mycobank&MycoBankNr_=${id}
-   test_id: 349124
+   accessurl: http://www.mycobank.org/Biolomics.aspx?Table=Mycobank&MycoBankNr_=${lid}
+   keyword: Candida albicans var. claussenii
    description: MycoBank at Fungal Biodiversity Centre
    homepage: http://www.mycobank.org/
    institution: CBS-KNAW  Fungal Biodiversity Centre, Utrecht

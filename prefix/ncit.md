@@ -5,10 +5,14 @@ description: NCI Thesaurus (NCIt) provides reference terminology covering vocabu
 prefix: ncit
 pattern: ^C\d+$
 prefixed: 0
+local_id: C80519
+synonyms:
+ - NCI thesaurus
+ - National Cancer Institute Thesaurus
 resources:
  - identifier: MIR:00100181
-   accessurl: http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=${id}
-   test_id: C80519
+   accessurl: http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=${lid}
+   keyword: elucidate fact
    description: NCIt at National Cancer Institute
    homepage: http://ncit.nci.nih.gov/
    institution: National Cancer Institute, Center for Bioinformatics, Maryland

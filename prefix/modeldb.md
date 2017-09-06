@@ -5,10 +5,11 @@ description: ModelDB is a curated, searchable database of published models in th
 prefix: modeldb
 pattern: ^\d+$
 prefixed: 0
+local_id: 45539
 resources:
  - identifier: MIR:00100171
-   accessurl: http://senselab.med.yale.edu/ModelDB/ShowModel.asp?model=${id}
-   test_id: 45539
+   accessurl: http://senselab.med.yale.edu/ModelDB/ShowModel.asp?model=${lid}
+   keyword: thalamocortical network model
    description: ModelDB at SenseLab
    homepage: http://senselab.med.yale.edu/ModelDB/
    institution: Yale University School of Medicine

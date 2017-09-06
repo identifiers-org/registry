@@ -5,10 +5,13 @@ description: The University of Minnesota Biocatalysis/Biodegradation Database (U
 prefix: umbbd.reaction
 pattern: ^r\d+$
 prefixed: 0
+local_id: r0001
+synonyms:
+ - University of Minnesota Biocatalysis/Biodegradation Database (Reaction)
 resources:
  - identifier: MIR:00100416
-   accessurl: http://umbbd.ethz.ch/servlets/pageservlet?ptype=r&reacID=${id}
-   test_id: r0001
+   accessurl: http://umbbd.ethz.ch/servlets/pageservlet?ptype=r&reacID=${lid}
+   keyword: haloalkane dehalogenase
    description: Biocatalysis/Biodegradation Database Mirror (Reaction) at ETH Zurich
    homepage: http://umbbd.ethz.ch/
    institution: ETH, Zurich

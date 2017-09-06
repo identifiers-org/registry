@@ -5,10 +5,11 @@ description: ICEberg (Integrative and conjugative elements) is a database of int
 prefix: iceberg.element
 pattern: ^\d+$
 prefixed: 0
+local_id: 100
 resources:
  - identifier: MIR:00100604
-   accessurl: http://db-mml.sjtu.edu.cn/ICEberg/feature_page.php?ice_id=${id}
-   test_id: 100
+   accessurl: http://db-mml.sjtu.edu.cn/ICEberg/feature_page.php?ice_id=${lid}
+   keyword: Tn5383
    description: ICEberg element at Shanghai Jiaotong University
    homepage: http://db-mml.sjtu.edu.cn/ICEberg/
    institution: State Key Laboratory of Microbial Metabolism and School of Life Sciences &amp;amp;amp;amp; Biotechnology, Shanghai Jiaotong University, Shanghai

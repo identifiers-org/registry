@@ -5,10 +5,13 @@ description: The Gene Expression Atlas (GXA) is a semantically enriched database
 prefix: gxa.expt
 pattern: ^[AEP]-\w{4}-\d+$
 prefixed: 0
+local_id: E-MTAB-2037
+synonyms:
+ - Gene Expression Atlas Experiment
 resources:
  - identifier: MIR:00100483
-   accessurl: http://www.ebi.ac.uk/gxa/experiments/${id}
-   test_id: E-MTAB-2037
+   accessurl: http://www.ebi.ac.uk/gxa/experiments/${lid}
+   keyword: Oryza sativa
    description: GXA Expt at EBI
    homepage: http://www.ebi.ac.uk/gxa/
    institution: European Bioinformatics Institute, Hinxton, Cambridge

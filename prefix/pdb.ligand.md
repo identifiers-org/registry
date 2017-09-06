@@ -5,10 +5,11 @@ description: The Protein Data Bank is the single worldwide archive of structural
 prefix: pdb.ligand
 pattern: ^[A-Za-z0-9]+$
 prefixed: 0
+local_id: TRQ
 resources:
  - identifier: MIR:00100626
-   accessurl: http://www.rcsb.org/pdb/ligand/ligandsummary.do?hetId=${id}
-   test_id: TRQ
+   accessurl: http://www.rcsb.org/pdb/ligand/ligandsummary.do?hetId=${lid}
+   keyword: L-peptide linking
    description: PDB Ligand at RCSB
    homepage: http://www.pdb.org/
    institution: Rutgers, The State University of New Jersey
@@ -16,8 +17,8 @@ resources:
    official: false
    provider_code: rcsb
  - identifier: MIR:00100650
-   accessurl: http://www.ebi.ac.uk/pdbe-srv/pdbechem/chemicalCompound/show/${id}
-   test_id: TRQ
+   accessurl: http://www.ebi.ac.uk/pdbe-srv/pdbechem/chemicalCompound/show/${lid}
+   keyword: L-PEPTIDE LINKING
    description: PDB Ligand at Protein Databank in Europe (PDBe)
    homepage: http://www.pdbe.org/
    institution: European Bioinformatics Institute, Hinxton, Cambridge

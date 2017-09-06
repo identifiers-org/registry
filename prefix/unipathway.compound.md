@@ -5,10 +5,11 @@ description: UniPathway is a manually curated resource of enzyme-catalyzed and s
 prefix: unipathway.compound
 pattern: ^UPC\d{5}$
 prefixed: 0
+local_id: UPC04349
 resources:
  - identifier: MIR:00100728
-   accessurl: http://www.grenoble.prabi.fr/obiwarehouse/unipathway/upc?upid=${id}
-   test_id: UPC04349
+   accessurl: http://www.grenoble.prabi.fr/obiwarehouse/unipathway/upc?upid=${lid}
+   keyword: 3-deoxy-D-glycero-hexo-2,5-diulosonate
    description: UniPathway Compound at Swiss Institute of Bioinformatics (SIB)
    homepage: http://www.grenoble.prabi.fr/obiwarehouse/unipathway
    institution: Swiss Institute of Bioinformatics (SIB) and French National Institute for Research in Computer Science and Control

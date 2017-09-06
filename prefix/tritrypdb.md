@@ -5,10 +5,13 @@ description: TriTrypDB is one of the databases that can be accessed through the 
 prefix: tritrypdb
 pattern: ^\w+(\.)?\w+(\.)?\w+
 prefixed: 0
+local_id: Tb927.8.620
+synonyms:
+ - Kinetoplastid Genomics Resource
 resources:
  - identifier: MIR:00100200
-   accessurl: http://tritrypdb.org/tritrypdb/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=${id}
-   test_id: Tb927.8.620
+   accessurl: http://tritrypdb.org/tritrypdb/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=${lid}
+   keyword: Trypanosoma brucei TREU927
    description: TriTrypDB at EuPathDB
    homepage: http://tritrypdb.org/tritrypdb/
    institution: Wellcome Trust Sanger Institute, Hinxton

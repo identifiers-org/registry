@@ -5,18 +5,21 @@ description: The Human Phenotype Ontology (HPO) aims to provide a standardized v
 prefix: hp
 pattern: ^HP:\d{7}$
 prefixed: 1
+local_id: 0000118
+synonyms:
+ - HPO
 resources:
  - identifier: MIR:00100753
-   accessurl: http://compbio.charite.de/hpoweb/showterm?id=${id}
-   test_id: HP:0000118
+   accessurl: http://compbio.charite.de/hpoweb/showterm?id=HP:${lid}
+   keyword: Phenotypic abnormality
    description: Human Phenotype Ontology at Institute for Medical Genetics and Human Genetics
    homepage: http://human-phenotype-ontology.github.io/
    institution: Institute for Medical Genetics and Human Genetics, Charité-Universitätsmedizin, Berlin
    location: Germany
    official: true
  - identifier: MIR:00100754
-   accessurl: http://www.ebi.ac.uk/ols/ontologies/hp/terms?obo_id=${id}
-   test_id: HP:0000118
+   accessurl: http://www.ebi.ac.uk/ols/ontologies/hp/terms?obo_id=HP:${lid}
+   keyword: Phenotypic abnormality
    description: Human Phenotype Ontology through OLS
    homepage: http://www.ebi.ac.uk/ols/ontologies/hp
    institution: European Bioinformatics Institute, Hinxton, Cambridge

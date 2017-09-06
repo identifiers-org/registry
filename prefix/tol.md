@@ -7,10 +7,11 @@ Each page contains information about a particular group, with pages linked one t
 prefix: tol
 pattern: ^\d+$
 prefixed: 0
+local_id: 98034
 resources:
  - identifier: MIR:00100525
-   accessurl: http://tolweb.org/${id}
-   test_id: 98034
+   accessurl: http://tolweb.org/${lid}
+   keyword: Trypanosoma congolense
    description: Tree of Life Web
    homepage: http://tolweb.org/tree/
    institution: University of Arizona

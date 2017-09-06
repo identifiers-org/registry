@@ -5,10 +5,13 @@ description: The database of interacting protein (DIP) database stores experimen
 prefix: dip
 pattern: ^DIP(\:)?\-\d{1,}[ENXS]$
 prefixed: 0
+local_id: DIP-743N
+synonyms:
+ - DIP
 resources:
  - identifier: MIR:00100072
-   accessurl: http://dip.doe-mbi.ucla.edu/dip/DIPview.cgi?ID=${id}
-   test_id: DIP-743N
+   accessurl: http://dip.doe-mbi.ucla.edu/dip/DIPview.cgi?ID=${lid}
+   keyword: 14-3-3 protein beta/alpha
    description: Database of interacting proteins
    homepage: http://dip.doe-mbi.ucla.edu/
    institution: UCLA

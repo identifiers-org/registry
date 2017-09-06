@@ -5,10 +5,13 @@ description: Magnaporthe grisea, the causal agent of rice blast disease, is one 
 prefix: broad
 pattern: ^S\d+$
 prefixed: 0
+local_id: S7000002168151102
+synonyms:
+ - Magnaporthe comparative genomics database
 resources:
  - identifier: MIR:00100569
-   accessurl: http://www.broadinstitute.org/annotation/genome/magnaporthe_grisea/GeneDetails.html?sp=${id}
-   test_id: S7000002168151102
+   accessurl: http://www.broadinstitute.org/annotation/genome/magnaporthe_grisea/GeneDetails.html?sp=${lid}
+   keyword: dicarboxylic amino acid permease
    description: Broad Fungal Genome Initiative at Broad Institute
    homepage: http://www.broadinstitute.org/annotation/genome/magnaporthe_grisea/
    institution: Broad Institute of MIT and Harvard, Cambridge, Massachuchetts

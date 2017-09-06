@@ -5,10 +5,11 @@ description: ACLAME is a database dedicated to the collection and classification
 prefix: aclame
 pattern: ^mge:\d+$
 prefixed: 1
+local_id: 2
 resources:
  - identifier: MIR:00100091
-   accessurl: http://aclame.ulb.ac.be/perl/Aclame/Genomes/mge_view.cgi?view=info&id=${id}
-   test_id: mge:2
+   accessurl: http://aclame.ulb.ac.be/perl/Aclame/Genomes/mge_view.cgi?view=info&id=mge:${lid}
+   keyword: mge:2 - A118
    description: Aclame database of mobile genetic elements
    homepage: http://aclame.ulb.ac.be/
    institution: Service de Conformation de Macromolécules Biologiques et de Bioinformatique, Université Libre de Bruxelles

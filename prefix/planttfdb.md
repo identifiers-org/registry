@@ -5,10 +5,13 @@ description: The Plant TF database (PlantTFDB) systematically identifies transcr
 prefix: planttfdb
 pattern: ^[A-Z][a-z]{2}_([A-Za-z]{3}[0-9]{6})|([A-Za-z0-9\._\-#]*)$
 prefixed: 0
+local_id: Ath_AT1G01030.1
+synonyms:
+ - PlantTFDB
 resources:
  - identifier: MIR:00100772
-   accessurl: http://planttfdb.cbi.pku.edu.cn/tf.php?uid=${id}
-   test_id: Ath_AT1G01030.1
+   accessurl: http://planttfdb.cbi.pku.edu.cn/tf.php?uid=${lid}
+   keyword: Arabidopsis
    description: PlantTFDB at Peking University
    homepage: http://planttfdb.cbi.pku.edu.cn
    institution: Center for Bioinformatics, Peking University, Beijing

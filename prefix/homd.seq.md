@@ -5,10 +5,13 @@ description: The Human Oral Microbiome Database (HOMD) provides a site-specific 
 prefix: homd.seq
 pattern: ^SEQF\d+$
 prefixed: 0
+local_id: SEQF1003
+synonyms:
+ - Human Oral Microbiome Database
 resources:
  - identifier: MIR:00100216
-   accessurl: http://www.homd.org/modules.php?op=modload&name=GenomeList&file=index&link=detailinfo&seqid=${id}
-   test_id: SEQF1003
+   accessurl: http://www.homd.org/modules.php?op=modload&name=GenomeList&file=index&link=detailinfo&seqid=${lid}
+   keyword: ATCC 49626
    description: HOMD sequence metainformation at The Forsyth Institute
    homepage: http://www.homd.org/index.php
    institution: The Forsyth Institute, Boston

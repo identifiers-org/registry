@@ -5,10 +5,13 @@ description: The Human Protein Reference Database (HPRD) represents a centralize
 prefix: hprd
 pattern: ^\d+$
 prefixed: 0
+local_id: 00001
+synonyms:
+ - Human Protein Reference Database
 resources:
  - identifier: MIR:00100479
-   accessurl: http://www.hprd.org/protein/${id}
-   test_id: 00001
+   accessurl: http://www.hprd.org/protein/${lid}
+   keyword: Aldehyde dehydrogenase 1
    description: Human Protein Reference Database
    homepage: http://www.hprd.org/
    institution: Institute of Bioinformatics, International Tech Park, Bangalore

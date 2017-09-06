@@ -5,10 +5,13 @@ description: KEGG ENVIRON (renamed from EDRUG) is a collection of crude drugs, e
 prefix: kegg.environ
 pattern: ^(ev\:)?E\d+$
 prefixed: 0
+local_id: ev:E00032
+synonyms:
+ - KEGG
 resources:
  - identifier: MIR:00100506
-   accessurl: http://www.kegg.jp/entry/${id}
-   test_id: ev:E00032
+   accessurl: http://www.kegg.jp/entry/${lid}
+   keyword: Lauraceae
    description: KEGG ENVIRON Database
    homepage: http://www.genome.jp/kegg/drug/environ.html
    institution: Kyoto University Bioinformatics Center

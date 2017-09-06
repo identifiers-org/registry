@@ -5,10 +5,13 @@ description: The Small Molecule Pathway Database (SMPDB) contains small molecule
 prefix: smpdb
 pattern: ^SMP\d{5}$
 prefixed: 0
+local_id: SMP00001
+synonyms:
+ - SMPDB
 resources:
  - identifier: MIR:00100137
-   accessurl: http://smpdb.ca/view/${id}
-   test_id: SMP00001
+   accessurl: http://smpdb.ca/view/${lid}
+   keyword: Citrullinemia Type I
    description: Small Molecule Pathway Database
    homepage: http://www.smpdb.ca/pathways
    institution: University of Alberta, Edmonton, AB

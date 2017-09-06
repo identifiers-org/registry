@@ -5,10 +5,13 @@ description: Oryza Tag Line is a database that was developed to collect informat
 prefix: otl
 pattern: ^A[A-Z]+\d+$
 prefixed: 0
+local_id: AADB12
+synonyms:
+ - OTL
 resources:
  - identifier: MIR:00100622
-   accessurl: http://oryzatagline.cirad.fr/cgi-bin/general_mutant.pl?line=${id}
-   test_id: AADB12
+   accessurl: http://oryzatagline.cirad.fr/cgi-bin/general_mutant.pl?line=${lid}
+   keyword: rolled leaf
    description: Oryza Tag Line at CIRAD-INRA-SUPAGRO-UMI
    homepage: http://oryzatagline.cirad.fr/
    institution: CIRAD-INRA-SUPAGRO-UMII, Biological Systems Department, Montpellier

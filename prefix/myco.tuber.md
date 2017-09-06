@@ -5,10 +5,13 @@ description: Mycobrowser is a resource that provides both in silico generated an
 prefix: myco.tuber
 pattern: ^Rv\d{4}(A|B|c)?$
 prefixed: 0
+local_id: Rv1908c
+synonyms:
+ - TubercuList
 resources:
  - identifier: MIR:00100275
-   accessurl: http://tuberculist.epfl.ch/quicksearch.php?gene+name=${id}
-   test_id: Rv1908c
+   accessurl: http://tuberculist.epfl.ch/quicksearch.php?gene+name=${lid}
+   keyword: both a catalase
    description: MycoBrowser tuberculosis at Global Health Institute
    homepage: http://tuberculist.epfl.ch/
    institution: Global Health Institute,  Lausanne

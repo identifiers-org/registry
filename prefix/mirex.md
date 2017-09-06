@@ -5,10 +5,11 @@ description: mirEX is a comprehensive platform for comparative analysis of prima
 prefix: mirex
 pattern: ^\d+(\w+)?$
 prefixed: 0
+local_id: 165a
 resources:
  - identifier: MIR:00100423
-   accessurl: http://comgen.pl/mirex1/?page=results/record&name=${id}&exref=pp2a&limit=yes
-   test_id: 165a
+   accessurl: http://comgen.pl/mirex1/?page=results/record&name=${lid}&exref=pp2a&limit=yes
+   keyword: CUGCUAAGAUC
    description: mirEX at Adam Mickiewicz University
    homepage: http://comgen.pl/mirex/?page=home
    institution: Institute of Molecular Biology, Adam Mickiewicz University, Poznan

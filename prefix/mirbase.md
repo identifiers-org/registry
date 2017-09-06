@@ -5,10 +5,11 @@ description: The miRBase Sequence Database is a searchable database of published
 prefix: mirbase
 pattern: MI\d{7}
 prefixed: 0
+local_id: MI0000001
 resources:
  - identifier: MIR:00100135
-   accessurl: http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=${id}
-   test_id: MI0000001
+   accessurl: http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=${lid}
+   keyword: Caenorhabditis elegans let-7 stem-loop
    description: miRBase Sequence Database
    homepage: http://www.mirbase.org/
    institution: Faculty of Life Sciences, University of Manchester 

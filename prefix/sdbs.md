@@ -5,10 +5,13 @@ description: The Spectral Database for Organic Compounds (SDBS) is an integrated
 prefix: sdbs
 pattern: \d+$
 prefixed: 0
+local_id: 4544
+synonyms:
+ - SDBS
 resources:
  - identifier: MIR:00100402
-   accessurl: http://riodb01.ibase.aist.go.jp/sdbs/cgi-bin/cre_frame_disp.cgi?sdbsno=${id}
-   test_id: 4544
+   accessurl: http://riodb01.ibase.aist.go.jp/sdbs/cgi-bin/cre_frame_disp.cgi?sdbsno=${lid}
+   keyword: hydrogen oxide
    description: SDBS at AIST
    homepage: http://riodb01.ibase.aist.go.jp/sdbs/cgi-bin/direct_frame_top.cgi
    institution: National Institute of Advanced Industrial Science and Technology (AIST)

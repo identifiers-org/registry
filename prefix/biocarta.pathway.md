@@ -5,10 +5,11 @@ description: BioCarta is a supplier and distributor of characterized reagents an
 prefix: biocarta.pathway
 pattern: ^([hm]\_)?\w+Pathway$
 prefixed: 0
+local_id: h_aktPathway
 resources:
  - identifier: MIR:00100544
-   accessurl: http://cgap.nci.nih.gov/Pathways/BioCarta/${id}
-   test_id: h_aktPathway
+   accessurl: http://cgap.nci.nih.gov/Pathways/BioCarta/${lid}
+   keyword: AKT Signaling Pathway
    description: BioCarta Pathway at NCI
    homepage: http://www.biocarta.com/
    institution: National Cancer Institute, Center for Bioinformatics, Maryland

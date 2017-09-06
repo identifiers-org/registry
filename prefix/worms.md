@@ -5,10 +5,13 @@ description: The World Register of Marine Species (WoRMS) provides an authoritat
 prefix: worms
 pattern: ^\d+$
 prefixed: 0
+local_id: 146421
+synonyms:
+ - WoRMS
 resources:
  - identifier: MIR:00100778
-   accessurl: http://www.marinespecies.org/aphia.php?p=taxdetails&id=${id}
-   test_id: 146421
+   accessurl: http://www.marinespecies.org/aphia.php?p=taxdetails&id=${lid}
+   keyword: mantelvisjes
    description: World Register of Marine Species
    homepage: http://www.marinespecies.org/
    institution: Flanders Marine Institute, Ostend

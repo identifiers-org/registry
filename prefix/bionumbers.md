@@ -6,10 +6,11 @@ description: BioNumbers is a database of key numberical information that may be 
 prefix: bionumbers
 pattern: ^\d+$
 prefixed: 0
+local_id: 104674
 resources:
  - identifier: MIR:00100132
-   accessurl: http://www.bionumbers.hms.harvard.edu/bionumber.aspx?s=y&id=${id}&ver=1
-   test_id: 104674
+   accessurl: http://www.bionumbers.hms.harvard.edu/bionumber.aspx?s=y&id=${lid}&ver=1
+   keyword: Actual value is higher than 0.001 sec
    description: BioNumbers database
    homepage: http://www.bionumbers.hms.harvard.edu/search.aspx
    institution: Weizmann Institute

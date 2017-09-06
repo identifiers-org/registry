@@ -5,10 +5,13 @@ description: NextDb is a database that provides information on the expression pa
 prefix: nextdb
 pattern: ^[A-Za-z0-9]+$
 prefixed: 0
+local_id: 6b1
+synonyms:
+ - Nematode Expression Pattern Database
 resources:
  - identifier: MIR:00100371
-   accessurl: http://nematode.lab.nig.ac.jp/db2/ShowCloneInfo.php?clone=${id}
-   test_id: 6b1
+   accessurl: http://nematode.lab.nig.ac.jp/db2/ShowCloneInfo.php?clone=${lid}
+   keyword: transketolase
    description: NEXTDB at Shizuoka
    homepage: http://nematode.lab.nig.ac.jp/
    institution: National Institute of Genetics, Shizuoka

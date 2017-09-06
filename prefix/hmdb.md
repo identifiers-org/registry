@@ -5,10 +5,13 @@ description: The Human Metabolome Database (HMDB) is a database containing detai
 prefix: hmdb
 pattern: ^HMDB\d{5}$
 prefixed: 0
+local_id: HMDB00001
+synonyms:
+ - Human Metabolome Database
 resources:
  - identifier: MIR:00100079
-   accessurl: http://www.hmdb.ca/metabolites/${id}
-   test_id: HMDB00001
+   accessurl: http://www.hmdb.ca/metabolites/${lid}
+   keyword: 1-Methylhistidine
    description: The Human Metabolome Database
    homepage: http://www.hmdb.ca/
    institution: University of Alberta, Edmonton, AB

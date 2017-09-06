@@ -5,10 +5,11 @@ description: Pocketome is an encyclopedia of conformational ensembles of all dru
 prefix: pocketome
 pattern: ^[A-Za-z_0-9]+
 prefixed: 0
+local_id: 1433C_TOBAC_1_252
 resources:
  - identifier: MIR:00100520
-   accessurl: http://www.pocketome.org/files/${id}.html
-   test_id: 1433C_TOBAC_1_252
+   accessurl: http://www.pocketome.org/files/${lid}.html
+   keyword: 14-3-3 family
    description: Pocketome at UCSD Skaggs School
    homepage: http://www.pocketome.org/sfSearch.cgi?act=browseall
    institution: UCSD Skaggs School of Pharmacy and Pharmaceutical Sciences, La Jolla, California

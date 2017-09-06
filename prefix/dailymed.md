@@ -5,10 +5,11 @@ description: DailyMed provides information about marketed drugs. This informatio
 prefix: dailymed
 pattern: ^[A-Za-z0-9-]+
 prefixed: 0
+local_id: 8889bcd7-d0e9-434b-b09d-30132bd033b0
 resources:
  - identifier: MIR:00100558
-   accessurl: http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=${id}
-   test_id: 8889bcd7-d0e9-434b-b09d-30132bd033b0
+   accessurl: http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=${lid}
+   keyword: Reye's syndrome
    description: DailyMed at NLM
    homepage: http://dailymed.nlm.nih.gov/dailymed/
    institution: U.S. National Library of Medicine, Bethesda, Maryland

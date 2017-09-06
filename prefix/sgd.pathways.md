@@ -5,10 +5,11 @@ description: Curated biochemical pathways for Saccharomyces cerevisiae at Saccha
 prefix: sgd.pathways
 pattern: ^PWY\w{2}\-\d{3}$
 prefixed: 0
+local_id: PWY3O-214
 resources:
  - identifier: MIR:00100085
-   accessurl: http://pathway.yeastgenome.org/YEAST/new-image?type=PATHWAY&object=${id}
-   test_id: PWY3O-214
+   accessurl: http://pathway.yeastgenome.org/YEAST/new-image?type=PATHWAY&object=${lid}
+   keyword: tryptophan degradation
    description: Saccharomyces cerevisiae pathways at SGD.
    homepage: http://pathway.yeastgenome.org/
    institution: SGD, Stanford University

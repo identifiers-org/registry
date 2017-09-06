@@ -5,10 +5,13 @@ description: The Human Protein Atlas (HPA) is a publicly available database with
 prefix: hpa
 pattern: ^ENSG\d{11}$
 prefixed: 0
+local_id: ENSG00000026508
+synonyms:
+ - Human Protein Atlas
 resources:
  - identifier: MIR:00100431
-   accessurl: http://www.proteinatlas.org/${id}
-   test_id: ENSG00000026508
+   accessurl: http://www.proteinatlas.org/${lid}
+   keyword: Blood group antigen proteins
    description: Human Protein Atlas at AlbaNova University
    homepage: http://www.proteinatlas.org/
    institution: Department of Proteomics, School of Biotechnology, AlbaNova University Center, Stockholm

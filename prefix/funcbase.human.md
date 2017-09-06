@@ -5,10 +5,11 @@ description: Computational gene function prediction can serve to focus experimen
 prefix: funcbase.human
 pattern: ^\d+$
 prefixed: 0
+local_id: 119514
 resources:
  - identifier: MIR:00100597
-   accessurl: http://func.mshri.on.ca/human/genes/list_functional_scores/${id}
-   test_id: 119514
+   accessurl: http://func.mshri.on.ca/human/genes/list_functional_scores/${lid}
+   keyword: GALNT12
    description: FuncBase Human at Harvard Medical School
    homepage: http://func.mshri.on.ca/human/
    institution: Harvard Medical School, Boston, Massachusetts

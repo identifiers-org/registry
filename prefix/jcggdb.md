@@ -5,10 +5,13 @@ description: JCGGDB (Japan Consortium for Glycobiology and Glycotechnology DataB
 prefix: jcggdb
 pattern: ^JCGG-STR\d{6}$
 prefixed: 0
+local_id: JCGG-STR008690
+synonyms:
+ - Japan Consortium for Glycobiology and Glycotechnology DataBase
 resources:
  - identifier: MIR:00100614
-   accessurl: http://jcggdb.jp/idb/jcggdb/${id}
-   test_id: JCGG-STR008690
+   accessurl: http://jcggdb.jp/idb/jcggdb/${lid}
+   keyword: GlyTouCan
    description: JCGGDB at Advanced Science Institute (Japan)
    homepage: http://jcggdb.jp/index_en.html
    institution: Advanced Science Institute(ASI), Chemical Biology Department Systems Glycobiology research Group, Saitama

@@ -5,10 +5,13 @@ description: The American Type Culture Collection (ATCC) is a private, nonprofit
 prefix: atcc
 pattern: ^\d+$
 prefixed: 0
+local_id: 11303
+synonyms:
+ - American Type Culture Collection
 resources:
  - identifier: MIR:00100365
-   accessurl: http://www.lgcstandards-atcc.org/Products/All/${id}.aspx
-   test_id: 11303
+   accessurl: http://www.lgcstandards-atcc.org/Products/All/${lid}.aspx
+   keyword: Castellani and Chalmers
    description: ATCC in Virginia
    homepage: http://www.atcc.org/
    institution: American Type Culture Collection, Manassas, Virginia

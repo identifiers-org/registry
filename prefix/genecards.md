@@ -5,10 +5,11 @@ description: The GeneCards human gene database stores gene related transcriptomi
 prefix: genecards
 pattern: ^\w+$
 prefixed: 0
+local_id: ABL1
 resources:
  - identifier: MIR:00100407
-   accessurl: http://www.genecards.org/cgi-bin/carddisp.pl?gene=${id}
-   test_id: ABL1
+   accessurl: http://www.genecards.org/cgi-bin/carddisp.pl?gene=${lid}
+   keyword: protooncogene
    description: GeneCards at Weizmann Institute
    homepage: http://www.genecards.org/
    institution: Department of Molecular Genetics, Weizmann Institute of Science, Rehovot

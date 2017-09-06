@@ -5,10 +5,13 @@ description: The MDM (Medical Data Models) Portal is a meta-data registry for cr
 prefix: mdm
 pattern: ^\d+$
 prefixed: 0
+local_id: 4776
+synonyms:
+ - Medical Data Models
 resources:
  - identifier: MIR:00100766
-   accessurl: https://medical-data-models.org/forms/${id}
-   test_id: 4776
+   accessurl: https://medical-data-models.org/forms/${lid}
+   keyword: CMTRT
    description: MDM at University of Muenster
    homepage: https://medical-data-models.org/
    institution: Institute of Medical Informatics, University of Muenster

@@ -5,10 +5,11 @@ description: The Human Oral Microbiome Database (HOMD) provides a site-specific 
 prefix: homd.taxon
 pattern: ^\d+$
 prefixed: 0
+local_id: 811
 resources:
  - identifier: MIR:00100217
-   accessurl: http://www.homd.org/modules.php?op=modload&name=HOMD&file=index&oraltaxonid=${id}&view=dynamic
-   test_id: 811
+   accessurl: http://www.homd.org/modules.php?op=modload&name=HOMD&file=index&oraltaxonid=${lid}&view=dynamic
+   keyword: Arcanobacterium haemolyticum
    description: HOMD taxon information at The Forsyth Institute
    homepage: http://www.homd.org/index.php
    institution: The Forsyth Institute, Boston

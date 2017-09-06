@@ -5,10 +5,11 @@ description: ProGlycProt (Prokaryotic Glycoprotein) is a repository of bacterial
 prefix: proglyc
 pattern: ^[A-Z]C\d{1,3}$
 prefixed: 0
+local_id: AC119
 resources:
  - identifier: MIR:00100451
-   accessurl: http://www.proglycprot.org/detail.aspx?ProId=${id}
-   test_id: AC119
+   accessurl: http://www.proglycprot.org/detail.aspx?ProId=${lid}
+   keyword: Staphylothermus marinus F1
    description: ProGlycProt at IMT
    homepage: http://www.proglycprot.org/
    institution: Institute of Microbial Technology, Council of Scientific and Industrial Research (CSIR),  Chandigarh

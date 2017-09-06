@@ -5,10 +5,13 @@ description: The University of Minnesota Biocatalysis/Biodegradation Database (U
 prefix: umbbd.compound
 pattern: ^c\d+$
 prefixed: 0
+local_id: c0001
+synonyms:
+ - University of Minnesota Biocatalysis/Biodegradation Database (Compound)
 resources:
  - identifier: MIR:00100357
-   accessurl: http://umbbd.ethz.ch/servlets/pageservlet?ptype=c&compID=${id}
-   test_id: c0001
+   accessurl: http://umbbd.ethz.ch/servlets/pageservlet?ptype=c&compID=${lid}
+   keyword: 1,2-Dichloroethane
    description: Biocatalysis/Biodegradation Database Mirror (Compound) at ETH Zurich
    homepage: http://umbbd.ethz.ch/
    institution: ETH, Zurich

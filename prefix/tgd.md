@@ -5,10 +5,13 @@ description: The Tetrahymena Genome Database (TGD) Wiki is a database of informa
 prefix: tgd
 pattern: ^TTHERM\_\d+$
 prefixed: 0
+local_id: TTHERM_00648910
+synonyms:
+ - TGD
 resources:
  - identifier: MIR:00100396
-   accessurl: http://ciliate.org/index.php/feature/details/${id}
-   test_id: TTHERM_00648910
+   accessurl: http://ciliate.org/index.php/feature/details/${lid}
+   keyword: Intraflagellar transport 52
    description: TGD at Stanford University
    homepage: http://ciliate.org/index.php/
    institution: Department of Genetics, School of Medicine, Stanford University, Stanford, California

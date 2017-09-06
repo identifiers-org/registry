@@ -5,10 +5,11 @@ description: The SWISS-MODEL Repository is a database of 3D protein structure mo
 prefix: swiss-model
 pattern: ^\w+$
 prefixed: 0
+local_id: P23298
 resources:
  - identifier: MIR:00100290
-   accessurl: http://swissmodel.expasy.org/repository/smr.php?sptr_ac=${id}
-   test_id: P23298
+   accessurl: http://swissmodel.expasy.org/repository/smr.php?sptr_ac=${lid}
+   keyword: MKFNGYLRVR
    description: SWISS-MODEL at SIB Swiss Institute of Bioinformatics
    homepage: http://swissmodel.expasy.org/
    institution: Biozentrum, University of Basel and SIB Swiss Institute of Bioinformatics, Basel

@@ -5,10 +5,11 @@ description: H-Invitational Database (H-InvDB) is an integrated database of huma
 prefix: hinv.protein
 pattern: ^HIP\d{9}(\.\d+)?$
 prefixed: 0
+local_id: HIP000030660
 resources:
  - identifier: MIR:00100215
-   accessurl: http://h-invitational.jp/hinv/protein/protein_view.cgi?hip_id=${id}
-   test_id: HIP000030660
+   accessurl: http://h-invitational.jp/hinv/protein/protein_view.cgi?hip_id=${lid}
+   keyword: Alcohol dehydrogenase class-3
    description: H-Invitational Protein View at BIRC
    homepage: http://h-invitational.jp/hinv/ahg-db/index.jsp
    institution: BIRC, Tokyo

@@ -5,10 +5,11 @@ description: The integrated microbial genomes (IMG) system is a data management,
 prefix: img.gene
 pattern: ^\d+$
 prefixed: 0
+local_id: 638309541
 resources:
  - identifier: MIR:00100222
-   accessurl: http://img.jgi.doe.gov/cgi-bin/w/main.cgi?section=GeneDetail&gene_oid=${id}
-   test_id: 638309541
+   accessurl: http://img.jgi.doe.gov/cgi-bin/w/main.cgi?section=GeneDetail&gene_oid=${lid}
+   keyword: polynucleotide phosphatase/kinase
    description: Integrated Microbial Genomes Taxon at Lawrence Berkeley National Laboratory
    homepage: http://img.jgi.doe.gov/
    institution: Lawrence Berkeley National Laboratory, Berkeley

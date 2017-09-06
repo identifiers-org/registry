@@ -5,10 +5,11 @@ description: TreeBASE is a relational database designed to manage and explore in
 prefix: treebase
 pattern: ^TB[1,2]?:[A-Z][a-z]?\d+$
 prefixed: 0
+local_id: TB2:S1000
 resources:
  - identifier: MIR:00100395
-   accessurl: http://purl.org/phylo/treebase/phylows/study/${id}?format=html
-   test_id: TB2:S1000
+   accessurl: http://purl.org/phylo/treebase/phylows/study/${lid}?format=html
+   keyword: Out of Anatolia: Longitudina
    description: TreeBASE (hosted at National Evolutionary Synthesis Center)
    homepage: http://treebase.org/
    institution: Phyloinformatics Research Foundation, Durham, North Carolina

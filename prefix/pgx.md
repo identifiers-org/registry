@@ -5,10 +5,13 @@ description: The Progenetix database provides an overview of copy number abnorma
 prefix: pgx
 pattern: ^[\w\-:,]{3,64}$
 prefixed: 0
+local_id: icdom:8500_3
+synonyms:
+ - Cancer Genome Knowledge Resource
 resources:
  - identifier: MIR:00100801
-   accessurl: http://progenetix.org/pgx:${id}
-   test_id: icdom:8500_3
+   accessurl: http://progenetix.org/pgx:${lid}
+   keyword: 8500/3
    description: Progenetix
    homepage: http://progenetix.org/
    institution: University of Zurich

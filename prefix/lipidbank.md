@@ -5,10 +5,11 @@ description: LipidBank is an open, publicly free database of natural lipids incl
 prefix: lipidbank
 pattern: ^\w+\d+$
 prefixed: 0
+local_id: BBA0001
 resources:
  - identifier: MIR:00100148
-   accessurl: http://lipidbank.jp/cgi-bin/detail.cgi?id=${id}
-   test_id: BBA0001
+   accessurl: http://lipidbank.jp/cgi-bin/detail.cgi?id=${lid}
+   keyword: Ursocholanic Acid
    description: LipidBank the Lipid database
    homepage: http://lipidbank.jp/index.html
    institution: Department of Computational Biology, University of Tokyo, Tokyo

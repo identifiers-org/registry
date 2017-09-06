@@ -5,10 +5,13 @@ description: Ensembl Genomes consists of five sub-portals (for bacteria, protist
 prefix: ensembl.metazoa
 pattern: ^\w+(\.)?\d+$
 prefixed: 0
+local_id: FBtr0084214
+synonyms:
+ - Ensembl Genomes Metazoa
 resources:
  - identifier: MIR:00100263
-   accessurl: http://metazoa.ensembl.org/id/${id}
-   test_id: FBtr0084214
+   accessurl: http://metazoa.ensembl.org/id/${lid}
+   keyword: Pyruvate kinase
    description: Enzembl Metazoa at EBI
    homepage: http://metazoa.ensembl.org/
    institution: European Bioinformatics Institute, Hinxton, Cambridge

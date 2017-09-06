@@ -5,10 +5,11 @@ description: GWAS Central (previously the Human Genome Variation database of Gen
 prefix: gwascentral.study
 pattern: ^HGVST\d+$
 prefixed: 0
+local_id: HGVST1828
 resources:
  - identifier: MIR:00100717
-   accessurl: http://www.gwascentral.org/study/${id}
-   test_id: HGVST1828
+   accessurl: http://www.gwascentral.org/study/${lid}
+   keyword: GWAS of Colorectal cancer
    description: GWAS Central Study at University of Leicester
    homepage: http://www.gwascentral.org/studies
    institution: Department of Genetics, University of Leicester, Leicester

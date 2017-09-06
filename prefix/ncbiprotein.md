@@ -5,10 +5,11 @@ description: The Protein database is a collection of sequences from several sour
 prefix: ncbiprotein
 pattern: ^(\w+\d+(\.\d+)?)|(NP_\d+)$
 prefixed: 0
+local_id: CAA71118.1
 resources:
  - identifier: MIR:00100439
-   accessurl: http://www.ncbi.nlm.nih.gov/protein/${id}
-   test_id: CAA71118.1
+   accessurl: http://www.ncbi.nlm.nih.gov/protein/${lid}
+   keyword: Klebsiella pneumoniae
    description: NCBI Protein at NCBI
    homepage: http://www.ncbi.nlm.nih.gov/protein
    institution: National Center for Biotechnology Information (NCBI)

@@ -5,10 +5,13 @@ description: The Ligand-Gated Ion Channel database provides nucleic and proteic 
 prefix: lgic
 pattern: ^\w+$
 prefixed: 0
+local_id: 5HT3Arano
+synonyms:
+ - LGICdb
 resources:
  - identifier: MIR:00100118
-   accessurl: http://www.ebi.ac.uk/compneur-srv/LGICdb/HTML/${id}.php
-   test_id: 5HT3Arano
+   accessurl: http://www.ebi.ac.uk/compneur-srv/LGICdb/HTML/${lid}.php
+   keyword: rat serotonin 5-HT3 receptor
    description: Ligand-Gated Ion Channel database at EBI
    homepage: http://www.ebi.ac.uk/compneur-srv/LGICdb/LGICdb.php
    institution: European Bioinformatics Institute, Hinxton, Cambridge

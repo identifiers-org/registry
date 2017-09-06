@@ -5,10 +5,11 @@ description: BitterDB is a database of compounds reported to taste bitter to hum
 prefix: bitterdb.cpd
 pattern: ^\d+$
 prefixed: 0
+local_id: 46
 resources:
  - identifier: MIR:00100443
-   accessurl: http://bitterdb.agri.huji.ac.il/bitterdb/compound.php?id=${id}
-   test_id: 46
+   accessurl: http://bitterdb.agri.huji.ac.il/bitterdb/compound.php?id=${lid}
+   keyword: Caffeine
    description: BitterDB Compound at The Hebrew University of Jerusalem
    homepage: http://bitterdb.agri.huji.ac.il/dbbitter.php
    institution: The Robert H Smith Faculty of Agriculture, Food and Environment, The Institute of Biochemistry, Food Science and Nutrition, The Hebrew University of Jerusalem, Rehovot

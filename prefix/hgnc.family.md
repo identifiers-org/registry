@@ -5,10 +5,11 @@ description: The HGNC (HUGO Gene Nomenclature Committee) provides an approved ge
 prefix: hgnc.family
 pattern: ^[A-Z0-9-]+(#[A-Z0-9-]+)?$
 prefixed: 0
+local_id: PADI
 resources:
  - identifier: MIR:00100671
-   accessurl: http://www.genenames.org/genefamilies/${id}
-   test_id: PADI
+   accessurl: http://www.genenames.org/genefamilies/${lid}
+   keyword: Peptidyl arginine deiminases
    description: HGNC Family at HUGO Genome Nomenclature Committee
    homepage: http://www.genenames.org/
    institution: European Bioinformatics Institute, Hinxton, Cambridge

@@ -5,10 +5,13 @@ description: The Anatomical Therapeutic Chemical (ATC) classification system, di
 prefix: atc
 pattern: ^[A-Z](\d+([A-Z]{1,2}(\d+)?)?)?$
 prefixed: 0
+local_id: A10BA02
+synonyms:
+ - ATC
 resources:
  - identifier: MIR:00100119
-   accessurl: http://www.whocc.no/atc_ddd_index/?code=${id}
-   test_id: A10BA02
+   accessurl: http://www.whocc.no/atc_ddd_index/?code=${lid}
+   keyword: metformin
    description: Anatomical Therapeutic Chemical Index at WHO
    homepage: http://www.whocc.no/atc_ddd_index/
    institution: World Health Organisation

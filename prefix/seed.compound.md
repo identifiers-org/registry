@@ -5,10 +5,11 @@ description: This cooperative effort, which includes Fellowship for Interpretati
 prefix: seed.compound
 pattern: ^cpd\d+$
 prefixed: 0
+local_id: cpd15380
 resources:
  - identifier: MIR:00100730
-   accessurl: http://modelseed.org/biochem/compounds/${id}
-   test_id: cpd15380
+   accessurl: http://modelseed.org/biochem/compounds/${lid}
+   keyword: 5'-deoxyribose
    description: SEED Compound at Argonne National Laboratory
    homepage: http://modelseed.org/
    institution: Argonne National Laboratory, University of Chicago, Argonne, Illinois

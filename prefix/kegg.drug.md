@@ -5,10 +5,13 @@ description: KEGG DRUG contains chemical structures of drugs and additional info
 prefix: kegg.drug
 pattern: ^D\d+$
 prefixed: 0
+local_id: D00123
+synonyms:
+ - KEGG
 resources:
  - identifier: MIR:00100035
-   accessurl: http://www.kegg.jp/entry/${id}
-   test_id: D00123
+   accessurl: http://www.kegg.jp/entry/${lid}
+   keyword: Cyanamide
    description: KEGG DRUG Database
    homepage: http://www.genome.jp/kegg/drug/
    institution: Kyoto University Bioinformatics Center

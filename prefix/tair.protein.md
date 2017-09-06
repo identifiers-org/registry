@@ -5,10 +5,11 @@ description: The Arabidopsis Information Resource (TAIR) maintains a database of
 prefix: tair.protein
 pattern: ^AASequence:\d{10}$
 prefixed: 0
+local_id: AASequence:1009107926
 resources:
  - identifier: MIR:00100076
-   accessurl: http://arabidopsis.org/servlets/TairObject?accession=${id}
-   test_id: AASequence:1009107926
+   accessurl: http://arabidopsis.org/servlets/TairObject?accession=${lid}
+   keyword: AASequence:1009107926
    description: The Arabidopsis Information Resource (TAIR) Protein
    homepage: http://arabidopsis.org/index.jsp
    institution: Carnegie Institution of Washington Department of Plant Biology and National Center for Genome Resources (NCGR)

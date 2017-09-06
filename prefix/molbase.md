@@ -5,10 +5,11 @@ description: Molbase provides compound data information for researchers as well 
 prefix: molbase
 pattern: ^(\d{1,7}\-\d{2}\-\d)|([A-Za-z0-9\+\-\_]+)$
 prefixed: 0
+local_id: 128796-39-4
 resources:
  - identifier: MIR:00100593
-   accessurl: http://www.molbase.com/en/index.php?app=search&search_keyword=${id}
-   test_id: 128796-39-4
+   accessurl: http://www.molbase.com/en/index.php?app=search&search_keyword=${lid}
+   keyword: 4-Trifluoromethylphenylboronic acid
    description: Molbase at Chinese Academy of Sciences
    homepage: http://www.molbase.com/
    institution: Chinese Academy of Sciences, Xuhui District  Shanghai

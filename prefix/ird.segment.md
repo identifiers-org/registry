@@ -5,10 +5,13 @@ description: Influenza Research Database (IRD) contains information related to i
 prefix: ird.segment
 pattern: ^\w+(\_)?\d+(\.\d+)?$
 prefixed: 0
+local_id: CY077097
+synonyms:
+ - Influenza Research Database Segment
 resources:
  - identifier: MIR:00100218
-   accessurl: http://www.fludb.org/brc/fluSegmentDetails.do?ncbiGenomicAccession=${id}
-   test_id: CY077097
+   accessurl: http://www.fludb.org/brc/fluSegmentDetails.do?ncbiGenomicAccession=${lid}
+   keyword: Influenza Segment/Protein Details
    description: IRD at BioHealthBase
    homepage: http://www.fludb.org/
    institution: Southwestern Medical Center, University of Texas, Dallas

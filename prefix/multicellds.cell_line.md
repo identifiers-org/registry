@@ -5,10 +5,11 @@ description: MultiCellDS is data standard for multicellular simulation, experime
 prefix: multicellds.cell_line
 pattern: ^MCDS_L_[a-zA-Z0-9]{1,10}$
 prefixed: 0
+local_id: MCDS_L_0000000001
 resources:
  - identifier: MIR:00100781
-   accessurl: http://multicellds.org/MultiCellDB/${id}
-   test_id: MCDS_L_0000000001
+   accessurl: http://multicellds.org/MultiCellDB/${lid}
+   keyword: 1.0.1.1
    description:  MultiCellDS Digital Cell Line at Keck School of Medicine
    homepage: http://multicellds.org/MultiCellDB.php
    institution: Center for Applied Molecular Medicine, Keck School of Medicine, University of Southern California, California

@@ -5,10 +5,11 @@ description: miRNEST is a database of animal, plant and virus microRNAs, contain
 prefix: mirnest
 pattern: ^MNEST\d+$
 prefixed: 0
+local_id: MNEST029358
 resources:
  - identifier: MIR:00100317
-   accessurl: http://rhesus.amu.edu.pl/mirnest/copy/details.php?id=${id}
-   test_id: MNEST029358
+   accessurl: http://rhesus.amu.edu.pl/mirnest/copy/details.php?id=${lid}
+   keyword: hsa-mir-3190
    description: miRNEST at Adam Mickiewicz University
    homepage: http://rhesus.amu.edu.pl/mirnest/copy/
    institution: Institute of Molecular Biology, Adam Mickiewicz University, Poznan

@@ -5,10 +5,13 @@ description: The Yeast Resource Center Public Data Repository (YRC PDR) serves a
 prefix: yrcpdr
 pattern: ^\d+$
 prefixed: 0
+local_id: 2673500
+synonyms:
+ - Yeast Resource Center Public Data Repository
 resources:
  - identifier: MIR:00100594
-   accessurl: http://yeastrc.org/pdr/viewProtein.do?id=${id}
-   test_id: 2673500
+   accessurl: http://yeastrc.org/pdr/viewProtein.do?id=${lid}
+   keyword: PKHD-type hydroxylase
    description: YRC PDR at University of Washington
    homepage: http://www.yeastrc.org/pdr/
    institution: Department of Biochemistry, University of Washington, Seattle

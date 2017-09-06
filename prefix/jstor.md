@@ -5,10 +5,13 @@ description: JSTOR (Journal Storage) is a digital library containing digital ver
 prefix: jstor
 pattern: ^\d+$
 prefixed: 0
+local_id: 3075966
+synonyms:
+ - Journal Storage
 resources:
  - identifier: MIR:00100575
-   accessurl: http://www.jstor.org/stable/${id}
-   test_id: 3075966
+   accessurl: http://www.jstor.org/stable/${lid}
+   keyword: Systems Biology: A Brief Overview
    description: JSTOR Online
    homepage: http://www.jstor.org/
    institution: Ithaka Harbors, Inc., New York

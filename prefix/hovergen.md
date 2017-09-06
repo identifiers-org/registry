@@ -5,10 +5,11 @@ description: HOVERGEN is a database of homologous vertebrate genes that allows o
 prefix: hovergen
 pattern: ^HBG\d+$
 prefixed: 0
+local_id: HBG004341
 resources:
  - identifier: MIR:00100104
-   accessurl: http://pbil.univ-lyon1.fr/cgi-bin/view-tree.pl?query=${id}&db=HOVERGEN
-   test_id: HBG004341
+   accessurl: http://pbil.univ-lyon1.fr/cgi-bin/view-tree.pl?query=${lid}&db=HOVERGEN
+   keyword: HBG004341 gene family
    description: Hovergen
    homepage: http://pbil.univ-lyon1.fr/databases/hovergen.php
    institution: Laboratoire de Biométrie, Génétique et Biologie des Populations

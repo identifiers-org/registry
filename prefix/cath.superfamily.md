@@ -5,10 +5,11 @@ description: The CATH database is a hierarchical domain classification of protei
 prefix: cath.superfamily
 pattern: ^\d+(\.\d+(\.\d+(\.\d+)?)?)?$
 prefixed: 0
+local_id: 1.10.10.200
 resources:
  - identifier: MIR:00100268
-   accessurl: http://www.cathdb.info/cathnode/${id}
-   test_id: 1.10.10.200
+   accessurl: http://www.cathdb.info/cathnode/${lid}
+   keyword: 1mw7A01
    description: CATH superfamily at UCL
    homepage: http://www.cathdb.info/
    institution: Institute of Structural and Molecular Biology, University College London

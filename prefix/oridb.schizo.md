@@ -5,10 +5,11 @@ description: OriDB is a database of collated genome-wide mapping studies of conf
 prefix: oridb.schizo
 pattern: ^\d+$
 prefixed: 0
+local_id: 1
 resources:
  - identifier: MIR:00100467
-   accessurl: http://pombe.oridb.org/details.php?id=${id}
-   test_id: 1
+   accessurl: http://pombe.oridb.org/details.php?id=${lid}
+   keyword: tandem intergenic
    description: OriDB Schizosaccharomyces at University of Nottingham
    homepage: http://pombe.oridb.org/index.php
    institution: Centre for Genetics and Genomics, The University of Nottingham, Queen's Medical Centre, Nottingham

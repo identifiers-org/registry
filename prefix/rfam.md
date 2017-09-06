@@ -5,10 +5,13 @@ description: The Rfam database is a collection of RNA families, each represented
 prefix: rfam
 pattern: ^RF\d{5}$
 prefixed: 0
+local_id: RF00230
+synonyms:
+ - RNA Family Database
 resources:
  - identifier: MIR:00100686
-   accessurl: http://rfam.xfam.org/family/${id}
-   test_id: RF00230
+   accessurl: http://rfam.xfam.org/family/${lid}
+   keyword: element that controls gene expression
    description: Rfam at EMBL-EBI
    homepage: http://rfam.xfam.org/
    institution: European Bioinformatics Institute, Hinxton, Cambridge

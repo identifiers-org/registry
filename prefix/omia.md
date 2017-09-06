@@ -5,10 +5,13 @@ description: Online Mendelian Inheritance in Animals is a a database of genes, i
 prefix: omia
 pattern: ^\d+$
 prefixed: 0
+local_id: 1000
+synonyms:
+ - Online Mendelian Inheritance in Animals
 resources:
  - identifier: MIR:00100185
-   accessurl: http://omia.angis.org.au/${id}/
-   test_id: 1000
+   accessurl: http://omia.angis.org.au/${lid}/
+   keyword: Coat colour, albinism
    description: OMIA at University of Sydney
    homepage: http://omia.angis.org.au/
    institution: Reprogen, Faculty of Veterinary Science, University of Sydney

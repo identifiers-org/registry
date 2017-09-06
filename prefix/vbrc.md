@@ -5,10 +5,13 @@ description: The VBRC provides bioinformatics resources to support scientific re
 prefix: vbrc
 pattern: ^\d+$
 prefixed: 0
+local_id: 35742
+synonyms:
+ - Viral Bioinformatics Resource Center
 resources:
  - identifier: MIR:00100582
-   accessurl: http://vbrc.org/gene_detail.asp?gene_id=${id}
-   test_id: 35742
+   accessurl: http://vbrc.org/gene_detail.asp?gene_id=${lid}
+   keyword: mp_NS3
    description: VBRC at University of Alabama
    homepage: http://vbrc.org/
    institution: University of Alabama, Birmingham and the University of Victoria, British Columbia

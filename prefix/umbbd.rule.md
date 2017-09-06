@@ -5,10 +5,11 @@ description: The University of Minnesota Biocatalysis/Biodegradation Database (U
 prefix: umbbd.rule
 pattern: ^bt\d+$
 prefixed: 0
+local_id: bt0001
 resources:
  - identifier: MIR:00100421
-   accessurl: http://www.umbbd.ethz.ch/servlets/rule.jsp?rule=${id}
-   test_id: bt0001
+   accessurl: http://www.umbbd.ethz.ch/servlets/rule.jsp?rule=${lid}
+   keyword: primary Alcohol 
    description: Biocatalysis/Biodegradation Database Mirror (Biotransformation Rule) at ETH Zurich
    homepage: http://umbbd.ethz.ch/servlets/pageservlet?ptype=allrules
    institution: ETH, Zurich

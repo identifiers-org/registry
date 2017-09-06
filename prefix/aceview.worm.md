@@ -5,10 +5,13 @@ description: AceView provides a curated sequence representation of all public mR
 prefix: aceview.worm
 pattern: ^[a-z0-9-]+$
 prefixed: 0
+local_id: aap-1
+synonyms:
+ - AceView WormGenes
 resources:
  - identifier: MIR:00100363
-   accessurl: http://www.ncbi.nlm.nih.gov/IEB/Research/Acembly/av.cgi?db=worm&c=Gene&l=${id}
-   test_id: aap-1
+   accessurl: http://www.ncbi.nlm.nih.gov/IEB/Research/Acembly/av.cgi?db=worm&c=Gene&l=${lid}
+   keyword: phosphoinositide 3-kinase
    description: AceView Worm at NCBI
    homepage: http://www.ncbi.nlm.nih.gov/IEB/Research/Acembly/index.html?worm
    institution: National Center for Biotechnology Information (NCBI)

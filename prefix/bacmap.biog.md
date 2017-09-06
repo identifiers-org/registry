@@ -5,10 +5,11 @@ description: BacMap is an electronic, interactive atlas of fully sequenced bacte
 prefix: bacmap.biog
 pattern: ^\d+$
 prefixed: 0
+local_id: 1050
 resources:
  - identifier: MIR:00100459
-   accessurl: http://bacmap.wishartlab.com/organisms/${id}
-   test_id: 1050
+   accessurl: http://bacmap.wishartlab.com/organisms/${lid}
+   keyword: thermoacidophilic, anaerobic
    description: BacMap Biography at University of Alberta
    homepage: http://bacmap.wishartlab.com/
    institution: Department of Computing Science, Food and Nutritional Science, University of Alberta, Edmonton

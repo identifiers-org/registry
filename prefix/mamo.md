@@ -5,10 +5,13 @@ description: The Mathematical Modelling Ontology (MAMO) is a classification of t
 prefix: mamo
 pattern: ^MAMO_\d{7}$
 prefixed: 0
+local_id: MAMO_0000026
+synonyms:
+ - MAMO
 resources:
  - identifier: MIR:00100665
-   accessurl: http://bioportal.bioontology.org/ontologies/MAMO/?p=classes&conceptid=http://identifiers.org/mamo/${id}
-   test_id: MAMO_0000026
+   accessurl: http://bioportal.bioontology.org/ontologies/MAMO/?p=classes&conceptid=http://identifiers.org/mamo/${lid}
+   keyword: computational Neuroscience model
    description: MAMO through BioPortal
    homepage: http://bioportal.bioontology.org/ontologies/MAMO
    institution: National Center for Biomedical Ontology, Stanford
@@ -16,8 +19,8 @@ resources:
    official: false
    provider_code: bptl
  - identifier: MIR:00100758
-   accessurl: http://www.ebi.ac.uk/ols/ontologies/mamo/terms?short_form=${id}
-   test_id: MAMO_0000026
+   accessurl: http://www.ebi.ac.uk/ols/ontologies/mamo/terms?short_form=${lid}
+   keyword: computational Neuroscience model
    description: MaMO through OLS
    homepage: http://www.ebi.ac.uk/ols/ontologies/mamo
    institution: European Bioinformatics Institute, Hinxton, Cambridge

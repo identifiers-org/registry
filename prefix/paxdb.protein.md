@@ -5,10 +5,11 @@ description: PaxDb is a resource dedicated to integrating information on absolut
 prefix: paxdb.protein
 pattern: ^\d+$
 prefixed: 0
+local_id: 977869
 resources:
  - identifier: MIR:00100625
-   accessurl: http://pax-db.org/#!protein/${id}
-   test_id: 977869
+   accessurl: http://pax-db.org/#!protein/${lid}
+   keyword: apolipoprotein C-I
    description: PaxDb v3 at University of Zurich
    homepage: http://pax-db.org/
    institution: Institute of Molecular Life Sciences, University of Zurich, Zurich

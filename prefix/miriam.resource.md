@@ -5,10 +5,11 @@ description: MIRIAM Registry is an online resource created to catalogue data typ
 prefix: miriam.resource
 pattern: ^MIR:001\d{5}$
 prefixed: 0
+local_id: MIR:00100005
 resources:
  - identifier: MIR:00100245
-   accessurl: http://www.ebi.ac.uk/miriam/main/resources/${id}
-   test_id: MIR:00100005
+   accessurl: http://www.ebi.ac.uk/miriam/main/resources/${lid}
+   keyword: MIRIAM Resources (data collection)
    description: MIRIAM Registry (resources)
    homepage: http://www.ebi.ac.uk/miriam/
    institution: European Bioinformatics Institute, Hinxton, Cambridge

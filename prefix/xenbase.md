@@ -5,10 +5,11 @@ description: Xenbase is the model organism database for Xenopus laevis and X. (S
 prefix: xenbase
 pattern: ^(XB-GENE-)?\d+$
 prefixed: 0
+local_id: 922462
 resources:
  - identifier: MIR:00100232
-   accessurl: http://www.xenbase.org/gene/showgene.do?method=displayGeneSummary&geneId=${id}
-   test_id: 922462
+   accessurl: http://www.xenbase.org/gene/showgene.do?method=displayGeneSummary&geneId=${lid}
+   keyword: protogenin
    description: Xenbase at University of Calgary
    homepage: http://www.xenbase.org/
    institution: Department of Biological Sciences, University of Calgary, Alberta

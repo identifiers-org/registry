@@ -5,10 +5,11 @@ description: E-cyanobacterium.org is a web-based platform for public sharing, an
 prefix: ecyano.rule
 pattern: ^\d+$
 prefixed: 0
+local_id: 56
 resources:
  - identifier: MIR:00100784
-   accessurl: http://e-cyanobacterium.org/bcs/rule/${id}/
-   test_id: 56
+   accessurl: http://e-cyanobacterium.org/bcs/rule/${lid}/
+   keyword: reduction of oxidized
    description: e-cyanobacterium entity at Masaryk University Brno
    homepage: http://www.e-cyanobacterium.org/bcs/rule/
    institution: Systems Biology Laboratory, Faculty of Informatics, Masaryk University Brno

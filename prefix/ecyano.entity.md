@@ -5,10 +5,11 @@ description: E-cyanobacterium.org is a web-based platform for public sharing, an
 prefix: ecyano.entity
 pattern: ^\d+$
 prefixed: 0
+local_id: 23
 resources:
  - identifier: MIR:00100782
-   accessurl: http://e-cyanobacterium.org/bcs/entity/${id}/
-   test_id: 23
+   accessurl: http://e-cyanobacterium.org/bcs/entity/${lid}/
+   keyword: ferredoxin
    description: e-cyanobacterium entity at Masaryk University Brno
    homepage: http://www.e-cyanobacterium.org/bcs/entity/
    institution: Systems Biology Laboratory, Faculty of Informatics, Masaryk University Brno

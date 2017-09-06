@@ -5,10 +5,11 @@ description: The NCBI Probe Database is a public registry of nucleic acid reagen
 prefix: dbprobe
 pattern: ^\d+$
 prefixed: 0
+local_id: 1000000
 resources:
  - identifier: MIR:00100205
-   accessurl: http://www.ncbi.nlm.nih.gov/probe/?term=${id}
-   test_id: 1000000
+   accessurl: http://www.ncbi.nlm.nih.gov/probe/?term=${lid}
+   keyword: Homo sapiens bead probe
    description: dbProbe at NCBI
    homepage: http://www.ncbi.nlm.nih.gov/sites/entrez?db=probe
    institution: National Center for Biotechnology Information (NCBI)

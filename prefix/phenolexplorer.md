@@ -5,10 +5,11 @@ description: Phenol-Explorer is an electronic database on polyphenol content in 
 prefix: phenolexplorer
 pattern: ^\d+$
 prefixed: 0
+local_id: 75
 resources:
  - identifier: MIR:00100345
-   accessurl: http://phenol-explorer.eu/foods/${id}
-   test_id: 75
+   accessurl: http://phenol-explorer.eu/foods/${lid}
+   keyword: Chinese bayberry
    description: Phenol-Explorer Database on Phenol content of foods
    homepage: http://www.phenol-explorer.eu/foods/
    institution: INRA and University of Alberta

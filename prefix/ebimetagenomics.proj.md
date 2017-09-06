@@ -5,10 +5,11 @@ description: The EBI Metagenomics service is an automated pipeline for the analy
 prefix: ebimetagenomics.proj
 pattern: ^[A-Z]+[0-9]+$
 prefixed: 0
+local_id: ERP004492
 resources:
  - identifier: MIR:00100711
-   accessurl: https://www.ebi.ac.uk/metagenomics/projects/${id}
-   test_id: ERP004492
+   accessurl: https://www.ebi.ac.uk/metagenomics/projects/${lid}
+   keyword: soil microbial communities
    description: EBI metagenomics projects at EBI
    homepage: https://www.ebi.ac.uk/metagenomics
    institution: European Bioinformatics Institute, Hinxton, Cambridge

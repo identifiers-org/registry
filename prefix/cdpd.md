@@ -5,10 +5,13 @@ description: The Canadian Drug Product Database (DPD) contains product specific 
 prefix: cdpd
 pattern: ^\d+$
 prefixed: 0
+local_id: 63250
+synonyms:
+ - DPD
 resources:
  - identifier: MIR:00100351
-   accessurl: http://webprod3.hc-sc.gc.ca/dpd-bdpp/info.do?lang=eng&code=${id}
-   test_id: 63250
+   accessurl: http://webprod3.hc-sc.gc.ca/dpd-bdpp/info.do?lang=eng&code=${lid}
+   keyword: VIAGRA
    description: Canadian Drug Identification Number at Health Canada
    homepage: http://webprod3.hc-sc.gc.ca/dpd-bdpp/index-eng.jsp
    institution: Health Canada, Ottawa, Ontario

@@ -5,10 +5,11 @@ description: The Exome Aggregation Consortium (ExAC) is a coalition of investiga
 prefix: exac.variant
 pattern: ^\d{1,2}\-\d+\-[GATC]\-[GATC]$
 prefixed: 0
+local_id: 22-46615880-T-C
 resources:
  - identifier: MIR:00100718
-   accessurl: http://exac.broadinstitute.org/variant/${id}
-   test_id: 22-46615880-T-C
+   accessurl: http://exac.broadinstitute.org/variant/${lid}
+   keyword: 1209806.67
    description: ExAC Variant at Exome Aggregation Consortium
    homepage: http://exac.broadinstitute.org/
    institution: Exome Aggregation Consortium (ExAC), Cambridge, Massachusetts

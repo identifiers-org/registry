@@ -5,10 +5,11 @@ description: PomBase is a model organism database established to provide access 
 prefix: pombase
 pattern: ^S\w+(\.)?\w+(\.)?$
 prefixed: 0
+local_id: SPCC13B11.01
 resources:
  - identifier: MIR:00100430
-   accessurl: http://www.pombase.org/spombe/result/${id}
-   test_id: SPCC13B11.01
+   accessurl: http://www.pombase.org/spombe/result/${lid}
+   keyword: alcohol dehydrogenase
    description: PomBase at University of Cambridge
    homepage: http://www.pombase.org/
    institution: Cambridge Systems Biology Centre, Department of Biochemistry, University of Cambridge

@@ -5,10 +5,11 @@ description: OrthoDB presents a catalog of eukaryotic orthologous protein-coding
 prefix: orthodb
 pattern: ^\w+$
 prefixed: 0
+local_id: Q9P0K8
 resources:
  - identifier: MIR:00100280
-   accessurl: http://cegg.unige.ch/orthodb/results?searchtext=${id}
-   test_id: Q9P0K8
+   accessurl: http://cegg.unige.ch/orthodb/results?searchtext=${lid}
+   keyword: Transcription factor, fork head
    description: OrthoDB at Swiss Institute of Bioinformatics
    homepage: http://cegg.unige.ch/orthodb4
    institution: Department of Genetic Medicine and Development, Swiss Institute of Bioinformatics, Geneva

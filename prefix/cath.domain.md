@@ -5,10 +5,11 @@ description: The CATH database is a hierarchical domain classification of protei
 prefix: cath.domain
 pattern: ^\w+$
 prefixed: 0
+local_id: 1cukA01
 resources:
  - identifier: MIR:00100269
-   accessurl: http://www.cathdb.info/domain/${id}
-   test_id: 1cukA01
+   accessurl: http://www.cathdb.info/domain/${lid}
+   keyword: Nucleic acid-binding proteins
    description: CATH domain at UCL
    homepage: http://www.cathdb.info/
    institution: Institute of Structural and Molecular Biology, University College London

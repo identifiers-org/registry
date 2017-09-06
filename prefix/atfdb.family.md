@@ -5,10 +5,13 @@ description: The Animal Transcription Factor DataBase (AnimalTFDB) classifies TF
 prefix: atfdb.family
 pattern: ^\w+$
 prefixed: 0
+local_id: CUT
+synonyms:
+ - Animal Transcription Factor Database
 resources:
  - identifier: MIR:00100399
-   accessurl: http://www.bioguo.org/AnimalTFDB/family.php?fam=${id}
-   test_id: CUT
+   accessurl: http://www.bioguo.org/AnimalTFDB/family.php?fam=${lid}
+   keyword: Ailuropoda melanoleuca
    description: Animal TFDB at Hubei Bioinformatics & Molecular Imaging Key Laboratory
    homepage: http://www.bioguo.org/AnimalTFDB/family_index.php
    institution: Hubei Bioinformatics and Molecular Imaging Key Laboratory, Wuhan

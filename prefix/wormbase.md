@@ -5,18 +5,19 @@ description: WormBase is an online bioinformatics database of the biology and ge
 prefix: wormbase
 pattern: ^(WBGene\d{8}|([A-Z_a-z0-9]+(\.)?(t)?(\d+)?([a-z])?))$
 prefixed: 0
+local_id: WBGene00000001
 resources:
  - identifier: MIR:00100038
-   accessurl: http://www.wormbase.org/db/gene/gene?name=${id};class=Gene
-   test_id: WBGene00000001
+   accessurl: http://www.wormbase.org/db/gene/gene?name=${lid};class=Gene
+   keyword: aap-1
    description: WormBase (Master)
    homepage: http://www.wormbase.org/
    institution: Cold Spring Harbor Laboratory
    location: USA
    official: true
  - identifier: MIR:00100704
-   accessurl: http://wormbase.bio2rdf.org/describe/?url=http://bio2rdf.org/wormbase:${id}
-   test_id: WBGene00000001
+   accessurl: http://wormbase.bio2rdf.org/describe/?url=http://bio2rdf.org/wormbase:${lid}
+   keyword: aap-1 encodes the C. elegans ortholog of the phosphoinositide 3-kinase
    description: Bio2RDF
    homepage: http://wormbase.bio2rdf.org/fct
    institution: Bio2RDF.org

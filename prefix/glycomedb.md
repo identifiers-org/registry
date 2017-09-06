@@ -5,10 +5,11 @@ description: GlycomeDB is the result of a systematic data integration effort, an
 prefix: glycomedb
 pattern: ^\d+$
 prefixed: 0
+local_id: 1
 resources:
  - identifier: MIR:00100147
-   accessurl: http://www.glycome-db.org/database/showStructure.action?glycomeId=${id}
-   test_id: 1
+   accessurl: http://www.glycome-db.org/database/showStructure.action?glycomeId=${lid}
+   keyword: information for structure 1
    description: GlycomeDB carbohydrate structure database
    homepage: http://www.glycome-db.org/showMenu.action?major=database
    institution: German Cancer Research Center, Heidelberg

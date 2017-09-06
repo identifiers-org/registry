@@ -5,10 +5,13 @@ description: DASHR reports the annotation, expression and evidence for specific 
 prefix: dashr
 pattern: ^(hsa-(let|mir)-\w+(-\w+)?)|(piR-\d+)|(chr\w+.tRNA\d+-\w+)|(chr\w+.tRNA\d+-\w+-tRF\d)|((SNORD|SNORA|ACA|HBII|HBI|U)(-)?\w+)|(HY\d\+(-L\d+)?)|((LSU|SSU|5S)(-rRNA_Hsa)?(-L\d+)?)$
 prefixed: 0
+local_id: hsa-mir-200a
+synonyms:
+ - Database of small human noncoding RNAs
 resources:
  - identifier: MIR:00100741
-   accessurl: http://lisanwanglab.org/DASHR/entry/${id}
-   test_id: hsa-mir-200a
+   accessurl: http://lisanwanglab.org/DASHR/entry/${lid}
+   keyword: testiculargerm1
    description: DASHR at  University of Pennsylvania
    homepage: http://lisanwanglab.org/DASHR/
    institution: Department of Pathology and Laboratory Medicine, University of Pennsylvania, Philadelphia

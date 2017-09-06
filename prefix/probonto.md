@@ -5,10 +5,13 @@ description: ProbOnto, is an ontology-based knowledge base of probability distri
 prefix: probonto
 pattern: ^PROB_c\d+$
 prefixed: 0
+local_id: PROB_c0000005
+synonyms:
+ - Probability Distribution Ontology
 resources:
  - identifier: MIR:00100768
-   accessurl: http://www.ebi.ac.uk/ols/ontologies/probonto/terms?short_form=${id}
-   test_id: PROB_c0000005
+   accessurl: http://www.ebi.ac.uk/ols/ontologies/probonto/terms?short_form=${lid}
+   keyword: mathematical
    description: ProbOnto through OLS
    homepage: http://www.ebi.ac.uk/ols/ontologies/probonto
    institution: European Bioinformatics Institute, Hinxton, Cambridge

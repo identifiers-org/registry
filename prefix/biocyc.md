@@ -5,10 +5,11 @@ description: BioCyc is a collection of Pathway/Genome Databases (PGDBs) which pr
 prefix: biocyc
 pattern: ^[A-Z-0-9]+(?<!CHEBI)(\:)?[A-Za-z0-9+_.%-]+$
 prefixed: 0
+local_id: ECOLI:CYT-D-UBIOX-CPLX
 resources:
  - identifier: MIR:00100251
-   accessurl: http://biocyc.org/getid?id=${id}
-   test_id: ECOLI:CYT-D-UBIOX-CPLX
+   accessurl: http://biocyc.org/getid?id=${lid}
+   keyword: 3 cytochrome oxidase enzymes
    description: BioCyc at SRI International
    homepage: http://biocyc.org
    institution: Bioinformatics Research Group, SRI International, California

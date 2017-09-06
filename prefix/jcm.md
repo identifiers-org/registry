@@ -5,10 +5,13 @@ description: The Japan Collection of Microorganisms (JCM) collects, catalogues, 
 prefix: jcm
 pattern: ^\d+$
 prefixed: 0
+local_id: 17254
+synonyms:
+ - JCM
 resources:
  - identifier: MIR:00100220
-   accessurl: http://www.jcm.riken.go.jp/cgi-bin/jcm/jcm_number?JCM=${id}
-   test_id: 17254
+   accessurl: http://www.jcm.riken.go.jp/cgi-bin/jcm/jcm_number?JCM=${lid}
+   keyword: Keratocojunctivitis
    description: JCM at RIKEN BioResource Center
    homepage: http://www.jcm.riken.go.jp/
    institution: RIKEN BioResource Center, Ibaraki

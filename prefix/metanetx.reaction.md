@@ -5,10 +5,11 @@ description: MetaNetX/MNXref integrates various information from genome-scale me
 prefix: metanetx.reaction
 pattern: ^MNXR\d+$
 prefixed: 0
+local_id: MNXR101574
 resources:
  - identifier: MIR:00100749
-   accessurl: http://www.metanetx.org/equa_info/${id}
-   test_id: MNXR101574
+   accessurl: http://www.metanetx.org/equa_info/${lid}
+   keyword: myo-inositol
    description: MetaNetX reaction at SIB Swiss Institute of Bioinformatics
    homepage: http://www.metanetx.org/
    institution: Vital-IT group, SIB Swiss Institute of Bioinformatics, Lausanne

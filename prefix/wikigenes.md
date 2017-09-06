@@ -5,10 +5,11 @@ description: WikiGenes is a collaborative knowledge resource for the life scienc
 prefix: wikigenes
 pattern: ^\d+$
 prefixed: 0
+local_id: 3771877
 resources:
  - identifier: MIR:00100567
-   accessurl: http://www.wikigenes.org/e/gene/e/${id}.html
-   test_id: 3771877
+   accessurl: http://www.wikigenes.org/e/gene/e/${lid}.html
+   keyword: Alcohol dehydrogenase
    description: WikiGenes at Massachusetts Institute of Technology
    homepage: http://www.wikigenes.org/
    institution: Computer Science and Artificial Intelligence Laboratory, Massachusetts Institute of Technology, Cambridge, Massachusetts

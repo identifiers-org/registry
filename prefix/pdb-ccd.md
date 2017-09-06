@@ -5,10 +5,14 @@ description: The Chemical Component Dictionary is as an external reference file 
 prefix: pdb-ccd
 pattern: ^\w{3}$
 prefixed: 0
+local_id: AB0
+synonyms:
+ - PDBeChem
+ - PDB-CCD
 resources:
  - identifier: MIR:00100146
-   accessurl: http://www.ebi.ac.uk/pdbe-srv/pdbechem/chemicalCompound/show/${id}
-   test_id: AB0
+   accessurl: http://www.ebi.ac.uk/pdbe-srv/pdbechem/chemicalCompound/show/${lid}
+   keyword: ABC RING
    description: Protein Data Bank Chemical Component Dictionary at EBI
    homepage: http://www.ebi.ac.uk/pdbe-srv/pdbechem/
    institution: European Bioinformatics Institute, Hinxton, Cambridge

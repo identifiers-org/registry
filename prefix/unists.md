@@ -5,10 +5,13 @@ description: UniSTS is a comprehensive database of sequence tagged sites (STSs) 
 prefix: unists
 pattern: ^\d+$
 prefixed: 0
+local_id: 456789
+synonyms:
+ - dbSTS
 resources:
  - identifier: MIR:00100207
-   accessurl: http://www.ncbi.nlm.nih.gov/genome/sts/sts.cgi?uid=${id}
-   test_id: 456789
+   accessurl: http://www.ncbi.nlm.nih.gov/genome/sts/sts.cgi?uid=${lid}
+   keyword: voltage-gated channel
    description: UniSTS at NCBI
    homepage: http://www.ncbi.nlm.nih.gov/sites/entrez?db=unists
    institution: National Center for Biotechnology Information (NCBI)

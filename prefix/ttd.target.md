@@ -5,10 +5,11 @@ description: The Therapeutic Target Database (TTD) is designed to provide inform
 prefix: ttd.target
 pattern: ^TTDS\d+$
 prefixed: 0
+local_id: TTDS00056
 resources:
  - identifier: MIR:00100124
-   accessurl: http://bidd.nus.edu.sg/group/TTD/ZFTTDDetail.asp?ID=${id}
-   test_id: TTDS00056
+   accessurl: http://bidd.nus.edu.sg/group/TTD/ZFTTDDetail.asp?ID=${lid}
+   keyword: Alzheimers, cardiovascular disease
    description: Therapeutic Target Database Target
    homepage: http://bidd.nus.edu.sg/group/ttd/ttd.asp
    institution: Computational Science Department, National University of Singapore

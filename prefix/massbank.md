@@ -5,18 +5,19 @@ description: MassBank is a federated database of reference spectra from differen
 prefix: massbank
 pattern: ^[A-Z]{2}[A-Z0-9][0-9]{5}$
 prefixed: 0
+local_id: PB000166
 resources:
  - identifier: MIR:00100353
-   accessurl: http://www.massbank.jp/jsp/FwdRecord.jsp?id=${id}
-   test_id: PB000166
+   accessurl: http://www.massbank.jp/jsp/FwdRecord.jsp?id=${lid}
+   keyword: Kaempferol
    description: MassBank in Japan
    homepage: http://www.massbank.jp
    institution: The MassBank Consortium
    location: Japan
    official: true
  - identifier: MIR:00100666
-   accessurl: http://www.massbank.eu/MassBank/jsp/FwdRecord.jsp?id=${id}
-   test_id: PB000166
+   accessurl: http://www.massbank.eu/MassBank/jsp/FwdRecord.jsp?id=${lid}
+   keyword: Kaempferol
    description: MassBank in Europe
    homepage: http://www.massbank.eu/
    institution: NORMAN Network and The MassBank Consortium

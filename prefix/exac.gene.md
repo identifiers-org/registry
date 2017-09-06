@@ -5,10 +5,11 @@ description: The Exome Aggregation Consortium (ExAC) is a coalition of investiga
 prefix: exac.gene
 pattern: ^ENSG\d{11}$
 prefixed: 0
+local_id: ENSG00000169174
 resources:
  - identifier: MIR:00100725
-   accessurl: http://exac.broadinstitute.org/gene/${id}
-   test_id: ENSG00000169174
+   accessurl: http://exac.broadinstitute.org/gene/${lid}
+   keyword: proprotein convertase
    description: ExAC Gene at Exome Aggregation Consortium
    homepage: http://exac.broadinstitute.org/
    institution: Exome Aggregation Consortium (ExAC), Cambridge, Massachusetts

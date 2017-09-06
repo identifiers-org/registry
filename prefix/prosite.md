@@ -5,10 +5,11 @@ description: PROSITE consists of documentation entries describing protein domain
 prefix: prosite
 pattern: ^PS\d{5}$
 prefixed: 0
+local_id: PS00001
 resources:
  - identifier: MIR:00100056
-   accessurl: http://prosite.expasy.org/${id}
-   test_id: PS00001
+   accessurl: http://prosite.expasy.org/${lid}
+   keyword: ASN_GLYCOSYLATION
    description: ExPASy PROSITE
    homepage: http://www.expasy.org/prosite/
    institution: Swiss Institute of Bioinformatics (SIB)

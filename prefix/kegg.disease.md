@@ -5,10 +5,13 @@ description: The KEGG DISEASE database is a collection of disease entries captur
 prefix: kegg.disease
 pattern: ^H\d+$
 prefixed: 0
+local_id: H00076
+synonyms:
+ - KEGG
 resources:
  - identifier: MIR:00100610
-   accessurl: http://www.kegg.jp/entry/${id}
-   test_id: H00076
+   accessurl: http://www.kegg.jp/entry/${lid}
+   keyword: Cockayne syndrome
    description: KEGG Disease at Kyoto University Bioinformatics Center
    homepage: http://www.genome.jp/kegg/disease/
    institution: Kyoto University Bioinformatics Center, Kyoto

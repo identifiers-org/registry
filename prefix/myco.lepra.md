@@ -5,10 +5,13 @@ description: Mycobrowser is a resource that provides both in silico generated an
 prefix: myco.lepra
 pattern: ^ML\w+$
 prefixed: 0
+local_id: ML0224
+synonyms:
+ - Leproma
 resources:
  - identifier: MIR:00100276
-   accessurl: http://mycobrowser.epfl.ch/leprosysearch.php?gene+name=${id}
-   test_id: ML0224
+   accessurl: http://mycobrowser.epfl.ch/leprosysearch.php?gene+name=${lid}
+   keyword: dihydrofolate biosynthesis
    description: MycoBrowser leprae at Global Health Institute
    homepage: http://mycobrowser.epfl.ch/leprosy.html
    institution: Global Health Institute,  Lausanne

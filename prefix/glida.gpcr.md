@@ -5,10 +5,13 @@ description: The GPCR-LIgand DAtabase (GLIDA) is a GPCR-related chemical genomic
 prefix: glida.gpcr
 pattern: ^[A-Z-_0-9]+$
 prefixed: 0
+local_id: ACM1_HUMAN
+synonyms:
+ - GPCR-LIgand DAtabase GPCR
 resources:
  - identifier: MIR:00100634
-   accessurl: http://pharminfo.pharm.kyoto-u.ac.jp/services/glida/gpcr_information.php?id=${id}
-   test_id: ACM1_HUMAN
+   accessurl: http://pharminfo.pharm.kyoto-u.ac.jp/services/glida/gpcr_information.php?id=${lid}
+   keyword: acetylcholine Vertebrate type 1
    description: GLIDA GPCR at Kyoto University
    homepage: http://pharminfo.pharm.kyoto-u.ac.jp/services/glida/
    institution: Department of Genomic Drug Discovery Science, Graduate School of Pharmaceutical Sciences, Kyoto University, Sakyo-ku, Kyoto

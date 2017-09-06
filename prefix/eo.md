@@ -5,18 +5,21 @@ description: The Plant Environment Ontology is a set of standardized controlled 
 prefix: eo
 pattern: ^(P)?EO\:\d{7}$
 prefixed: 1
+local_id: 0007404
+synonyms:
+ - Plant Environment Conditions
 resources:
  - identifier: MIR:00100667
-   accessurl: http://archive.gramene.org/db/ontology/search?query=${id}
-   test_id: EO:0007404
+   accessurl: http://archive.gramene.org/db/ontology/search?query=EO:${lid}
+   keyword: drought environment
    description: Plant Environment Ontology through Gramene
    homepage: http://archive.gramene.org/db/ontology/search_term?id=EO:0007359
    institution: Cold Spring Harbor Laboratory, New York
    location: USA
    official: false
  - identifier: MIR:00100668
-   accessurl: http://purl.bioontology.org/ontology/PECO/${id}
-   test_id: EO:0007404
+   accessurl: http://purl.bioontology.org/ontology/PECO/EO:${lid}
+   keyword: drought environment
    description: Plant Environment Ontology through BioPortal
    homepage: http://bioportal.bioontology.org/ontologies/PECO
    institution: National Center for Biomedical Ontology, Stanford
@@ -24,8 +27,8 @@ resources:
    official: false
    provider_code: bptl
  - identifier: MIR:00100669
-   accessurl: http://www.ebi.ac.uk/ols/ontologies/eo/terms?obo_id=${id}
-   test_id: EO:0007404
+   accessurl: http://www.ebi.ac.uk/ols/ontologies/eo/terms?obo_id=EO:${lid}
+   keyword: drought environment
    description: Plant Environment Ontology through OLS
    homepage: http://www.ebi.ac.uk/ols/ontologies/eo
    institution: European Bioinformatics Institute, Hinxton, Cambridge

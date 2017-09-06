@@ -5,10 +5,13 @@ description: The Carbohydrate-Active Enzyme (CAZy) database is a resource specia
 prefix: cazy
 pattern: ^(GT|GH|PL|CE|CBM)\d+(\_\d+)?$
 prefixed: 0
+local_id: GT10
+synonyms:
+ - Carbohydrate-Active enzYmes
 resources:
  - identifier: MIR:00100252
-   accessurl: http://www.cazy.org/${id}.html
-   test_id: GT10
+   accessurl: http://www.cazy.org/${lid}.html
+   keyword: fucosyltransferase
    description: CAZy at CNRS
    homepage: http://www.cazy.org/
    institution: Architecture et Fonction des Macromolécules Biologiques, CNRS, Marseille

@@ -5,10 +5,11 @@ description: TreeFam is a database of phylogenetic trees of gene families found 
 prefix: treefam
 pattern: ^\w{1,2}\d+$
 prefixed: 0
+local_id: TF101014
 resources:
  - identifier: MIR:00100515
-   accessurl: http://www.treefam.org/family/${id}
-   test_id: TF101014
+   accessurl: http://www.treefam.org/family/${lid}
+   keyword: Cyclin T
    description: TreeFam database
    homepage: http://www.treefam.org/
    institution: Beijing Genomics Institute, Beijing

@@ -5,10 +5,11 @@ description: Rat Genome Database seeks to collect, consolidate, and integrate ra
 prefix: rgd.strain
 pattern: ^\d+$
 prefixed: 0
+local_id: 5688061
 resources:
  - identifier: MIR:00100587
-   accessurl: http://rgd.mcw.edu/rgdweb/report/strain/main.html?id=${id}
-   test_id: 5688061
+   accessurl: http://rgd.mcw.edu/rgdweb/report/strain/main.html?id=${lid}
+   keyword: D13Rat20-D13Got22
    description: Rat Genome Database strain at Medical College of Wisconsin
    homepage: http://rgd.mcw.edu/
    institution: Medical College of Wisconsin, Milwaukee, Wisconsin

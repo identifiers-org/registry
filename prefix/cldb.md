@@ -5,10 +5,13 @@ description: The Cell Line Data Base (CLDB) is a reference information source fo
 prefix: cldb
 pattern: ^(cl|tum)\d+$
 prefixed: 0
+local_id: cl3603
+synonyms:
+ - Cell Line Data Base
 resources:
  - identifier: MIR:00100508
-   accessurl: http://bioinformatics.hsanmartino.it/hypercldb/${id}.html
-   test_id: cl3603
+   accessurl: http://bioinformatics.hsanmartino.it/hypercldb/${lid}.html
+   keyword: mononuclear cells
    description: CLDB at Genova
    homepage: http://bioinformatics.hsanmartino.it/hypercldb/indexes.html
    institution: Bioinformatics, Cell Bank, National Cancer Research Institute, Genova

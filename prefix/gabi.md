@@ -5,10 +5,13 @@ description: GabiPD (Genome Analysis of Plant Biological Systems Primary Databas
 prefix: gabi
 pattern: ^\w+$
 prefixed: 0
+local_id: 2679240
+synonyms:
+ - GABI PD
 resources:
  - identifier: MIR:00100210
-   accessurl: http://www.gabipd.org/database/cgi-bin/GreenCards.pl.cgi?BioObjectId=${id}&Mode=ShowBioObject
-   test_id: 2679240
+   accessurl: http://www.gabipd.org/database/cgi-bin/GreenCards.pl.cgi?BioObjectId=${lid}&Mode=ShowBioObject
+   keyword: AT1G06390
    description: GABI at Max Planck
    homepage: http://www.gabipd.org/
    institution: Max Planck Institute of Molecular Plant Physiology, Berlin

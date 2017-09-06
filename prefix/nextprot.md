@@ -5,10 +5,11 @@ description: neXtProt is a resource on human proteins, and includes information 
 prefix: nextprot
 pattern: ^NX_\w+
 prefixed: 0
+local_id: NX_O00165
 resources:
  - identifier: MIR:00100300
-   accessurl: http://www.nextprot.org/db/entry/${id}
-   test_id: NX_O00165
+   accessurl: http://www.nextprot.org/db/entry/${lid}
+   keyword: Promotes cell survival
    description: nextProt at Swiss Institute of Bioinformatics
    homepage: http://www.nextprot.org/
    institution: Swiss Institute of Bioinformatics, Geneva

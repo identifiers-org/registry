@@ -5,10 +5,11 @@ description: iRefWeb is an interface to a relational database containing the lat
 prefix: irefweb
 pattern: ^\d+$
 prefixed: 0
+local_id: 617102
 resources:
  - identifier: MIR:00100156
-   accessurl: http://wodaklab.org/iRefWeb/interaction/show/${id}
-   test_id: 617102
+   accessurl: http://wodaklab.org/iRefWeb/interaction/show/${lid}
+   keyword: cerevisiae S288c
    description: iRefWeb Protein Interaction Reference Index
    homepage: http://wodaklab.org/iRefWeb/
    institution: Wodak Lab, Hospital for Sick Children, Toronto

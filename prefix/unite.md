@@ -5,10 +5,11 @@ description: UNITE is a fungal rDNA internal transcribed spacer (ITS) sequence d
 prefix: unite
 pattern: ^UDB\d{6}$
 prefixed: 0
+local_id: UDB000691
 resources:
  - identifier: MIR:00100449
-   accessurl: http://unite.ut.ee/bl_forw.php?nimi=${id}
-   test_id: UDB000691
+   accessurl: http://unite.ut.ee/bl_forw.php?nimi=${lid}
+   keyword: albatrellus
    description: Unite at University of Tartu
    homepage: http://unite.ut.ee/
    institution: Institute of Botany, University of Tartu, Tartu

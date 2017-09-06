@@ -5,10 +5,11 @@ description: BioPortal is an open repository of biomedical ontologies that provi
 prefix: bioportal
 pattern: ^\d+$
 prefixed: 0
+local_id: 1046
 resources:
  - identifier: MIR:00100244
-   accessurl: http://bioportal.bioontology.org/ontologies/${id}
-   test_id: 1046
+   accessurl: http://bioportal.bioontology.org/ontologies/${lid}
+   keyword: Systems Biology Ontology
    description: BioPortal at National Center for Biomedical Ontology
    homepage: http://bioportal.bioontology.org/
    institution: National Center for Biomedical Ontology, Stanford University

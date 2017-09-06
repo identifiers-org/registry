@@ -5,10 +5,13 @@ description: The Electron Microscopy Data Bank (EMDB) is a public repository for
 prefix: emdb
 pattern: ^EMD-\d{4}$
 prefixed: 0
+local_id: EMD-1001
+synonyms:
+ - EMDB
 resources:
  - identifier: MIR:00100738
-   accessurl: http://www.ebi.ac.uk/pdbe/entry/emdb/${id}
-   test_id: EMD-1001
+   accessurl: http://www.ebi.ac.uk/pdbe/entry/emdb/${lid}
+   keyword: acto-myosin
    description: EMDB at Protein Data Bank in Europe
    homepage: http://www.ebi.ac.uk/pdbe/emdb/
    institution: European Bioinformatics Institute, Hinxton, Cambridge

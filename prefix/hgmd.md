@@ -5,10 +5,13 @@ description: The Human Gene Mutation Database (HGMD) collates data on germ-line 
 prefix: hgmd
 pattern: ^[A-Z_0-9]+$
 prefixed: 0
+local_id: CALM1
+synonyms:
+ - Human Gene Mutation Database
 resources:
  - identifier: MIR:00100512
-   accessurl: http://www.hgmd.cf.ac.uk/ac/gene.php?gene=${id}
-   test_id: CALM1
+   accessurl: http://www.hgmd.cf.ac.uk/ac/gene.php?gene=${lid}
+   keyword: null
    description: HGMD at Cardiff University
    homepage: http://www.hgmd.cf.ac.uk/ac/index.php
    institution: Cardiff University, Cardiff

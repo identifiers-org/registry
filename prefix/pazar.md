@@ -5,10 +5,13 @@ description: The PAZAR database unites independently created and maintained data
 prefix: pazar
 pattern: ^TF\w+$
 prefixed: 0
+local_id: TF0001053
+synonyms:
+ - Pazar Database
 resources:
  - identifier: MIR:00100388
-   accessurl: http://www.pazar.info/cgi-bin/tf_search.cgi?geneID=${id}
-   test_id: TF0001053
+   accessurl: http://www.pazar.info/cgi-bin/tf_search.cgi?geneID=${lid}
+   keyword: Homo sapiens
    description: Pazar Transcription Factor at University of British Columbia
    homepage: http://www.pazar.info/
    institution: Centre for Molecular Medicine and Therapeutics, University of British Columbia, Vancouver

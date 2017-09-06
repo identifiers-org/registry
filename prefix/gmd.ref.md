@@ -5,10 +5,11 @@ description: Golm Metabolome Database (GMD) provides public access to custom mas
 prefix: gmd.ref
 pattern: ^([0-9a-fA-F]){8}(-([0-9a-fA-F]){4}){3}-([0-9a-fA-F]){12}$
 prefixed: 0
+local_id: 8cf84adb-b4db-4807-ac98-0004247c35df
 resources:
  - identifier: MIR:00100548
-   accessurl: http://gmd.mpimp-golm.mpg.de/ReferenceSubstances/${id}
-   test_id: 8cf84adb-b4db-4807-ac98-0004247c35df
+   accessurl: http://gmd.mpimp-golm.mpg.de/ReferenceSubstances/${lid}
+   keyword: DL-3-Aminoisobutyric acid
    description: Golm Metabolome Database (Reference Substance) at Max Planck Institute of Molecular Plant Physiology
    homepage: http://gmd.mpimp-golm.mpg.de/
    institution: Max Planck Institute of Molecular Plant Physiology, Potsdam

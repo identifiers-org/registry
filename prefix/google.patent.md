@@ -5,10 +5,11 @@ description: Google Patents covers the entire collection of granted patents and 
 prefix: google.patent
 pattern: ^[A-Z]{2}\d+([A-Z])?$
 prefixed: 0
+local_id: US4145692
 resources:
  - identifier: MIR:00100714
-   accessurl: https://www.google.com/patents/${id}
-   test_id: US4145692
+   accessurl: https://www.google.com/patents/${lid}
+   keyword: performance monitor
    description: Google Patents at Google
    homepage: https://www.google.com/patents/
    institution: Google Incorporated

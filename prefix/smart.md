@@ -5,10 +5,11 @@ description: The Simple Modular Architecture Research Tool (SMART) is an online 
 prefix: smart
 pattern: ^SM\d{5}$
 prefixed: 0
+local_id: SM00015
 resources:
  - identifier: MIR:00100151
-   accessurl: http://smart.embl-heidelberg.de/smart/do_annotation.pl?DOMAIN=${id}
-   test_id: SM00015
+   accessurl: http://smart.embl-heidelberg.de/smart/do_annotation.pl?DOMAIN=${lid}
+   keyword: Calmodulin-binding motif.
    description: SMART (Simple Modular Architecture Research Tool)
    homepage: http://smart.embl-heidelberg.de/
    institution: EMBL, Heidelberg

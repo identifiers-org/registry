@@ -5,10 +5,11 @@ description: STOREDB database is a repository for data used by the international
 prefix: storedb
 pattern: ^STOREDB:(STUDY|FILE|DATASET)\d+$
 prefixed: 0
+local_id: STOREDB:STUDY1040
 resources:
  - identifier: MIR:00100771
-   accessurl: https://www.storedb.org/?${id}
-   test_id: STOREDB:STUDY1040
+   accessurl: https://www.storedb.org/?${lid}
+   keyword: 40 weeks after
    description: STOREDB at University of Cambridge
    homepage: https://www.storedb.org/
    institution: University of Cambridge, Department of Physiology, Downing Street, Cambridge

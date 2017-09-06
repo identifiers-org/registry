@@ -5,10 +5,11 @@ description: ProtoNet provides automatic hierarchical classification of protein 
 prefix: protonet.proteincard
 pattern: ^\d+$
 prefixed: 0
+local_id: 16941567
 resources:
  - identifier: MIR:00100287
-   accessurl: http://www.protonet.cs.huji.ac.il/requested/protein_card.php?protein_id=${id}
-   test_id: 16941567
+   accessurl: http://www.protonet.cs.huji.ac.il/requested/protein_card.php?protein_id=${lid}
+   keyword: Colicin
    description: ProtoNet at Hebrew University
    homepage: http://www.protonet.cs.huji.ac.il/
    institution: Hebrew University, Jerusalem

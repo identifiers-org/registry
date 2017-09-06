@@ -5,10 +5,13 @@ description: The DBD (transcription factor database) provides genome-wide transc
 prefix: dbd
 pattern: ^\d+$
 prefixed: 0
+local_id: 0045310
+synonyms:
+ - Transcription Factor Database
 resources:
  - identifier: MIR:00100590
-   accessurl: http://www.transcriptionfactor.org/index.cgi?Search/Domain+domain:${id}+cat:DBD
-   test_id: 0045310
+   accessurl: http://www.transcriptionfactor.org/index.cgi?Search/Domain+domain:${lid}+cat:DBD
+   keyword: CC1G_00911.1
    description: DBD at MRC Laboratory of Molecular Biology
    homepage: http://www.transcriptionfactor.org/
    institution: MRC Laboratory of Molecular Biology, Cambridge

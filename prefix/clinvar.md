@@ -5,10 +5,11 @@ description: ClinVar archives reports of relationships among medically important
 prefix: clinvar
 pattern: ^\d+$
 prefixed: 0
+local_id: 12345
 resources:
  - identifier: MIR:00100796
-   accessurl: https://www.ncbi.nlm.nih.gov/clinvar/variation/${id}
-   test_id: 12345
+   accessurl: https://www.ncbi.nlm.nih.gov/clinvar/variation/${lid}
+   keyword: null
    description: ClinVar Variant at NCBI
    homepage: http://www.ncbi.nlm.nih.gov/clinvar/
    institution: National Center for Biotechnology Information (NCBI), NIH, Maryland

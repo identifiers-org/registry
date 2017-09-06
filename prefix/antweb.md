@@ -5,10 +5,11 @@ description: AntWeb is a website documenting the known species of ants, with rec
 prefix: antweb
 pattern: ^casent\d+(\-D\d+)?$
 prefixed: 0
+local_id: casent0106247
 resources:
  - identifier: MIR:00100190
-   accessurl: http://www.antweb.org/specimen.do?name=${id}
-   test_id: casent0106247
+   accessurl: http://www.antweb.org/specimen.do?name=${lid}
+   keyword: Hymenoptera
    description: AntWeb at California Academy of Sciences
    homepage: http://www.antweb.org/
    institution: California Academy of Sciences, Goldengate Park, San Francisco

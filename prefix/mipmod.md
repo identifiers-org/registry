@@ -5,10 +5,11 @@ description: MIPModDb is a database of comparative protein structure models of M
 prefix: mipmod
 pattern: ^\w+$
 prefixed: 0
+local_id: HOSAPI0399
 resources:
  - identifier: MIR:00100327
-   accessurl: http://bioinfo.iitk.ac.in/MIPModDB/result.php?code=${id}
-   test_id: HOSAPI0399
+   accessurl: http://bioinfo.iitk.ac.in/MIPModDB/result.php?code=${lid}
+   keyword: major intrinsic protein of lens fiber
    description: MIPModDB at Indian Institute of Technology Kanpur
    homepage: http://bioinfo.iitk.ac.in/MIPModDB
    institution: Department of Biological Sciences and Bioengineering, Indian Institute of Technology Kanpur, Kanpur

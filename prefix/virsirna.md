@@ -5,10 +5,14 @@ description: The VIRsiRNA database contains details of siRNA/shRNA which target 
 prefix: virsirna
 pattern: ^virsi\d+$
 prefixed: 0
+local_id: virsi1909
+synonyms:
+ - Virus siRNA database
+ - VIRsiRNAdb
 resources:
  - identifier: MIR:00100320
-   accessurl: http://crdd.osdd.net/servers/virsirnadb/record.php?details=${id}
-   test_id: virsi1909
+   accessurl: http://crdd.osdd.net/servers/virsirnadb/record.php?details=${lid}
+   keyword: gaauguaacucgaucugcu
    description: VIRsiRNA at Institute of Microbial Technology
    homepage: http://crdd.osdd.net/servers/virsirnadb
    institution: Institute of Microbial Technology, Council of Scientific and Industrial Research (CSIR),  Chandigarh, India

@@ -5,10 +5,13 @@ description: The University of Minnesota Biocatalysis/Biodegradation Database (U
 prefix: umbbd.pathway
 pattern: ^\w+$
 prefixed: 0
+local_id: ala
+synonyms:
+ - University of Minnesota Biocatalysis/Biodegradation Database (Pathway)
 resources:
  - identifier: MIR:00100420
-   accessurl: http://umbbd.ethz.ch/servlets/pageservlet?ptype=p&pathway_abbr=${id}
-   test_id: ala
+   accessurl: http://umbbd.ethz.ch/servlets/pageservlet?ptype=p&pathway_abbr=${lid}
+   keyword: Alachlor Pathway
    description: Biocatalysis/Biodegradation Database Mirror (Pathway) at ETH Zurich
    homepage: http://umbbd.ethz.ch/
    institution: ETH, Zurich

@@ -5,10 +5,11 @@ description: MicrosporidiaDB is one of the databases that can be accessed throug
 prefix: microsporidia
 pattern: ^\w+$
 prefixed: 0
+local_id: ECU03_0820i
 resources:
  - identifier: MIR:00100197
-   accessurl: http://microsporidiadb.org/micro/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=${id}
-   test_id: ECU03_0820i
+   accessurl: http://microsporidiadb.org/micro/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=${lid}
+   keyword: TUBULIN BETA CHAIN
    description: MicrosporidiaDB at EuPathDB
    homepage: http://microsporidiadb.org/micro/
    institution: Center for Tropical & Emerging Global Diseases, University of Georgia

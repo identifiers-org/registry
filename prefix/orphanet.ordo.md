@@ -6,10 +6,13 @@ It integrates a nosology (classification of rare diseases), relationships (gene-
 prefix: orphanet.ordo
 pattern: ^Orphanet(_|:)C?\d+$
 prefixed: 0
+local_id: Orphanet_C023
+synonyms:
+ - ORDO
 resources:
  - identifier: MIR:00100705
-   accessurl: http://www.ebi.ac.uk/ols/ontologies/ordo/terms?short_form=${id}
-   test_id: Orphanet_C023
+   accessurl: http://www.ebi.ac.uk/ols/ontologies/ordo/terms?short_form=${lid}
+   keyword: age of onset
    description: ORDO via OLS
    homepage: http://www.ebi.ac.uk/ols/ontologies/ordo
    institution: European Bioinformatics Institute, Hinxton, Cambridge

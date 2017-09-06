@@ -5,10 +5,13 @@ description: The Database of Quantitative Cellular Signaling is a repository of 
 prefix: doqcs.model
 pattern: ^\d+$
 prefixed: 0
+local_id: 57
+synonyms:
+ - DOQCS Model
 resources:
  - identifier: MIR:00100174
-   accessurl: http://doqcs.ncbs.res.in/template.php?&y=accessiondetails&an=${id}
-   test_id: 57
+   accessurl: http://doqcs.ncbs.res.in/template.php?&y=accessiondetails&an=${lid}
+   keyword: Chemotaxis
    description: Database of Quantitative Cellular Signaling (DOQCS) - Model Access
    homepage: http://doqcs.ncbs.res.in/
    institution: National Centre for Biological Sciences, Bangalore

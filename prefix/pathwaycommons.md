@@ -5,10 +5,11 @@ description: Pathway Commons is a convenient point of access to biological pathw
 prefix: pathwaycommons
 pattern: ^\d+$
 prefixed: 0
+local_id: 485991
 resources:
  - identifier: MIR:00100103
-   accessurl: http://www.pathwaycommons.org/pc/record2.do?id=${id}
-   test_id: 485991
+   accessurl: http://www.pathwaycommons.org/pc/record2.do?id=${lid}
+   keyword: Meiotic Recombination
    description: Pathway Commons
    homepage: http://www.pathwaycommons.org/pc/
    institution: Memorial Sloan-Kettering Cancer Center

@@ -5,10 +5,11 @@ description: HOGENOM is a database of homologous genes from fully sequenced orga
 prefix: hogenom
 pattern: ^\w+$
 prefixed: 0
+local_id: HBG284870
 resources:
  - identifier: MIR:00100272
-   accessurl: http://pbil.univ-lyon1.fr/cgi-bin/view-tree.pl?db=HOGENOM5&query=${id}
-   test_id: HBG284870
+   accessurl: http://pbil.univ-lyon1.fr/cgi-bin/view-tree.pl?db=HOGENOM5&query=${lid}
+   keyword: Chlamydiales
    description: HOGENOM at CNRS
    homepage: http://pbil.univ-lyon1.fr/databases/hogenom/
    institution: Laboratoire de Biométrie et Biologie Evolutive, CNRS, Lyon

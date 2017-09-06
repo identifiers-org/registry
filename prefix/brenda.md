@@ -5,10 +5,11 @@ description: BRENDA is a collection of enzyme functional data available to the s
 prefix: brenda
 pattern: ^((\d+\.-\.-\.-)|(\d+\.\d+\.-\.-)|(\d+\.\d+\.\d+\.-)|(\d+\.\d+\.\d+\.\d+))$
 prefixed: 0
+local_id: 1.1.1.1
 resources:
  - identifier: MIR:00100101
-   accessurl: http://www.brenda-enzymes.org/php/result_flat.php4?ecno=${id}
-   test_id: 1.1.1.1
+   accessurl: http://www.brenda-enzymes.org/php/result_flat.php4?ecno=${lid}
+   keyword: alcohol dehydrogenase
    description: Brenda enzyme database
    homepage: http://www.brenda-enzymes.org/
    institution: Technical University Braunschweig, Institute for Bioinformatics and Biochemistry

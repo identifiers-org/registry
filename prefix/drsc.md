@@ -5,10 +5,14 @@ description: The DRSC (Drosophila RNAi Screening Cente) tracks both production o
 prefix: drsc
 pattern: ^DRSC\d+$
 prefixed: 0
+local_id: DRSC05221
+synonyms:
+ - FlyRNAi
+ - Drosophila RNAi Screening Cente
 resources:
  - identifier: MIR:00100466
-   accessurl: http://www.flyrnai.org/cgi-bin/RNAi_gene_lookup_public.pl?gname=${id}
-   test_id: DRSC05221
+   accessurl: http://www.flyrnai.org/cgi-bin/RNAi_gene_lookup_public.pl?gname=${lid}
+   keyword: Longitudinals lacking
    description: DRSC at Harvard Medical School
    homepage: http://flyrnai.org/
    institution: Department of Genetics, Harvard Medical School, Boston, Massachusetts

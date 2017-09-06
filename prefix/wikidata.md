@@ -5,10 +5,11 @@ description: Wikidata is a collaboratively edited knowledge base operated by the
 prefix: wikidata
 pattern: ^Q\d+$
 prefixed: 0
+local_id: Q2207226
 resources:
  - identifier: MIR:00100726
-   accessurl: https://www.wikidata.org/wiki/${id}
-   test_id: Q2207226
+   accessurl: https://www.wikidata.org/wiki/${lid}
+   keyword: U-boat
    description: Wikidata at Wikimedia Foundation
    homepage: https://www.wikidata.org/
    institution: Wikimedia Foundation, San Francisco, California

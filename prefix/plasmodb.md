@@ -5,10 +5,11 @@ description: AmoebaDB is one of the databases that can be accessed through the E
 prefix: plasmodb
 pattern: ^\w+$
 prefixed: 0
+local_id: PF11_0344
 resources:
  - identifier: MIR:00100195
-   accessurl: http://plasmodb.org/plasmo/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=${id}
-   test_id: PF11_0344
+   accessurl: http://plasmodb.org/plasmo/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=${lid}
+   keyword: apical membrane antigen 1
    description: PlasmoDB at EuPathDB
    homepage: http://plasmodb.org/plasmo/
    institution: Center for Tropical & Emerging Global Diseases, University of Georgia

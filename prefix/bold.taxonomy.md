@@ -5,10 +5,11 @@ description: The Barcode of Life Data System (BOLD) is an informatics workbench 
 prefix: bold.taxonomy
 pattern: ^\d+$
 prefixed: 0
+local_id: 27267
 resources:
  - identifier: MIR:00100203
-   accessurl: http://www.boldsystems.org/index.php/Taxbrowser_Taxonpage?taxid=${id}
-   test_id: 27267
+   accessurl: http://www.boldsystems.org/index.php/Taxbrowser_Taxonpage?taxid=${lid}
+   keyword: Doliolida
    description: BOLD taxonomy browser
    homepage: http://www.boldsystems.org/
    institution: Canadian Centre for DNA Barcoding, Biodiversity Institute of Ontario

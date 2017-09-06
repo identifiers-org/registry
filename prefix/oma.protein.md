@@ -5,10 +5,13 @@ description: OMA (Orthologous MAtrix) is a database that identifies orthologs am
 prefix: oma.protein
 pattern: ^[A-Z0-9]{5}\d+$
 prefixed: 0
+local_id: HUMAN16963
+synonyms:
+ - Orthologous MAtrix
 resources:
  - identifier: MIR:00100437
-   accessurl: http://omabrowser.org/cgi-bin/gateway.pl?f=DisplayEntry&p1=${id}
-   test_id: HUMAN16963
+   accessurl: http://omabrowser.org/cgi-bin/gateway.pl?f=DisplayEntry&p1=${lid}
+   keyword: coiled-coil domain
    description: OMA Protein through OMA browser at ETH Zurich
    homepage: http://omabrowser.org/cgi-bin/gateway.pl
    institution: ETH Zurich, Computer Science, Zurich

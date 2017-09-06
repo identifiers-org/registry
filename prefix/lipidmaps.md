@@ -5,10 +5,13 @@ description: The LIPID MAPS Lipid Classification System is comprised of eight li
 prefix: lipidmaps
 pattern: ^LM(FA|GL|GP|SP|ST|PR|SL|PK)[0-9]{4}([0-9a-zA-Z]{4,6})?$
 prefixed: 0
+local_id: LMPR0102010012
+synonyms:
+ - LMSD
 resources:
  - identifier: MIR:00100080
-   accessurl: http://www.lipidmaps.org/data/LMSDRecord.php?LMID=${id}
-   test_id: LMPR0102010012
+   accessurl: http://www.lipidmaps.org/data/LMSDRecord.php?LMID=${lid}
+   keyword: Citronellol
    description: Department of Bioengineering and the San Diego Supercomputer Center
    homepage: http://www.lipidmaps.org
    institution: University of California, San Diego

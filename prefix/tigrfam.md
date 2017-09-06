@@ -5,10 +5,11 @@ description: TIGRFAMs is a resource consisting of curated multiple sequence alig
 prefix: tigrfam
 pattern: ^TIGR\d+$
 prefixed: 0
+local_id: TIGR00010
 resources:
  - identifier: MIR:00100398
-   accessurl: http://www.jcvi.org/cgi-bin/tigrfams/HmmReportPage.cgi?acc=${id}
-   test_id: TIGR00010
+   accessurl: http://www.jcvi.org/cgi-bin/tigrfams/HmmReportPage.cgi?acc=${lid}
+   keyword: starting with a urease alpha subunit
    description: TIGRFAM at JCVI
    homepage: http://www.jcvi.org/cgi-bin/tigrfams/Listing.cgi
    institution: The Institute for Genomic Research, Rockville, Maryland

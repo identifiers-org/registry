@@ -5,10 +5,11 @@ description: The Arabidopsis Information Resource (TAIR) maintains a database of
 prefix: tair.gene
 pattern: ^Gene:\d{7}$
 prefixed: 0
+local_id: Gene:2200934
 resources:
  - identifier: MIR:00100077
-   accessurl: http://arabidopsis.org/servlets/TairObject?accession=${id}
-   test_id: Gene:2200934
+   accessurl: http://arabidopsis.org/servlets/TairObject?accession=${lid}
+   keyword: NAC domain containing protein 1
    description: The Arabidopsis Information Resource (TAIR) Gene
    homepage: http://arabidopsis.org/index.jsp
    institution: Carnegie Institution of Washington Department of Plant Biology and National Center for Genome Resources (NCGR)

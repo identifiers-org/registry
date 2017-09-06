@@ -5,10 +5,11 @@ description: GeneDB is a genome database for prokaryotic and eukaryotic organism
 prefix: genedb
 pattern: ^[\w\d\.-]*$
 prefixed: 0
+local_id: Cj1536c
 resources:
  - identifier: MIR:00100139
-   accessurl: http://www.genedb.org/gene/${id}
-   test_id: Cj1536c
+   accessurl: http://www.genedb.org/gene/${lid}
+   keyword: Cj1536c - GeneDB
    description: GeneDB at Sanger Institute
    homepage: http://www.genedb.org/
    institution: Pathogen Genomics, Sanger Institute and European Bioinformatics Institute

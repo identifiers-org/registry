@@ -5,10 +5,13 @@ description: The goal of the Systems Biology Ontology is to develop controlled v
 prefix: sbo
 pattern: ^SBO:\d{7}$
 prefixed: 1
+local_id: 0000262
+synonyms:
+ - SBO
 resources:
  - identifier: MIR:00100034
-   accessurl: http://www.ebi.ac.uk/sbo/main/${id}
-   test_id: SBO:0000262
+   accessurl: http://www.ebi.ac.uk/sbo/main/SBO:${lid}
+   keyword: enzymatic rate law for simple uncompetitive inhibition of irreversible unireactant enzymes
    description: SBO
    homepage: http://www.ebi.ac.uk/sbo/
    institution: European Bioinformatics Institute, Hinxton, Cambridge
@@ -16,8 +19,8 @@ resources:
    official: true
    provider_code: ebi
  - identifier: MIR:00100176
-   accessurl: http://www.ebi.ac.uk/ols/ontologies/sbo/terms?obo_id=${id}
-   test_id: SBO:0000262
+   accessurl: http://www.ebi.ac.uk/ols/ontologies/sbo/terms?obo_id=SBO:${lid}
+   keyword: enzymatic rate law for simple uncompetitive inhibition of irreversible unireactant enzymes
    description: SBO through OLS
    homepage: http://www.ebi.ac.uk/ols/ontologies/sbo
    institution: European Bioinformatics Institute, Hinxton, Cambridge
@@ -25,8 +28,8 @@ resources:
    official: false
    provider_code: ols
  - identifier: MIR:00100242
-   accessurl: http://purl.bioontology.org/ontology/SBO/${id}
-   test_id: SBO:0000262
+   accessurl: http://purl.bioontology.org/ontology/SBO/SBO:${lid}
+   keyword: enzymatic rate law for simple uncompetitive inhibition of irreversible unireactant enzymes
    description: SBO through BioPortal
    homepage: http://bioportal.bioontology.org/ontologies/SBO
    institution: National Center for Biomedical Ontology, Stanford

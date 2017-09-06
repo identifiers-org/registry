@@ -5,10 +5,11 @@ description: The YEast Intron Database (version 4.3) contains information on the
 prefix: yeastintron
 pattern: ^[A-Z0-9]+$
 prefixed: 0
+local_id: SNR17A
 resources:
  - identifier: MIR:00100673
-   accessurl: http://intron.ucsc.edu/cgi-bin/yeast4.3/intronreports.pl?outputformat=full&amp;orfName=${id}
-   test_id: SNR17A
+   accessurl: http://intron.ucsc.edu/cgi-bin/yeast4.3/intronreports.pl?outputformat=full&amp;orfName=${lid}
+   keyword: Oct 12, 1998
    description: Yeast Intron Database version 4.3 at Baskin School of Engineering
    homepage: http://intron.ucsc.edu/yeast4.3/
    institution: Baskin School of Engineering, Center for Molecular Biology of RNA, University of California, Santa Cruz, California

@@ -5,10 +5,13 @@ description: The Human Proteome Map (HPM) portal integrates the peptide sequenci
 prefix: hpm.protein
 pattern: ^\d+$
 prefixed: 0
+local_id: 1968
+synonyms:
+ - HPM
 resources:
  - identifier: MIR:00100682
-   accessurl: http://www.humanproteomemap.org/protein.php?hpm_id=${id}
-   test_id: 1968
+   accessurl: http://www.humanproteomemap.org/protein.php?hpm_id=${lid}
+   keyword: Eukaryotic translation initiation
    description: Human Proteome Map Protein at Institute of Bioinformatics (Bangalore)
    homepage: http://www.humanproteomemap.org/index.php
    institution: Institute of Bioinformatics, International Tech Park, Bangalore

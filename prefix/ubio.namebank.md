@@ -5,10 +5,13 @@ description: NameBank is a "biological name server" focused on storing names and
 prefix: ubio.namebank
 pattern: ^\d+$
 prefixed: 0
+local_id: 2555646
+synonyms:
+ - Universal Biological Indexer and Organizer (NameBank)
 resources:
  - identifier: MIR:00100433
-   accessurl: http://www.ubio.org/browser/details.php?namebankID=${id}
-   test_id: 2555646
+   accessurl: http://www.ubio.org/browser/details.php?namebankID=${lid}
+   keyword: Escherichia coli
    description: uBio NameBank at The Marine Biological Laboratory
    homepage: http://www.ubio.org
    institution: Marine Biological Laboratory, Woods Hole, Massachusetts

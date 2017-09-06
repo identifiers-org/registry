@@ -5,10 +5,13 @@ description: The Consensus CDS (CCDS) project is a collaborative effort to ident
 prefix: ccds
 pattern: ^CCDS\d+\.\d+$
 prefixed: 0
+local_id: CCDS13573.1
+synonyms:
+ - CCDS
 resources:
  - identifier: MIR:00100477
-   accessurl: http://www.ncbi.nlm.nih.gov/CCDS/CcdsBrowse.cgi?REQUEST=CCDS&DATA=${id}
-   test_id: CCDS13573.1
+   accessurl: http://www.ncbi.nlm.nih.gov/CCDS/CcdsBrowse.cgi?REQUEST=CCDS&DATA=${lid}
+   keyword: ENST00000352957
    description: Consensus CDS at NCBI
    homepage: http://www.ncbi.nlm.nih.gov/CCDS/
    institution: National Center for Biotechnology Information (NCBI)

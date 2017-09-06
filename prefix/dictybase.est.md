@@ -5,10 +5,11 @@ description: The dictyBase database provides data on the model organism Dictyost
 prefix: dictybase.est
 pattern: ^DDB\d+$
 prefixed: 0
+local_id: DDB0016567
 resources:
  - identifier: MIR:00100424
-   accessurl: http://dictybase.org/db/cgi-bin/feature_page.pl?primary_id=${id}
-   test_id: DDB0016567
+   accessurl: http://dictybase.org/db/cgi-bin/feature_page.pl?primary_id=${lid}
+   keyword: CATTAATCAA
    description: Dictybase Gene at Northwestern University
    homepage: http://dictybase.org/
    institution: Northwestern University Biomedical Informatics Center and Center for Genetic Medicine, Chicago, Illinois

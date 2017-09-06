@@ -5,10 +5,11 @@ description: ProtoNet provides automatic hierarchical classification of protein 
 prefix: protonet.cluster
 pattern: ^\d+$
 prefixed: 0
+local_id: 4349895
 resources:
  - identifier: MIR:00100288
-   accessurl: http://www.protonet.cs.huji.ac.il/requested/cluster_card.php?cluster=${id}
-   test_id: 4349895
+   accessurl: http://www.protonet.cs.huji.ac.il/requested/cluster_card.php?cluster=${lid}
+   keyword: Cyclotide
    description: ProtoNet at Hebrew University
    homepage: http://www.protonet.cs.huji.ac.il/
    institution: Hebrew University, Jerusalem

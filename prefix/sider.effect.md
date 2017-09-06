@@ -5,10 +5,11 @@ description: SIDER (Side Effect Resource) is a public, computer-readable side ef
 prefix: sider.effect
 pattern: ^C\d+$
 prefixed: 0
+local_id: C0017565
 resources:
  - identifier: MIR:00100560
-   accessurl: http://sideeffects.embl.de/se/${id}/
-   test_id: C0017565
+   accessurl: http://sideeffects.embl.de/se/${lid}/
+   keyword: PERIODONTITIS
    description: SIDER Side Effect v2 at EMBL (Heidelberg)
    homepage: http://sideeffects.embl.de/
    institution: Structural and Computational Biology Unit, European Molecular Biology Laboratory, Heidelberg

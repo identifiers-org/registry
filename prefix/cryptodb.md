@@ -5,10 +5,11 @@ description: CryptoDB is one of the databases that can be accessed through the E
 prefix: cryptodb
 pattern: ^\w+
 prefixed: 0
+local_id: cgd7_230
 resources:
  - identifier: MIR:00100194
-   accessurl: http://cryptodb.org/cryptodb/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=${id}
-   test_id: cgd7_230
+   accessurl: http://cryptodb.org/cryptodb/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=${lid}
+   keyword: Cryptosporidium parvum Iowa II
    description: CryptoDB at EuPathDB
    homepage: http://cryptodb.org/cryptodb/
    institution: Center for Tropical & Emerging Global Diseases, University of Georgia

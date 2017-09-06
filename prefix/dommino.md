@@ -5,10 +5,13 @@ description: DOMMINO is a database of macromolecular interactions that includes 
 prefix: dommino
 pattern: ^[0-9][A-Za-z0-9]{3}$
 prefixed: 0
+local_id: 2GC4
+synonyms:
+ - Database of Macromolecular Interactions
 resources:
  - identifier: MIR:00100474
-   accessurl: http://orion.rnet.missouri.edu/~nz953/DOMMINO/index.php/result/show_network/${id}
-   test_id: 2GC4
+   accessurl: http://orion.rnet.missouri.edu/~nz953/DOMMINO/index.php/result/show_network/${lid}
+   keyword: PARACOCCUS DENITRIFICANS
    description: DOMMINO at University of Missouri
    homepage: http://dommino.org/
    institution: Informatics Institute and Department of Computer Science and Bond Life Science Center, University of Missouri, Columbia

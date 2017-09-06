@@ -5,10 +5,11 @@ description: The NCBI GI (or "gi") identifier is the original form of identifier
 prefix: ncbigi
 pattern: ^(GI|gi)\:\d+$
 prefixed: 0
+local_id: GI:9082283
 resources:
  - identifier: MIR:00100652
-   accessurl: http://www.ncbi.nlm.nih.gov/protein/${id}
-   test_id: GI:9082283
+   accessurl: http://www.ncbi.nlm.nih.gov/protein/${lid}
+   keyword: aldehyde dehydrogenase
    description: NCBI GI at NCBI
    homepage: http://www.ncbi.nlm.nih.gov/protein/
    institution: National Center for Biotechnology Information (NCBI)

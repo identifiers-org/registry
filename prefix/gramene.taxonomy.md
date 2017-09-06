@@ -5,10 +5,11 @@ description: Gramene is a comparative genome mapping database for grasses and cr
 prefix: gramene.taxonomy
 pattern: ^GR\_tax\:\d+$
 prefixed: 0
+local_id: GR_tax:013681
 resources:
  - identifier: MIR:00100229
-   accessurl: http://www.gramene.org/db/ontology/search?id=${id}
-   test_id: GR_tax:013681
+   accessurl: http://www.gramene.org/db/ontology/search?id=${lid}
+   keyword: rice
    description: Gramene Taxonomy at Cold Spring Harbor
    homepage: http://www.gramene.org/
    institution: Cold Spring Harbor Laboratory, New York

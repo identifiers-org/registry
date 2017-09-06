@@ -5,10 +5,11 @@ description: The Cellosaurus is a knowledge resource on cell lines. It attempts 
 prefix: cellosaurus
 pattern: CVCL_[A-Z0-9]{4}
 prefixed: 0
+local_id: CVCL_0030
 resources:
  - identifier: MIR:00100799
-   accessurl: http://web.expasy.org/cellosaurus/${id}
-   test_id: CVCL_0030
+   accessurl: http://web.expasy.org/cellosaurus/${lid}
+   keyword: Cellosaurus HeLa
    description: Cellosaurus through SIB
    homepage: http://web.expasy.org/cellosaurus/
    institution: Swiss Institute of Bioinformatics

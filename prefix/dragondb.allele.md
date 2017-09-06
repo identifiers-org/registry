@@ -5,10 +5,11 @@ description: DragonDB is a genetic and genomic database for Antirrhinum majus (S
 prefix: dragondb.allele
 pattern: ^\w+$
 prefixed: 0
+local_id: cho
 resources:
  - identifier: MIR:00100382
-   accessurl: http://antirrhinum.net/cgi-bin/ace/generic/tree/DragonDB?name=${id}&amp;class=Allele
-   test_id: cho
+   accessurl: http://antirrhinum.net/cgi-bin/ace/generic/tree/DragonDB?name=${lid}&amp;class=Allele
+   keyword: FIM extends to first whorl
    description: DragonDB Allele at University of British Columbia
    homepage: http://www.antirrhinum.net/
    institution: University of British Columbia, Vancouver

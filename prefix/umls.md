@@ -5,10 +5,13 @@ description: The Unified Medical Language System is a repository of biomedical v
 prefix: umls
 pattern: ^C\d+$
 prefixed: 0
+local_id: C0021390
+synonyms:
+ - Unified Medical Language System
 resources:
  - identifier: MIR:00100736
-   accessurl: http://linkedlifedata.com/resource/umls/id/${id}
-   test_id: C0021390
+   accessurl: http://linkedlifedata.com/resource/umls/id/${lid}
+   keyword: null
    description: Unified Medical Language System at LinkedLifeData
    homepage: http://linkedlifedata.com/
    institution: Linkedlifedata, Ontotext, Sofia

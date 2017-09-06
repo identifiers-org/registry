@@ -5,10 +5,14 @@ description: The Pseudomonas Genome Database is a resource for peer-reviewed, co
 prefix: pseudomonas
 pattern: ^P\w+$
 prefixed: 0
+local_id: PSEEN0001
+synonyms:
+ - PGD
+ - Pseudocap
 resources:
  - identifier: MIR:00100226
-   accessurl: http://v2.pseudomonas.com/getAnnotation.do?locusID=${id}
-   test_id: PSEEN0001
+   accessurl: http://v2.pseudomonas.com/getAnnotation.do?locusID=${lid}
+   keyword: dnaA
    description: Pseudomonas Genome Database at Simon Fraser University
    homepage: http://www.pseudomonas.com/
    institution: Simon Fraser University, British Columbia

@@ -5,10 +5,11 @@ description: The NCBI BioSystems database centralizes and cross-links existing b
 prefix: biosystems
 pattern: ^\d+$
 prefixed: 0
+local_id: 001
 resources:
  - identifier: MIR:00100128
-   accessurl: http://www.ncbi.nlm.nih.gov/biosystems/${id}
-   test_id: 001
+   accessurl: http://www.ncbi.nlm.nih.gov/biosystems/${lid}
+   keyword: Aspartate undergoes a number of reactions that are not in any linear order.
    description: BioSystems database at NCBI
    homepage: http://www.ncbi.nlm.nih.gov/biosystems/
    institution: National Center for Biotechnology Information (NCBI)

@@ -5,10 +5,11 @@ description: Oryzabase provides a view of rice (Oryza sativa) as a model monocot
 prefix: oryzabase.stage
 pattern: ^\d+$
 prefixed: 0
+local_id: 34
 resources:
  - identifier: MIR:00100621
-   accessurl: http://www.shigen.nig.ac.jp/rice/oryzabaseV4/devstageineachorgan/detail/${id}
-   test_id: 34
+   accessurl: http://www.shigen.nig.ac.jp/rice/oryzabaseV4/devstageineachorgan/detail/${lid}
+   keyword: Formation of a pair of rudimentary glume primordia
    description: Oryzabase v4 Stage at National Institute of Genetics (Japan)
    homepage: http://www.shigen.nig.ac.jp/rice/oryzabaseV4/
    institution: Genetic Strains Research Center, National Institute of Genetics, Mishima, Shizuoka

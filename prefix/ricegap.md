@@ -5,10 +5,11 @@ description: The objective of this project is to provide high quality annotation
 prefix: ricegap
 pattern: ^LOC\_Os\d{1,2}g\d{5}$
 prefixed: 0
+local_id: LOC_Os02g13300
 resources:
  - identifier: MIR:00100455
-   accessurl: http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?&orf=${id}
-   test_id: LOC_Os02g13300
+   accessurl: http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?&orf=${lid}
+   keyword: mitochondrial carrier protein
    description: Rice Genome Annotation Project at TIGR
    homepage: http://rice.plantbiology.msu.edu/annotation_pseudo_current.shtml
    institution: The Institute for Genomic Research, Rockville, Maryland

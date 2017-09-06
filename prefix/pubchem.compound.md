@@ -5,10 +5,14 @@ description: PubChem provides information on the biological activities of small 
 prefix: pubchem.compound
 pattern: ^\d+$
 prefixed: 0
+local_id: 100101
+synonyms:
+ - PubChem Compound
+ - PubChem CID
 resources:
  - identifier: MIR:00100059
-   accessurl: http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=${id}
-   test_id: 100101
+   accessurl: http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=${lid}
+   keyword: N-Acetylphenylalanyl-3,5-diiodotyrosine
    description: NCBI PubChem Compound
    homepage: http://pubchem.ncbi.nlm.nih.gov/
    institution: National Center for Biotechnology Information (NCBI)

@@ -5,10 +5,11 @@ description: The PharmGKB database is a central repository for genetic, genomic,
 prefix: pharmgkb.disease
 pattern: ^PA\d+$
 prefixed: 0
+local_id: PA447218
 resources:
  - identifier: MIR:00100121
-   accessurl: http://www.pharmgkb.org/disease/${id}
-   test_id: PA447218
+   accessurl: http://www.pharmgkb.org/disease/${lid}
+   keyword: Sexual Dysfunctions, Psychological
    description: PharmGKB Disease at Stanford
    homepage: http://www.pharmgkb.org/
    institution: Department of Genetics, School of Medicine, Stanford University, Stanford, California

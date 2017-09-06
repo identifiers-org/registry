@@ -5,10 +5,11 @@ description: The HMS LINCS Database currently contains information on experiment
 prefix: lincs.protein
 pattern: ^\d+$
 prefixed: 0
+local_id: 200282
 resources:
  - identifier: MIR:00100722
-   accessurl: http://lincs.hms.harvard.edu/db/proteins/${id}/
-   test_id: 200282
+   accessurl: http://lincs.hms.harvard.edu/db/proteins/${lid}/
+   keyword: Myosin IIIA
    description: LINCS Protein at Harvard Medical School
    homepage: http://lincs.hms.harvard.edu/db/proteins/
    institution: Harvard Medical School, Boston, Massachusetts

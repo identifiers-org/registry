@@ -5,10 +5,11 @@ description: Gramene is a comparative genome mapping database for grasses and cr
 prefix: gramene.qtl
 pattern: ^\w+$
 prefixed: 0
+local_id: CQG5
 resources:
  - identifier: MIR:00100230
-   accessurl: http://www.gramene.org/db/qtl/qtl_display?qtl_accession_id=${id}
-   test_id: CQG5
+   accessurl: http://www.gramene.org/db/qtl/qtl_display?qtl_accession_id=${lid}
+   keyword: abaxial stomatal frequency
    description: Gramene Quantitative Trait Loci at Cold Spring Harbor
    homepage: http://www.gramene.org/
    institution: Cold Spring Harbor Laboratory, New York

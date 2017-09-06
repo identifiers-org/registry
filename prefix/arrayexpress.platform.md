@@ -5,10 +5,11 @@ description: ArrayExpress is a public repository for microarray data, which is a
 prefix: arrayexpress.platform
 pattern: ^[AEP]-\w{4}-\d+$
 prefixed: 0
+local_id: A-GEOD-50
 resources:
  - identifier: MIR:00100376
-   accessurl: http://www.ebi.ac.uk/arrayexpress/arrays/${id}
-   test_id: A-GEOD-50
+   accessurl: http://www.ebi.ac.uk/arrayexpress/arrays/${lid}
+   keyword: spotted DNA/cDNA
    description: ArrayExpress Platform at EBI
    homepage: http://www.ebi.ac.uk/arrayexpress/
    institution: European Bioinformatics Institute, Hinxton, Cambridge

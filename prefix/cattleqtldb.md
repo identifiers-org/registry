@@ -5,10 +5,11 @@ description: The Animal Quantitative Trait Loci (QTL) database (Animal QTLdb) is
 prefix: cattleqtldb
 pattern: ^\d+$
 prefixed: 0
+local_id: 4685
 resources:
  - identifier: MIR:00100645
-   accessurl: http://www.animalgenome.org/cgi-bin/QTLdb/BT/qdetails?QTL_ID=${id}
-   test_id: 4685
+   accessurl: http://www.animalgenome.org/cgi-bin/QTLdb/BT/qdetails?QTL_ID=${lid}
+   keyword: Holstein-Friesian cattle
    description: Animal QTL Cattle at Iowa State University
    homepage: http://www.animalgenome.org/cgi-bin/QTLdb/BT/index
    institution: Department of Animal Science and Center for Integrated Animal Genomics, Iowa State University, Iowa

@@ -5,10 +5,13 @@ description: REBASE is a comprehensive database of information about restriction
 prefix: rebase
 pattern: ^\d+$
 prefixed: 0
+local_id: 101
+synonyms:
+ - Restriction Enzyme Database
 resources:
  - identifier: MIR:00100289
-   accessurl: http://rebase.neb.com/rebase/enz/${id}.html
-   test_id: 101
+   accessurl: http://rebase.neb.com/rebase/enz/${lid}.html
+   keyword: Asp14H
    description: REBASE at New England Biolabs
    homepage: http://rebase.neb.com/rebase/
    institution: New England Biolabs, Ipswich, Massachusetts

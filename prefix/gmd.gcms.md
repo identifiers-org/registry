@@ -5,10 +5,11 @@ description: Golm Metabolome Database (GMD) provides public access to custom mas
 prefix: gmd.gcms
 pattern: ^([0-9a-fA-F]){8}(-([0-9a-fA-F]){4}){3}-([0-9a-fA-F]){12}$
 prefixed: 0
+local_id: 53d583d8-40c6-40e1-9296-23f821cd77a5
 resources:
  - identifier: MIR:00100547
-   accessurl: http://gmd.mpimp-golm.mpg.de/Spectrums/${id}
-   test_id: 53d583d8-40c6-40e1-9296-23f821cd77a5
+   accessurl: http://gmd.mpimp-golm.mpg.de/Spectrums/${lid}
+   keyword: 3237BF26
    description: Golm Metabolome Database (GC-MS Spectra) at Max Planck Institute of Molecular Plant Physiology
    homepage: http://gmd.mpimp-golm.mpg.de/
    institution: Max Planck Institute of Molecular Plant Physiology, Potsdam

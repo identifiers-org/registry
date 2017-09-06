@@ -5,10 +5,11 @@ description: Oryzabase provides a view of rice (Oryza sativa) as a model monocot
 prefix: oryzabase.mutant
 pattern: ^\d+$
 prefixed: 0
+local_id: 21393
 resources:
  - identifier: MIR:00100619
-   accessurl: http://www.shigen.nig.ac.jp/rice/oryzabaseV4/strain/inducedMutationLine/detail/${id}
-   test_id: 21393
+   accessurl: http://www.shigen.nig.ac.jp/rice/oryzabaseV4/strain/inducedMutationLine/detail/${lid}
+   keyword: CM1
    description: Oryzabase v4 Mutant at National Institute of Genetics (Japan)
    homepage: http://www.shigen.nig.ac.jp/rice/oryzabaseV4/
    institution: Genetic Strains Research Center, National Institute of Genetics, Mishima, Shizuoka

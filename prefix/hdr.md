@@ -5,10 +5,11 @@ description: The Homeodomain Resource is a curated collection of sequence, struc
 prefix: hdr
 pattern: ^\d+$
 prefixed: 0
+local_id: 63
 resources:
  - identifier: MIR:00100638
-   accessurl: http://research.nhgri.nih.gov/apps/homeodomain/web/index.cgi?mode=view&amp;view=proteins&amp;id=${id}
-   test_id: 63
+   accessurl: http://research.nhgri.nih.gov/apps/homeodomain/web/index.cgi?mode=view&amp;view=proteins&amp;id=${lid}
+   keyword: Protein coding
    description: Homeodomain Research at National Human Genome Research Institute (NIH)
    homepage: http://research.nhgri.nih.gov/apps/homeodomain/web/
    institution: Genome Technology Branch, National Human Genome Research Institute, National Institutes of Health, Bethesda, Maryland

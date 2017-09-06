@@ -5,10 +5,11 @@ description: NONCODE is a database of expression and functional lncRNA (long non
 prefix: noncodev4.gene
 pattern: ^NONHSAG\d{5}$
 prefixed: 0
+local_id: NONHSAG00001
 resources:
  - identifier: MIR:00100616
-   accessurl: http://www.bioinfo.org/NONCODEv4/show_gene.php?id=${id}
-   test_id: NONHSAG00001
+   accessurl: http://www.bioinfo.org/NONCODEv4/show_gene.php?id=${lid}
+   keyword: 11869
    description: NONCODE v4 Gene at Chinese Academy of Sciences
    homepage: http://www.bioinfo.org/NONCODEv4/
    institution: Bioinformatics Research Group, Chinese Academy of Sciences, Beijing

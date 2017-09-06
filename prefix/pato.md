@@ -5,10 +5,11 @@ description: PATO is an ontology of phenotypic qualities, intended for use in a 
 prefix: pato
 pattern: ^PATO:\d{7}$
 prefixed: 1
+local_id: 0001998
 resources:
  - identifier: MIR:00100145
-   accessurl: http://www.ebi.ac.uk/ols/ontologies/pato/terms?obo_id=${id}
-   test_id: PATO:0001998
+   accessurl: http://www.ebi.ac.uk/ols/ontologies/pato/terms?obo_id=PATO:${lid}
+   keyword: inhering in a bearer
    description: PATO through OLS
    homepage: http://www.ebi.ac.uk/ols/ontologies/pato
    institution: European Bioinformatics Institute, Hinxton, Cambridge
@@ -16,8 +17,8 @@ resources:
    official: false
    provider_code: ols
  - identifier: MIR:00100238
-   accessurl: http://purl.bioontology.org/ontology/PATO/${id}
-   test_id: PATO:0001998
+   accessurl: http://purl.bioontology.org/ontology/PATO/PATO:${lid}
+   keyword: inhering in a bearer
    description: PATO through BioPortal
    homepage: http://bioportal.bioontology.org/ontologies/PATO
    institution: National Center for Biomedical Ontology, Stanford

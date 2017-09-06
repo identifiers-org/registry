@@ -5,10 +5,11 @@ description: The UniProt Archive (UniParc) is a  database containing non-redunda
 prefix: uniparc
 pattern: ^UPI[A-F0-9]{10}$
 prefixed: 0
+local_id: UPI000000000A
 resources:
  - identifier: MIR:00100069
-   accessurl: http://www.ebi.ac.uk/cgi-bin/dbfetch?db=uniparc&id=${id}
-   test_id: UPI000000000A
+   accessurl: http://www.ebi.ac.uk/cgi-bin/dbfetch?db=uniparc&id=${lid}
+   keyword: MAETKEFKTLYNLFIDSYLQKLAQHSIPTNVTCAIHIGEVIGQFKNCALRITNKCMSNSR
    description: UniProt Archive (UniParc)
    homepage: http://www.ebi.ac.uk/uniparc/
    institution: European Bioinformatics Institute, Hinxton, Cambridge
@@ -16,8 +17,8 @@ resources:
    official: false
    provider_code: ebi
  - identifier: MIR:00100476
-   accessurl: http://www.uniprot.org/uniparc/${id}
-   test_id: UPI000000000A
+   accessurl: http://www.uniprot.org/uniparc/${lid}
+   keyword: MAETKEFKTLYNLFIDSYLQKLAQHSIPTNVTCAIHIGEVIGQFKNCALRI
    description: UniParc through UniProt
    homepage: http://www.uniprot.org/uniparc/
    institution: UniProt Consortium

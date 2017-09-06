@@ -5,10 +5,11 @@ description: MedGen is a portal for information about conditions and phenotypes 
 prefix: medgen
 pattern: ^[CN]*\d{4,7}$
 prefixed: 0
+local_id: 760050
 resources:
  - identifier: MIR:00100794
-   accessurl: https://www.ncbi.nlm.nih.gov/medgen/${id}
-   test_id: 760050
+   accessurl: https://www.ncbi.nlm.nih.gov/medgen/${lid}
+   keyword: Caffeine
    description: MedGen at NCBI
    homepage: https://www.ncbi.nlm.nih.gov/medgen/
    institution: National Center for Biotechnology Information (NCBI), NIH, Maryland

@@ -5,10 +5,13 @@ description: IMGT, the international ImMunoGeneTics project, is a collection of 
 prefix: imgt.hla
 pattern: ^[A-Z0-9*:]+$
 prefixed: 0
+local_id: A*01:01:01:01
+synonyms:
+ - IPD IMGT/HLA
 resources:
  - identifier: MIR:00100425
-   accessurl: http://www.ebi.ac.uk/cgi-bin/imgt/hla/get_allele.cgi?${id}
-   test_id: A*01:01:01:01
+   accessurl: http://www.ebi.ac.uk/cgi-bin/imgt/hla/get_allele.cgi?${lid}
+   keyword: Caucasoid, Oriental
    description: IMGT HLA at EBI
    homepage: http://www.ebi.ac.uk/imgt/hla/allele.html
    institution: European Bioinformatics Institute, Hinxton, Cambridge

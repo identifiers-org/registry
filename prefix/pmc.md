@@ -5,10 +5,14 @@ description: PMC International (PMCI) is a free full-text archive of biomedical 
 prefix: pmc
 pattern: PMC\d+
 prefixed: 0
+local_id: PMC3084216
+synonyms:
+ - PubMed Central
+ - PMCI
 resources:
  - identifier: MIR:00100191
-   accessurl: http://www.ncbi.nlm.nih.gov/pmc/articles/${id}/?tool=pubmed
-   test_id: PMC3084216
+   accessurl: http://www.ncbi.nlm.nih.gov/pmc/articles/${lid}/?tool=pubmed
+   keyword: (MIASE)
    description: PubMed Central
    homepage: http://www.ncbi.nlm.nih.gov/pmc/
    institution: NCBI
@@ -16,8 +20,8 @@ resources:
    official: false
    provider_code: ncbi
  - identifier: MIR:00100498
-   accessurl: http://europepmc.org/articles/${id}
-   test_id: PMC3084216
+   accessurl: http://europepmc.org/articles/${lid}
+   keyword: (MIASE)
    description: Europe PMC
    homepage: http://europepmc.org/
    institution: Europe PubMed Central partners
@@ -25,8 +29,8 @@ resources:
    official: true
    provider_code: epmc
  - identifier: MIR:00100747
-   accessurl: http://pubmedcentralcanada.ca/pmcc/articles/${id}
-   test_id: PMC3084216
+   accessurl: http://pubmedcentralcanada.ca/pmcc/articles/${lid}
+   keyword: (MIASE)
    description: PubMedCentral Canada
    homepage: http://pubmedcentralcanada.ca/pmcc
    institution: Canadian Institute of Health, Ottawa

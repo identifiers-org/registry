@@ -5,10 +5,11 @@ description: The web-based BioSharing catalogues aim to centralize bioscience da
 prefix: fairsharing
 pattern: ^bsg-\d{6}$
 prefixed: 0
+local_id: bsg-000052
 resources:
  - identifier: MIR:00100463
-   accessurl: https://www.biosharing.org/${id}
-   test_id: bsg-000052
+   accessurl: https://www.biosharing.org/${lid}
+   keyword: Systems Biology Markup Language
    description: BioSharing at University of Oxford
    homepage: https://www.biosharing.org/
    institution: Oxford e-Research Centre, University of Oxford, Oxford

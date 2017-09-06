@@ -5,10 +5,11 @@ description: BiGG is a knowledgebase of Biochemically, Genetically and Genomical
 prefix: bigg.compartment
 pattern: ^[a-z_A-Z]+$
 prefixed: 0
+local_id: c
 resources:
  - identifier: MIR:00100732
-   accessurl: http://bigg.ucsd.edu/compartments/${id}
-   test_id: c
+   accessurl: http://bigg.ucsd.edu/compartments/${lid}
+   keyword: cytosol
    description: BiGG Compartment at University of California
    homepage: http://bigg.ucsd.edu/compartments/
    institution: Systems Biology Research Group at the University of California, San Diego

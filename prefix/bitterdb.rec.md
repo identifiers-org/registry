@@ -5,10 +5,11 @@ description: BitterDB is a database of compounds reported to taste bitter to hum
 prefix: bitterdb.rec
 pattern: ^\d+$
 prefixed: 0
+local_id: 1
 resources:
  - identifier: MIR:00100442
-   accessurl: http://bitterdb.agri.huji.ac.il/Receptor.php?id=${id}
-   test_id: 1
+   accessurl: http://bitterdb.agri.huji.ac.il/Receptor.php?id=${lid}
+   keyword: chr5:9,629,109-9,630,463
    description: BitterDB Receptor at The Hebrew University of Jerusalem
    homepage: http://bitterdb.agri.huji.ac.il/dbbitter.php
    institution: The Robert H Smith Faculty of Agriculture, Food and Environment, The Institute of Biochemistry, Food Science and Nutrition, The Hebrew University of Jerusalem, Rehovot

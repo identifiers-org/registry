@@ -5,10 +5,13 @@ description: DOOR (Database for prOkaryotic OpeRons) contains computationally pr
 prefix: door
 pattern: ^\d+$
 prefixed: 0
+local_id: 60101
+synonyms:
+ - Database for prOkaryotic OpeRons
 resources:
  - identifier: MIR:00100588
-   accessurl: http://csbl1.bmb.uga.edu/OperonDB/genedetail.php?id=${id}
-   test_id: 60101
+   accessurl: http://csbl1.bmb.uga.edu/OperonDB/genedetail.php?id=${lid}
+   keyword: MTARETLMPVLLEKVYQLIQDKLELAQQPLVTQLGQHLFSNISQDDLVERNESDLYGAVLSLWHHINEKK
    description: DOOR v1 at University of Georgia
    homepage: http://csbl1.bmb.uga.edu/OperonDB/DOOR.php
    institution: Computational Systems Biology Laboratory, Department of Biochemistry and Molecular Biology, University of Georgia, Athens, Georgia

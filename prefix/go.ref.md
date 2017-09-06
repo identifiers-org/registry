@@ -5,10 +5,13 @@ description: The GO reference collection is a set of abstracts that can be cited
 prefix: go.ref
 pattern: ^GO_REF:\d{7}$
 prefixed: 0
+local_id: GO_REF:0000041
+synonyms:
+ - GO reference collection
 resources:
  - identifier: MIR:00100584
-   accessurl: http://www.geneontology.org/cgi-bin/references.cgi#${id}
-   test_id: GO_REF:0000041
+   accessurl: http://www.geneontology.org/cgi-bin/references.cgi#${lid}
+   keyword: Gene Ontology annotation based on UniPathway vocabulary mapping
    description: Gene Ontology Reference at The Gene Ontology Consortium
    homepage: http://www.geneontology.org/cgi-bin/references.cgi
    institution: The Gene Ontology Consortium

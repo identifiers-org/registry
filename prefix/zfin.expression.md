@@ -5,10 +5,11 @@ description: ZFIN serves as the zebrafish model organism database. This collecti
 prefix: zfin.expression
 pattern: ^ZDB\-GEN0\-\d+\-\d+$
 prefixed: 0
+local_id: ZDB-GENO-980202-899
 resources:
  - identifier: MIR:00100333
-   accessurl: http://zfin.org/${id}
-   test_id: ZDB-GENO-980202-899
+   accessurl: http://zfin.org/${lid}
+   keyword: ahctf1
    description: ZFIN Expression at University of Oregon
    homepage: http://zfin.org
    institution: Zebrafish Information Network, University of Oregon, USA

@@ -5,10 +5,13 @@ description: ISfinder is a database of bacterial insertion sequences (IS). It as
 prefix: isfinder
 pattern: ^IS\w+(\-\d)?$
 prefixed: 0
+local_id: ISA1083-2
+synonyms:
+ - Insertion Sequence Finder
 resources:
  - identifier: MIR:00100219
-   accessurl: https://www-is.biotoul.fr/scripts/ficheIS.php?name=${id}
-   test_id: ISA1083-2
+   accessurl: https://www-is.biotoul.fr/scripts/ficheIS.php?name=${lid}
+   keyword: Archaeoglobus fulgidus
    description: IS Finder at CNRS
    homepage: http://www-is.biotoul.fr/i
    institution: Laboratoire de Microbiologie et Génétique Moléculaires, CNRS, Toulouse

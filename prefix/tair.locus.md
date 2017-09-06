@@ -5,10 +5,11 @@ description: The Arabidopsis Information Resource (TAIR) maintains a database of
 prefix: tair.locus
 pattern: ^AT[1-5]G\d{5}$
 prefixed: 0
+local_id: AT1G01030
 resources:
  - identifier: MIR:00100078
-   accessurl: http://arabidopsis.org/servlets/TairObject?type=locus&name=${id}
-   test_id: AT1G01030
+   accessurl: http://arabidopsis.org/servlets/TairObject?type=locus&name=${lid}
+   keyword: NGATHA3
    description: The Arabidopsis Information Resource (TAIR) Locus
    homepage: http://arabidopsis.org/index.jsp
    institution: Carnegie Institution of Washington Department of Plant Biology and National Center for Genome Resources (NCGR)

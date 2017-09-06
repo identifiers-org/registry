@@ -5,10 +5,11 @@ description: The Comparative Toxicogenomics Database (CTD) presents scientifical
 prefix: ctd.gene
 pattern: ^\d+$
 prefixed: 0
+local_id: 101
 resources:
  - identifier: MIR:00100131
-   accessurl: http://ctdbase.org/detail.go?type=gene&acc=${id}
-   test_id: 101
+   accessurl: http://ctdbase.org/detail.go?type=gene&acc=${lid}
+   keyword: ADAM metallopeptidase domain
    description: Comparative Toxicogenomics Database (Gene)
    homepage: http://ctdbase.org/
    institution: The Mount Desert Island Biological Laboratory

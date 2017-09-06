@@ -5,10 +5,11 @@ description: TrichDB is one of the databases that can be accessed through the Eu
 prefix: trichdb
 pattern: ^\w+$
 prefixed: 0
+local_id: TVAG_386080
 resources:
  - identifier: MIR:00100199
-   accessurl: http://trichdb.org/trichdb/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=${id}
-   test_id: TVAG_386080
+   accessurl: http://trichdb.org/trichdb/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=${lid}
+   keyword: Clan MG, familly M24, aminopeptidase P-like metallopeptidase
    description: TrichDB at EuPathDB
    homepage: http://trichdb.org/trichdb/
    institution: Center for Tropical & Emerging Global Diseases, University of Georgia

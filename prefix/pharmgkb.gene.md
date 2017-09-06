@@ -5,10 +5,11 @@ description: The PharmGKB database is a central repository for genetic, genomic,
 prefix: pharmgkb.gene
 pattern: ^PA\w+$
 prefixed: 0
+local_id: PA131
 resources:
  - identifier: MIR:00100316
-   accessurl: http://www.pharmgkb.org/gene/${id}
-   test_id: PA131
+   accessurl: http://www.pharmgkb.org/gene/${lid}
+   keyword: CYP3A5
    description: PharmGKB Gene at Stanford
    homepage: http://www.pharmgkb.org/
    institution: Department of Genetics, School of Medicine, Stanford University, Stanford, California

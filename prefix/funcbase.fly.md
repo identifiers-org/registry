@@ -5,10 +5,11 @@ description: Computational gene function prediction can serve to focus experimen
 prefix: funcbase.fly
 pattern: ^\d+$
 prefixed: 0
+local_id: 10194
 resources:
  - identifier: MIR:00100596
-   accessurl: http://func.mshri.on.ca/fly/genes/list_functional_scores/${id}
-   test_id: 10194
+   accessurl: http://func.mshri.on.ca/fly/genes/list_functional_scores/${lid}
+   keyword: Wnt5
    description: FuncBase Fly at Harvard Medical School
    homepage: http://func.mshri.on.ca/fly
    institution: Harvard Medical School, Boston, Massachusetts

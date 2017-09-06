@@ -5,10 +5,13 @@ description: The EGA is a service for permanent archiving and sharing of all typ
 prefix: ega.dataset
 pattern: ^EGAD\d{11}$
 prefixed: 0
+local_id: EGAD00000000001
+synonyms:
+ - EGA Dataset
 resources:
  - identifier: MIR:00100658
-   accessurl: https://www.ebi.ac.uk/ega/datasets/${id}
-   test_id: EGAD00000000001
+   accessurl: https://www.ebi.ac.uk/ega/datasets/${lid}
+   keyword: WTCCC case-control study for Bipolar Disorder
    description: EGA Dataset at European Bioinformatics Institute
    homepage: https://www.ebi.ac.uk/ega/dataset
    institution: European Bioinformatics Institute, Hinxton, Cambridge

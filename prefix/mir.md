@@ -5,10 +5,11 @@ description: The Identifiers.org registry contains registered namespace and prov
 prefix: mir
 pattern: ^MIR:\d{8}$
 prefixed: 1
+local_id: 00100037
 resources:
  - identifier: MIR:00100800
-   accessurl: http://identifiers.org/registry?query="${id}"
-   test_id: MIR:00100037
+   accessurl: http://identifiers.org/registry?query="MIR:${lid}"
+   keyword: Protein
    description: Identifiers.org Registry through EBI
    homepage: http://identifiers.org/registry
    institution: European Bioinformatics Institute, Hinxton, Cambridge

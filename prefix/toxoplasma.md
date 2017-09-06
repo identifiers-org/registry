@@ -5,10 +5,11 @@ description: ToxoDB is one of the databases that can be accessed through the EuP
 prefix: toxoplasma
 pattern: ^\w+$
 prefixed: 0
+local_id: TGME49_053730
 resources:
  - identifier: MIR:00100198
-   accessurl: http://toxodb.org/toxo/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=${id}
-   test_id: TGME49_053730
+   accessurl: http://toxodb.org/toxo/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=${lid}
+   keyword: importin-alpha re-exporter, putative
    description: ToxoDB at EuPathDB
    homepage: http://toxodb.org/toxo/
    institution: Center for Tropical & Emerging Global Diseases, University of Georgia

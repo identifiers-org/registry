@@ -5,10 +5,11 @@ description: NONCODE is a database of expression and functional lncRNA (long non
 prefix: noncodev3
 pattern: ^\d+$
 prefixed: 0
+local_id: 377550
 resources:
  - identifier: MIR:00100319
-   accessurl: http://www.noncode.org/NONCODERv3/ncrna.php?ncid=${id}
-   test_id: 377550
+   accessurl: http://www.noncode.org/NONCODERv3/ncrna.php?ncid=${lid}
+   keyword: Human lincRNA
    description: NONCODE at Chinese Academy of Sciences
    homepage: http://www.noncode.org/
    institution: Bioinformatics Research Group, Chinese Academy of Sciences, Beijing

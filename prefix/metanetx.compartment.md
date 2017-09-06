@@ -5,10 +5,11 @@ description: MetaNetX/MNXref integrates various information from genome-scale me
 prefix: metanetx.compartment
 pattern: ^(MNX[CD]\d+|BOUNDARY)$
 prefixed: 0
+local_id: MNXC15
 resources:
  - identifier: MIR:00100750
-   accessurl: http://www.metanetx.org/comp_info/${id}
-   test_id: MNXC15
+   accessurl: http://www.metanetx.org/comp_info/${lid}
+   keyword: Golgi apparatus
    description: MetaNetX compartment at SIB Swiss Institute of Bioinformatics
    homepage: http://www.metanetx.org/
    institution: Vital-IT group, SIB Swiss Institute of Bioinformatics, Lausanne

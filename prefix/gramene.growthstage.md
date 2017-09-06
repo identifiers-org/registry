@@ -5,10 +5,11 @@ description: Gramene is a comparative genome mapping database for grasses and cr
 prefix: gramene.growthstage
 pattern: ^GRO\:\d+$
 prefixed: 1
+local_id: 0007133
 resources:
  - identifier: MIR:00100649
-   accessurl: http://www.gramene.org/db/ontology/search?id=${id}
-   test_id: GRO:0007133
+   accessurl: http://www.gramene.org/db/ontology/search?id=GRO:${lid}
+   keyword: cereal_plant_growth_stage
    description: Gramene Growth Stage Ontology at Cold Spring Harbor
    homepage: http://www.gramene.org/
    institution: Cold Spring Harbor Laboratory, New York

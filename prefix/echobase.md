@@ -5,10 +5,11 @@ description: EchoBASE is a database designed to contain and manipulate informati
 prefix: echobase
 pattern: ^EB\d+$
 prefixed: 0
+local_id: EB0170
 resources:
  - identifier: MIR:00100259
-   accessurl: http://www.york.ac.uk/res/thomas/Gene.cfm?recordID=${id}
-   test_id: EB0170
+   accessurl: http://www.york.ac.uk/res/thomas/Gene.cfm?recordID=${lid}
+   keyword: Electron acceptor
    description: EchoBASE at the University of York
    homepage: http://www.york.ac.uk/
    institution: Department of Biology (Area 10), University of York, York

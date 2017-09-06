@@ -5,10 +5,13 @@ description: The Gene Expression Atlas (GXA) is a semantically enriched database
 prefix: gxa.gene
 pattern: ^\w+$
 prefixed: 0
+local_id: AT4G01080
+synonyms:
+ - Gene Expression Atlas Gene
 resources:
  - identifier: MIR:00100482
-   accessurl: http://www.ebi.ac.uk/gxa/genes/${id}
-   test_id: AT4G01080
+   accessurl: http://www.ebi.ac.uk/gxa/genes/${lid}
+   keyword: Protein trichome birefringence-like 26
    description: GXA Gene at EBI
    homepage: http://www.ebi.ac.uk/gxa/
    institution: European Bioinformatics Institute, Hinxton, Cambridge

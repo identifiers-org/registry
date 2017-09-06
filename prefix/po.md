@@ -5,10 +5,13 @@ description: The Plant Ontology is a structured vocabulary and database resource
 prefix: po
 pattern: ^PO:\d+$
 prefixed: 1
+local_id: 0009089
+synonyms:
+ - PO
 resources:
  - identifier: MIR:00100389
-   accessurl: http://www.plantontology.org/amigo/go.cgi?view=details&query=${id}
-   test_id: PO:0009089
+   accessurl: http://www.plantontology.org/amigo/go.cgi?view=details&query=PO:${lid}
+   keyword: endosperm
    description: Plant Ontology through Amigo
    homepage: http://www.plantontology.org/
    institution: Cold Spring Harbor Laboratory, Cold Spring Harbor, New York
@@ -16,8 +19,8 @@ resources:
    official: false
    provider_code: amigo
  - identifier: MIR:00100390
-   accessurl: http://purl.bioontology.org/ontology/PO/${id}
-   test_id: PO:0009089
+   accessurl: http://purl.bioontology.org/ontology/PO/PO:${lid}
+   keyword: endosperm
    description: Plant Ontology through BioPortal
    homepage: http://bioportal.bioontology.org/ontologies/PO
    institution: National Center for Biomedical Ontology, Stanford
@@ -25,8 +28,8 @@ resources:
    official: false
    provider_code: bptl
  - identifier: MIR:00100676
-   accessurl: http://www.ebi.ac.uk/ols/ontologies/po/terms?obo_id=${id}
-   test_id: PO:0009089
+   accessurl: http://www.ebi.ac.uk/ols/ontologies/po/terms?obo_id=PO:${lid}
+   keyword: endosperm
    description: Plant Ontology through OLS
    homepage: http://www.ebi.ac.uk/ols/ontologies/po
    institution: European Bioinformatics Institute, Hinxton, Cambridge

@@ -5,10 +5,11 @@ description: UniPathway is a manually curated resource of metabolic pathways for
 prefix: unipathway
 pattern: ^UPA\d{5}$
 prefixed: 0
+local_id: UPA00206
 resources:
  - identifier: MIR:00100114
-   accessurl: http://www.grenoble.prabi.fr/obiwarehouse/unipathway/upa?upid=${id}
-   test_id: UPA00206
+   accessurl: http://www.grenoble.prabi.fr/obiwarehouse/unipathway/upa?upid=${lid}
+   keyword: ethanol fermentation
    description: UniPathway
    homepage: http://www.grenoble.prabi.fr/obiwarehouse/unipathway
    institution: Swiss Institute of Bioinformatics (SIB) and French National Institute for Research in Computer Science and Control

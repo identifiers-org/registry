@@ -5,10 +5,11 @@ description: MetaNetX/MNXref integrates various information from genome-scale me
 prefix: metanetx.chemical
 pattern: ^(MNXM\d+|BIOMASS)$
 prefixed: 0
+local_id: MNXM1723
 resources:
  - identifier: MIR:00100748
-   accessurl: http://www.metanetx.org/chem_info/${id}
-   test_id: MNXM1723
+   accessurl: http://www.metanetx.org/chem_info/${lid}
+   keyword: glucose phosphate
    description: MetaNetX chemical at SIB Swiss Institute of Bioinformatics
    homepage: http://www.metanetx.org/
    institution: Vital-IT group, SIB Swiss Institute of Bioinformatics, Lausanne

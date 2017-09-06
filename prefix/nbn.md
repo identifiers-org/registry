@@ -5,10 +5,13 @@ description: The National Bibliography Number (NBN), is a URN-based publication 
 prefix: nbn
 pattern: ^urn\:nbn\:[A-Za-z_0-9]+\:([A-Za-z_0-9]+)-[A-Za-z_0-9]+$
 prefixed: 0
+local_id: urn:nbn:fi:tkk-004781
+synonyms:
+ - NBN
 resources:
  - identifier: MIR:00100488
-   accessurl: http://nbn-resolving.org/resolver?identifier=${id}&verb=redirect
-   test_id: urn:nbn:fi:tkk-004781
+   accessurl: http://nbn-resolving.org/resolver?identifier=${lid}&verb=redirect
+   keyword: 
    description: NBN through URN Resolver at German National Library
    homepage: http://nbn-resolving.org/resolve_urn.htm
    institution: Deutsche Nationalbibliothek, Frankfurt

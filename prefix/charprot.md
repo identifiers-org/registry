@@ -5,10 +5,11 @@ description: CharProt is a database of biochemically characterized proteins desi
 prefix: charprot
 pattern: ^CH_\d+$
 prefixed: 0
+local_id: CH_001923
 resources:
  - identifier: MIR:00100436
-   accessurl: http://www.jcvi.org/charprotdb/index.cgi/view/${id}
-   test_id: CH_001923
+   accessurl: http://www.jcvi.org/charprotdb/index.cgi/view/${lid}
+   keyword: tyrosine-protein phosphatase
    description: CharProt at JCVI
    homepage: http://www.jcvi.org/charprotdb
    institution: J Craig Venter institute, Rockville, Maryland

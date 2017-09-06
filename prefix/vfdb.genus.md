@@ -5,10 +5,13 @@ description: VFDB is a repository of virulence factors (VFs) of pathogenic bacte
 prefix: vfdb.genus
 pattern: ^\w+$
 prefixed: 0
+local_id: Chlamydia
+synonyms:
+ - Virulence Factor Database genus
 resources:
  - identifier: MIR:00100606
-   accessurl: http://www.mgc.ac.cn/cgi-bin/VFs/genus.cgi?Genus=${id}
-   test_id: Chlamydia
+   accessurl: http://www.mgc.ac.cn/cgi-bin/VFs/genus.cgi?Genus=${lid}
+   keyword: Gram-negative-type cell wall but no peptidoglycan
    description: VFDB Genus at Institute of Pathogen Biology
    homepage: http://www.mgc.ac.cn/VFs/
    institution: State Key Laboratory for Molecular Virology and Genetic Engineering, Institute of Pathogen Biology, Chinese Academy Medical Sciences and Peking Union Medical College, Beijing

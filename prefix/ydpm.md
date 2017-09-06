@@ -5,10 +5,13 @@ description: The YDPM database serves to support the Yeast Deletion and the Mito
 prefix: ydpm
 pattern: ^Y[A-Z]{2}\d+[CW]$
 prefixed: 0
+local_id: YAL001C
+synonyms:
+ - Yeast Deletion Project and Proteomics of Mitochondria Database
 resources:
  - identifier: MIR:00100600
-   accessurl: http://www-deletion.stanford.edu/cgi-bin/YDPM/YDPM_search.cgi?thelist=${id}
-   test_id: YAL001C
+   accessurl: http://www-deletion.stanford.edu/cgi-bin/YDPM/YDPM_search.cgi?thelist=${lid}
+   keyword: TFIIIC (transcription initiation factor)
    description: YDPM at Stanford University School of Medicine
    homepage: http://www-deletion.stanford.edu/YDPM/
    institution: Stanford University School of Medicine, Stanford, California

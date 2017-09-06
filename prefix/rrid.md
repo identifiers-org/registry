@@ -6,10 +6,13 @@ The initiative works with participating journals to intercept manuscripts in the
 prefix: rrid
 pattern: ^RRID:[A-Z_a-z-0-9]+$
 prefixed: 1
+local_id: AB_262044
+synonyms:
+ - Research Resource IDentifier
 resources:
  - identifier: MIR:00100735
-   accessurl: https://scicrunch.org/resolver/${id}
-   test_id: RRID:AB_262044
+   accessurl: https://scicrunch.org/resolver/RRID:${lid}
+   keyword: Cat# F1804
    description: RRID at SciCrunch
    homepage: https://scicrunch.org/resolver
    institution: University of California, San Diego

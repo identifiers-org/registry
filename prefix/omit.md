@@ -5,10 +5,13 @@ description: The purpose of the OMIT ontology is to establish data exchange stan
 prefix: omit
 pattern: ^\d{7}$
 prefixed: 0
+local_id: 0005506
+synonyms:
+ - Ontology for miRNA Target
 resources:
  - identifier: MIR:00100806
-   accessurl: https://www.ebi.ac.uk/ols/ontologies/omit/terms?short_form=OMIT_${id}
-   test_id: 0005506
+   accessurl: https://www.ebi.ac.uk/ols/ontologies/omit/terms?short_form=OMIT_${lid}
+   keyword: null
    description: Ontology for miRNA Target (OMIT) through OLS
    homepage: https://www.ebi.ac.uk/ols/ontologies/omit/
    institution: European Bioinformatics Institute, Hinxton, Cambridge

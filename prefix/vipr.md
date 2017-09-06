@@ -5,10 +5,13 @@ description: The Virus Pathogen Database and Analysis Resource (ViPR) supports b
 prefix: vipr
 pattern: ^[A-Za-z 0-9]+$
 prefixed: 0
+local_id: BeAn 70563
+synonyms:
+ - Virus Pathogen Resource Strain
 resources:
  - identifier: MIR:00100527
-   accessurl: http://www.viprbrc.org/brc/viprStrainDetails.do?strainName=${id}&decorator=arena
-   test_id: BeAn 70563
+   accessurl: http://www.viprbrc.org/brc/viprStrainDetails.do?strainName=${lid}&decorator=arena
+   keyword: Amapari virus
    description: ViPR Strain at J. Craig Venter Institute
    homepage: http://www.viprbrc.org/brc/home.do?decorator=vipr
    institution: J. Craig Venter Institute, San Diego, California

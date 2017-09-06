@@ -5,10 +5,11 @@ description: The Comparative Toxicogenomics Database (CTD) presents scientifical
 prefix: ctd.chemical
 pattern: ^[CD]\d+$
 prefixed: 0
+local_id: D001151
 resources:
  - identifier: MIR:00100129
-   accessurl: http://ctdbase.org/detail.go?type=chem&acc=${id}
-   test_id: D001151
+   accessurl: http://ctdbase.org/detail.go?type=chem&acc=${lid}
+   keyword: 7440-38-2
    description: Comparative Toxicogenomics Database (Chemical)
    homepage: http://ctdbase.org/
    institution: The Mount Desert Island Biological Laboratory

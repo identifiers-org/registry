@@ -5,10 +5,11 @@ description: The ATCvet system for the classification of veterinary medicines is
 prefix: atcvet
 pattern: ^Q[A-Z0-9]+$
 prefixed: 0
+local_id: QJ51RV02
 resources:
  - identifier: MIR:00100344
-   accessurl: http://www.whocc.no/atcvet/atcvet_index/?code=${id}
-   test_id: QJ51RV02
+   accessurl: http://www.whocc.no/atcvet/atcvet_index/?code=${lid}
+   keyword: corticosteroids
    description: Anatomical Therapeutic Chemical Vet Index at WHO
    homepage: http://www.whocc.no/atcvet/atcvet_index/
    institution: World Health Organisation

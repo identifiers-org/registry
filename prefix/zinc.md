@@ -5,10 +5,11 @@ description: ZINC is a free public resource for ligand discovery. The database c
 prefix: zinc
 pattern: ^(ZINC)?\d+$
 prefixed: 0
+local_id: ZINC1084
 resources:
  - identifier: MIR:00100688
-   accessurl: http://zinc15.docking.org/substances/${id}
-   test_id: ZINC1084
+   accessurl: http://zinc15.docking.org/substances/${lid}
+   keyword: Caffeine
    description: ZINC at University of California (San Francisco)
    homepage: http://zinc15.docking.org/
    institution: Shoichet Laboratory, Department of Pharmaceutical Chemistry, University of California, San Francisco

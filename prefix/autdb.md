@@ -5,10 +5,13 @@ description: AutDB is a curated database for autism research. It is built on inf
 prefix: autdb
 pattern: ^[A-Z]+[A-Z-0-9]{2,}$
 prefixed: 0
+local_id: ADA
+synonyms:
+ - Autism Database
 resources:
  - identifier: MIR:00100538
-   accessurl: http://autism.mindspec.org/GeneDetail/${id}
-   test_id: ADA
+   accessurl: http://autism.mindspec.org/GeneDetail/${lid}
+   keyword: adenosine deaminase
    description: AutDB at MindSpec
    homepage: http://autism.mindspec.org/autdb/
    institution: MindSpec Inc., Fairfax, Virginia

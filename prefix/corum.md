@@ -5,10 +5,11 @@ description: The CORUM database provides a resource of manually annotated protei
 prefix: corum
 pattern: ^\d+$
 prefixed: 0
+local_id: 100
 resources:
  - identifier: MIR:00100571
-   accessurl: http://mips.helmholtz-muenchen.de/genre/proj/corum/complexdetails.html?id=${id}
-   test_id: 100
+   accessurl: http://mips.helmholtz-muenchen.de/genre/proj/corum/complexdetails.html?id=${lid}
+   keyword: hNURF complex
    description: CORUM at Institute for Bioinformatics and Systems Biology (Germany)
    homepage: http://mips.helmholtz-muenchen.de/genre/proj/corum/
    institution: Institute for Bioinformatics and Systems Biology, Helmholtz Zentrum M&amp;uuml;nchen-German Research Center for Environmental Health, Neuherberg

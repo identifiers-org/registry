@@ -5,10 +5,13 @@ description: KEGG GLYCAN, a part of the KEGG LIGAND database, is a collection of
 prefix: kegg.glycan
 pattern: ^G\d+$
 prefixed: 0
+local_id: G00123
+synonyms:
+ - KEGG
 resources:
  - identifier: MIR:00100036
-   accessurl: http://www.kegg.jp/entry/${id}
-   test_id: G00123
+   accessurl: http://www.kegg.jp/entry/${lid}
+   keyword: 527.5
    description: KEGG GLYCAN Database
    homepage: http://www.genome.jp/kegg/glycan/
    institution: Kyoto University Bioinformatics Center

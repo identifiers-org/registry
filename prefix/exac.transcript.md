@@ -5,10 +5,11 @@ description: The Exome Aggregation Consortium (ExAC) is a coalition of investiga
 prefix: exac.transcript
 pattern: ^ENST\d{11}$
 prefixed: 0
+local_id: ENST00000407236
 resources:
  - identifier: MIR:00100724
-   accessurl: http://exac.broadinstitute.org/transcript/${id}
-   test_id: ENST00000407236
+   accessurl: http://exac.broadinstitute.org/transcript/${lid}
+   keyword: PPARA
    description: ExAC Transcript at Exome Aggregation Consortium
    homepage: http://exac.broadinstitute.org/
    institution: Exome Aggregation Consortium (ExAC), Cambridge, Massachusetts

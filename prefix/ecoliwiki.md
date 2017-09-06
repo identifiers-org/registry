@@ -5,10 +5,11 @@ description: EcoliWiki is a wiki-based resource to store information related to 
 prefix: ecoliwiki
 pattern: ^[A-Za-z0-9-]+$
 prefixed: 0
+local_id: aaeA
 resources:
  - identifier: MIR:00100573
-   accessurl: http://ecoliwiki.net/colipedia/index.php/${id}:Gene
-   test_id: aaeA
+   accessurl: http://ecoliwiki.net/colipedia/index.php/${lid}:Gene
+   keyword: Aromatic (carboxylic) acid efflux
    description: EcoliWiki at Texas Agrilife Research
    homepage: http://ecoliwiki.net/colipedia/
    institution: Texas Agrilife Research, Texas A&amp;M University College Station

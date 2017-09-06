@@ -5,10 +5,11 @@ description: ConoServer is a database specialized in the sequence and structures
 prefix: conoserver
 pattern: ^\d+$
 prefixed: 0
+local_id: 2639
 resources:
  - identifier: MIR:00100325
-   accessurl: http://www.conoserver.org/?page=card&table=protein&id=${id}
-   test_id: 2639
+   accessurl: http://www.conoserver.org/?page=card&table=protein&id=${lid}
+   keyword: Conotoxin-1
    description: ConoServer at University of Queensland
    homepage: http://www.conoserver.org/
    institution: Institute for Molecular Bioscience, The University of Queensland, Brisbane

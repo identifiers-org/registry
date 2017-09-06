@@ -5,10 +5,13 @@ description: AGRICOLA (AGRICultural OnLine Access) serves as the catalog and ind
 prefix: argicola
 pattern: ^\d+$
 prefixed: 0
+local_id: 50018
+synonyms:
+ - Agricultural Online Access
 resources:
  - identifier: MIR:00100789
-   accessurl: http://ddr.nal.usda.gov/dspace/handle/10113/${id}
-   test_id: 50018
+   accessurl: http://ddr.nal.usda.gov/dspace/handle/10113/${lid}
+   keyword: Addition of
    description: AGRICOLA at National Agricultural Library
    homepage: http://agricola.nal.usda.gov/
    institution: National Agricultural Library, United States Department of Agriculture

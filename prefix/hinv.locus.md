@@ -5,10 +5,11 @@ description: H-Invitational Database (H-InvDB) is an integrated database of huma
 prefix: hinv.locus
 pattern: ^HIX\d{7}(\.\d+)?$
 prefixed: 0
+local_id: HIX0004394
 resources:
  - identifier: MIR:00100213
-   accessurl: http://h-invitational.jp/hinv/spsoup/locus_view?hix_id=${id}
-   test_id: HIX0004394
+   accessurl: http://h-invitational.jp/hinv/spsoup/locus_view?hix_id=${lid}
+   keyword: Alcohol dehydrogenase class-3
    description: H-Invitational Locus View at BIRC
    homepage: http://h-invitational.jp/hinv/ahg-db/index.jsp
    institution: BIRC, Tokyo

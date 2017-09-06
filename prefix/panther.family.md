@@ -5,10 +5,11 @@ description: The PANTHER (Protein ANalysis THrough Evolutionary Relationships) C
 prefix: panther.family
 pattern: ^PTHR\d{5}(\:SF\d{1,3})?$
 prefixed: 0
+local_id: PTHR12345
 resources:
  - identifier: MIR:00100088
-   accessurl: http://www.pantherdb.org/panther/family.do?clsAccession=${id}
-   test_id: PTHR12345
+   accessurl: http://www.pantherdb.org/panther/family.do?clsAccession=${lid}
+   keyword: membrane trafficking regulatory protein
    description: PANTHER Family at USC (Los Angeles)
    homepage: http://www.pantherdb.org/
    institution: Keck School of Medicine, University of Southern California

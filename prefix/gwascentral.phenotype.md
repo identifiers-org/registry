@@ -5,10 +5,11 @@ description: GWAS Central (previously the Human Genome Variation database of Gen
 prefix: gwascentral.phenotype
 pattern: ^HGVP\d+$
 prefixed: 0
+local_id: HGVPM623
 resources:
  - identifier: MIR:00100720
-   accessurl: http://www.gwascentral.org/phenotype/${id}
-   test_id: HGVPM623
+   accessurl: http://www.gwascentral.org/phenotype/${lid}
+   keyword: Pancreatic cancer
    description: GWAS Central Phenotype at University of Leicester
    homepage: http://www.gwascentral.org/phenotypes
    institution: Department of Genetics, University of Leicester, Leicester

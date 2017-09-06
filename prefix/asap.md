@@ -5,10 +5,11 @@ description: ASAP (a systematic annotation package for community analysis of gen
 prefix: asap
 pattern: ^[A-Za-z0-9-]+$
 prefixed: 0
+local_id: ABE-0009634
 resources:
  - identifier: MIR:00100364
-   accessurl: http://asap.ahabs.wisc.edu/asap/feature_info.php?LocationID=WIS&FeatureID=${id}
-   test_id: ABE-0009634
+   accessurl: http://asap.ahabs.wisc.edu/asap/feature_info.php?LocationID=WIS&FeatureID=${lid}
+   keyword: biosynthetic arginine decarboxylase, PLP-binding
    description: ASAP at University of Wisconsin
    homepage: http://asap.ahabs.wisc.edu/asap/home.php
    institution: Animal Health and Biomedical Sciences, University of Wisconsin, Madison

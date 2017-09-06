@@ -5,10 +5,11 @@ description: The Terminology for Description of Dynamics (TEDDY) is an ontology 
 prefix: biomodels.teddy
 pattern: ^TEDDY_\d{7}$
 prefixed: 0
+local_id: TEDDY_0000066
 resources:
  - identifier: MIR:00100140
-   accessurl: http://purl.bioontology.org/ontology/TEDDY/${id}
-   test_id: TEDDY_0000066
+   accessurl: http://purl.bioontology.org/ontology/TEDDY/${lid}
+   keyword: periodic oscillation
    description: TEDDY through BioPortal
    homepage: http://teddyontology.sourceforge.net/
    institution: National Center for Biomedical Ontology, Stanford
@@ -16,8 +17,8 @@ resources:
    official: false
    provider_code: bptl
  - identifier: MIR:00100761
-   accessurl: http://www.ebi.ac.uk/ols/ontologies/teddy/terms?short_form=${id}
-   test_id: TEDDY_0000066
+   accessurl: http://www.ebi.ac.uk/ols/ontologies/teddy/terms?short_form=${lid}
+   keyword: periodic oscillation
    description: TEDDY though OLS
    homepage: http://www.ebi.ac.uk/ols/ontologies/teddy
    institution: European Bioinformatics Institute, Hinxton, Cambridge

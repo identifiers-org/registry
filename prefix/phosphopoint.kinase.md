@@ -5,10 +5,11 @@ description: PhosphoPOINT is a database of the human kinase and phospho-protein 
 prefix: phosphopoint.kinase
 pattern: ^\w+$
 prefixed: 0
+local_id: AURKA
 resources:
  - identifier: MIR:00100499
-   accessurl: http://kinase.bioinformatics.tw/showall.jsp?type=Kinase&info=Gene&name=${id}&drawing=0&sorting=0&kinome=1
-   test_id: AURKA
+   accessurl: http://kinase.bioinformatics.tw/showall.jsp?type=Kinase&info=Gene&name=${lid}&drawing=0&sorting=0&kinome=1
+   keyword: STK6_HUMAN
    description: PhosphoPoint Kinase at National Taiwan University
    homepage: http://kinase.bioinformatics.tw/
    institution: Department of Computer Science and Information Engineering, National Taiwan University

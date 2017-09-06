@@ -5,10 +5,13 @@ description: Ensembl Genomes consists of five sub-portals (for bacteria, protist
 prefix: ensembl.protist
 pattern: ^\w+$
 prefixed: 0
+local_id: PFC0120w
+synonyms:
+ - Ensembl Genomes Protists
 resources:
  - identifier: MIR:00100262
-   accessurl: http://protists.ensembl.org/id/${id}
-   test_id: PFC0120w
+   accessurl: http://protists.ensembl.org/id/${lid}
+   keyword: Cytoadherence linked asexual
    description: Ensembl Protists at EBI
    homepage: http://protists.ensembl.org
    institution: European Bioinformatics Institute, Hinxton, Cambridge

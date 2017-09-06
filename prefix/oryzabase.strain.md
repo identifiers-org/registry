@@ -5,10 +5,11 @@ description: Oryzabase provides a view of rice (Oryza sativa) as a model monocot
 prefix: oryzabase.strain
 pattern: ^\d+$
 prefixed: 0
+local_id: 1
 resources:
  - identifier: MIR:00100620
-   accessurl: http://www.shigen.nig.ac.jp/rice/oryzabaseV4/strain/wildCore/detail/${id}
-   test_id: 1
+   accessurl: http://www.shigen.nig.ac.jp/rice/oryzabaseV4/strain/wildCore/detail/${lid}
+   keyword: RGC100877
    description: Oryzabase v4 Strain at National Institute of Genetics (Japan)
    homepage: http://www.shigen.nig.ac.jp/rice/oryzabaseV4/
    institution: Genetic Strains Research Center, National Institute of Genetics, Mishima, Shizuoka

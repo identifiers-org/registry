@@ -5,10 +5,13 @@ description: The G protein-coupled receptor database (GPCRDB) collects, large am
 prefix: gpcrdb
 pattern: ^\w+$
 prefixed: 0
+local_id: RL3R1_HUMAN
+synonyms:
+ - G protein-coupled receptor database
 resources:
  - identifier: MIR:00100271
-   accessurl: http://www.gpcrdb.org/protein/${id}/
-   test_id: RL3R1_HUMAN
+   accessurl: http://www.gpcrdb.org/protein/${lid}/
+   keyword: Relaxin-3 receptor 1
    description: GPCRDB at Radboud University
    homepage: http://www.gpcrdb.org/
    institution: Radboud University Nijmegen Medical Centre, Nijmegen,

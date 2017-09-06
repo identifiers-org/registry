@@ -5,10 +5,13 @@ description: The Disease Ontology has been developed as a standardized ontology 
 prefix: doid
 pattern: ^DOID\:\d+$
 prefixed: 1
+local_id: 11337
+synonyms:
+ - DO
 resources:
  - identifier: MIR:00100292
-   accessurl: http://purl.bioontology.org/ontology/DOID/${id}
-   test_id: DOID:11337
+   accessurl: http://purl.bioontology.org/ontology/DOID/DOID:${lid}
+   keyword: commensal bacterial
    description: Human Disease Ontology through BioPortal
    homepage: http://bioportal.bioontology.org/ontologies/DOID
    institution: National Center for Biomedical Ontology, Stanford University
@@ -16,8 +19,8 @@ resources:
    official: false
    provider_code: bptl
  - identifier: MIR:00100293
-   accessurl: http://www.ebi.ac.uk/ols/ontologies/doid/terms?obo_id=${id}
-   test_id: DOID:11337
+   accessurl: http://www.ebi.ac.uk/ols/ontologies/doid/terms?obo_id=DOID:${lid}
+   keyword: commensal bacterial
    description: Human Disease Ontology through OLS
    homepage: http://www.ebi.ac.uk/ols/ontologies/doid
    institution: European Bioinformatics Institute, Hinxton, Cambridge
@@ -25,8 +28,8 @@ resources:
    official: false
    provider_code: ols
  - identifier: MIR:00100297
-   accessurl: http://disease-ontology.org/term/${id}
-   test_id: DOID:11337
+   accessurl: http://disease-ontology.org/term/DOID:${lid}
+   keyword: commensal bacterial
    description: Human Disease Ontology at Northwestern University
    homepage: http://disease-ontology.org/
    institution: University of Maryland (Maryland) and Northwestern University (Illinois)

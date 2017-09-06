@@ -5,10 +5,11 @@ description: miRTarBase is a database of miRNA-target interactions (MTIs), colle
 prefix: mirtarbase
 pattern: ^MIRT\d{6}$
 prefixed: 0
+local_id: MIRT000002
 resources:
  - identifier: MIR:00100739
-   accessurl: http://mirtarbase.mbc.nctu.edu.tw/php/detail.php?mirtid=${id}
-   test_id: MIRT000002
+   accessurl: http://mirtarbase.mbc.nctu.edu.tw/php/detail.php?mirtid=${lid}
+   keyword: Homo sapiens miR-20a stem-loop
    description: miRTarBase at National Chiao Tung University
    homepage: http://mirtarbase.mbc.nctu.edu.tw/
    institution: Institute of Bioinformatics and Systems Biology, National Chiao Tung University, Hsinchu

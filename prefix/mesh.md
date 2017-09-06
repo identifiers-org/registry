@@ -5,10 +5,13 @@ description: MeSH (Medical Subject Headings) is the National Library of Medicine
 prefix: mesh
 pattern: ^(C|D)\d{6}$
 prefixed: 0
+local_id: C000100
+synonyms:
+ - Medical Subject Headings
 resources:
  - identifier: MIR:00100737
-   accessurl: http://id.nlm.nih.gov/mesh/${id}
-   test_id: C000100
+   accessurl: http://id.nlm.nih.gov/mesh/${lid}
+   keyword: aquayamycin
    description: MeSH Linked Data at National Library of Medicine
    homepage: http://id.nlm.nih.gov/mesh/
    institution: U.S. National Library of Medicine, National Institute of Health, Maryland

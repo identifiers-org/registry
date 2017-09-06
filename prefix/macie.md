@@ -5,10 +5,11 @@ description: MACiE (Mechanism, Annotation and Classification in Enzymes) is a da
 prefix: macie
 pattern: ^M\d{4}$
 prefixed: 0
+local_id: M0001
 resources:
  - identifier: MIR:00100108
-   accessurl: http://www.ebi.ac.uk/thornton-srv/databases/cgi-bin/MACiE/entry/getPage.pl?id=${id}
-   test_id: M0001
+   accessurl: http://www.ebi.ac.uk/thornton-srv/databases/cgi-bin/MACiE/entry/getPage.pl?id=${lid}
+   keyword: A member of the Isomerases, Racemases and epimerases, 
    description: MACiE database of mechanisms, annotation and classification in enzymes
    homepage: http://www.ebi.ac.uk/thornton-srv/databases/MACiE/index.html
    institution: European Bioinformatics Institute, Hinxton, Cambridge

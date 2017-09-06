@@ -5,10 +5,14 @@ description: PubChem provides information on the biological activities of small 
 prefix: pubchem.substance
 pattern: ^\d+$
 prefixed: 0
+local_id: 100101
+synonyms:
+ - PubChem Substance
+ - PubChem SID
 resources:
  - identifier: MIR:00100058
-   accessurl: http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?sid=${id}
-   test_id: 100101
+   accessurl: http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?sid=${lid}
+   keyword: 6079-78-3
    description: NCBI PubChem Substance
    homepage: http://pubchem.ncbi.nlm.nih.gov/
    institution: National Center for Biotechnology Information (NCBI)

@@ -5,10 +5,11 @@ description: NeuronDB provides a dynamically searchable database of three types 
 prefix: neurondb
 pattern: ^\d+$
 prefixed: 0
+local_id: 265
 resources:
  - identifier: MIR:00100125
-   accessurl: http://senselab.med.yale.edu/NeuronDB/NeuronProp.aspx?id=${id}
-   test_id: 265
+   accessurl: http://senselab.med.yale.edu/NeuronDB/NeuronProp.aspx?id=${lid}
+   keyword: Neocortex layer
    description: NeuronDB at SenseLab
    homepage: http://senselab.med.yale.edu/NeuronDB/
    institution: Yale University School of Medicine

@@ -5,10 +5,13 @@ description: ORCID (Open Researcher and Contributor ID) is an open, non-profit, 
 prefix: orcid
 pattern: ^\d{4}-\d{4}-\d{4}-\d{3}(\d|X)$
 prefixed: 0
+local_id: 0000-0002-6309-7327
+synonyms:
+ - Open Researcher and Contributor ID
 resources:
  - identifier: MIR:00100489
-   accessurl: https://orcid.org/${id}
-   test_id: 0000-0002-6309-7327
+   accessurl: https://orcid.org/${lid}
+   keyword: Nicolas Le
    description: ORCID at Bethesda
    homepage: http://orcid.org
    institution: ORCID Inc, Bethesda, Mayrland

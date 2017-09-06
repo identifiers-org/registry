@@ -5,10 +5,13 @@ description: The Catalytic Site Atlas (CSA) is a database documenting enzyme act
 prefix: csa
 pattern: ^[0-9][A-Za-z0-9]{3}$
 prefixed: 0
+local_id: 1a05
+synonyms:
+ - Catalytic Site Atlas
 resources:
  - identifier: MIR:00100188
-   accessurl: http://www.ebi.ac.uk/thornton-srv/databases/CSA/SearchResults.php?PDBID=${id}
-   test_id: 1a05
+   accessurl: http://www.ebi.ac.uk/thornton-srv/databases/CSA/SearchResults.php?PDBID=${lid}
+   keyword: 3-isopropylmalate dehydrogenase
    description: CSA at EBI
    homepage: http://www.ebi.ac.uk/thornton-srv/databases/CSA/
    institution: European Bioinformatics Institute, Hinxton, Cambridge

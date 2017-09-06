@@ -5,10 +5,13 @@ description: The database details a comprehensive  IUBMB approved classification
 prefix: tcdb
 pattern: ^\d+(\.[A-Z])?(\.\d+)?(\.\d+)?(\.\d+)?$
 prefixed: 0
+local_id: 5.A.1.1.1
+synonyms:
+ - TCDB
 resources:
  - identifier: MIR:00100068
-   accessurl: http://www.tcdb.org/search/result.php?tc=${id}
-   test_id: 5.A.1.1.1
+   accessurl: http://www.tcdb.org/search/result.php?tc=${lid}
+   keyword: Disulfide bond oxidoreductase-D
    description: TCDB
    homepage: http://www.tcdb.org/
    institution: Division of Biological Sciences, UCSD

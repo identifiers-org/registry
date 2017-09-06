@@ -5,10 +5,11 @@ description: E-cyanobacterium.org is a web-based platform for public sharing, an
 prefix: ecyano.model
 pattern: ^\d+$
 prefixed: 0
+local_id: 26
 resources:
  - identifier: MIR:00100783
-   accessurl: http://e-cyanobacterium.org/models/model/${id}/
-   test_id: 26
+   accessurl: http://e-cyanobacterium.org/models/model/${lid}/
+   keyword: Miyoshi
    description: e-cyanobacterium entity at Masaryk University Brno
    homepage: http://e-cyanobacterium.org/models/
    institution: Systems Biology Laboratory, Faculty of Informatics, Masaryk University Brno

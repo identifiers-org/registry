@@ -5,10 +5,13 @@ description: The Medical Dictionary for Regulatory Activities (MedDRA) was devel
 prefix: meddra
 pattern: ^\d+$
 prefixed: 0
+local_id: 10015919
+synonyms:
+ - Medical Dictionary for Regulatory Activities
 resources:
  - identifier: MIR:00100740
-   accessurl: http://purl.bioontology.org/ontology/MEDDRA/${id}
-   test_id: 10015919
+   accessurl: http://purl.bioontology.org/ontology/MEDDRA/${lid}
+   keyword: Eye disorders
    description: MedDRA through BioPortal
    homepage: http://bioportal.bioontology.org/ontologies/MEDDRA
    institution: National Center for Biomedical Ontology, Stanford

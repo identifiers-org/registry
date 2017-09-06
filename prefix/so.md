@@ -5,18 +5,22 @@ description: The Sequence Ontology (SO) is a structured controlled vocabulary fo
 prefix: so
 pattern: ^SO:\d{7}$
 prefixed: 1
+local_id: 0000704
+synonyms:
+ - SO
+ - Sequence Types and Features
 resources:
  - identifier: MIR:00100112
-   accessurl: http://www.sequenceontology.org/miso/current_release/term/${id}
-   test_id: SO:0000704
+   accessurl: http://www.sequenceontology.org/miso/current_release/term/SO:${lid}
+   keyword: necessary to encode a functional transcript.
    description: Sequence Ontology
    homepage: http://www.sequenceontology.org/
    institution: Department of Molecular and Cellular Biology, University of California, Berkeley
    location: USA
    official: false
  - identifier: MIR:00100241
-   accessurl: http://purl.bioontology.org/ontology/SO/${id}
-   test_id: SO:0000704
+   accessurl: http://purl.bioontology.org/ontology/SO/SO:${lid}
+   keyword: necessary to encode a functional transcript.
    description: Sequence Ontology through BioPortal
    homepage: http://bioportal.bioontology.org/ontologies/SO
    institution: National Center for Biomedical Ontology, Stanford
@@ -24,8 +28,8 @@ resources:
    official: false
    provider_code: bptl
  - identifier: MIR:00100628
-   accessurl: http://www.ebi.ac.uk/ols/ontologies/so/terms?obo_id=${id}
-   test_id: SO:0000704
+   accessurl: http://www.ebi.ac.uk/ols/ontologies/so/terms?obo_id=SO:${lid}
+   keyword: necessary to encode a functional transcript.
    description: Sequence Ontology through Ontology Lookup Service (OLS)
    homepage: http://www.ebi.ac.uk/ols/ontologies/so
    institution: European Bioinformatics Institute, Hinxton, Cambridge

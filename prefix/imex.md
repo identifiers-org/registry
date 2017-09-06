@@ -5,10 +5,11 @@ description: The International Molecular Exchange (IMEx) is a consortium of mole
 prefix: imex
 pattern: ^IM-\d+(-?)(\d+?)$
 prefixed: 0
+local_id: IM-19210-3
 resources:
  - identifier: MIR:00100155
-   accessurl: http://www.ebi.ac.uk/intact/imex/main.xhtml?query=${id}
-   test_id: IM-19210-3
+   accessurl: http://www.ebi.ac.uk/intact/imex/main.xhtml?query=${lid}
+   keyword: <span id="totalResultsTable"
    description: IMEx Consortium running at EBI
    homepage: http://www.imexconsortium.org/
    institution: European Bioinformatics Institute, Hinxton, Cambridge
@@ -16,8 +17,8 @@ resources:
    official: false
    provider_code: ebi
  - identifier: MIR:00100663
-   accessurl: https://imexcentral.org/icentral/imex/rec/${id}
-   test_id: IM-19210-3
+   accessurl: https://imexcentral.org/icentral/imex/rec/${lid}
+   keyword: MAP1LC3B
    description: IMEx Consortium though Intact
    homepage: http://www.ebi.ac.uk/intact/
    institution: European Bioinformatics Institute, Hinxton, Cambridge

@@ -5,10 +5,11 @@ description: The EBI Metagenomics service is an automated pipeline for the analy
 prefix: ebimetagenomics.samp
 pattern: ^[A-Z]+[0-9]+$
 prefixed: 0
+local_id: SRS086444
 resources:
  - identifier: MIR:00100656
-   accessurl: http://www.ebi.ac.uk/metagenomics/samples/${id}
-   test_id: SRS086444
+   accessurl: http://www.ebi.ac.uk/metagenomics/samples/${lid}
+   keyword: 100 day old Infant gut microbiome
    description: EBI Metagenomics at European Bioinformatics Institute
    homepage: http://www.ebi.ac.uk/metagenomics
    institution: European Bioinformatics Institute, Hinxton, Cambridge

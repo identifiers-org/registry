@@ -5,10 +5,11 @@ description: GenAtlas is a database containing information on human genes, marke
 prefix: genatlas
 pattern: ^\w+$
 prefixed: 0
+local_id: HBB
 resources:
  - identifier: MIR:00100267
-   accessurl: http://genatlas.medecine.univ-paris5.fr/fiche.php?symbol=${id}
-   test_id: HBB
+   accessurl: http://genatlas.medecine.univ-paris5.fr/fiche.php?symbol=${lid}
+   keyword: Heinz body anemia
    description: Genatlas at Paris Descartes University
    homepage: http://genatlas.medecine.univ-paris5.fr/
    institution: Paris Descartes University, Paris

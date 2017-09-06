@@ -5,10 +5,11 @@ description: BacMap is an electronic, interactive atlas of fully sequenced bacte
 prefix: bacmap.map
 pattern: ^\w+(\_)?\d+(\.\d+)?$
 prefixed: 0
+local_id: AP011135
 resources:
  - identifier: MIR:00100539
-   accessurl: http://bacmap.wishartlab.com/maps/${id}/index.html
-   test_id: AP011135
+   accessurl: http://bacmap.wishartlab.com/maps/${lid}/index.html
+   keyword: urease accessory protein UreF
    description: BacMap Genome Map at University of Alberta
    homepage: http://bacmap.wishartlab.com/
    institution: Department of Computing Science, Food and Nutritional Science, University of Alberta, Edmonton

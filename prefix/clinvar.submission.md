@@ -5,10 +5,11 @@ description: ClinVar archives reports of relationships among medically important
 prefix: clinvar.submission
 pattern: ^SCV\d+(\.\d+)?$
 prefixed: 0
+local_id: SCV000151292
 resources:
  - identifier: MIR:00100795
-   accessurl: http://www.ncbi.nlm.nih.gov/clinvar?term=${id}
-   test_id: SCV000151292
+   accessurl: http://www.ncbi.nlm.nih.gov/clinvar?term=${lid}
+   keyword: (p.Val182Met)
    description: ClinVar Submission at NCBI
    homepage: http://www.ncbi.nlm.nih.gov/clinvar/
    institution: National Center for Biotechnology Information (NCBI), NIH, Maryland

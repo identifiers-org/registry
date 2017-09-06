@@ -5,10 +5,13 @@ description: The Molecular Interactions (MI) ontology forms a structured control
 prefix: psimi
 pattern: ^MI:\d{4}$
 prefixed: 1
+local_id: 0308
+synonyms:
+ - MI
 resources:
  - identifier: MIR:00100142
-   accessurl: http://www.ebi.ac.uk/ols/ontologies/mi/terms?obo_id=${id}
-   test_id: MI:0308
+   accessurl: http://www.ebi.ac.uk/ols/ontologies/mi/terms?obo_id=MI:${lid}
+   keyword: permeabilising cell
    description: Molecular Interactions Ontology through OLS
    homepage: http://www.ebi.ac.uk/ols/ontologies/mi
    institution: European Bioinformatics Institute, Hinxton, Cambridge

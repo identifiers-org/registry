@@ -5,10 +5,11 @@ description: DragonDB is a genetic and genomic database for Antirrhinum majus (S
 prefix: dragondb.protein
 pattern: ^\w+$
 prefixed: 0
+local_id: AMDEFA
 resources:
  - identifier: MIR:00100380
-   accessurl: http://antirrhinum.net/cgi-bin/ace/generic/tree/DragonDB?name=${id};class=Peptide
-   test_id: AMDEFA
+   accessurl: http://antirrhinum.net/cgi-bin/ace/generic/tree/DragonDB?name=${lid};class=Peptide
+   keyword: ARGKIQIKRIENQ
    description: DragonDB Protein at University of British Columbia
    homepage: http://www.antirrhinum.net/
    institution: University of British Columbia, Vancouver

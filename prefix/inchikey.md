@@ -5,18 +5,21 @@ description: The IUPAC International Chemical Identifier (InChI, see MIR:0000038
 prefix: inchikey
 pattern: ^[A-Z]{14}\-[A-Z]{10}(\-[A-Z])?
 prefixed: 0
+local_id: RYYVLZVUVIJVGH-UHFFFAOYSA-N
+synonyms:
+ - hashed InChI
 resources:
  - identifier: MIR:00100501
-   accessurl: http://www.chemspider.com/inchikey=${id}
-   test_id: RYYVLZVUVIJVGH-UHFFFAOYSA-N
+   accessurl: http://www.chemspider.com/inchikey=${lid}
+   keyword: Caffeine
    description: InChIKey through ChemSpider
    homepage: http://www.chemspider.com/
    institution: Royal Society of Chemistry, Cambridge
    location: UK
    official: false
  - identifier: MIR:00100505
-   accessurl: http://cactus.nci.nih.gov/chemical/structure/${id}/names
-   test_id: RYYVLZVUVIJVGH-UHFFFAOYSA-N
+   accessurl: http://cactus.nci.nih.gov/chemical/structure/${lid}/names
+   keyword: Caffeine solution
    description: InChiKey resolver at NCI
    homepage: http://cactus.nci.nih.gov/chemical/structure
    institution: National Cancer Institute, Rockville, Maryland

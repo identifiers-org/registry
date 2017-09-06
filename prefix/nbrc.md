@@ -5,10 +5,13 @@ description: NITE Biological Research Center (NBRC) provides a collection of mic
 prefix: nbrc
 pattern: ^\d+$
 prefixed: 0
+local_id: 00001234
+synonyms:
+ - NBRC Catalogue
 resources:
  - identifier: MIR:00100225
-   accessurl: http://www.nbrc.nite.go.jp/NBRC2/NBRCCatalogueDetailServlet?ID=NBRC&CAT=${id}
-   test_id: 00001234
+   accessurl: http://www.nbrc.nite.go.jp/NBRC2/NBRCCatalogueDetailServlet?ID=NBRC&CAT=${lid}
+   keyword: NBRC 1234
    description: NBRC Catalogue at National Institute of Technology Evaluation
    homepage: http://www.nbrc.nite.go.jp/e/index.html
    institution: National Institute of Technology Evaluation, Tokyo

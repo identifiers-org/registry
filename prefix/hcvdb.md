@@ -5,10 +5,13 @@ description: the European Hepatitis C Virus Database (euHCVdb, http://euhcvdb.ib
 prefix: hcvdb
 pattern: ^M\d{5}$
 prefixed: 0
+local_id: M58335
+synonyms:
+ - euHCVDB
 resources:
  - identifier: MIR:00100266
-   accessurl: https://euhcvdb.ibcp.fr/euHCVdb/do/displayHCVEntry?primaryAC=${id}
-   test_id: M58335
+   accessurl: https://euhcvdb.ibcp.fr/euHCVdb/do/displayHCVEntry?primaryAC=${lid}
+   keyword: Hepatitis C virus
    description: HCVDB at CNRS
    homepage: http://euhcvdb.ibcp.fr/euHCVdb/
    institution: Institut de Biologie et Chimie des Protéines, CNRS, University of Lyon , Lyon-Gerland

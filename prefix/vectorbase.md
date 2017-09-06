@@ -5,10 +5,11 @@ description: VectorBase is an NIAID-funded Bioinformatic Resource Center focused
 prefix: vectorbase
 pattern: ^\D{4}\d{6}(\-\D{2})?$
 prefixed: 0
+local_id: ISCW007415
 resources:
  - identifier: MIR:00100291
-   accessurl: https://www.vectorbase.org/search/site/${id}?&site="Genome"
-   test_id: ISCW007415
+   accessurl: https://www.vectorbase.org/search/site/${lid}?&site="Genome"
+   keyword: hypothetical protein
    description: Vectorbase at EMBL-EBI
    homepage: http://www.vectorbase.org/
    institution: European Bioinformatics Institute, Hinxton, Cambridge

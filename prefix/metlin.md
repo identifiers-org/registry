@@ -5,10 +5,13 @@ description: The METLIN (Metabolite and Tandem Mass Spectrometry) Database is a 
 prefix: metlin
 pattern: ^\d{4}$
 prefixed: 0
+local_id: 1455
+synonyms:
+ - Metabolite and Tandem Mass Spectrometry Database
 resources:
  - identifier: MIR:00100406
-   accessurl: http://metlin.scripps.edu/metabo_info.php?molid=${id}
-   test_id: 1455
+   accessurl: http://metlin.scripps.edu/metabo_info.php?molid=${lid}
+   keyword: Anhydrous caffeine
    description: METLIN at Scripps Center, Molecular Biology and Center for Mass Spectrometry, La Jolla
    homepage: http://masspec.scripps.edu/
    institution: Scripps Research Institute, San Diego

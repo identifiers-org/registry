@@ -5,10 +5,13 @@ description: The human DEPhOsphorylation Database (DEPOD) contains information o
 prefix: depod
 pattern: ^[A-Z0-9]+$
 prefixed: 0
+local_id: PTPN1
+synonyms:
+ - human DEPhOsphorylation Database
 resources:
  - identifier: MIR:00100551
-   accessurl: http://www.koehnlab.de/depod/showp.php?gene=${id}
-   test_id: PTPN1
+   accessurl: http://www.koehnlab.de/depod/showp.php?gene=${lid}
+   keyword: Tyrosine-protein phosphatase
    description: DEPOD at EMBL
    homepage: http://www.koehnlab.de/depod/
    institution: European Molecular Biology Laboratory EMBL, Heidelberg

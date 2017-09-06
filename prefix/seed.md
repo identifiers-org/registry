@@ -5,10 +5,11 @@ description: This cooperative effort, which includes Fellowship for Interpretati
 prefix: seed
 pattern: ^\w+$
 prefixed: 0
+local_id: Biotin_biosynthesis
 resources:
  - identifier: MIR:00100729
-   accessurl: http://seed-viewer.theseed.org/seedviewer.cgi?page=Subsystems&subsystem=${id}
-   test_id: Biotin_biosynthesis
+   accessurl: http://seed-viewer.theseed.org/seedviewer.cgi?page=Subsystems&subsystem=${lid}
+   keyword: salvage
    description: SEED Subsystem at Argonne National Laboratory
    homepage: http://seed-viewer.theseed.org/seedviewer.cgi
    institution: Argonne National Laboratory, University of Chicago, Argonne, Illinois

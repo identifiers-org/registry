@@ -5,10 +5,11 @@ description: PiroplasmaDB is one of the databases that can be accessed through t
 prefix: piroplasma
 pattern: ^TA\d+$
 prefixed: 0
+local_id: TA14985
 resources:
  - identifier: MIR:00100448
-   accessurl: http://piroplasmadb.org/piro/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=${id}
-   test_id: TA14985
+   accessurl: http://piroplasmadb.org/piro/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=${lid}
+   keyword: topoisomerase IV subunit A
    description: PiroplasmaBD at EuPathDB
    homepage: http://piroplasmadb.org/
    institution: Center for Tropical &amp; Emerging Global Diseases, University of Georgia, Georgia

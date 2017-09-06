@@ -5,10 +5,11 @@ description: The IUPHAR Compendium details the molecular, biophysical and pharma
 prefix: iuphar.family
 pattern: ^\d+$
 prefixed: 0
+local_id: 78
 resources:
  - identifier: MIR:00100708
-   accessurl: http://www.guidetopharmacology.org/GRAC/FamilyDisplayForward?familyId=${id}
-   test_id: 78
+   accessurl: http://www.guidetopharmacology.org/GRAC/FamilyDisplayForward?familyId=${lid}
+   keyword: Transient Receptor Potential channels
    description: The IUPHAR/BPS Guide to PHARMACOLOGY
    homepage: http://www.guidetopharmacology.org/
    institution: International Union of Pharmacology, Edinburgh

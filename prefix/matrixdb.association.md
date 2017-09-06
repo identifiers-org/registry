@@ -5,10 +5,11 @@ description: MatrixDB stores experimentally determined interactions involving at
 prefix: matrixdb.association
 pattern: ^([A-N,R-Z][0-9][A-Z][A-Z, 0-9][A-Z, 0-9][0-9])_.*|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9]_.*)|(GAG_.*)|(MULT_.*)|(PFRAG_.*)|(LIP_.*)|(CAT_.*)$
 prefixed: 0
+local_id: P00747__P07355
 resources:
  - identifier: MIR:00100098
-   accessurl: http://matrixdb.univ-lyon1.fr//cgi-bin/current/newPort?type=association&value=${id}&class=Association
-   test_id: P00747__P07355
+   accessurl: http://matrixdb.univ-lyon1.fr//cgi-bin/current/newPort?type=association&value=${lid}&class=Association
+   keyword: Annexin A2
    description: MatrixDB Association
    homepage: http://matrixdb.univ-lyon1.fr/
    institution: Institut de Biologie et Chimie des Protéines, Lyon University

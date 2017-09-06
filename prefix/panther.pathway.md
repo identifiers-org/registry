@@ -5,10 +5,11 @@ description: The PANTHER (Protein ANalysis THrough Evolutionary Relationships) C
 prefix: panther.pathway
 pattern: ^P\d{5}$
 prefixed: 0
+local_id: P00024
 resources:
  - identifier: MIR:00100461
-   accessurl: http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=${id}
-   test_id: P00024
+   accessurl: http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=${lid}
+   keyword: Glycolysis
    description: PANTHER Pathway at USC (Los Angeles)
    homepage: http://www.pantherdb.org/
    institution: Keck School of Medicine, University of Southern California

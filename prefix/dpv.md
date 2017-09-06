@@ -5,10 +5,14 @@ description: Description of Plant Viruses (DPV) provides information about virus
 prefix: dpv
 pattern: ^\d+$
 prefixed: 0
+local_id: 100
+synonyms:
+ - Description of Plant Viruses
+ - DPVweb
 resources:
  - identifier: MIR:00100361
-   accessurl: http://www.dpvweb.net/dpv/showdpv.php?dpvno=${id}
-   test_id: 100
+   accessurl: http://www.dpvweb.net/dpv/showdpv.php?dpvno=${lid}
+   keyword: Rice transitory yellowing
    description: DPV at Rothamsted
    homepage: http://www.dpvweb.net/
    institution: Plant-Pathogen Interactions Division, Wheat Pathogenesis Programme, Rothamsted Research Harpenden, Hertfordshire

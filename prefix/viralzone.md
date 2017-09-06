@@ -5,10 +5,11 @@ description: ViralZone is a resource bridging textbook knowledge with genomic an
 prefix: viralzone
 pattern: ^\d+$
 prefixed: 0
+local_id: 992
 resources:
  - identifier: MIR:00100583
-   accessurl: http://viralzone.expasy.org/all_by_protein/${id}.html
-   test_id: 992
+   accessurl: http://viralzone.expasy.org/all_by_protein/${lid}.html
+   keyword: virus membrane
    description: ViralZone at SIB
    homepage: http://www.expasy.org/viralzone/
    institution: Swiss Institute of Bioinformatics, Centre Médical Universitaire, Geneva

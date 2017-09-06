@@ -5,10 +5,13 @@ description: KEGG Orthology (KO) consists of manually defined, generalised ortho
 prefix: kegg.orthology
 pattern: ^K\d+$
 prefixed: 0
+local_id: K00001
+synonyms:
+ - KEGG
 resources:
  - identifier: MIR:00100149
-   accessurl: http://www.kegg.jp/entry/${id}
-   test_id: K00001
+   accessurl: http://www.kegg.jp/entry/${lid}
+   keyword: alcohol dehydrogenase
    description: KEGG Orthology Database
    homepage: http://www.genome.jp/kegg/ko.html
    institution: Department of Computational Biology, University of Tokyo, Tokyo

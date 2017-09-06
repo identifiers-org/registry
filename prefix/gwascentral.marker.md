@@ -5,10 +5,11 @@ description: GWAS Central (previously the Human Genome Variation database of Gen
 prefix: gwascentral.marker
 pattern: ^HGVM\d+$
 prefixed: 0
+local_id: HGVM15354
 resources:
  - identifier: MIR:00100719
-   accessurl: http://www.gwascentral.org/marker/${id}
-   test_id: HGVM15354
+   accessurl: http://www.gwascentral.org/marker/${lid}
+   keyword: rs8580
    description: GWAS Central Marker at University of Leicester
    homepage: http://www.gwascentral.org/markers/
    institution: Department of Genetics, University of Leicester, Leicester

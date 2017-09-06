@@ -5,10 +5,11 @@ description: The YEast Intron Database (version 3) contains information on the s
 prefix: yid
 pattern: ^[A-Z0-9]+$
 prefixed: 0
+local_id: SNR17A
 resources:
  - identifier: MIR:00100595
-   accessurl: http://metarray.ucsc.edu/cgi-bin/intron/yirIntrondb?orfName=${id}
-   test_id: SNR17A
+   accessurl: http://metarray.ucsc.edu/cgi-bin/intron/yirIntrondb?orfName=${lid}
+   keyword: U3A snoRNA
    description: Yeast Intron Database version 3 at Baskin School of Engineering
    homepage: http://compbio.soe.ucsc.edu/yeast_introns.html
    institution: Baskin School of Engineering, Center for Molecular Biology of RNA, University of California, Santa Cruz, California

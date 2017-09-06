@@ -5,10 +5,13 @@ description: Ensembl Genomes consists of five sub-portals (for bacteria, protist
 prefix: ensembl.fungi
 pattern: ^[A-Z-a-z0-9]+$
 prefixed: 0
+local_id: CADAFLAT00006211
+synonyms:
+ - Ensembl Genomes Fungi
 resources:
  - identifier: MIR:00100265
-   accessurl: http://fungi.ensembl.org/id/${id}
-   test_id: CADAFLAT00006211
+   accessurl: http://fungi.ensembl.org/id/${lid}
+   keyword: RING finger protein
    description: Enzembl Fungi at EBI
    homepage: http://fungi.ensembl.org/
    institution: European Bioinformatics Institute, Hinxton, Cambridge

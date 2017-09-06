@@ -5,10 +5,11 @@ description: BiGG is a knowledgebase of Biochemically, Genetically and Genomical
 prefix: bigg.metabolite
 pattern: ^[a-z_A-Z0-9]+$
 prefixed: 0
+local_id: 12dgr161
 resources:
  - identifier: MIR:00100733
-   accessurl: http://bigg.ucsd.edu/models/universal/metabolites/${id}
-   test_id: 12dgr161
+   accessurl: http://bigg.ucsd.edu/models/universal/metabolites/${lid}
+   keyword: dihexadec
    description: BiGG Metabolite at University of Cakifornia
    homepage: http://bigg.ucsd.edu/universal/metabolites
    institution: Systems Biology Research Group at the University of California, San Diego

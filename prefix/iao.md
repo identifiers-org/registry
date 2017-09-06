@@ -5,10 +5,11 @@ description: An ontology of information entities, originally driven by work by t
 prefix: iao
 pattern: ^\d{7}$
 prefixed: 0
+local_id: 0000030
 resources:
  - identifier: MIR:00100804
-   accessurl: http://purl.obolibrary.org/obo/IAO_${id}
-   test_id: 0000030
+   accessurl: http://purl.obolibrary.org/obo/IAO_${lid}
+   keyword: continuant
    description: IAO through Ontobee
    homepage: http://www.ontobee.org/ontology/IAO
    institution: University of Pennsylvania

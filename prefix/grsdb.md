@@ -5,10 +5,13 @@ description: GRSDB is a database of G-quadruplexes and contains information on c
 prefix: grsdb
 pattern: ^\d+$
 prefixed: 0
+local_id: 10142
+synonyms:
+ - G-Rich Sequences DataBase
 resources:
  - identifier: MIR:00100636
-   accessurl: http://bioinformatics.ramapo.edu/GRSDB2/geneview.php?geneID=${id}
-   test_id: 10142
+   accessurl: http://bioinformatics.ramapo.edu/GRSDB2/geneview.php?geneID=${lid}
+   keyword: AKAP350
    description: GRSDB v2 at  Ramapo College of New Jersey
    homepage: http://bioinformatics.ramapo.edu/GRSDB2/
    institution: Bioinformatics Group, School of Theoretical and Applied Science, Ramapo College of New Jersey, Mahwah

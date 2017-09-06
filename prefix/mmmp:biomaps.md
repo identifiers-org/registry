@@ -5,10 +5,13 @@ description: A collection of molecular interaction maps and pathways involved in
 prefix: mmmp:biomaps
 pattern: ^\d+$
 prefixed: 0
+local_id: 37
+synonyms:
+ - MMMP Biomaps
 resources:
  - identifier: MIR:00100105
-   accessurl: http://www.mmmp.org/MMMP/public/biomap/viewBiomap.mmmp?id=${id}
-   test_id: 37
+   accessurl: http://www.mmmp.org/MMMP/public/biomap/viewBiomap.mmmp?id=${lid}
+   keyword: Upstream of Akt is PI3K (phosphatidyl inositol 3-kinase) 
    description: main webpage
    homepage: http://www.mmmp.org/MMMP/public/biomap/listBiomap.mmmp
    institution: Melanoma Molecular Map Project

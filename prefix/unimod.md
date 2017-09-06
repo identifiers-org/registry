@@ -5,10 +5,11 @@ description: Unimod is a public domain database created to provide a community s
 prefix: unimod
 pattern: ^\d+$
 prefixed: 0
+local_id: 1200
 resources:
  - identifier: MIR:00100581
-   accessurl: http://www.unimod.org/modifications_view.php?editid1=${id}
-   test_id: 1200
+   accessurl: http://www.unimod.org/modifications_view.php?editid1=${lid}
+   keyword: 44.008456
    description: Unimod at Matrix Sciences Ltd.
    homepage: http://www.unimod.org/
    institution: Matrix Science Ltd., London

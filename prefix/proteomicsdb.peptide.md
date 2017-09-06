@@ -5,10 +5,11 @@ description: ProteomicsDB is an effort dedicated to expedite the identification 
 prefix: proteomicsdb.peptide
 pattern: ^\d+$
 prefixed: 0
+local_id: 53504
 resources:
  - identifier: MIR:00100681
-   accessurl: https://www.proteomicsdb.org/#human/proteinDetails/${id}/peptides/
-   test_id: 53504
+   accessurl: https://www.proteomicsdb.org/#human/proteinDetails/${lid}/peptides/
+   keyword: Neuromodulin
    description: Proteomics DB Peptide at Center for Integrated Protein Science
    homepage: https://www.proteomicsdb.org/#peptideSearch
    institution: Center for Integrated Protein Science, Munich

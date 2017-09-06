@@ -5,10 +5,13 @@ description: SIDER (Side Effect Resource) is a public, computer-readable side ef
 prefix: sider.drug
 pattern: ^\d+$
 prefixed: 0
+local_id: 2244
+synonyms:
+ - Side Effect Resource
 resources:
  - identifier: MIR:00100559
-   accessurl: http://sideeffects.embl.de/drugs/${id}/
-   test_id: 2244
+   accessurl: http://sideeffects.embl.de/drugs/${lid}/
+   keyword: N02BA01
    description: SIDER Drug v2 at EMBL (Heidelberg)
    homepage: http://sideeffects.embl.de/
    institution: Structural and Computational Biology Unit, European Molecular Biology Laboratory, Heidelberg

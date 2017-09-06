@@ -5,10 +5,11 @@ description: STITCH is a resource to explore known and predicted interactions of
 prefix: stitch
 pattern: ^\w{14}$
 prefixed: 0
+local_id: BQJCRHHNABKAKU
 resources:
  - identifier: MIR:00100343
-   accessurl: http://stitch.embl.de/interactions/${id}
-   test_id: BQJCRHHNABKAKU
+   accessurl: http://stitch.embl.de/interactions/${lid}
+   keyword: morphine
    description: STITCH
    homepage: http://stitch.embl.de/
    institution: European Molecular Biology Laboratory, Heidelberg

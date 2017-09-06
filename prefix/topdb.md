@@ -5,10 +5,11 @@ description: The Topology Data Bank of Transmembrane Proteins (TOPDB) is a colle
 prefix: topdb
 pattern: ^[A-Z0-9]+$
 prefixed: 0
+local_id: AP00378
 resources:
  - identifier: MIR:00100644
-   accessurl: http://topdb.enzim.hu/?m=show&id=${id}
-   test_id: AP00378
+   accessurl: http://topdb.enzim.hu/?m=show&id=${lid}
+   keyword: MVGLTTLFWL
    description: TOPDB at Hungarian Academy of Sciences
    homepage: http://topdb.enzim.hu/
    institution: Institute of Enzymology, Hungarian Academy of Sciences, Budapest

@@ -5,10 +5,11 @@ description: OMA (Orthologous MAtrix) is a database that identifies orthologs am
 prefix: oma.grp
 pattern: ^[A-Z]+$
 prefixed: 0
+local_id: LCSCCPN
 resources:
  - identifier: MIR:00100438
-   accessurl: http://omabrowser.org/cgi-bin/gateway.pl?f=DisplayGroup&p1=${id}
-   test_id: LCSCCPN
+   accessurl: http://omabrowser.org/cgi-bin/gateway.pl?f=DisplayGroup&p1=${lid}
+   keyword: SARHA02316
    description: OMA Group through OMA browser at ETH Zurich
    homepage: http://omabrowser.org/cgi-bin/gateway.pl
    institution: ETH Zurich, Computer Science, Zurich

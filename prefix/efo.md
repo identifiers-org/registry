@@ -5,10 +5,13 @@ description: The Experimental Factor Ontology (EFO) provides a systematic descri
 prefix: efo
 pattern: ^\d{7}$
 prefixed: 0
+local_id: 0004859
+synonyms:
+ - EFO
 resources:
  - identifier: MIR:00100509
-   accessurl: http://www.ebi.ac.uk/ols/ontologies/efo/terms?obo_id=EFO:${id}
-   test_id: 0004859
+   accessurl: http://www.ebi.ac.uk/ols/ontologies/efo/terms?obo_id=EFO:${lid}
+   keyword: abdominal aortic artery calcification
    description: EFO through OLS
    homepage: http://www.ebi.ac.uk/ols/ontologies/efo
    institution: European Bioinformatics Institute, Hinxton, Cambridge
@@ -16,8 +19,8 @@ resources:
    official: false
    provider_code: ols
  - identifier: MIR:00100510
-   accessurl: http://purl.bioontology.org/ontology/EFO/efo:EFO_${id}
-   test_id: 0004859
+   accessurl: http://purl.bioontology.org/ontology/EFO/efo:EFO_${lid}
+   keyword: abdominal aortic artery calcification
    description: EFO through BioPortal
    homepage: http://bioportal.bioontology.org/ontologies/EFO
    institution: National Center for Biomedical Ontology, Stanford
@@ -25,8 +28,8 @@ resources:
    official: false
    provider_code: bptl
  - identifier: MIR:00100511
-   accessurl: http://www.ebi.ac.uk/efo/EFO_${id}
-   test_id: 0004859
+   accessurl: http://www.ebi.ac.uk/efo/EFO_${lid}
+   keyword: abdominal aortic artery calcification
    description: EFO through Functional Genomics Group (EBI)
    homepage: http://www.ebi.ac.uk/efo/
    institution: European Bioinformatics Institute, Hinxton, Cambridge

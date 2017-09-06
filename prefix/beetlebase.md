@@ -5,10 +5,11 @@ description: BeetleBase is a comprehensive sequence database and community resou
 prefix: beetlebase
 pattern: ^TC\d+$
 prefixed: 0
+local_id: TC010103
 resources:
  - identifier: MIR:00100202
-   accessurl: http://beetlebase.org/cgi-bin/gbrowse/BeetleBase3.gff3/?name=${id}
-   test_id: TC010103
+   accessurl: http://beetlebase.org/cgi-bin/gbrowse/BeetleBase3.gff3/?name=${lid}
+   keyword: positions 17,144,898
    description: BeetleBase at Kansas State University
    homepage: http://beetlebase.org/
    institution: Bioinformatics Center, Kansas State University

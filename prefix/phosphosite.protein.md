@@ -5,10 +5,13 @@ description: PhosphoSite is a mammalian protein database that provides informati
 prefix: phosphosite.protein
 pattern: ^\d{5}$
 prefixed: 0
+local_id: 12300
+synonyms:
+ - PhosphoSitePlus
 resources:
  - identifier: MIR:00100138
-   accessurl: http://www.phosphosite.org/proteinAction.do?id=${id}
-   test_id: 12300
+   accessurl: http://www.phosphosite.org/proteinAction.do?id=${lid}
+   keyword: TFIIH to the initiation
    description: PhosphoSite
    homepage: http://www.phosphosite.org/homeAction.do
    institution: Cell Signaling Technology, Inc.

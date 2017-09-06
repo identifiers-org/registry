@@ -5,10 +5,11 @@ description: TopFIND is a database of protein termini, terminus modifications an
 prefix: topfind
 pattern: ^([A-N,R-Z][0-9][A-Z][A-Z, 0-9][A-Z, 0-9][0-9])|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])$
 prefixed: 0
+local_id: Q9UKQ2
 resources:
  - identifier: MIR:00100326
-   accessurl: http://clipserve.clip.ubc.ca/topfind/proteins/${id}
-   test_id: Q9UKQ2
+   accessurl: http://clipserve.clip.ubc.ca/topfind/proteins/${lid}
+   keyword: Disintegrin and metalloproteinase domain-containing protein 28
    description: TopFind at University of British Columbia
    homepage: http://clipserve.clip.ubc.ca/topfind
    institution: Department of Oral Biological and Medical Sciences, University of British Columbia, Vancouver

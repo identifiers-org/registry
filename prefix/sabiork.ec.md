@@ -5,10 +5,13 @@ description: SABIO-RK is a relational database system that contains information 
 prefix: sabiork.ec
 pattern: ^((\d+)|(\d+\.\d+)|(\d+\.\d+\.\d+)|(\d+\.\d+\.\d+\.\d+))$
 prefixed: 0
+local_id: 2.7.1.1
+synonyms:
+ - SABIO-RK Enzyme Classification Record
 resources:
  - identifier: MIR:00100163
-   accessurl: http://sabiork.h-its.org/newSearch?q=ecnumber:${id}
-   test_id: 2.7.1.1
+   accessurl: http://sabiork.h-its.org/newSearch?q=ecnumber:${lid}
+   keyword: 2.7.1.55
    description: SABIO-RK Reaction Kinetics Database - Enzyme Classification (EC)
    homepage: http://sabiork.h-its.org/
    institution: Heidelberg Institute for Theoretical Studies (HITS gGmbH)

@@ -5,10 +5,13 @@ description: The United States Patent and Trademark Office (USPTO) is the federa
 prefix: uspto
 pattern: ^(D|PP|R|T|H|X|AI)?\d+$
 prefixed: 0
+local_id: 4145692
+synonyms:
+ - United States Patent and Trademark Office
 resources:
  - identifier: MIR:00100715
-   accessurl: http://patft.uspto.gov/netacgi/nph-Parser?Sect2=PTO1&Sect2=HITOFF&p=1&u=/netahtml/PTO/search-bool.html&r=1&f=G&l=50&d=PALL&RefSrch=yes&Query=PN/${id}
-   test_id: 4145692
+   accessurl: http://patft.uspto.gov/netacgi/nph-Parser?Sect2=PTO1&Sect2=HITOFF&p=1&u=/netahtml/PTO/search-bool.html&r=1&f=G&l=50&d=PALL&RefSrch=yes&Query=PN/${lid}
+   keyword: performance monitor
    description: USPTO patents at USPTO
    homepage: http://patft.uspto.gov/netahtml/PTO/index.html
    institution: United States Patent and Trademark Office

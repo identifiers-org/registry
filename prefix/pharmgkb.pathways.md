@@ -6,10 +6,11 @@ PharmGKB Pathways are drug centric, gene based, interactive pathways which focus
 prefix: pharmgkb.pathways
 pattern: ^PA\d+$
 prefixed: 0
+local_id: PA146123006
 resources:
  - identifier: MIR:00100120
-   accessurl: http://www.pharmgkb.org/pathway/${id}
-   test_id: PA146123006
+   accessurl: http://www.pharmgkb.org/pathway/${lid}
+   keyword: Codeine and Morphine
    description: PharmGKB at Stanford
    homepage: http://www.pharmgkb.org/
    institution: Department of Genetics, School of Medicine, Stanford University, Stanford, California

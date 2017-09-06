@@ -5,10 +5,11 @@ description: PhylomeDB is a database of complete phylomes derived for different 
 prefix: phylomedb
 pattern: ^\w+$
 prefixed: 0
+local_id: Phy000CLXM_RAT
 resources:
  - identifier: MIR:00100282
-   accessurl: http://phylomedb.org/?seqid=${id}
-   test_id: Phy000CLXM_RAT
+   accessurl: http://phylomedb.org/?seqid=${lid}
+   keyword: Phy00085K5_HUMAN
    description: PhylomeDB at Centro de Investigación Príncipe Felipe
    homepage: http://phylomedb.org/
    institution: Bioinformatics Department,Centro de Investigación Príncipe Felipe, Valencia

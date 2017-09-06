@@ -5,10 +5,13 @@ description: APID (Agile Protein Interactomes DataServer) provides information o
 prefix: apid.interactions
 pattern: ^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$
 prefixed: 0
+local_id: P01116
+synonyms:
+ - Agile Protein Interactomes DataServer
 resources:
  - identifier: MIR:00100769
-   accessurl: http://cicblade.dep.usal.es:8080/APID/Interactions.action?protein=${id}
-   test_id: P01116
+   accessurl: http://cicblade.dep.usal.es:8080/APID/Interactions.action?protein=${lid}
+   keyword: IntAct
    description: APID at Salamanca
    homepage: http://cicblade.dep.usal.es:8080/APID/
    institution: Cancer Research Center (CiC-IBMCC), Consejo Superior de Investigaciones Científicas (CSIC) and Universidad de Salamanca (USAL), Salamanca

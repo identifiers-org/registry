@@ -5,10 +5,11 @@ description: FooDB is resource on food and its constituent compounds. It include
 prefix: foodb.compound
 pattern: ^FDB\d+$
 prefixed: 0
+local_id: FDB002100
 resources:
  - identifier: MIR:00100689
-   accessurl: http://foodb.ca/compounds/${id}
-   test_id: FDB002100
+   accessurl: http://foodb.ca/compounds/${lid}
+   keyword: Coffea arabica
    description: FooDB database of food additives at University of Alberta
    homepage: http://foodb.ca/foods
    institution: University of Alberta, Edmonton, AB

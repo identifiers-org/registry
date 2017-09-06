@@ -5,10 +5,11 @@ description: AphidBase is a centralized bioinformatic resource that was develope
 prefix: aphidbase.transcript
 pattern: ^ACYPI\d{6}(-RA)?$
 prefixed: 0
+local_id: ACYPI000159
 resources:
  - identifier: MIR:00100513
-   accessurl: http://bipaa.genouest.org/apps/grs-2.3/grs?reportID=aphidbase_transcript_report&objectID=${id}
-   test_id: ACYPI000159
+   accessurl: http://bipaa.genouest.org/apps/grs-2.3/grs?reportID=aphidbase_transcript_report&objectID=${lid}
+   keyword: GL349778
    description: AphidBase at INRA
    homepage: http://www.aphidbase.com/aphidbase
    institution: INRA UMR, Le Rheu

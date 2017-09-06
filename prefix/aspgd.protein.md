@@ -5,10 +5,11 @@ description: The Aspergillus Genome Database (AspGD) is a repository for informa
 prefix: aspgd.protein
 pattern: ^[A-Za-z_0-9]+$
 prefixed: 0
+local_id: ASPL0000349247
 resources:
  - identifier: MIR:00100535
-   accessurl: http://www.aspergillusgenome.org/cgi-bin/protein/proteinPage.pl?dbid=${id}
-   test_id: ASPL0000349247
+   accessurl: http://www.aspergillusgenome.org/cgi-bin/protein/proteinPage.pl?dbid=${lid}
+   keyword: histone methyltransferase activity
    description: AspGD Protein at Stanford Medical School
    homepage: http://www.aspgd.org/
    institution: Department of Genetics, Stanford University Medical School, Stanford, California

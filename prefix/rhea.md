@@ -5,10 +5,11 @@ description: Rhea is a manually annotated reaction database, where all reaction 
 prefix: rhea
 pattern: ^\d{5}$
 prefixed: 0
+local_id: 12345
 resources:
  - identifier: MIR:00100113
-   accessurl: http://www.rhea-db.org/reaction?id=${id}
-   test_id: 12345
+   accessurl: http://www.rhea-db.org/reaction?id=${lid}
+   keyword: 4-amino-5-oxopentanoate
    description: Rhea
    homepage: http://www.rhea-db.org/
    institution: European Bioinformatics Institute and Swiss Institute of Bioinformatics

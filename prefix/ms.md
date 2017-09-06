@@ -5,10 +5,11 @@ description: The PSI-Mass Spectrometry (MS) CV contains all the terms used in th
 prefix: ms
 pattern: ^MS:\d{7}$
 prefixed: 1
+local_id: 1000001
 resources:
  - identifier: MIR:00100786
-   accessurl: http://www.ebi.ac.uk/ols/ontologies/ms/terms?obo_id=${id}
-   test_id: MS:1000001
+   accessurl: http://www.ebi.ac.uk/ols/ontologies/ms/terms?obo_id=MS:${lid}
+   keyword: A reference
    description: Mass Spectrometry Controlled Vocabulary through OLS
    homepage: http://www.ebi.ac.uk/ols/ontologies/ms
    institution: European Bioinformatics Institute, Hinxton, Cambridge
@@ -16,8 +17,8 @@ resources:
    official: false
    provider_code: ols
  - identifier: MIR:00100787
-   accessurl: http://purl.bioontology.org/ontology/MS/${id}
-   test_id: MS:1000001
+   accessurl: http://purl.bioontology.org/ontology/MS/MS:${lid}
+   keyword: null
    description: Mass Spectrometry Controlled Vocabulary through BioPortal
    homepage: https://bioportal.bioontology.org/ontologies/MS
    institution: National Center for Biomedical Ontology, Stanford

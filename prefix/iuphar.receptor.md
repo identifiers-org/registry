@@ -5,10 +5,14 @@ description: The IUPHAR Compendium details the molecular, biophysical and pharma
 prefix: iuphar.receptor
 pattern: ^\d+$
 prefixed: 0
+local_id: 101
+synonyms:
+ - International Union  of Basic and Clinical Pharmacology
+ - IUPHAR-DB
 resources:
  - identifier: MIR:00100362
-   accessurl: http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=${id}
-   test_id: 101
+   accessurl: http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=${lid}
+   keyword: GPR34
    description: IUPHAR Receptor at University of Edinburgh
    homepage: http://www.guidetopharmacology.org/targets.jsp
    institution: Centre for Cardiovascular Science, University of Edinburgh, Edinburgh

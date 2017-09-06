@@ -5,10 +5,11 @@ description: InterPro is a database of protein families, domains and functional 
 prefix: interpro
 pattern: ^IPR\d{6}$
 prefixed: 0
+local_id: IPR000100
 resources:
  - identifier: MIR:00100018
-   accessurl: http://www.ebi.ac.uk/interpro/entry/${id}
-   test_id: IPR000100
+   accessurl: http://www.ebi.ac.uk/interpro/entry/${lid}
+   keyword: Ribonuclease P
    description: InterPro
    homepage: http://www.ebi.ac.uk/interpro/
    institution: European Bioinformatics Institute, Hinxton, Cambridge
@@ -16,8 +17,8 @@ resources:
    official: true
    provider_code: ebi
  - identifier: MIR:00100697
-   accessurl: http://interpro.bio2rdf.org/describe/?url=http://bio2rdf.org/interpro:${id}
-   test_id: IPR000100
+   accessurl: http://interpro.bio2rdf.org/describe/?url=http://bio2rdf.org/interpro:${lid}
+   keyword: Ribonuclease P
    description: Bio2RDF
    homepage: http://interpro.bio2rdf.org/fct/
    institution: Bio2RDF.org

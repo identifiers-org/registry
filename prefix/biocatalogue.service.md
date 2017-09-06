@@ -5,10 +5,11 @@ description: The BioCatalogue provides a common interface for registering, brows
 prefix: biocatalogue.service
 pattern: ^\d+$
 prefixed: 0
+local_id: 614
 resources:
  - identifier: MIR:00100182
-   accessurl: https://www.biocatalogue.org/services/${id}
-   test_id: 614
+   accessurl: https://www.biocatalogue.org/services/${lid}
+   keyword: MIRIAM Web Services provide 
    description: BioCatalogue at EMBL-EBI
    homepage: http://www.biocatalogue.org/
    institution: European Bioinformatics Institute, Hinxton, Cambridge

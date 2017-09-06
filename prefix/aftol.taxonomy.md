@@ -5,10 +5,13 @@ description: The Assembling the Fungal Tree of Life (AFTOL) project is dedicated
 prefix: aftol.taxonomy
 pattern: ^\d+$
 prefixed: 0
+local_id: 959
+synonyms:
+ - Assembling the Fungal Tree of Life
 resources:
  - identifier: MIR:00100533
-   accessurl: http://wasabi.lutzonilab.net/pub/displayTaxonInfo?aftol_id=${id}
-   test_id: 959
+   accessurl: http://wasabi.lutzonilab.net/pub/displayTaxonInfo?aftol_id=${lid}
+   keyword: Pertusaria hemisphaerica
    description: AFTOL at University of Minnesota
    homepage: http://aftol.org/data.php
    institution: Department of Plant Biology, University of Minnesota, Minnesota

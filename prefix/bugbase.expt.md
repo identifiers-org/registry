@@ -5,10 +5,11 @@ description: BugBase is a MIAME-compliant microbial gene expression and comparat
 prefix: bugbase.expt
 pattern: ^\d+$
 prefixed: 0
+local_id: 288
 resources:
  - identifier: MIR:00100524
-   accessurl: http://bugs.sgul.ac.uk/bugsbase/tabs/experiment.php?expt_id=${id}&action=view
-   test_id: 288
+   accessurl: http://bugs.sgul.ac.uk/bugsbase/tabs/experiment.php?expt_id=${lid}&action=view
+   keyword: Identification of a novel pneumococcal vaccine
    description: BugBase Expt at University of London
    homepage: http://bugs.sgul.ac.uk/E-BUGS
    institution: Bacterial Microarray Group, St George's, University of London

@@ -6,10 +6,11 @@ components may be proteins, genes/DNA, RNA, or simple molecules. Where the ident
 prefix: panther.pthcmp
 pattern: ^G|P|U|C|S\d{5}$
 prefixed: 0
+local_id: P00266
 resources:
  - identifier: MIR:00100545
-   accessurl: http://www.pantherdb.org/pathway/pathCatDetail.do?clsAccession=${id}
-   test_id: P00266
+   accessurl: http://www.pantherdb.org/pathway/pathCatDetail.do?clsAccession=${lid}
+   keyword: MAP kinase superfamily
    description: PANTHER Pathway Component at USC (Los Angeles)
    homepage: http://www.pantherdb.org/
    institution: Keck School of Medicine, University of Southern California

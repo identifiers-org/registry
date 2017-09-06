@@ -5,10 +5,11 @@ description: Computational gene function prediction can serve to focus experimen
 prefix: funcbase.mouse
 pattern: ^\d+$
 prefixed: 0
+local_id: 1351341
 resources:
  - identifier: MIR:00100598
-   accessurl: http://func.mshri.on.ca/mouse/genes/list_functional_scores/${id}
-   test_id: 1351341
+   accessurl: http://func.mshri.on.ca/mouse/genes/list_functional_scores/${lid}
+   keyword: Grm4
    description: FuncBase Mouse at Harvard Medical School
    homepage: http://func.mshri.on.ca/mouse/
    institution: Harvard Medical School, Boston, Massachusetts

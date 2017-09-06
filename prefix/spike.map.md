@@ -5,10 +5,13 @@ description: SPIKE (Signaling Pathways Integrated Knowledge Engine) is a reposit
 prefix: spike.map
 pattern: ^spike\d{5}$
 prefixed: 0
+local_id: spike00001
+synonyms:
+ - Signaling Pathways Integrated Knowledge Engine
 resources:
  - identifier: MIR:00100404
-   accessurl: http://www.cs.tau.ac.il/~spike/maps/${id}.html
-   test_id: spike00001
+   accessurl: http://www.cs.tau.ac.il/~spike/maps/${lid}.html
+   keyword: Cdk4-Cyclin D complex
    description: SPIKE database at Tel Aviv University
    homepage: http://www.cs.tau.ac.il/~spike/
    institution: School of Computer Sciences and School of Medicine, Tel Aviv University

@@ -5,10 +5,13 @@ description: PRINTS is a compendium of protein fingerprints. A fingerprint is a 
 prefix: prints
 pattern: ^PR\d{5}$
 prefixed: 0
+local_id: PR00001
+synonyms:
+ - SPRINT
 resources:
  - identifier: MIR:00100089
-   accessurl: http://www.bioinf.manchester.ac.uk/cgi-bin/dbbrowser/sprint/searchprintss.cgi?prints_accn=${id}&display_opts=Prints&category=None&queryform=false&regexpr=off
-   test_id: PR00001
+   accessurl: http://www.bioinf.manchester.ac.uk/cgi-bin/dbbrowser/sprint/searchprintss.cgi?prints_accn=${lid}&display_opts=Prints&category=None&queryform=false&regexpr=off
+   keyword: Coagulation factor GLA domain signature
    description: PRINTS through SPRINT
    homepage: http://www.bioinf.manchester.ac.uk/dbbrowser/sprint/
    institution: University of Manchester

@@ -5,10 +5,11 @@ description: OriDB is a database of collated genome-wide mapping studies of conf
 prefix: oridb.sacch
 pattern: ^\d+$
 prefixed: 0
+local_id: 1
 resources:
  - identifier: MIR:00100468
-   accessurl: http://cerevisiae.oridb.org/details.php?id=${id}
-   test_id: 1
+   accessurl: http://cerevisiae.oridb.org/details.php?id=${lid}
+   keyword: not chromosomally active
    description: OriDB Saccharomyces at University of Nottingham
    homepage: http://cerevisiae.oridb.org/index.php
    institution: Centre for Genetics and Genomics, The University of Nottingham, Queen's Medical Centre, Nottingham

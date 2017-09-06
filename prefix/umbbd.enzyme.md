@@ -5,10 +5,13 @@ description: The University of Minnesota Biocatalysis/Biodegradation Database (U
 prefix: umbbd.enzyme
 pattern: ^e\d+$
 prefixed: 0
+local_id: e0333
+synonyms:
+ - University of Minnesota Biocatalysis/Biodegradation Database (Enzyme)
 resources:
  - identifier: MIR:00100418
-   accessurl: http://umbbd.ethz.ch/servlets/pageservlet?ptype=ep&enzymeID=${id}
-   test_id: e0333
+   accessurl: http://umbbd.ethz.ch/servlets/pageservlet?ptype=ep&enzymeID=${lid}
+   keyword: phenanthrene
    description: Biocatalysis/Biodegradation Database Mirror (Enzyme) at ETH Zurich
    homepage: http://umbbd.ethz.ch/
    institution: ETH, Zurich

@@ -5,10 +5,13 @@ description: The Candida Genome Database (CGD) provides access to genomic sequen
 prefix: cgd
 pattern: ^CAL\d{7}$
 prefixed: 0
+local_id: CAL0003079
+synonyms:
+ - CGD
 resources:
  - identifier: MIR:00100189
-   accessurl: http://www.candidagenome.org/cgi-bin/locus.pl?dbid=${id}
-   test_id: CAL0003079
+   accessurl: http://www.candidagenome.org/cgi-bin/locus.pl?dbid=${lid}
+   keyword: Heat Shock Protein
    description: Candida Genome Database at Stanford University
    homepage: http://www.candidagenome.org/
    institution: Stanford University,

@@ -5,10 +5,11 @@ description: DASHR reports the annotation, expression and evidence for specific 
 prefix: dashr.expression
 pattern: ^(hsa-(let|mir)-\w+(-\w+)?)|(piR-\d+)|(chr\w+.tRNA\d+-\w+)|(chr\w+.tRNA\d+-\w+-tRF\d)|((SNORD|SNORA|ACA|HBII|HBI|U)(-)?\w+)|(HY\d\+(-L\d+)?)|((LSU|SSU|5S)(-rRNA_Hsa)?(-L\d+)?)$
 prefixed: 0
+local_id: hsa-mir-200a
 resources:
  - identifier: MIR:00100742
-   accessurl: http://lisanwanglab.org/DASHR/entry/${id}#exprPerTissueTable
-   test_id: hsa-mir-200a
+   accessurl: http://lisanwanglab.org/DASHR/entry/${lid}#exprPerTissueTable
+   keyword: brainog1
    description: DASHR expression at University of Pennsylvania
    homepage: http://lisanwanglab.org/DASHR/show-expression-table.php?start=0
    institution: Department of Pathology and Laboratory Medicine, University of Pennsylvania, Philadelphia

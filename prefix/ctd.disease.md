@@ -5,10 +5,11 @@ description: The Comparative Toxicogenomics Database (CTD) presents scientifical
 prefix: ctd.disease
 pattern: ^D\d+$
 prefixed: 0
+local_id: D053716
 resources:
  - identifier: MIR:00100130
-   accessurl: http://ctdbase.org/detail.go?type=disease&db=MESH&acc=${id}
-   test_id: D053716
+   accessurl: http://ctdbase.org/detail.go?type=disease&db=MESH&acc=${lid}
+   keyword: Female Athlete Triad Syndrome
    description: Comparative Toxicogenomics Database (Disease)
    homepage: http://ctdbase.org/
    institution: The Mount Desert Island Biological Laboratory

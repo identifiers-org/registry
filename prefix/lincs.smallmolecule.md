@@ -5,10 +5,11 @@ description: The Library of Network-Based Cellular Signatures (LINCS) Program ai
 prefix: lincs.smallmolecule
 pattern: ^LSM-\d+{4}$
 prefixed: 0
+local_id: LSM-6306
 resources:
  - identifier: MIR:00100723
-   accessurl: http://lincsportal.ccs.miami.edu/SmallMolecules/#/view/${id}
-   test_id: LSM-6306
+   accessurl: http://lincsportal.ccs.miami.edu/SmallMolecules/#/view/${lid}
+   keyword: Dinaciclib
    description: LINCS Portal
    homepage: http://lincsportal.ccs.miami.edu/SmallMolecules/
    institution: University  of Miami, BD2K-LINCS DCIC, USA

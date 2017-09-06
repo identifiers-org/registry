@@ -5,18 +5,19 @@ description: An Affymetrix ProbeSet is a collection of up to 11 short (~22 nucle
 prefix: affy.probeset
 pattern: \d{4,}((_[asx])?_at)?
 prefixed: 0
+local_id: 243002_at
 resources:
  - identifier: MIR:00100514
-   accessurl: https://www.affymetrix.com/LinkServlet?probeset=${id}
-   test_id: 243002_at
+   accessurl: https://www.affymetrix.com/LinkServlet?probeset=${lid}
+   keyword: Probe Sets returned:<b>4</b>
    description: Affymetrix ProbeSet in Santa Clara
    homepage: http://www.affymetrix.com/
    institution: Affymetrix, Santa Clara, California
    location: USA
    official: true
  - identifier: MIR:00100672
-   accessurl: http://cu.affymetrix.bio2rdf.org/describe/?url=http://bio2rdf.org/affymetrix:${id}
-   test_id: 243002_at
+   accessurl: http://cu.affymetrix.bio2rdf.org/describe/?url=http://bio2rdf.org/affymetrix:${lid}
+   keyword: Human Genome U133B
    description: Bio2RDF
    homepage: http://cu.affymetrix.bio2rdf.org/fct/
    institution: Bio2RDF.org

@@ -5,18 +5,26 @@ description: The UniProt Knowledgebase (UniProtKB) is a comprehensive resource f
 prefix: uniprot
 pattern: ^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$
 prefixed: 0
+local_id: P0DP23
+synonyms:
+ - UniProtKB
+ - UniProt
+ - Protein Knowledgebase
+ - UniProt-TrEMBL
+ - UniProt/TrEMBL
+ - UniProtKB/Swiss-Prot
 resources:
  - identifier: MIR:00100164
-   accessurl: http://purl.uniprot.org/uniprot/${id}
-   test_id: P0DP23
+   accessurl: http://purl.uniprot.org/uniprot/${lid}
+   keyword: CALM1_HUMAN
    description: Universal Protein Resource using Persistent URL system
    homepage: http://www.uniprot.org/
    institution: UniProt Consortium
    location: 
    official: true
  - identifier: MIR:00100330
-   accessurl: http://www.ncbi.nlm.nih.gov/protein/${id}
-   test_id: P0DP23
+   accessurl: http://www.ncbi.nlm.nih.gov/protein/${lid}
+   keyword: Calmodulin
    description: UniProt through NCBI
    homepage: http://www.ncbi.nlm.nih.gov/protein/
    institution: National Center for Biotechnology Information (NCBI)

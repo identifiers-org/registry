@@ -5,10 +5,11 @@ description: The ProteomeXchange provides a single point of submission of Mass S
 prefix: px
 pattern: ^(R)?PXD\d+{6}$
 prefixed: 0
+local_id: PXD000500
 resources:
  - identifier: MIR:00100660
-   accessurl: http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=${id}
-   test_id: PXD000500
+   accessurl: http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=${lid}
+   keyword: Arabidopsis mitochondrial proteome
    description: ProteomeXchange at Seattle
    homepage: http://www.proteomexchange.org/
    institution: Institute for Systems Biology, Seattle, WA, USA

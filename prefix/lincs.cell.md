@@ -5,10 +5,11 @@ description: The Library of Network-Based Cellular Signatures (LINCS) Program ai
 prefix: lincs.cell
 pattern: (^LCL-\d+{4}$)|(^LDC-\d+{4}$)|(^ES-\d+{4}$)|(^LSC-\d+{4}$)|(^LPC-\d+{4}$)
 prefixed: 0
+local_id: LCL-2085
 resources:
  - identifier: MIR:00100721
-   accessurl: http://lincsportal.ccs.miami.edu/cells/#/view/${id}
-   test_id: LCL-2085
+   accessurl: http://lincsportal.ccs.miami.edu/cells/#/view/${lid}
+   keyword: MCF 10A
    description: LINCS Portal
    homepage: http://lincsportal.ccs.miami.edu/cells/
    institution: University of Miami, BD2K-LINCS DCIC

@@ -5,10 +5,11 @@ description: The HGNC (HUGO Gene Nomenclature Committee) provides an approved ge
 prefix: hgnc.genefamily
 pattern: ^\d+$
 prefixed: 0
+local_id: 141
 resources:
  - identifier: MIR:00100765
-   accessurl: http://www.genenames.org/cgi-bin/genefamilies/set/${id}
-   test_id: 141
+   accessurl: http://www.genenames.org/cgi-bin/genefamilies/set/${lid}
+   keyword: Olfactory receptors
    description: HGNC gene family at HUGO Genome Nomenclature Committee
    homepage: http://www.genenames.org/
    institution: European Bioinformatics Institute, Hinxton, Cambridge

@@ -5,10 +5,14 @@ description: The European Nucleotide Archive (ENA) captures and presents informa
 prefix: ena.embl
 pattern: ^[A-Z]+[0-9]+(\.\d+)?$
 prefixed: 0
+local_id: BN000065
+synonyms:
+ - European Nucleotide Archive
+ - Embl-Bank
 resources:
  - identifier: MIR:00100473
-   accessurl: http://www.ebi.ac.uk/ena/data/view/${id}
-   test_id: BN000065
+   accessurl: http://www.ebi.ac.uk/ena/data/view/${lid}
+   keyword: Homo sapiens SMP1 gene
    description: ENA at European Bioinformatics Institute
    homepage: http://www.ebi.ac.uk/ena/
    institution: European Bioinformatics Institute, Hinxton, Cambridge

@@ -5,10 +5,13 @@ description: Small Angle Scattering Biological Data Bank (SASBDB) is a curated r
 prefix: sasbdb
 pattern: ^[Ss][Aa][Ss][A-Za-z0-9]{3}[0-9]$
 prefixed: 0
+local_id: SASDAX8
+synonyms:
+ - Small Angle Scattering Biological Data Bank
 resources:
  - identifier: MIR:00100763
-   accessurl: http://www.sasbdb.org/data/${id}
-   test_id: SASDAX8
+   accessurl: http://www.sasbdb.org/data/${lid}
+   keyword: Drebes J
    description: SASBDB at European Molecular Biology Laboratory
    homepage: http://www.sasbdb.org/
    institution: Biological Small Angle Scattering Group, European Molecular Biology Laboratory, Hamburg Outstation, Hamburg

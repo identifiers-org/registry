@@ -5,10 +5,11 @@ description: SwissLipids is a curated resource that provides information about k
 prefix: swisslipid
 pattern: ^SLM:\d+$
 prefixed: 1
+local_id: 000048885
 resources:
  - identifier: MIR:00100727
-   accessurl: http://www.swisslipids.org/#/entity/${id}/
-   test_id: SLM:000048885
+   accessurl: http://www.swisslipids.org/#/entity/SLM:${lid}/
+   keyword: phosphocholine
    description: SwissLipids at Swiss Institute of Bioinformatics
    homepage: http://www.swisslipids.org/#/
    institution: Swiss Institute of Bioinformatics, Basel

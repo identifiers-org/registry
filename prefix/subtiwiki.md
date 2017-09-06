@@ -6,10 +6,11 @@ Note: Currently, direct access to RNA products is restricted. This is expected t
 prefix: subtiwiki
 pattern: ^BSU\d{5}$
 prefixed: 0
+local_id: BSU29180
 resources:
  - identifier: MIR:00100172
-   accessurl: http://www.subtiwiki.uni-goettingen.de/wiki/index.php/${id}
-   test_id: BSU29180
+   accessurl: http://www.subtiwiki.uni-goettingen.de/wiki/index.php/${lid}
+   keyword: pyruvate kinase, glycolytic enzyme
    description: SubtiWiki website
    homepage: http://www.subtiwiki.uni-goettingen.de/wiki/index.php/Main_Page
    institution: University of Göttingen, Department for General Microbiology

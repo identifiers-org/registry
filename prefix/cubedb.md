@@ -5,10 +5,11 @@ description: Cube-DB is a database of pre-evaluated results for detection of fun
 prefix: cubedb
 pattern: ^[A-Za-z_0-9]+$
 prefixed: 0
+local_id: AKR
 resources:
  - identifier: MIR:00100517
-   accessurl: http://epsf.bmad.bii.a-star.edu.sg/cube/db/data/${id}/
-   test_id: AKR
+   accessurl: http://epsf.bmad.bii.a-star.edu.sg/cube/db/data/${lid}/
+   keyword: AKR1B1
    description: Cube db at Bioinformatics Institute (Singapore)
    homepage: http://epsf.bmad.bii.a-star.edu.sg/cube/db/html/home.html
    institution: Bioinformatics Institute, Singapore

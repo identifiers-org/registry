@@ -5,10 +5,11 @@ description: The Coriell Cell Repositories provide essential research reagents t
 prefix: coriell
 pattern: ^[A-Z]{2}\d+$
 prefixed: 0
+local_id: GM17027
 resources:
  - identifier: MIR:00100570
-   accessurl: http://ccr.coriell.org/Sections/Search/Sample_Detail.aspx?Ref=${id}
-   test_id: GM17027
+   accessurl: http://ccr.coriell.org/Sections/Search/Sample_Detail.aspx?Ref=${lid}
+   keyword: Fibroblast
    description: Coriell Cell Repositories at Coriell Institute
    homepage: http://ccr.coriell.org/
    institution: Coriell Institute for Medical Research, New Jersey

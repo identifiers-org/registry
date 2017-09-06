@@ -5,10 +5,11 @@ description: ClinVar archives reports of relationships among medically important
 prefix: clinvar.record
 pattern: ^RCV\d+(\.\d+)?$
 prefixed: 0
+local_id: RCV000033555.3
 resources:
  - identifier: MIR:00100710
-   accessurl: http://www.ncbi.nlm.nih.gov/clinvar/${id}/
-   test_id: RCV000033555.3
+   accessurl: http://www.ncbi.nlm.nih.gov/clinvar/${lid}/
+   keyword: protein tyrosine phosphatase
    description: ClinVar Record at NCBI
    homepage: http://www.ncbi.nlm.nih.gov/clinvar/
    institution: National Center for Biotechnology Information (NCBI), NIH, Maryland

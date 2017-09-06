@@ -5,10 +5,11 @@ description: The MIPS Comprehensive Yeast Genome Database (CYGD) provides inform
 prefix: cygd
 pattern: ^\w{2,3}\d{2,4}(\w)?$
 prefixed: 0
+local_id: YFL039c
 resources:
  - identifier: MIR:00100684
-   accessurl: http://pedant.helmholtz-muenchen.de/pedant3htmlview/pedant3view?Db=p3_p13838_Sac_cerev&Method=ReportGene&GeneticelemCode=${id}
-   test_id: YFL039c
+   accessurl: http://pedant.helmholtz-muenchen.de/pedant3htmlview/pedant3view?Db=p3_p13838_Sac_cerev&Method=ReportGene&GeneticelemCode=${lid}
+   keyword: Actin
    description: CYGD PEDANT Interface at Biomax Informatics
    homepage: http://pedant.helmholtz-muenchen.de/pedant3htmlview/pedant3view?Method=start_method&Db=p3_p13838_Sac_cerev
    institution: Biomax Informatics AG, Planegg

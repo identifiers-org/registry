@@ -5,10 +5,11 @@ description: BugBase is a MIAME-compliant microbial gene expression and comparat
 prefix: bugbase.protocol
 pattern: ^\d+$
 prefixed: 0
+local_id: 67
 resources:
  - identifier: MIR:00100523
-   accessurl: http://bugs.sgul.ac.uk/bugsbase/tabs/protocol.php?protocol_id=${id}&amp;action=view
-   test_id: 67
+   accessurl: http://bugs.sgul.ac.uk/bugsbase/tabs/protocol.php?protocol_id=${lid}&amp;action=view
+   keyword: bioassay data transformation
    description: BugBase Protocol at University of London
    homepage: http://bugs.sgul.ac.uk/E-BUGS
    institution: Bacterial Microarray Group, St George's, University of London

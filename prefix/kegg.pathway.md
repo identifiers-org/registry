@@ -5,10 +5,13 @@ description: KEGG PATHWAY is a collection of manually drawn pathway maps represe
 prefix: kegg.pathway
 pattern: ^\w{2,4}\d{5}$
 prefixed: 0
+local_id: hsa00620
+synonyms:
+ - KEGG
 resources:
  - identifier: MIR:00100020
-   accessurl: http://www.kegg.jp/entry/${id}
-   test_id: hsa00620
+   accessurl: http://www.kegg.jp/entry/${lid}
+   keyword: Pyruvate metabolism
    description: KEGG PATHWAY Database
    homepage: http://www.genome.jp/kegg/pathway.html
    institution: Kyoto University Bioinformatics Center

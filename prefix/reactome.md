@@ -5,10 +5,13 @@ description: The Reactome project is a collaboration to develop a curated resour
 prefix: reactome
 pattern: (^R-[A-Z]{3}-\d+(-\d+)?(\.\d+)?$)|(^REACT_\d+(\.\d+)?$)
 prefixed: 0
+local_id: R-HSA-201451
+synonyms:
+ - Reactome Stable ID
 resources:
  - identifier: MIR:00100026
-   accessurl: http://reactome.org/content/detail/${id}
-   test_id: R-HSA-201451
+   accessurl: http://reactome.org/content/detail/${lid}
+   keyword: TGF-beta/BMP
    description: Reactome, a curated knowledgebase of biological pathways
    homepage: http://www.reactome.org/
    institution: Ontario Institute for Cancer Research, NYU Medical School, Cold Spring Harbor Laboratory and European Bioinformatics Institute

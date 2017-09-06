@@ -5,10 +5,11 @@ description: Gramene is a comparative genome mapping database for grasses and cr
 prefix: gramene.gene
 pattern: ^GR\:\d+$
 prefixed: 0
+local_id: GR:0080039
 resources:
  - identifier: MIR:00100228
-   accessurl: http://www.gramene.org/db/genes/search_gene?acc=${id}
-   test_id: GR:0080039
+   accessurl: http://www.gramene.org/db/genes/search_gene?acc=${lid}
+   keyword: bZIP transcription factor
    description: Gramene Genes at Cold Spring Harbor
    homepage: http://www.gramene.org/
    institution: Cold Spring Harbor Laboratory, New York

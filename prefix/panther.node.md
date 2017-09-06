@@ -5,10 +5,11 @@ description: The PANTHER (Protein ANalysis THrough Evolutionary Relationships) C
 prefix: panther.node
 pattern: ^PTN\d{9}$
 prefixed: 0
+local_id: PTN000000026
 resources:
  - identifier: MIR:00100475
-   accessurl: http://www.pantree.org/node/annotationNode.jsp?id=${id}
-   test_id: PTN000000026
+   accessurl: http://www.pantree.org/node/annotationNode.jsp?id=${lid}
+   keyword: PHOSPHOSERINE PHOSPHATASE
    description: PANTHER Node at USC (Los Angeles)
    homepage: http://pantree.org/
    institution: Keck School of Medicine, University of Southern California

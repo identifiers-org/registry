@@ -5,10 +5,13 @@ description: NARCIS provides access to scientific information, including (open a
 prefix: narcis
 pattern: ^oai\:cwi\.nl\:\d+$
 prefixed: 0
+local_id: oai:cwi.nl:4725
+synonyms:
+ - National Academic Research and Collaborations Information System
 resources:
  - identifier: MIR:00100306
-   accessurl: http://www.narcis.nl/publication/RecordID/${id}
-   test_id: oai:cwi.nl:4725
+   accessurl: http://www.narcis.nl/publication/RecordID/${lid}
+   keyword: Mathematical modelling
    description: NARCIS at The Hague
    homepage: http://www.narcis.nl/?Language=en
    institution: NARCIS, Royal Netherlands Academy of Science and Arts

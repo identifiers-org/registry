@@ -5,10 +5,13 @@ description: Rat Genome Database seeks to collect, consolidate, and integrate ra
 prefix: rgd
 pattern: ^\d{4,7}$
 prefixed: 0
+local_id: 2018
+synonyms:
+ - RGD
 resources:
  - identifier: MIR:00100075
-   accessurl: http://rgd.mcw.edu/rgdweb/report/gene/main.html?id=${id}
-   test_id: 2018
+   accessurl: http://rgd.mcw.edu/rgdweb/report/gene/main.html?id=${lid}
+   keyword: ATP citrate lyase
    description: Rat Genome Database
    homepage: http://rgd.mcw.edu/
    institution: Medical College of Wisconsin

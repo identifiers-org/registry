@@ -5,10 +5,11 @@ description: The DrugBank database is a bioinformatics and chemoinformatics reso
 prefix: drugbankv4.target
 pattern: ^BE\d{7}$
 prefixed: 0
+local_id: BE0000048
 resources:
  - identifier: MIR:00100687
-   accessurl: http://www.drugbank.ca/biodb/bio_entities/${id}
-   test_id: BE0000048
+   accessurl: http://www.drugbank.ca/biodb/bio_entities/${lid}
+   keyword: Prothrombin
    description: DrugBank Target information version 4
    homepage: http://www.drugbank.ca/targets
    institution: Departments of Computing Science, Biological Sciences, University of Alberta

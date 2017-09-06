@@ -5,10 +5,13 @@ description: Protein Affinity Reagents (PSI-PAR) provides a structured controlle
 prefix: psipar
 pattern: ^PAR:\d+$
 prefixed: 0
+local_id: PAR:0116
+synonyms:
+ - PSI-PAR
 resources:
  - identifier: MIR:00100709
-   accessurl: http://www.ebi.ac.uk/ontology-lookup/?termId=${id}
-   test_id: PAR:0116
+   accessurl: http://www.ebi.ac.uk/ontology-lookup/?termId=${lid}
+   keyword: feature type
    description: Protein Affinity Reagents through OLS
    homepage: http://www.ebi.ac.uk/ontology-lookup/browse.do?ontName=PAR
    institution: European Bioinformatics Institute, Hinxton, Cambridge

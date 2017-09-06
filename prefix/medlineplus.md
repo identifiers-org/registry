@@ -5,10 +5,11 @@ description: MedlinePlus is the National Institutes of Health's Web site for pat
 prefix: medlineplus
 pattern: ^\d+$
 prefixed: 0
+local_id: 002804
 resources:
  - identifier: MIR:00100611
-   accessurl: http://www.nlm.nih.gov/medlineplus/ency/article/${id}.htm
-   test_id: 002804
+   accessurl: http://www.nlm.nih.gov/medlineplus/ency/article/${lid}.htm
+   keyword: odorless gas
    description: MedlinePlus at NCBI
    homepage: http://www.nlm.nih.gov/medlineplus/
    institution: NCBI, NIH, Bethesda, Maryland

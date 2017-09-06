@@ -5,18 +5,21 @@ description: HSSP (homology-derived structures of proteins) is a derived databas
 prefix: hssp
 pattern: ^\w{4}$
 prefixed: 0
+local_id: 102l
+synonyms:
+ - Homology-derived Structure of Proteins
 resources:
  - identifier: MIR:00100274
-   accessurl: ftp://ftp.embl-heidelberg.de/pub/databases/protein_extras/hssp/${id}.hssp.bz2
-   test_id: 102l
+   accessurl: ftp://ftp.embl-heidelberg.de/pub/databases/protein_extras/hssp/${lid}.hssp.bz2
+   keyword: HYDROLASE
    description: HSSP at EMBL
    homepage: http://swift.cmbi.kun.nl/swift/hssp/
    institution: Protein Design Group, European Molecular Biology Laboratory, Heidelberg
    location: Germany
    official: false
  - identifier: MIR:00100458
-   accessurl: ftp://ftp.cmbi.ru.nl/pub/molbio/data/hssp/${id}.hssp.bz2
-   test_id: 102l
+   accessurl: ftp://ftp.cmbi.ru.nl/pub/molbio/data/hssp/${lid}.hssp.bz2
+   keyword: 
    description: HSSP at CMBI
    homepage: ftp://ftp.cmbi.ru.nl/pub/molbio/data/hssp/
    institution: Nijmegen Centre for Molecular Life Sciences, CMBI, Nijmegen

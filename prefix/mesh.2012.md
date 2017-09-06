@@ -5,10 +5,13 @@ description: MeSH (Medical Subject Headings) is the National Library of Medicine
 prefix: mesh.2012
 pattern: ^[A-Za-z0-9]+$
 prefixed: 0
+local_id: 17186
+synonyms:
+ - Medical Subject Headings 2012
 resources:
  - identifier: MIR:00100349
-   accessurl: http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?mode=&index=${id}&view=expanded
-   test_id: 17186
+   accessurl: http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?mode=&index=${lid}&view=expanded
+   keyword: Codon, Terminator
    description: MeSH at National Library of Medicine
    homepage: http://www.nlm.nih.gov/mesh/
    institution: U.S. National Library of Medicine, National Institute of Health, Maryland
