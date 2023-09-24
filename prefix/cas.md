@@ -13,10 +13,10 @@ synonyms:
  - CASRN
 resources:
  - identifier: MIR:00100301
-   accessurl: http://commonchemistry.org/ChemicalDetail.aspx?ref=${lid}
+   accessurl: https://commonchemistry.cas.org/detail?cas_rn=${lid}
    keyword: Formaldehyde
-   description: CAS through Common Chemistry
-   homepage: http://commonchemistry.org
+   description: CAS Common Chemistry
+   homepage: http://commonchemistry.cas.org/
    institution: American Chemistry Society, Washington, DC
    location: USA
    official: false
