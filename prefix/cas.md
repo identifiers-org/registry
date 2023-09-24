@@ -16,7 +16,7 @@ resources:
    accessurl: https://commonchemistry.cas.org/detail?cas_rn=${lid}
    keyword: Formaldehyde
    description: CAS Common Chemistry
-   homepage: http://commonchemistry.cas.org/
+   homepage: https://commonchemistry.cas.org/
    institution: American Chemistry Society, Washington, DC
    location: USA
    official: false
